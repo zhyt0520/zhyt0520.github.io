@@ -20,7 +20,7 @@
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"aword.net","root":"/","scheme":"Gemini","version":"8.0.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"buttons","active":"disqusjs","storage":true,"lazyload":false,"nav":null,"activeClass":"disqusjs"},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
+    var CONFIG = {"hostname":"aword.net","root":"/","scheme":"Gemini","version":"8.0.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"buttons","active":"disqusjs","storage":true,"lazyload":false,"nav":{"disqusjs":{"text":"DisqusJS","order":1},"gitalk":{"text":"Gitalk","order":2}},"activeClass":"disqusjs"},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
   </script>
 
   <meta name="description" content="想想上次记录这个还是在四月份，一转眼马上就过了四个月了，真的好快啊。之前写的还是margin、padding、hover什么的呢，从我的一语成现在的样子，好久没有再改动过CSS了。 貌似近期最大的改动就是侧边栏挂件的自动浮动了。也就是网页向下滚动时，当我的分类目录和标签到达窗口顶端时自动固定在窗口顶端位置，不再随网页滚动。早就在别的网站上见过这个功能，但是没准备加到我的一语里。一是自己不会写，在网">
@@ -408,8 +408,8 @@
 
       
       <div class="comment-button-group">
-          <a class="btn comment-button disqusjs">disqusjs</a>
-          <a class="btn comment-button gitalk">gitalk</a>
+          <a class="btn comment-button disqusjs">DisqusJS</a>
+          <a class="btn comment-button gitalk">Gitalk</a>
       </div>
         <div class="comment-position disqusjs">
           
@@ -603,7 +603,7 @@ NexT.utils.loadComments('#gitalk-container', () => {
     var gitalk = new Gitalk({
       clientID    : 'ae585801c642e3b266e1',
       clientSecret: '48a42e0b5e950974f85de9168a9fdb2d2bac8f04',
-      repo        : 'gitalk-data',
+      repo        : 'https://github.com/zhyt0520/gitalk-data.git',
       owner       : 'zhyt0520',
       admin       : ['zhyt0520'],
       id          : '83513f54ae91bd8ded57c1893b9a5bb3',

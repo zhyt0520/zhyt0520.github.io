@@ -20,7 +20,7 @@
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"aword.net","root":"/","scheme":"Gemini","version":"8.0.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"buttons","active":"disqusjs","storage":true,"lazyload":false,"nav":null,"activeClass":"disqusjs"},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
+    var CONFIG = {"hostname":"aword.net","root":"/","scheme":"Gemini","version":"8.0.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"buttons","active":"disqusjs","storage":true,"lazyload":false,"nav":{"disqusjs":{"text":"DisqusJS","order":1},"gitalk":{"text":"Gitalk","order":2}},"activeClass":"disqusjs"},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
   </script>
 
   <meta name="description" content="2013-9-3 微微泛凉的风，在夏秋之交。灰蒙蒙的天空，是一层薄薄的乌云，似皱不皱，欲展不展。 杂乱的声音，这一言，那一语，由门口溢出，从窗子飘落，随风随雨，无影无踪。 乳白的纸杯，茶香淡淡，茗雾缭绕，一缕儒雅之余，尽是悲凉。“水性油墨，柔版印刷；爱护环境，从我做起。”几乎可比“吸烟有害健康”。爱护环境，为何总是一纸空文。是人类的固性？口口声声以历史为镜，却对眼前经验教训视若不见。先污染再治理,">
@@ -400,8 +400,8 @@
 
       
       <div class="comment-button-group">
-          <a class="btn comment-button disqusjs">disqusjs</a>
-          <a class="btn comment-button gitalk">gitalk</a>
+          <a class="btn comment-button disqusjs">DisqusJS</a>
+          <a class="btn comment-button gitalk">Gitalk</a>
       </div>
         <div class="comment-position disqusjs">
           
@@ -595,7 +595,7 @@ NexT.utils.loadComments('#gitalk-container', () => {
     var gitalk = new Gitalk({
       clientID    : 'ae585801c642e3b266e1',
       clientSecret: '48a42e0b5e950974f85de9168a9fdb2d2bac8f04',
-      repo        : 'gitalk-data',
+      repo        : 'https://github.com/zhyt0520/gitalk-data.git',
       owner       : 'zhyt0520',
       admin       : ['zhyt0520'],
       id          : 'f72e3c9508ae062e52b6d65972e95dd8',

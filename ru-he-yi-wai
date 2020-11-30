@@ -20,7 +20,7 @@
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"aword.net","root":"/","scheme":"Gemini","version":"8.0.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"buttons","active":"disqusjs","storage":true,"lazyload":false,"nav":null,"activeClass":"disqusjs"},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
+    var CONFIG = {"hostname":"aword.net","root":"/","scheme":"Gemini","version":"8.0.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"buttons","active":"disqusjs","storage":true,"lazyload":false,"nav":{"disqusjs":{"text":"DisqusJS","order":1},"gitalk":{"text":"Gitalk","order":2}},"activeClass":"disqusjs"},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
   </script>
 
   <meta name="description" content="5月30日，又是出现在旅途中的状况。20：50的车，大概20：00到车站，因为网上订的票，不早。一进售票厅，怎么黑压压这么多人，自助取票机前……不明觉厉，只好跟着排队。人头攒动，尽头隐约。 许久，“又坏了。”“怎么回事？”“不知道啊。”一共4台机器，我来的时候只排了3队，空的那台显示着“暂停服务”。刚才一阵骚动后，身旁的队伍散了，机器又停了一台，还好，人们比较遵守秩序，只见队伍还在，只是队尾已经">
@@ -407,8 +407,8 @@
 
       
       <div class="comment-button-group">
-          <a class="btn comment-button disqusjs">disqusjs</a>
-          <a class="btn comment-button gitalk">gitalk</a>
+          <a class="btn comment-button disqusjs">DisqusJS</a>
+          <a class="btn comment-button gitalk">Gitalk</a>
       </div>
         <div class="comment-position disqusjs">
           
@@ -602,7 +602,7 @@ NexT.utils.loadComments('#gitalk-container', () => {
     var gitalk = new Gitalk({
       clientID    : 'ae585801c642e3b266e1',
       clientSecret: '48a42e0b5e950974f85de9168a9fdb2d2bac8f04',
-      repo        : 'gitalk-data',
+      repo        : 'https://github.com/zhyt0520/gitalk-data.git',
       owner       : 'zhyt0520',
       admin       : ['zhyt0520'],
       id          : '3eb5e08afcbcaec84fc5f19fb240f075',
