@@ -65,7 +65,7 @@
 <link rel="canonical" href="http://aword.net/altrun-guo-chan-kuai-su-qi-dong-ruan-jian-shen-pin">
 
 
-<script class="page-configurations">
+<script data-pjax class="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
@@ -79,7 +79,7 @@
   
 
 
-  <script>
+  <script data-pjax>
     var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
@@ -602,7 +602,7 @@
         <div class="comment-position gitalk">
           <div class="comments" id="gitalk-container"></div>
         </div>
-      <script>
+      <script data-pjax>
         (function() {
           const commentButton = document.querySelectorAll('.comment-button');
             commentButton.forEach(element => {
@@ -676,10 +676,45 @@
 
   
   <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/@next-theme/pjax@0.4.0/pjax.min.js"></script>
 <script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+  <script>
+var pjax = new Pjax({
+  selectors: [
+    'head title',
+    '.page-configurations',
+    '.main-inner',
+    '.post-toc-wrap',
+    '.languages',
+    '.pjax'
+  ],
+  analytics: false,
+  cacheBust: false,
+  scrollRestoration: false,
+  scrollTo: !CONFIG.bookmark.enable
+});
+
+document.addEventListener('pjax:success', () => {
+  pjax.executeScripts(document.querySelectorAll('script[data-pjax], .pjax script'));
+  NexT.boot.refresh();
+  // Define Motion Sequence & Bootstrap Motion.
+  if (CONFIG.motion.enable) {
+    NexT.motion.integrator
+      .init()
+      .add(NexT.motion.middleWares.subMenu)
+      .add(NexT.motion.middleWares.postList)
+      .bootstrap();
+  }
+  const hasTOC = document.querySelector('.post-toc');
+  document.querySelector('.sidebar-inner').classList.toggle('sidebar-nav-active', hasTOC);
+  document.querySelector(hasTOC ? '.sidebar-nav-toc' : '.sidebar-nav-overview').click();
+  NexT.utils.updateSidebarPosition();
+});
+</script>
+
 
   
-  <script>
+  <script data-pjax>
     (function(){
       var bp = document.createElement('script');
       var curProtocol = window.location.protocol.split(':')[0];
@@ -717,6 +752,7 @@
 
 
 
+    <div class="pjax">
   
 
   
@@ -746,7 +782,7 @@ NexT.utils.loadComments('#gitalk-container', () => {
     var gitalk = new Gitalk({
       clientID    : 'ae585801c642e3b266e1',
       clientSecret: '48a42e0b5e950974f85de9168a9fdb2d2bac8f04',
-      repo        : 'https://github.com/zhyt0520/gitalk-data.git',
+      repo        : 'gitalk-data',
       owner       : 'zhyt0520',
       admin       : ['zhyt0520'],
       id          : '0d48f0ecbedbfedb96a4d9b2d783f4e1',
@@ -758,5 +794,6 @@ NexT.utils.loadComments('#gitalk-container', () => {
 });
 </script>
 
+    </div>
 </body>
 </html>
