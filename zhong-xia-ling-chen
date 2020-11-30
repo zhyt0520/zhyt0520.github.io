@@ -626,7 +626,7 @@ NexT.utils.loadComments('#gitalk-container', () => {
       owner       : 'zhyt0520',
       admin       : ['zhyt0520'],
       id          : 'f139dee0cd312f9c718a39606817bfbd',
-        language: '',
+        language: 'zh-CN',
       distractionFreeMode: true
     });
     gitalk.render('gitalk-container');

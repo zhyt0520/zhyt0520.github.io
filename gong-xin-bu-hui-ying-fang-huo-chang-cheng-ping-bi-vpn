@@ -602,7 +602,7 @@ NexT.utils.loadComments('#gitalk-container', () => {
       owner       : 'zhyt0520',
       admin       : ['zhyt0520'],
       id          : 'fd0589ebf510b7ea76e0212dafbb7313',
-        language: '',
+        language: 'zh-CN',
       distractionFreeMode: true
     });
     gitalk.render('gitalk-container');
