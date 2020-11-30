@@ -405,13 +405,47 @@
 
 
       
-    
+      <div class="comment-button-group">
+          <a class="btn comment-button disqusjs">disqusjs</a>
+          <a class="btn comment-button gitalk">gitalk</a>
+      </div>
+        <div class="comment-position disqusjs">
+          
   <div class="comments">
     <div id="disqus_thread">
       <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
     </div>
   </div>
   
+        </div>
+        <div class="comment-position gitalk">
+          <div class="comments" id="gitalk-container"></div>
+        </div>
+      <script data-pjax>
+        (function() {
+          const commentButton = document.querySelectorAll('.comment-button');
+            commentButton.forEach(element => {
+            const commentClass = element.classList[2];
+            element.addEventListener('click', () => {
+              commentButton.forEach(active => active.classList.toggle('active', active === element));
+              document.querySelectorAll('.comment-position').forEach(active => active.classList.toggle('active', active.classList.contains(commentClass)));
+              if (CONFIG.comments.storage) {
+                localStorage.setItem('comments_active', commentClass);
+              }
+            });
+          });
+          let { activeClass } = CONFIG.comments;
+          if (CONFIG.comments.storage) {
+            activeClass = localStorage.getItem('comments_active') || activeClass;
+          }
+          if (activeClass) {
+            const activeButton = document.querySelector(`.comment-button.${activeClass}`);
+            if (activeButton) {
+              activeButton.click();
+            }
+          }
+        })();
+      </script>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -556,6 +590,26 @@ NexT.utils.loadComments('#disqus_thread', () => {
       title     : "我的wordpress历程2",
     });
   }, window.DisqusJS);
+});
+</script>
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.css">
+
+<script>
+NexT.utils.loadComments('#gitalk-container', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : 'ae585801c642e3b266e1',
+      clientSecret: '48a42e0b5e950974f85de9168a9fdb2d2bac8f04',
+      repo        : 'gitalk-data',
+      owner       : 'zhyt0520',
+      admin       : ['zhyt0520'],
+      id          : '0c580f2e951fb1e1306c0b032126bd56',
+        language: '',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
 });
 </script>
 
