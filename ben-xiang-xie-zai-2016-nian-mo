@@ -332,20 +332,6 @@
     </span>
 
   
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/ben-xiang-xie-zai-2016-nian-mo#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/ben-xiang-xie-zai-2016-nian-mo" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
 </div>
 
         </div>
@@ -465,41 +451,7 @@
 
 
 
-      <div class="comment-button-group">
-          <a class="btn comment-button valine">valine</a>
-          <a class="btn comment-button gitalk">Gitalk</a>
-      </div>
-        <div class="comment-position valine">
-          <div class="comments" id="valine-comments"></div>
-        </div>
-        <div class="comment-position gitalk">
-          <div class="comments" id="gitalk-container"></div>
-        </div>
-      <script data-pjax>
-        (function() {
-          const commentButton = document.querySelectorAll('.comment-button');
-            commentButton.forEach(element => {
-            const commentClass = element.classList[2];
-            element.addEventListener('click', () => {
-              commentButton.forEach(active => active.classList.toggle('active', active === element));
-              document.querySelectorAll('.comment-position').forEach(active => active.classList.toggle('active', active.classList.contains(commentClass)));
-              if (CONFIG.comments.storage) {
-                localStorage.setItem('comments_active', commentClass);
-              }
-            });
-          });
-          let { activeClass } = CONFIG.comments;
-          if (CONFIG.comments.storage) {
-            activeClass = localStorage.getItem('comments_active') || activeClass;
-          }
-          if (activeClass) {
-            const activeButton = document.querySelector(`.comment-button.${activeClass}`);
-            if (activeButton) {
-              activeButton.click();
-            }
-          }
-        })();
-      </script>
+    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -624,18 +576,6 @@ NexT.utils.loadComments('#gitalk-container', () => {
     });
     gitalk.render('gitalk-container');
   }, window.Gitalk);
-});
-</script>
-
-<script>
-NexT.utils.loadComments('#valine-comments', () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
-    new Valine(Object.assign({"enable":true,"appId":"OufkRwzjUh5OH1XJ4cgiBpy8-gzGzoHsz","appKey":"t4QXVJvDqh2nlRGEvVh8lh4e","serverURLs":null,"placeholder":"欢迎留言","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":"zh-cn","visitor":false,"comment_count":true,"recordIP":false,"enableQQ":false,"requiredFields":["nick","mail"]}, {
-      el: '#valine-comments',
-      path: "/ben-xiang-xie-zai-2016-nian-mo",
-      serverURLs: "https://oufkrwzj.api.lncldglobal.com"
-    }));
-  }, window.Valine);
 });
 </script>
 
