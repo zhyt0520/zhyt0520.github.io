@@ -20,10 +20,9 @@
 
 <script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"aword.net","root":"/","scheme":"Gemini","version":"8.0.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"buttons","active":"disqusjs","storage":true,"lazyload":false,"nav":{"disqusjs":{"text":"DisqusJS","order":1},"gitalk":{"text":"Gitalk","order":2}},"activeClass":"disqusjs"},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
+    var CONFIG = {"hostname":"aword.net","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"buttons","active":"disqusjs","storage":true,"lazyload":false,"nav":{"disqusjs":{"text":"DisqusJS","order":1},"gitalk":{"text":"Gitalk","order":2}}},"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
   </script>
-
-  <meta name="description" content="5月30日，又是出现在旅途中的状况。20：50的车，大概20：00到车站，因为网上订的票，不早。一进售票厅，怎么黑压压这么多人，自助取票机前……不明觉厉，只好跟着排队。人头攒动，尽头隐约。 许久，“又坏了。”“怎么回事？”“不知道啊。”一共4台机器，我来的时候只排了3队，空的那台显示着“暂停服务”。刚才一阵骚动后，身旁的队伍散了，机器又停了一台，还好，人们比较遵守秩序，只见队伍还在，只是队尾已经">
+<meta name="description" content="5月30日，又是出现在旅途中的状况。20：50的车，大概20：00到车站，因为网上订的票，不早。一进售票厅，怎么黑压压这么多人，自助取票机前……不明觉厉，只好跟着排队。人头攒动，尽头隐约。 许久，“又坏了。”“怎么回事？”“不知道啊。”一共4台机器，我来的时候只排了3队，空的那台显示着“暂停服务”。刚才一阵骚动后，身旁的队伍散了，机器又停了一台，还好，人们比较遵守秩序，只见队伍还在，只是队尾已经">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何意外">
 <meta property="og:url" content="http://aword.net/ru-he-yi-wai">
@@ -51,10 +50,8 @@
     lang   : 'zh-CN'
   };
 </script>
-
-  <title>如何意外 | 一语</title>
+<title>如何意外 | 一语</title>
   
-
 
   <script data-pjax>
     var _hmt = _hmt || [];
@@ -65,8 +62,6 @@
       s.parentNode.insertBefore(hm, s);
     })();
   </script>
-
-
 
 
   <noscript>
@@ -172,8 +167,7 @@
 
 
   <div class="search-pop-overlay">
-    <div class="popup search-popup">
-        <div class="search-header">
+    <div class="popup search-popup"><div class="search-header">
   <span class="search-icon">
     <i class="fa fa-search"></i>
   </span>
@@ -278,9 +272,7 @@
 
 
     <div class="main-inner post posts-expand">
-      
 
-      
 
   
 
@@ -333,6 +325,20 @@
         </span>
     </span>
 
+  
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/ru-he-yi-wai#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/ru-he-yi-wai" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
   
 </div>
 
@@ -405,19 +411,12 @@
 
 
 
-      
       <div class="comment-button-group">
-          <a class="btn comment-button disqusjs">DisqusJS</a>
+          <a class="btn comment-button valine">valine</a>
           <a class="btn comment-button gitalk">Gitalk</a>
       </div>
-        <div class="comment-position disqusjs">
-          
-  <div class="comments">
-    <div id="disqus_thread">
-      <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
-    </div>
-  </div>
-  
+        <div class="comment-position valine">
+          <div class="comments" id="valine-comments"></div>
         </div>
         <div class="comment-position gitalk">
           <div class="comments" id="gitalk-container"></div>
@@ -469,18 +468,14 @@
     });
   }
 </script>
-
-    </div>
+</div>
   </main>
 
   <footer class="footer">
     <div class="footer-inner">
-      
 
-      
 
 <div class="copyright">
-  
   &copy; 2013 – 
   <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
@@ -497,8 +492,7 @@
   
   <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/@next-theme/pjax@0.4.0/pjax.min.js"></script>
-<script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
-  <script>
+<script src="/js/utils.js"></script><script src="/js/next-boot.js"></script><script>
 var pjax = new Pjax({
   selectors: [
     'head title',
@@ -544,19 +538,7 @@ document.addEventListener('pjax:success', () => {
     })();
   </script>
 
-
-
-
-  <script src="/js/local-search.js"></script>
-
-
-
-
-
-
-
-
-
+<script src="/js/local-search.js"></script>
 
 
 
@@ -564,35 +546,12 @@ document.addEventListener('pjax:success', () => {
 
 
   
-
-
-
-
 
 
 
 
     <div class="pjax">
-  
 
-  
-
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/disqusjs@1.3.0/dist/disqusjs.css">
-
-<script>
-NexT.utils.loadComments('#disqus_thread', () => {
-  NexT.utils.getScript('//cdn.jsdelivr.net/npm/disqusjs@1.3.0/dist/disqus.js', () => {
-    window.dsqjs = new DisqusJS({
-      api       : 'https://disqus.skk.moe/disqus/' || 'https://disqus.com/api/',
-      apikey    : 'G1FMQyq65oeiFNQ29xU68yESjAbZRUOIDhFhelrg9OovGczv2K4JeAzgF9X8uf04',
-      shortname : 'aword-net',
-      url       : "http://aword.net/ru-he-yi-wai",
-      identifier: "/ru-he-yi-wai",
-      title     : "如何意外",
-    });
-  }, window.DisqusJS);
-});
-</script>
 
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1.7.0/dist/gitalk.css">
 
@@ -611,6 +570,18 @@ NexT.utils.loadComments('#gitalk-container', () => {
     });
     gitalk.render('gitalk-container');
   }, window.Gitalk);
+});
+</script>
+
+<script>
+NexT.utils.loadComments('#valine-comments', () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
+    new Valine(Object.assign({"enable":true,"appId":"OufkRwzjUh5OH1XJ4cgiBpy8-gzGzoHsz","appKey":"t4QXVJvDqh2nlRGEvVh8lh4e","serverURLs":null,"placeholder":"欢迎留言","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":"zh-cn","visitor":false,"comment_count":true,"recordIP":false,"enableQQ":false,"requiredFields":["nick","mail"]}, {
+      el: '#valine-comments',
+      path: "/ru-he-yi-wai",
+      serverURLs: "https://oufkrwzj.api.lncldglobal.com"
+    }));
+  }, window.Valine);
 });
 </script>
 
