@@ -6,7 +6,7 @@
   <link href="http://aword.net/atom.xml" rel="self"/>
   
   <link href="http://aword.net/"/>
-  <updated>2020-11-29T15:22:50.418Z</updated>
+  <updated>2021-01-02T10:33:00.441Z</updated>
   <id>http://aword.net/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>my 2020</title>
+    <link href="http://aword.net/my-2020"/>
+    <id>http://aword.net/my-2020</id>
+    <published>2021-01-02T18:28:46.000Z</published>
+    <updated>2021-01-02T10:33:00.441Z</updated>
+    
+    <content type="html"><![CDATA[<p>&nbsp;</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="文字" scheme="http://aword.net/categories/%E6%96%87%E5%AD%97/"/>
+    
+    
+    <category term="随笔" scheme="http://aword.net/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>Laravel 通过代理发送邮件</title>
@@ -508,32 +533,6 @@
     <category term="教程" scheme="http://aword.net/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="Laravel" scheme="http://aword.net/tags/Laravel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Islands</title>
-    <link href="http://aword.net/Islands"/>
-    <id>http://aword.net/Islands</id>
-    <published>2017-07-03T12:57:00.000Z</published>
-    <updated>2020-02-14T16:04:12.223Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://cdn.aword.net/images/Islands4_600x337.jpg" alt="Islands"></p><p>船身荡起的水波与乘风而来的浪头，紧紧相拥，是他乡故知，是阔别重逢。</p><p>千万点水花激荡而起，又迎风直上，翻过一座座海浪，纵身跃起，看天涯，望海角。</p><p>终于，应声而没。</p><a id="more"></a><p><img src="http://cdn.aword.net/images/Islands1_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands2_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands3_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands5_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands6_1024x266.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands7_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands8_350x510.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands9_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands10_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands11_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands12_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands13_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands14_1024x172.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands15_1024x181.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands16_350x623.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands17_600x337.jpg" alt="Islands"></p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;http://cdn.aword.net/images/Islands4_600x337.jpg&quot; alt=&quot;Islands&quot;&gt;&lt;/p&gt;
-&lt;p&gt;船身荡起的水波与乘风而来的浪头，紧紧相拥，是他乡故知，是阔别重逢。&lt;/p&gt;
-&lt;p&gt;千万点水花激荡而起，又迎风直上，翻过一座座海浪，纵身跃起，看天涯，望海角。&lt;/p&gt;
-&lt;p&gt;终于，应声而没。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="相册" scheme="http://aword.net/categories/%E7%9B%B8%E5%86%8C/"/>
-    
-    
-    <category term="风景" scheme="http://aword.net/tags/%E9%A3%8E%E6%99%AF/"/>
-    
-    <category term="工作" scheme="http://aword.net/tags/%E5%B7%A5%E4%BD%9C/"/>
     
   </entry>
   
