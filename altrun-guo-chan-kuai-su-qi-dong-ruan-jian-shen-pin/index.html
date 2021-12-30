@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 6.0.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"aword.net","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"buttons","active":"disqusjs","storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+<meta name="description" content="ALTRun 是由网友 ET民工 个人独立开发的一款快速启动软件，小巧绿色，简单易用。精致简洁的操作界面、精巧灵动的智能匹配、疾如雷电的响应速度和行云流水般畅快淋漓的操控体验的完美结合，足以令人爱不释手。 由于 ALTRun? 功能相当强大，可配置性和可玩性极高，本文比较详尽地介绍了它的不少特性，所以篇幅比较长。热衷于提供电脑工作效率的，喜爱玩软件的，热爱各种折腾的朋友们，可千万不能错过此款神器级">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ALTRun国产快速启动软件神品">
+<meta property="og:url" content="http://aword.net/altrun-guo-chan-kuai-su-qi-dong-ruan-jian-shen-pin/index.html">
+<meta property="og:site_name" content="一语">
+<meta property="og:description" content="ALTRun 是由网友 ET民工 个人独立开发的一款快速启动软件，小巧绿色，简单易用。精致简洁的操作界面、精巧灵动的智能匹配、疾如雷电的响应速度和行云流水般畅快淋漓的操控体验的完美结合，足以令人爱不释手。 由于 ALTRun? 功能相当强大，可配置性和可玩性极高，本文比较详尽地介绍了它的不少特性，所以篇幅比较长。热衷于提供电脑工作效率的，喜爱玩软件的，热爱各种折腾的朋友们，可千万不能错过此款神器级">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_01.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_03.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_04.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_05.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_06.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_07.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_08.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_09.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_10.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_11.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_12.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_13.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_14.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_15.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_16.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_17.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_18.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_19.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_20.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_21.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_22.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_23.png">
+<meta property="og:image" content="http://cdn.aword.net/images/altrun_24.png">
+<meta property="article:published_time" content="2016-04-20T14:33:00.000Z">
+<meta property="article:modified_time" content="2021-12-30T15:36:17.274Z">
+<meta property="article:author" content="zhyt">
+<meta property="article:tag" content="教程">
+<meta property="article:tag" content="ALTRun">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://cdn.aword.net/images/altrun_01.png">
+
+
+<link rel="canonical" href="http://aword.net/altrun-guo-chan-kuai-su-qi-dong-ruan-jian-shen-pin/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://aword.net/altrun-guo-chan-kuai-su-qi-dong-ruan-jian-shen-pin/","path":"/altrun-guo-chan-kuai-su-qi-dong-ruan-jian-shen-pin/","title":"ALTRun国产快速启动软件神品"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>ALTRun国产快速启动软件神品 | 一语</title>
+  
+
+  <script src="/js/third-party/analytics/baidu-analytics.js"></script>
+  <script async src="https://hm.baidu.com/hm.js?05252d3ab1825c4f51ef7797d46dde56"></script>
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="一语" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">一语</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">活着，永远不是一个人的事</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BD%AF%E4%BB%B6%E7%95%8C%E9%9D%A2%E8%AE%B2%E8%A7%A3"><span class="nav-number">1.</span> <span class="nav-text">软件界面讲解</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ALTRun%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95"><span class="nav-number">2.</span> <span class="nav-text">ALTRun的基本使用方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B6%85%E5%A4%9A%E6%96%B9%E5%BC%8F%E6%89%A7%E8%A1%8C%E5%BF%AB%E6%8D%B7%E9%A1%B9"><span class="nav-number">3.</span> <span class="nav-text">超多方式执行快捷项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%85%E6%8D%B7%E6%96%B9%E4%BE%BF%E7%9A%84%E5%AE%9A%E4%BD%8D%E6%96%B9%E6%B3%95"><span class="nav-number">4.</span> <span class="nav-text">迅捷方便的定位方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%BF%87%E6%BB%A4%E7%AD%9B%E9%80%89%E5%92%8C%E6%99%BA%E8%83%BD%E5%8C%B9%E9%85%8D"><span class="nav-number">5.</span> <span class="nav-text">过滤筛选和智能匹配</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%BA%E6%80%A7%E5%8C%96%E7%9A%84%E5%8C%B9%E9%85%8D%E8%AE%BE%E5%AE%9A"><span class="nav-number">6.</span> <span class="nav-text">人性化的匹配设定</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%AB%E5%87%BA%E5%BF%83%E8%A3%81%E7%9A%84Ctrl-D%E4%B8%80%E6%AD%A5%E5%AE%9A%E4%BD%8D%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%E6%96%87%E4%BB%B6%E5%A4%B9%E5%8A%9F%E8%83%BD"><span class="nav-number">7.</span> <span class="nav-text">别出心裁的Ctrl+D一步定位直接打开文件夹功能</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%8E%E5%AE%B9%E6%B7%A1%E5%AE%9A%E7%9A%84Ctrl-L%E5%9B%9E%E6%BA%AF%E6%9C%80%E8%BF%91%E6%89%A7%E8%A1%8C%E8%BF%87%E7%9A%8410%E4%B8%AA%E5%8E%86%E5%8F%B2%E9%A1%B9%E7%9B%AE"><span class="nav-number">8.</span> <span class="nav-text">从容淡定的Ctrl+L回溯最近执行过的10个历史项目</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BD%93%E8%B4%B4%E8%88%92%E5%BF%83%E7%9A%84%E5%A4%9A%E7%A7%8D%E9%9A%90%E9%80%80%E6%96%B9%E5%BC%8F"><span class="nav-number">9.</span> <span class="nav-text">体贴舒心的多种隐退方式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B8%85%E7%88%BD%E6%80%A1%E4%BA%BA%E4%B9%8B%E7%B2%BE%E7%AE%80%E4%B8%BB%E7%95%8C%E9%9D%A2%E7%9A%84%E8%AE%BE%E7%BD%AE%E6%96%B9%E6%B3%95"><span class="nav-number">10.</span> <span class="nav-text">清爽怡人之精简主界面的设置方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BF%AB%E6%8D%B7%E9%A1%B9%E7%9B%AE%E7%9A%84%E5%A2%9E%E5%87%8F%E5%88%A0%E6%94%B9"><span class="nav-number">11.</span> <span class="nav-text">快捷项目的增减删改</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%87%AA%E5%A8%B1%E8%87%AA%E4%B9%90%E4%B9%8B%E5%8A%A8%E6%89%8B%E5%AE%9A%E5%88%B6%E6%96%B9%E4%BE%BF%E5%A5%BD%E7%8E%A9%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%A1%B9"><span class="nav-number">12.</span> <span class="nav-text">自娱自乐之动手定制方便好玩的快捷项</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%88%A9%E7%94%A8ALTRun%E6%89%93%E9%80%A0%E5%88%92%E8%AF%8D%E6%90%9C%E7%B4%A2"><span class="nav-number">13.</span> <span class="nav-text">利用ALTRun打造划词搜索</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ALTRun%E7%9A%84%E8%B5%84%E6%BA%90%E5%8D%A0%E7%94%A8%E5%92%8C%E5%85%B6%E4%BB%96%E6%83%85%E5%BD%A2"><span class="nav-number">14.</span> <span class="nav-text">ALTRun的资源占用和其他情形</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%8D%90%E8%BD%AF%E6%84%9F%E8%A8%80"><span class="nav-number">15.</span> <span class="nav-text">荐软感言</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#PS"><span class="nav-number">16.</span> <span class="nav-text">PS.</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">zhyt</p>
+  <div class="site-description" itemprop="description">这里是 zhyt 的分享和记录</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">103</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">53</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="mailto:zhyt0520@gmail.com" title="E-Mail → mailto:zhyt0520@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+  <div class="cc-license site-overview-item animated" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://aword.net/altrun-guo-chan-kuai-su-qi-dong-ruan-jian-shen-pin/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="zhyt">
+      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="一语">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          ALTRun国产快速启动软件神品
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2016-04-20 22:33:00" itemprop="dateCreated datePublished" datetime="2016-04-20T22:33:00+08:00">2016-04-20</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E8%BD%AF%E4%BB%B6/" itemprop="url" rel="index"><span itemprop="name">软件</span></a>
+        </span>
+    </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Valine：</span>
+  
+    <a title="valine" href="/altrun-guo-chan-kuai-su-qi-dong-ruan-jian-shen-pin/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/altrun-guo-chan-kuai-su-qi-dong-ruan-jian-shen-pin/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p><a target="_blank" rel="noopener" href="https://github.com/etworker/ALTRun">ALTRun</a> 是由网友 <a target="_blank" rel="noopener" href="http://weibo.com/journeyonmyway">ET民工</a> 个人独立开发的一款快速启动软件，小巧绿色，简单易用。精致简洁的操作界面、精巧灵动的智能匹配、疾如雷电的响应速度和行云流水般畅快淋漓的操控体验的完美结合，足以令人爱不释手。</p>
+<p>由于 <a target="_blank" rel="noopener" href="https://github.com/etworker/ALTRun">ALTRun</a>? 功能相当强大，可配置性和可玩性极高，本文比较详尽地介绍了它的不少特性，所以篇幅比较长。热衷于提供电脑工作效率的，喜爱玩软件的，热爱各种折腾的朋友们，可千万不能错过此款神器级别的软件哦……</p>
+<p><img src="http://cdn.aword.net/images/altrun_01.png"></p>
+<span id="more"></span>
+
+<h3 id="软件界面讲解"><a href="#软件界面讲解" class="headerlink" title="软件界面讲解"></a>软件界面讲解</h3><p>热键呼出软件主界面后，光标会自动定位在界面左上角<strong>输入框</strong>内前端处，可以输入英文字母筛选过虑列表清单，输入框右后方显现的浅灰色文字是智能随机的<strong>操作提示</strong>。</p>
+<p>居于界面中部的白色背景主体大框里显示<strong>快捷项目列表清单</strong>。左侧半部前头带数字的便是<strong>快捷项</strong>，右侧半部是与之一一对应的<strong>描述</strong>名称，两者均可凭个人喜好随心所欲的定制。</p>
+<p>主界面底部命令框显示当前快捷项目的<strong>命令行</strong>，此框可以设置隐藏。</p>
+<p><img src="http://cdn.aword.net/images/altrun_03.png"></p>
+<p>（主界面解析说明）</p>
+<p><img src="http://cdn.aword.net/images/altrun_04.png">（与主界面解析对应的快捷项内容图示）</p>
+<h3 id="ALTRun的基本使用方法"><a href="#ALTRun的基本使用方法" class="headerlink" title="ALTRun的基本使用方法"></a>ALTRun的基本使用方法</h3><p>开宗明义：使用ALTRun软件，最为关键的是要记住两条。</p>
+<p>第一条：主界面显现后按 Alt+S 呼出快捷项管理界面；</p>
+<p>第二条：主界面显现后按 Alt+C 呼出配置设定界面。</p>
+<h3 id="超多方式执行快捷项"><a href="#超多方式执行快捷项" class="headerlink" title="超多方式执行快捷项"></a>超多方式执行快捷项</h3><p>工欲善其事，必先利其器。第一步自然是设置自己喜欢且方便好使的热键了，在系统托盘区ALTRun可爱的星星图标上点击右键，选择菜单中的配置，就呼出配置界面，选择热键这一标签页。</p>
+<p><img src="http://cdn.aword.net/images/altrun_05.png">（配置中双热键设定标签页中默认热键之一ALT+R也是ALTRun软件得名的由来）</p>
+<p>ALTRun独创性的支持主热键和辅热键这种双热键并行不悖、独一无二的呼出呼入方法，喜欢单手启动程序朋友们有福了！据我的使用经验，建议修改主热键设置成Alt+X，将辅热键设置成~键(键盘左上角Esc键下面那个)，基本上只用一只左手就可以搞定任意程序、文档、目录和网页的快捷启动。</p>
+<p>OK，现在按~键(或者自主设定的主辅热键)，立刻呼出主界面(若是随后再次按击自主设定的主辅热键则会隐藏主界面)。</p>
+<p>呈现在眼前的主界面清单列表支持多种方式执行快捷项目<strong>：</strong></p>
+<p>1.<strong>空格键</strong>或者<strong>回车键</strong>执行所在行快捷项(<strong>左手单手掌控时按空格远比回车键方便顺手、舒适惬意</strong>)。</p>
+<p>2.通过按击<strong>数字键</strong>执行快捷项，数字键1 2 3 4 5 6 7 8 9 0, 0 代表10，分别启动对应的第一至第十个菜单列表项目(喜欢数字键启动风格的朋友请注意不要在快捷项中加入数字，以免多有不便，不喜欢数字键风格的朋友可以不必理会)。此外，直接按下<strong>空格键或回车键</strong>也能启动<strong>第一项</strong>，<strong>第二项还可按：键启动</strong>，<strong>第三项还可按”键启动</strong>。</p>
+<p>3.按照提示区指示的<strong>Alt+数字键</strong>或者<strong>Ctrl+数字键</strong>快速启动快捷项。</p>
+<p>4.<strong>鼠标左键双击</strong>启动快捷项。</p>
+<p>5.在主界面窗体内任何位置<strong>按击鼠标中键滑轮</strong>也可启动引导定位所在行的快捷项。</p>
+<p>6.特为推荐超级简便的一种执行方法需要设定一下实现，只要<strong>勾选配置中的仅剩一项时立即执行</strong>(段末图解)，敲击字母过滤后<strong>自动执行</strong>剩余的唯一一项匹配快捷项(<strong>无需按下空格键或者回车键启动</strong>)。</p>
+<p><img src="http://cdn.aword.net/images/altrun_06.png">（部分执行方法图示）</p>
+<p>一指热键（~键）呼出主界面，屈指弹向任意数字键，便可启动十个程序中的任意一个程序。全程只要按两下，耗时0.5秒左右，快捷绝伦，疾如雷电。关于该如何设置，让自己心仪的快捷项目出现在热键呼出后优先显示的前十项可供数字键快速启动的默认列表清单中。</p>
+<p>支持数字键启动真是好东西，可视化清单类快捷启动软件中在这一点上能够和ALTRun差相比拟的唯有Find and Run Robot，可惜Find and Run Robot资源占用居高不下，响应迟缓，乏善可陈。若是不太在意资源占用而注重功能的可延展性，插件丰富的Find and Run Robot则是上佳的选择。</p>
+<p>不喜欢数字键启动风格的朋友建议使用<strong>汉语拼音全拼（容易记忆）</strong>设定快捷项，通常敲入三两个字母，就能直接命中目标。要是没命中，待选的顶多就只剩2项，余下的事情也就极为简单了。</p>
+<p>要是你觉得还不过瘾，还有一种<strong>最为简便</strong>的启动快捷项的方式，只要你敲击一两个英文字母，甚至不需要你按下空格键或者回车键就可自动执行只余一项的匹配项！凤毛麟角，超乎想象，一蹴而就，傲视群伦，在目前的快捷启动软件中也算是独领风骚了！设置方法如下图解所示。</p>
+<p><img src="http://cdn.aword.net/images/altrun_07.png"></p>
+<p>（仅剩一项时立即执行设置图解）</p>
+<h3 id="迅捷方便的定位方法"><a href="#迅捷方便的定位方法" class="headerlink" title="迅捷方便的定位方法"></a>迅捷方便的定位方法</h3><p>ALTRun主界面列表清单支持多种定位方法：<strong>上下箭头键</strong>移动定位前后项目；<strong>Tab键</strong>轮换定位下一个快捷项目（按下<strong>Shift+Tab键</strong>显示上一项快捷项）；最为好玩的是支持<strong>鼠标滑轮滑动</strong>定位项目。三者皆可<strong>周而复始</strong>，<strong>循环往复</strong>！</p>
+<p><img src="http://cdn.aword.net/images/altrun_08.png"></p>
+<p>（三种定位方法）</p>
+<p>键盘达人大概会选择上下箭头键移动定位或者Tab键，不过本人觉得有时候用用鼠标滑轮也很爽快，因为滚轮定位比较迅速，耗费的力气最小，定位完成后按击空格键或者按击鼠标中键滑轮便可启动快捷项。左手键盘，右手鼠标，左右开弓，相得益彰。</p>
+<h3 id="过滤筛选和智能匹配"><a href="#过滤筛选和智能匹配" class="headerlink" title="过滤筛选和智能匹配"></a>过滤筛选和智能匹配</h3><p>快捷启动软件可谓形态多样，五花八门，不过万变不离其宗，均是依托各自独到的理念设计程式，帮助使用者实现更为高效流畅的快捷操作这一目的。</p>
+<p>ALTRun的设计理念就是简单易用四个字，过滤匹配方式体现此一特点最为显著。</p>
+<p>本人原是 win + R 方式的拥护者，也使用过TypeAndRun、Executor、Launchy以及一些杂七杂八的软件，于此纳归诸杂俎，取精用宏，旁引曲证，试与读者条分缕析，燃犀列炬，而一论之。</p>
+<p>win + r 方式返璞归真，绿色高效，可惜本身没有太多的功能可供把玩（废话）。</p>
+<p>个人觉得TypeAndRun的匹配方式只能从第一个字母开始，而且默认状态下使用下拉列表清单要浪费一个多余动作，不甚方便。</p>
+<p>Executor方式倒是不错，缺省情形下能以词为间隔单位定位过滤并匹配词首（此时切换成包容匹配需要按击Ctrl+R，不太经济），此外仍不支持快捷项目的自动调频功能，殊属可惜，尚差一步之遥。</p>
+<p>Launchy虽然号称智能，索引搜索和模糊匹配固然强大，却有些过犹不及，这种跨字符依序检索的匹配方式虽是准确，然而失于宽泛纷乱不够直观，时常张冠李戴，难以一目了然！呼出迟缓，大而无当，不恤物力，不够环保，再加上一大劣势定制不易，总感到有些华而不实，故而也不称心意。</p>
+<p>其它的像Hoekey之类的热键启动工具诚然强大，却也有些弊端，病在需要耗费心力记忆一些繁冗芜杂、索然无味的信息，兼之配置繁琐容易使人失却了赏玩电脑的兴致和趣味。</p>
+<p>等而下之的便是True Launch Bar之类的某种意义上可视之为软件管理工具成分大过快速启动工具成分的快捷启动软件。令人深感缺憾的是在现今的快捷启动软件已然进化到了智能检索时代，依旧不支持搜索定位功能，智能匹配更是付諸厥如。因循守旧、固步自封，未能与时俱进。(各花入各眼，以上倶是本人的个人观感，难免会有偏颇之处，倘有谬漏，敬请朋友们不吝指正。)</p>
+<p>上下求索之下，直到ALTRun步入我的视线，发现心目中的完美工具终于出现了。</p>
+<p>缺省默认的情形下，相较于TypeAndRun的首字母匹配、Executor的词首匹配以及Launchy效率欠佳的模糊匹配， ALTRun采取的是更为灵活精巧的<strong>任意位置关键字匹配</strong>，个人觉得快速启动软件采用这种过滤匹配方式最为得宜。</p>
+<p>举例说明一下，热键呼出主界面，软件会自动定位到输入框输入处并锁定成英文输入方式，敲入gr两个字母，看看筛选过滤后会匹配出什么结果来。</p>
+<p><img src="http://cdn.aword.net/images/altrun_09.png"></p>
+<p>（任意位置匹配关键字）</p>
+<p>如果喜欢<strong>只从首字母开始匹配</strong>，只要在主界面按Alt+C呼出配置界面，取消从任意位置匹配关键字这一项的勾选就可以实现。</p>
+<p><img src="http://cdn.aword.net/images/altrun_10.png"></p>
+<p>（仅从首字母开始匹配关键字设定方法）</p>
+<p>细心的朋友可能会从图片中发现 <a target="_blank" rel="noopener" href="http://www.iplaysoft.com/altrun.html">ALTRun</a> 似乎不支持智能补全，没错，的确不支持！是不为也，非不能也！这也是ALTRun软件开发者秉持<strong>简单易用</strong>的设计理念，有意如此设定的。智能补全看似智能，其实操作过程中会出现多余的删除动作，正所谓欲速则不达，特别是输入中途突然想要变动的时候极其麻烦。使用ALTRun不会有上述的麻烦，可以随时迅捷快速、轻便灵巧的调整输入内容。</p>
+<p>提示几点<strong>输入小技巧</strong>：输入框输入内容后支持Backspace（退格键）删除，按Home键光标直接定位到输入内容的最前面，按End键光标直接定位内容末尾处。按←左箭头键往左移动一个字母，按→右箭头键往右移动一个字母。ESC键消去全部内容（如果再按一下ESC键则会隐藏主界面）。</p>
+<h3 id="人性化的匹配设定"><a href="#人性化的匹配设定" class="headerlink" title="人性化的匹配设定"></a>人性化的匹配设定</h3><p><strong>ALTRun</strong> <strong>极其智能，会根据快捷项使用频率自动调节显示顺序，自动调整项目优先级</strong>。除此之外，作者还极为佛心的安排了一项极富人性化的设定，可以让我们<strong>快速匹配上一次的启动项目</strong>，设定方法依旧是热键呼出主界面后，再按击Alt+C呼出配置界面，勾选上保存最近一次匹配选项。这样设定可以自由操控快捷项显示顺序，快速匹配上一次的启动项目。</p>
+<p><img src="http://cdn.aword.net/images/altrun_11.png"></p>
+<p>(保存最近一次匹配设置)</p>
+<p>另外软件自带的<strong>多个搜索快捷项的关键字输入框</strong>也具备历史记录自动匹配功能，默认为最后一次<strong>输入或显现过</strong>的内容。</p>
+<p><img src="http://cdn.aword.net/images/altrun_12.png"></p>
+<p>（Google搜索引擎关键字输入框显示最后一次输入或显现过的内容）</p>
+<p><img src="http://cdn.aword.net/images/altrun_13.png"></p>
+<p>（关键字输入框支持历史记录自动匹配）</p>
+<p>输入过一次之后的历史记录在<strong>各个搜索快捷项中通用</strong>，换用搜索引擎时如虎添翼，方便易用。如下所示：</p>
+<p><img src="http://cdn.aword.net/images/altrun_14.png"></p>
+<p>（google搜索引擎关键字输入框历史记录下拉列表）</p>
+<p><img src="http://cdn.aword.net/images/altrun_15.png"></p>
+<p>（百度搜索引擎关键字输入框历史记录下拉列表）</p>
+<h3 id="别出心裁的Ctrl-D一步定位直接打开文件夹功能"><a href="#别出心裁的Ctrl-D一步定位直接打开文件夹功能" class="headerlink" title="别出心裁的Ctrl+D一步定位直接打开文件夹功能"></a>别出心裁的Ctrl+D一步定位直接打开文件夹功能</h3><p>你是否时常会为工作时需要频繁打开一些文件夹查找文档而感到烦恼呢？编辑一个文档时，会被突然需要打开其他文件弄的手忙脚乱吗？ALTRun可以帮到你轻松搞定这些烦恼。</p>
+<p>ALTRun别出机杼的支持文件的Ctrl+D直接打开相应文件夹功能，一步到位，运用得宜庶几可以免去按步就班的打开我的电脑，然后一步步的打开文件夹查找这等费力费眼的麻烦事。</p>
+<p>可以<strong>按Ctrl+D一步定位直接打开文件夹的快捷项目特殊标识</strong>是外包一对[ ]（方框符号）。</p>
+<p><img src="http://cdn.aword.net/images/altrun_16.png"></p>
+<p>(Ctrl+D一步定位直接打开文件所在的文件夹)</p>
+<h3 id="从容淡定的Ctrl-L回溯最近执行过的10个历史项目"><a href="#从容淡定的Ctrl-L回溯最近执行过的10个历史项目" class="headerlink" title="从容淡定的Ctrl+L回溯最近执行过的10个历史项目"></a>从容淡定的Ctrl+L回溯最近执行过的10个历史项目</h3><p>记录操作历史，Ctrl+L可以显示最近调用的10项快捷项列表，帮你从容找到启动过的快捷项目，对于需要频繁打开新近刚操作过的快捷项颇有助益。</p>
+<h3 id="体贴舒心的多种隐退方式"><a href="#体贴舒心的多种隐退方式" class="headerlink" title="体贴舒心的多种隐退方式"></a>体贴舒心的多种隐退方式</h3><p>ALTRun令人叹赏的一点是不但可以点击右上角的红色关闭按钮隐藏主界面，支持按Esc键隐藏，按主辅热键消隐（呼出隐藏通用），还支持失去焦点隐藏（鼠标点击主界面外其他地方），另外还有延时自动消隐（真是智能体贴）。</p>
+<p><img src="http://cdn.aword.net/images/altrun_17.png"></p>
+<p>(关闭按钮图示)</p>
+<p>自己设定了开启ALTRun软件快捷键的朋友，若是不喜欢ALTRun一直开着占用电脑资源，想要启动快捷项之后马上关闭ALTRun程序来节省资源开销的话，ALTRun软件已然极其贴心的提供了这个功能，可以在配置中的<strong>勾选执行快捷项后退出</strong>这一项，这样就能如愿以偿了。</p>
+<p><img src="http://cdn.aword.net/images/altrun_18.png"></p>
+<p>(执行快捷项后自动退出程序设定)</p>
+<h3 id="清爽怡人之精简主界面的设置方法"><a href="#清爽怡人之精简主界面的设置方法" class="headerlink" title="清爽怡人之精简主界面的设置方法"></a>清爽怡人之精简主界面的设置方法</h3><p>喜欢清爽简单风格界面的朋友可以在配置中去掉几个项目前的勾选,看看改动后的简约界面是否符合你的心意。</p>
+<p><img src="http://cdn.aword.net/images/altrun_19.png"></p>
+<p>(精简主界面的设定方法图示)</p>
+<p>另外还可在配置中调整透明度、宽度以及字体等设置，个性化定制自己喜好的样式界面。</p>
+<p><img src="http://cdn.aword.net/images/altrun_20.png"></p>
+<p>(调整宽度、透明度、字体等设置后的小巧透明的主界面)</p>
+<h3 id="快捷项目的增减删改"><a href="#快捷项目的增减删改" class="headerlink" title="快捷项目的增减删改"></a>快捷项目的增减删改</h3><p>ALTRun支持<strong>命令行加参数</strong>运行，喜欢鼓捣的朋友们可以折腾出许多有趣的东西来。可以添加快捷项目实现启动程序、文档、目录、网页，甚至是指定多种程序同时打开多个文件、目录和网页。</p>
+<p>下面细说一下添置快捷项目的方式方法。</p>
+<p><strong>第一种方法</strong>：也是最为直觉方便的方法，即右键“发送到”（可以在快捷图标、文件或文件夹上右键选择“发送到/ALTRun”），右键添加快捷项时会对同名快捷项自动显示覆盖提示。</p>
+<p><strong>第二种方法</strong>：支持拖动快捷图标、文件或文件夹到快捷项管理界面快速添加快捷项目（鼠标点击主界面左上角收藏夹小图标快捷项管理按钮进入，或者按击Alt+S快捷键直接弹出快捷项管理界面），快捷项目管理界面按击添加按钮或者快捷键Insert键直接插入各项都留空的快捷项就是分隔空行。</p>
+<p><img src="http://cdn.aword.net/images/altrun_21.png"></p>
+<p>(快捷项管理按钮图示)</p>
+<p><img src="http://cdn.aword.net/images/altrun_22.png"></p>
+<p>(支持拖拉文件和文件夹一步完成项目添加的快捷项管理界面示意图)</p>
+<p><strong>第三种方法</strong>：热键呼出主界面后，按Insert添加快捷项，F2修改快捷项，Delete删除快捷项，Esc退出界面，弹出的界面除了手工操作外，同样支持拖拉文件或者文件夹直接添加。）</p>
+<p><img src="http://cdn.aword.net/images/altrun_23.png"></p>
+<p>(主界面上Insert键呼出的添加快捷项界面同样支持拖拉快捷图标、文件和文件夹一步完成添加)</p>
+<p><strong>第四种方法</strong>：热键呼出主界面后按Alt+S键，在快捷项管界面直接添加，方法同上。</p>
+<p><strong>第五种方法</strong>：在主界面直接输入没有设定过的英文字母，回车后也可进行添加快捷项，弹出的界面除了手工操作外，同样支持拖拽快捷图标、文件或者文件夹直接添加。</p>
+<p><strong>第六种方法</strong>：可以直接修改ALTRun软件所在文件夹内的ShortCutList.txt文本文档，保存后会自动读取。编辑时<strong>不需要太在意对齐</strong>，ALTRun会<strong>自动重新排版写入</strong>。强烈建议喜欢这种方法的朋友不妨将ShortCutList.txt作为一个快捷项目添加到软件中，可以直接设定以自己喜欢的编辑工具打开此一文件，例如使用Emeditor打开ShortCutList.txt文本文件可以添加这样的项目命令:</p>
+<p>C:\Program Files\EmEditor\EmEditor.EXE C:\Program Files\ALTRun\ShortCutList.TXT</p>
+<p>(其他的编辑工具和ALTRun的文件夹在别处的话，可以照此格式修改路径实现，这也是ALTRun可以指定以特定的某一程序打开某个相应文件用法的又一例证。)</p>
+<p><img src="http://cdn.aword.net/images/altrun_24.png"></p>
+<p>(可以直接编辑的ShortCutList文本文件示意图)</p>
+<p>如此众多的方式方法足可让人不慌不忙，气定神闲的设定自己喜好的快捷项目。</p>
+<h3 id="自娱自乐之动手定制方便好玩的快捷项"><a href="#自娱自乐之动手定制方便好玩的快捷项" class="headerlink" title="自娱自乐之动手定制方便好玩的快捷项"></a>自娱自乐之动手定制方便好玩的快捷项</h3><p>现在到了自己动手丰衣足食时间，提供一些本人定制的实用有趣的项目。</p>
+<p>|c |c盘（系统盘） |Explorer /select,c:\Program Files</p>
+<p>（c字母打开c盘并定位在Program Files文件夹上，回车便可迅速进入Program Files文件夹，当然不回车按Backspace退格键则会进入上一层目录我的电脑。）</p>
+<p>|z |音量调整 |SndVol /t</p>
+<p>（z字母启动音量合成器，打开后可以按击上下箭头键迅速调整音量，上下箭头键调整音量大小步幅较小，如果需要快速大幅度调整可以试试PageUp向上翻页键和PageDown向下翻页键。除此之外，还可以通过鼠标滑轮前后滑动快速调节音量大小。）</p>
+<p>|ccleaner |系统优化垃圾清除 |C:\Program Files\CCleaner\ccleaner.exe /AUTO</p>
+<p>（这个需要超级好用、小巧快捷的清除系统垃圾和使用痕迹的经典小软件ccleaner，ALTRun支持软件加参数运行， /AUTO便是ccleaner的运行参数。）</p>
+<p><a target="_blank" rel="noopener" href="https://mail.google.com/mail">https://mail.google.com/mail</a></p>
+<p>（打开加密协议的Gmail邮箱）</p>
+<p>C:\Users\用户名\AppData\Local\Google\Chrome\Application\chrome.exe <a target="_blank" rel="noopener" href="https://mail.google.com/mail/?fs=1&amp;view=cm&amp;shva=1&amp;su=%7B&#37;p}">https://mail.google.com/mail/?fs=1&amp;view=cm&amp;shva=1&amp;su={&#37;p}</a></p>
+<p>（谷歌浏览器chrome中直接输入邮件主题。参数类型选择参数无编码，语句中的用户名请自行修改）</p>
+<p>C:\Program Files\Sandboxie\Start.exe C:\Users\用户名\AppData\Local\Google\Chrome\Application\chrome.exe <a target="_blank" rel="noopener" href="https://mail.google.com/mail/?fs=1&amp;view=cm&amp;shva=1&amp;su=%7B&#37;p}">https://mail.google.com/mail/?fs=1&amp;view=cm&amp;shva=1&amp;su={&#37;p}</a></p>
+<p>（沙盘软件sandboxie里运行的谷歌浏览器chrome中直接输入邮件主题。参数类型选择参数无编码，语句中的用户名请自行修改）</p>
+<p><a target="_blank" rel="noopener" href="http://www.google.com.hk/search?q=%7B&#37;p}&amp;btnI=Im+Feeling+Luck">http://www.google.com.hk/search?q={&#37;p}&amp;btnI=Im+Feeling+Luck</a></p>
+<p>（类似于网站直达的谷歌服务手气不错。设置时参数类型请选择第四项对参数进行UTF-8编码。）</p>
+<p>C:\Users\用户名\AppData\Local\Google\Chrome\Application\chrome.exe <a target="_blank" rel="noopener" href="https://www.google.com/reader/view">https://www.google.com/reader/view</a></p>
+<p>（指定谷歌Chrome浏览器打开谷歌阅读器网页）</p>
+<p>C:\Program Files\Firefox.exe <a target="_blank" rel="noopener" href="https://www.google.com/reader/view">https://www.google.com/reader/view</a></p>
+<p>（指定火狐Firefox浏览器打开谷歌阅读器网页）</p>
+<p>C:\Firefox\firefox.exe -profile C:\Firefox\profile “<a target="_blank" rel="noopener" href="https://www.google.com/reader/view&quot;">https://www.google.com/reader/view&quot;</a></p>
+<p>（指定<strong>绿色便携Portable化的火狐Firefox</strong>浏览器打开谷歌阅读器网页）</p>
+<p>@taskkill /FI “WINDOWTITLE eq {&#37;wt}</p>
+<p>（注意参数类型：参数无编码，可以关闭当前的程序窗口）</p>
+<p>@taskkill /F /IM iexplore.exe</p>
+<p>（关闭IE浏览器所有打开的窗口，哪怕你开了十多个，也能瞬间关闭。我用k，当然设定为killie也不错。）</p>
+<p>@cmd /c taskkill /F /IM explorer.exe &amp; start explorer</p>
+<p>（添加这个项目可以让你在眨眼之间一次性关闭所有的文件夹，本人在altrun中的将此快捷项目设成f，只要键盘轻轻敲击两下，就可以关闭所有文件夹，方便快捷。)</p>
+<p>rundll32 PowrProf.dll, SetSuspendState</p>
+<p>（使计算机进入Sleep睡眠状态）</p>
+<p>喜欢一键启动多个程序的朋友们有福了！</p>
+<p>不用另外编辑批处理文件，同时启动多个程序可以利用explorer语句来实现，以下仅举一例，聊备一格，以飨读者。</p>
+<p>@CMD /C explorer “C:\Program Files\Internet Explorer\iexplore.exe” &amp; explorer “C:\Program Files\Foobar2000\Foobar2000.EXE”</p>
+<p>（同时打开ie浏览器和Foobar音乐播放器两个程序，朋友们可以套袭格式，自行增减删改想要的的程序。注意引号都是英文引号。）</p>
+<h3 id="利用ALTRun打造划词搜索"><a href="#利用ALTRun打造划词搜索" class="headerlink" title="利用ALTRun打造划词搜索"></a>利用ALTRun打造划词搜索</h3><p>ALTRun支持剪贴板的文字内容参数{&#37;c}，利用这一点可以在任意文档或者界面上实现类似划词搜索功能（特大喜讯，除了<strong>网络</strong>划词搜索外，<strong>ALTRun也能支持本地极速搜索软件Everything实现划词搜索</strong>，这是本人梦寐以求的功能。）</p>
+<p>F1 |UTF8_Query |ahc |Amazon划词搜索 |<a target="_blank" rel="noopener" href="http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias=aps&amp;field-keywords=%7B&#37;c}">http://www.amazon.com/s/ref=nb_sb_noss?url=search-alias%3Daps&amp;field-keywords={&#37;c}</a></p>
+<p>F2 |URL_Query |bhc |百度 划词搜索 |<a target="_blank" rel="noopener" href="http://www.baidu.com/s?wd=%7B&#37;c}">http://www.baidu.com/s?wd={&#37;c}</a></p>
+<p>F8 |UTF8_Query |ghc |Google 划词搜索 |C:\Program Files\Sandboxie\Start.exe <a target="_blank" rel="noopener" href="https://www.google.com/search?q=%7B&#37;c}">https://www.google.com/search?q={&#37;c}</a></p>
+<p>F2 |URL_Query |hhc |华军软件 划词搜索 |<a target="_blank" rel="noopener" href="http://search.onlinedown.net/search.asp?keyword=%7B&#37;c}">http://search.onlinedown.net/search.asp?keyword={&#37;c}</a></p>
+<p>F6 |URL_Query |khc |搜狗MP3 划词搜索 |<a target="_blank" rel="noopener" href="http://mp3.sogou.com/music.so?query=%7B&#37;c}">http://mp3.sogou.com/music.so?query={&#37;c}</a></p>
+<p>F6 |UTF8_Query |mhc |微软必应 划词搜索 |<a target="_blank" rel="noopener" href="http://cn.bing.com/search?q=%7B&#37;c}">http://cn.bing.com/search?q={&#37;c}</a></p>
+<p>F7 |URL_Query |xlhc |迅雷 划词搜索 |<a target="_blank" rel="noopener" href="http://search.gougou.com/search?search=%7B&#37;c}">http://search.gougou.com/search?search={&#37;c}</a></p>
+<p>F7 |URL_Query |tbhc |淘宝 划词搜索 |<a target="_blank" rel="noopener" href="http://search.taobao.com/search?q=%7B&#37;c}">http://search.taobao.com/search?q={&#37;c}</a></p>
+<p>F5 |UTF8_Query |shc |手气不错 划词搜索 |C:\Program Files\Sandboxie\Start.exe C:\Users\用户名\AppData\Local\Google\Chrome\Application\chrome.exe <a target="_blank" rel="noopener" href="http://www.google.com/search?btnI=Im+Feeling+Lucky&amp;q=%7B&#37;c}">http://www.google.com/search?btnI=Im+Feeling+Lucky&amp;q={&#37;c}</a></p>
+<p>F8 |UTF8_Query |vhc |VeryCD 划词搜索 |<a target="_blank" rel="noopener" href="http://www.verycd.com/search/folders?kw=%7B&#37;c}">http://www.verycd.com/search/folders?kw={&#37;c}</a></p>
+<p>F2 |UTF8_Query |yhc |Yahoo 划词搜索 |C:\Users\HaHa\AppData\Local\Google\Chrome\Application\chrome.exe <a target="_blank" rel="noopener" href="http://search.yahoo.com/search?p=%7B&#37;c}">http://search.yahoo.com/search?p={&#37;c}</a></p>
+<p>F5 |UTF8_Query |whc |维基百科 划词搜索 |C:\Program Files\Sandboxie\Start.exe <a target="_blank" rel="noopener" href="http://zh.wikipedia.org/wiki/Special:Search?search=%7B&#37;c}">http://zh.wikipedia.org/wiki/Special:Search?search={&#37;c}</a></p>
+<p>F99 |URL_Query |zidianfanyihc |字典翻译 划词搜索 |<a target="_blank" rel="noopener" href="http://www.google.com.hk/dictionary?langpair=en%7Czh-CN&amp;q=%7B&#37;c}">http://www.google.com.hk/dictionary?langpair=en%7Czh-CN&amp;q={&#37;c}</a></p>
+<p>例如只需要将要搜索的内容复制到剪贴板(CTRL+C)，然后呼出ALTRun，敲击tbhc，就会进入淘宝网搜索页面自动搜索剪贴板的内容了（有 些项目中出现了C:\Program Files\Sandboxie\Start.exe是系统安装了沙盘软件Sandboxie的缘故）。支持中英文无乱码——只要选对了参数类型。</p>
+<p>另外关于<strong>快到令人发指的极速搜索软件Everything</strong>，ALTRun也支持其加参数运行：</p>
+<p>第一种：剪贴板内容作为搜索参数的项目，让人弹指间搜寻到特定文件，梦寐以求的大爱功能！</p>
+<p>“C:\Program Files\Everything\Everything.exe” -search {&#37;c}</p>
+<p>（设置快捷项时注意参数类型选择第二个：参数无编码）</p>
+<p>第二种：打造Everything小巧搜索框（有了上面那个，就不差这个了，聊备一格，优点是通用和自动匹配其他搜索项的历史记录。）</p>
+<p>“C:\Program Files\Everything\Everything.exe” -search {&#37;p}</p>
+<p>（同样注意参数类型选择第二个：参数无编码）</p>
+<h3 id="ALTRun的资源占用和其他情形"><a href="#ALTRun的资源占用和其他情形" class="headerlink" title="ALTRun的资源占用和其他情形"></a>ALTRun的资源占用和其他情形</h3><p>仅就快速启动而言，ALTRun轻巧灵便的操控、迅捷快速的响应和软件本身的短小精悍(不到1M)相得益彰，占用资源极低，CPU占用为0，内存占用只有300多K，运行稳定畅快。软件预设集成了不少系统常用指令和网络搜索项目，附带提供方便实用的窗体控制功能，另外还支持相对路径，支持U盘使用。这款绿色软件，可以打包带走随处可用，ALTRun实在是国产快速启动软件中难得的神品。</p>
+<h3 id="荐软感言"><a href="#荐软感言" class="headerlink" title="荐软感言"></a>荐软感言</h3><p>所谓运用之妙，存乎一心，上述言及之事倶是本人亲自使用<strong>ALTRun</strong>软件的切身之谈，絮絮叨叨的拉扯了一通，犹复管窥蠡测，挂一漏万，只能道出这款用心冶炼的精品软件些许优点。特此将这款ALTRun软件推荐给诸位寻求高效操作电脑的同仁，特别是害怕患上鼠标手这种现代文明病的朋友们使用。</p>
+<h3 id="PS"><a href="#PS" class="headerlink" title="PS."></a>PS.</h3><p>本想根据自己使用的情况好好推荐一下 ALTRun 这款软件，可是一直也没有付诸行动，一是水平有限，好多功能怕介绍不清楚，二是犯懒，看别人有那么详细的讲解，就直接粘过来了 -_-</p>
+<p><strong>图文来源：</strong></p>
+<p><strong><a target="_blank" rel="noopener" href="https://xbeta.info/altrun.htm">xbeta.info</a></strong></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%95%99%E7%A8%8B/" rel="tag"># 教程</a>
+              <a href="/tags/ALTRun/" rel="tag"># ALTRun</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/jing-kong-pei-xun-zhi-zai/" rel="prev" title="井控培训之再">
+                  <i class="fa fa-chevron-left"></i> 井控培训之再
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/zhui-xun-sheng-ming-de-yang-guang/" rel="next" title="追寻生命的阳光">
+                  追寻生命的阳光 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+    <div class="comments" id="valine-comments"></div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">冀ICP备18035027号 </a>
+  </div>
+
+<div class="copyright">
+  &copy; 2013 – 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">zhyt</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+
+  
+
+
+
+
+
+<script>
+NexT.utils.loadComments('#valine-comments', () => {
+  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
+    new Valine(Object.assign({"enable":true,"appId":"OufkRwzjUh5OH1XJ4cgiBpy8-gzGzoHsz","appKey":"t4QXVJvDqh2nlRGEvVh8lh4e","serverURLs":"https://valine.aword.net","placeholder":"欢迎留言","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":"zh-cn","visitor":false,"comment_count":true,"recordIP":false,"enableQQ":false,"requiredFields":["nick","mail"]}, {
+      el: '#valine-comments',
+      path: "/altrun-guo-chan-kuai-su-qi-dong-ruan-jian-shen-pin/",
+      serverURLs: "https://valine.aword.net"
+    }));
+  }, window.Valine);
+});
+</script>
+
+</body>
+</html>
