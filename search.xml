@@ -136,27 +136,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Android Studio 升级到3.4后报 instant run 相关错误</title>
-    <url>//error-in-android-studio-about-instant-run/</url>
-    <content><![CDATA[<p>Android Studio 升级到3.4之后，运行项目报错，如下：</p>
-<p><code>app\build\intermediates\instant_run_split_apk_resources\debug\instantRunSplitApkResourcesDebug\out\slice_1\resources_ap</code></p>
-<p>在设置里关闭 instant run ，能正常跑。</p>
-<p>再次打开 instant run 之后，还会报上面同样的错误。</p>
-<hr>
-<p><strong>解决方案：</strong></p>
-<p><strong>把 gradle 升级到 5.4</strong> （我的升级之前是5.1.1）</p>
-<hr>
-<p>参考来源：<a href="https://fullstack.im/questions/55802212/error-related-to-resources-ap-after-upgrading-to-android-studio-3-4">https://fullstack.im/questions/55802212/error-related-to-resources-ap-after-upgrading-to-android-studio-3-4</a></p>
-]]></content>
-      <categories>
-        <category>软件</category>
-      </categories>
-      <tags>
-        <tag>Android Studio</tag>
-        <tag>Andriod</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>关闭朋友圈广告</title>
     <url>//stop-wechat-ad/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/BubbleNebula_ZH-CN2787112807_1920x1080.jpg" alt="Bubble Nebula"></p>
@@ -229,6 +208,27 @@
       </tags>
   </entry>
   <entry>
+    <title>Android Studio 升级到3.4后报 instant run 相关错误</title>
+    <url>//error-in-android-studio-about-instant-run/</url>
+    <content><![CDATA[<p>Android Studio 升级到3.4之后，运行项目报错，如下：</p>
+<p><code>app\build\intermediates\instant_run_split_apk_resources\debug\instantRunSplitApkResourcesDebug\out\slice_1\resources_ap</code></p>
+<p>在设置里关闭 instant run ，能正常跑。</p>
+<p>再次打开 instant run 之后，还会报上面同样的错误。</p>
+<hr>
+<p><strong>解决方案：</strong></p>
+<p><strong>把 gradle 升级到 5.4</strong> （我的升级之前是5.1.1）</p>
+<hr>
+<p>参考来源：<a href="https://fullstack.im/questions/55802212/error-related-to-resources-ap-after-upgrading-to-android-studio-3-4">https://fullstack.im/questions/55802212/error-related-to-resources-ap-after-upgrading-to-android-studio-3-4</a></p>
+]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>Android Studio</tag>
+        <tag>Andriod</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>docker容器内设置开机启动程序</title>
     <url>//run-something-when-start-up-in-docker-container/</url>
     <content><![CDATA[<p>在 docker 里用 PHP + Apache 的环境做 web 服务器，想在容器启动时自动运行一个其它的程序（已手动安装），从网上搜索，尝试了好久，终于找到了可以接受的方法，在此记录。</p>
@@ -249,6 +249,40 @@
         <tag>笔记</tag>
         <tag>教程</tag>
         <tag>docker</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>my 2020</title>
+    <url>//my-2020/</url>
+    <content><![CDATA[<p>&nbsp;</p>
+]]></content>
+      <categories>
+        <category>文字</category>
+      </categories>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用360安全卫士替换360天擎</title>
+    <url>//replace-360-skydrive-with-360-security-guard/</url>
+    <content><![CDATA[<p>win10系统装上360天擎之后卡的一比（不确定是否为个例），而且这玩意没法正常的退出或卸载。于是乎找了宛转的方法把<a href="https://aword.net/uninstall-360-tian-qing/" target="_blank">360天擎卸载</a>了。</p>
+<p>如此一直正常用了挺长时间，最近突然出问题了。网络策略会检测电脑上是否有<strong>360的主动防御</strong>，没有的话就断网。</p>
+<p>怎么办？</p>
+<p>其实答案是呼之欲出的。给电脑一个<strong>容易掌控的360主动防御</strong>。</p>
+<p>安装360安全卫士。关掉开机启动，并按照自己的意愿进行其它设置，最后退出360安全卫士。主动防御进程会一直在后台运行的。</p>
+<hr>
+<p>其实还有其它更彻底的方法，例如安装虚拟机，让虚拟机满足网络策略并接受检测，物理主机通过虚拟机来连网。有兴趣的朋友可以研究一下。</p>
+<p><strong>鉴于这种方法过于生猛，建议慎用。</strong></p>
+]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>技术</tag>
+        <tag>Windows</tag>
+        <tag>360</tag>
       </tags>
   </entry>
   <entry>
@@ -299,37 +333,85 @@
       </tags>
   </entry>
   <entry>
-    <title>用360安全卫士替换360天擎</title>
-    <url>//replace-360-skydrive-with-360-security-guard/</url>
-    <content><![CDATA[<p>win10系统装上360天擎之后卡的一比（不确定是否为个例），而且这玩意没法正常的退出或卸载。于是乎找了宛转的方法把<a href="https://aword.net/uninstall-360-tian-qing/" target="_blank">360天擎卸载</a>了。</p>
-<p>如此一直正常用了挺长时间，最近突然出问题了。网络策略会检测电脑上是否有<strong>360的主动防御</strong>，没有的话就断网。</p>
-<p>怎么办？</p>
-<p>其实答案是呼之欲出的。给电脑一个<strong>容易掌控的360主动防御</strong>。</p>
-<p>安装360安全卫士。关掉开机启动，并按照自己的意愿进行其它设置，最后退出360安全卫士。主动防御进程会一直在后台运行的。</p>
-<hr>
-<p>其实还有其它更彻底的方法，例如安装虚拟机，让虚拟机满足网络策略并接受检测，物理主机通过虚拟机来连网。有兴趣的朋友可以研究一下。</p>
-<p><strong>鉴于这种方法过于生猛，建议慎用。</strong></p>
+    <title>内网搭建 apt mirror</title>
+    <url>//nei-wang-da-jian-apt-mirror/</url>
+    <content><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>Ubuntu20.04 服务器在公司内网，不能连接 Internet，需要在内网搭建 apt 源方便服务器管理。</p>
+<h2 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h2><p>用来搭 apt 源的机器是 Win10，只能通过特定的 http 代理才能连接 Internet。</p>
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><p>在 Win10 内新建 Ubuntu 虚拟机，设置好 Ubuntu 里 apt 的走公司的 http 代理。</p>
+<span id="more"></span>
+
+<p>虚拟机里安装 apt-mirror:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo apt-get install apt-mirror</span><br></pre></td></tr></table></figure>
+
+<p>修改 apt-mirror 配置文件:</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo vim /etc/apt/mirror.list</span><br></pre></td></tr></table></figure>
+
+<p>默认是下面这样：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">############# config ##################</span><br><span class="line">#</span><br><span class="line"># set base_path    /var/spool/apt-mirror</span><br><span class="line">#</span><br><span class="line"># set mirror_path  $base_path/mirror</span><br><span class="line"># set skel_path    $base_path/skel</span><br><span class="line"># set var_path     $base_path/var</span><br><span class="line"># set cleanscript $var_path/clean.sh</span><br><span class="line"># set defaultarch  &lt;running host architecture&gt;</span><br><span class="line"># set postmirror_script $var_path/postmirror.sh</span><br><span class="line"># set run_postmirror 0</span><br><span class="line">set nthreads     20</span><br><span class="line">set _tilde 0</span><br><span class="line">#</span><br><span class="line">############# end config ##############</span><br><span class="line"></span><br><span class="line">deb http://archive.ubuntu.com/ubuntu artful main restricted universe multiverse</span><br><span class="line">deb http://archive.ubuntu.com/ubuntu artful-security main restricted universe multiverse</span><br><span class="line">deb http://archive.ubuntu.com/ubuntu artful-updates main restricted universe multiverse</span><br><span class="line">#deb http://archive.ubuntu.com/ubuntu artful-proposed main restricted universe multiverse</span><br><span class="line">#deb http://archive.ubuntu.com/ubuntu artful-backports main restricted universe multiverse</span><br><span class="line"></span><br><span class="line">deb-src http://archive.ubuntu.com/ubuntu artful main restricted universe multiverse</span><br><span class="line">deb-src http://archive.ubuntu.com/ubuntu artful-security main restricted universe multiverse</span><br><span class="line">deb-src http://archive.ubuntu.com/ubuntu artful-updates main restricted universe multiverse</span><br><span class="line">#deb-src http://archive.ubuntu.com/ubuntu artful-proposed main restricted universe multiverse</span><br><span class="line">#deb-src http://archive.ubuntu.com/ubuntu artful-backports main restricted universe multiverse</span><br><span class="line"></span><br><span class="line">clean http://archive.ubuntu.com/ubuntu</span><br></pre></td></tr></table></figure>
+
+<p>设置项不做修改，把源改成国内比较快的</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line"></span><br><span class="line">deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse</span><br><span class="line"></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+
+<p>因为 apt-mirror 是用 wget 进行下载，修改 <code>/etc/wgetrc</code> 给 wget 设置好代理。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line"></span><br><span class="line"># You can set the default proxies for Wget to use for http, https, and ftp.</span><br><span class="line"># They will override the value in the environment.</span><br><span class="line">#https_proxy = http://proxy.yoyodyne.com:18023/</span><br><span class="line">#http_proxy = http://proxy.yoyodyne.com:18023/</span><br><span class="line">#ftp_proxy = http://proxy.yoyodyne.com:18023/</span><br><span class="line"></span><br><span class="line"># If you do not want to use proxy at all, set this to off.</span><br><span class="line">#use_proxy = on</span><br><span class="line"></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+
+<p>准备好硬盘空间，我没下载源码 <code>deb-src</code>，用掉了将近 200G。</p>
+<p>然后运行</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo apt-mirror</span><br></pre></td></tr></table></figure>
+
+<p>耐心等待。</p>
+<p>下载完成后安装 Apache、Nginx 或其它 http 服务，将下载好的文件用 http 发布出来。</p>
+<p>注意链接地址(按我上述设置的话) <code>http://your.address/ubuntu/</code><br>对应目录 <code>/var/spool/apt-mirror/mirror/mirrors.aliyun.com/ubuntu/</code></p>
+<h2 id="问题处理"><a href="#问题处理" class="headerlink" title="问题处理"></a>问题处理</h2><h3 id="cnf-Commands-amd64-404-Not-Found"><a href="#cnf-Commands-amd64-404-Not-Found" class="headerlink" title="cnf/Commands-amd64  404  Not Found"></a>cnf/Commands-amd64  404  Not Found</h3><p><strong>原因：</strong>apt-mirror 版本太老</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ls -l  /usr/bin/apt-mirror</span><br><span class="line">-rwxr-xr-x 1 root root 32351 mai 29  2017 /usr/bin/apt-mirror</span><br></pre></td></tr></table></figure>
+
+<p><strong>解决：</strong>把 <code>/usr/bin/apt-mirror</code> 用 <code>https://github.com/Stifler6996/apt-mirror</code> 的替换。</p>
+<h3 id="i386-Packages-404-Not-Found"><a href="#i386-Packages-404-Not-Found" class="headerlink" title="i386 Packages 404  Not Found"></a>i386 Packages 404  Not Found</h3><p><strong>原因：</strong><code>mirror.list</code> 默认设置只下载与本机相同架构的内容 <code>set defaultarch  &lt;running host architecture&gt;</code></p>
+<p><strong>解决：</strong>在用此 apt 源的机器上设置 <code>sources.list</code> 时，在 <code>deb</code> 和 <code>http</code> 中间加 <code>[arch=amd64]</code></p>
+<p>问题：如何让 apt-mirror 同时下载 64 和 32 位的内容？</p>
 ]]></content>
       <categories>
         <category>软件</category>
       </categories>
       <tags>
-        <tag>教程</tag>
-        <tag>技术</tag>
-        <tag>Windows</tag>
-        <tag>360</tag>
+        <tag>Linux</tag>
+        <tag>apt</tag>
       </tags>
   </entry>
   <entry>
-    <title>my 2020</title>
-    <url>//my-2020/</url>
-    <content><![CDATA[<p>&nbsp;</p>
-]]></content>
+    <title>AutoHotkey学习笔记</title>
+    <url>//autohotkey-learn/</url>
+    <content><![CDATA[<p>这是我在学习使用 AutoHotkey 过程中的随笔记录。</p>
+<p><strong>命令不区分大小写</strong></p>
+<p><code>run</code> 运行程序或打开文件</p>
+<p><code>#</code> win键</p>
+<p><code>^</code> control键</p>
+<p><code>+</code> shift键</p>
+<p><code>!</code> alt键</p>
+<p><code>runwait</code> 运行程序或打开文,直到当前程序或文件关闭后才执行下一句</p>
+<p><code>send</code> 输出内容或按键，按键写在大括号里{enter}，（输出中文貌似会乱码）</p>
+<p><code>::btw::by the way</code> 自动改写，输入btw后按空格或逗号自动改写为 by the way</p>
+<p><code>click</code> 点击鼠标，参数可选点击坐标、左右键、双击、键按下、键释放、点击次数</p>
+<p><code>winactivate</code> 激活窗口</p>
+<span id="more"></span>]]></content>
       <categories>
-        <category>文字</category>
+        <category>软件</category>
       </categories>
       <tags>
-        <tag>随笔</tag>
+        <tag>笔记</tag>
+        <tag>AutoHotkey</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Beautiful Girl 1</title>
+    <url>//beautiful-girl-1/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/BeautifulGirl1_580x869.jpg" alt="beautifulgirl"></p>
+]]></content>
+      <categories>
+        <category>相册</category>
+      </categories>
+      <tags>
+        <tag>Girl</tag>
       </tags>
   </entry>
   <entry>
@@ -510,88 +592,6 @@
       </tags>
   </entry>
   <entry>
-    <title>内网搭建 apt mirror</title>
-    <url>//nei-wang-da-jian-apt-mirror/</url>
-    <content><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>Ubuntu20.04 服务器在公司内网，不能连接 Internet，需要在内网搭建 apt 源方便服务器管理。</p>
-<h2 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h2><p>用来搭 apt 源的机器是 Win10，只能通过特定的 http 代理才能连接 Internet。</p>
-<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><p>在 Win10 内新建 Ubuntu 虚拟机，设置好 Ubuntu 里 apt 的走公司的 http 代理。</p>
-<span id="more"></span>
-
-<p>虚拟机里安装 apt-mirror:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo apt-get install apt-mirror</span><br></pre></td></tr></table></figure>
-
-<p>修改 apt-mirror 配置文件:</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo vim /etc/apt/mirror.list</span><br></pre></td></tr></table></figure>
-
-<p>默认是下面这样：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">############# config ##################</span><br><span class="line">#</span><br><span class="line"># set base_path    /var/spool/apt-mirror</span><br><span class="line">#</span><br><span class="line"># set mirror_path  $base_path/mirror</span><br><span class="line"># set skel_path    $base_path/skel</span><br><span class="line"># set var_path     $base_path/var</span><br><span class="line"># set cleanscript $var_path/clean.sh</span><br><span class="line"># set defaultarch  &lt;running host architecture&gt;</span><br><span class="line"># set postmirror_script $var_path/postmirror.sh</span><br><span class="line"># set run_postmirror 0</span><br><span class="line">set nthreads     20</span><br><span class="line">set _tilde 0</span><br><span class="line">#</span><br><span class="line">############# end config ##############</span><br><span class="line"></span><br><span class="line">deb http://archive.ubuntu.com/ubuntu artful main restricted universe multiverse</span><br><span class="line">deb http://archive.ubuntu.com/ubuntu artful-security main restricted universe multiverse</span><br><span class="line">deb http://archive.ubuntu.com/ubuntu artful-updates main restricted universe multiverse</span><br><span class="line">#deb http://archive.ubuntu.com/ubuntu artful-proposed main restricted universe multiverse</span><br><span class="line">#deb http://archive.ubuntu.com/ubuntu artful-backports main restricted universe multiverse</span><br><span class="line"></span><br><span class="line">deb-src http://archive.ubuntu.com/ubuntu artful main restricted universe multiverse</span><br><span class="line">deb-src http://archive.ubuntu.com/ubuntu artful-security main restricted universe multiverse</span><br><span class="line">deb-src http://archive.ubuntu.com/ubuntu artful-updates main restricted universe multiverse</span><br><span class="line">#deb-src http://archive.ubuntu.com/ubuntu artful-proposed main restricted universe multiverse</span><br><span class="line">#deb-src http://archive.ubuntu.com/ubuntu artful-backports main restricted universe multiverse</span><br><span class="line"></span><br><span class="line">clean http://archive.ubuntu.com/ubuntu</span><br></pre></td></tr></table></figure>
-
-<p>设置项不做修改，把源改成国内比较快的</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line"></span><br><span class="line">deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse</span><br><span class="line"></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-
-<p>因为 apt-mirror 是用 wget 进行下载，修改 <code>/etc/wgetrc</code> 给 wget 设置好代理。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">...</span><br><span class="line"></span><br><span class="line"># You can set the default proxies for Wget to use for http, https, and ftp.</span><br><span class="line"># They will override the value in the environment.</span><br><span class="line">#https_proxy = http://proxy.yoyodyne.com:18023/</span><br><span class="line">#http_proxy = http://proxy.yoyodyne.com:18023/</span><br><span class="line">#ftp_proxy = http://proxy.yoyodyne.com:18023/</span><br><span class="line"></span><br><span class="line"># If you do not want to use proxy at all, set this to off.</span><br><span class="line">#use_proxy = on</span><br><span class="line"></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
-
-<p>准备好硬盘空间，我没下载源码 <code>deb-src</code>，用掉了将近 200G。</p>
-<p>然后运行</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">sudo apt-mirror</span><br></pre></td></tr></table></figure>
-
-<p>耐心等待。</p>
-<p>下载完成后安装 Apache、Nginx 或其它 http 服务，将下载好的文件用 http 发布出来。</p>
-<p>注意链接地址(按我上述设置的话) <code>http://your.address/ubuntu/</code><br>对应目录 <code>/var/spool/apt-mirror/mirror/mirrors.aliyun.com/ubuntu/</code></p>
-<h2 id="问题处理"><a href="#问题处理" class="headerlink" title="问题处理"></a>问题处理</h2><h3 id="cnf-Commands-amd64-404-Not-Found"><a href="#cnf-Commands-amd64-404-Not-Found" class="headerlink" title="cnf/Commands-amd64  404  Not Found"></a>cnf/Commands-amd64  404  Not Found</h3><p><strong>原因：</strong>apt-mirror 版本太老</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ls -l  /usr/bin/apt-mirror</span><br><span class="line">-rwxr-xr-x 1 root root 32351 mai 29  2017 /usr/bin/apt-mirror</span><br></pre></td></tr></table></figure>
-
-<p><strong>解决：</strong>把 <code>/usr/bin/apt-mirror</code> 用 <code>https://github.com/Stifler6996/apt-mirror</code> 的替换。</p>
-<h3 id="i386-Packages-404-Not-Found"><a href="#i386-Packages-404-Not-Found" class="headerlink" title="i386 Packages 404  Not Found"></a>i386 Packages 404  Not Found</h3><p><strong>原因：</strong><code>mirror.list</code> 默认设置只下载与本机相同架构的内容 <code>set defaultarch  &lt;running host architecture&gt;</code></p>
-<p><strong>解决：</strong>在用此 apt 源的机器上设置 <code>sources.list</code> 时，在 <code>deb</code> 和 <code>http</code> 中间加 <code>[arch=amd64]</code></p>
-<p>问题：如何让 apt-mirror 同时下载 64 和 32 位的内容？</p>
-]]></content>
-      <categories>
-        <category>软件</category>
-      </categories>
-      <tags>
-        <tag>Linux</tag>
-        <tag>apt</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>AutoHotkey学习笔记</title>
-    <url>//autohotkey-learn/</url>
-    <content><![CDATA[<p>这是我在学习使用 AutoHotkey 过程中的随笔记录。</p>
-<p><strong>命令不区分大小写</strong></p>
-<p><code>run</code> 运行程序或打开文件</p>
-<p><code>#</code> win键</p>
-<p><code>^</code> control键</p>
-<p><code>+</code> shift键</p>
-<p><code>!</code> alt键</p>
-<p><code>runwait</code> 运行程序或打开文,直到当前程序或文件关闭后才执行下一句</p>
-<p><code>send</code> 输出内容或按键，按键写在大括号里{enter}，（输出中文貌似会乱码）</p>
-<p><code>::btw::by the way</code> 自动改写，输入btw后按空格或逗号自动改写为 by the way</p>
-<p><code>click</code> 点击鼠标，参数可选点击坐标、左右键、双击、键按下、键释放、点击次数</p>
-<p><code>winactivate</code> 激活窗口</p>
-<span id="more"></span>]]></content>
-      <categories>
-        <category>软件</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>AutoHotkey</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Beautiful Girl 1</title>
-    <url>//beautiful-girl-1/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/BeautifulGirl1_580x869.jpg" alt="beautifulgirl"></p>
-]]></content>
-      <categories>
-        <category>相册</category>
-      </categories>
-      <tags>
-        <tag>Girl</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Beautiful Scenery 2</title>
     <url>//beautiful-scenery-2/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/BeautifulScenery2_623x389.jpg" alt="scenery" title="Beautiful Scenery 2"></p>
@@ -649,6 +649,32 @@
       </tags>
   </entry>
   <entry>
+    <title>Excel中多条件确定行，引用行中其他数值</title>
+    <url>//excel-zhong-duo-tiao-jian-que-ding-hang-yin-yong-hang-zhong-qi-ta-shu-zhi/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Excel_example_597x286.jpg" alt="excel"></p>
+<p>有一个 Excel 数据表，知道某一列中一个格的内容，想找这个格对应行中的其他内容，如何迅速的、可重复性的完成这个过程？Excel 内建的函数 vlookup 很方便。但是如果需要两列或是更多列的内容来确定目的数据的行呢？前面我发过一篇【<a href="http://aword.net/excel%e4%b8%advlookup%e5%a4%9a%e6%9d%a1%e4%bb%b6%e5%bc%95%e7%94%a8/">Excel中vlookup多条件引用</a>】，综合了 vlookup 和数组形式的 if 函数，可以达到目的，但效率不够，源数据比较大的时候会导致表格的保存和打开很慢。前一阵又在网上搜索，找到了下面的方法。</p>
+<span id="more"></span>
+
+<p><strong>优点</strong>：计算速度比较快。</p>
+<p><strong>缺点</strong>：只能引用数值。</p>
+<p>略去别的不表，直接来正文。</p>
+<p>看前图所示表格，举例来说，如果我们想获取 data2 列中的一个数据，知道这个数据对应的 date 为 2016/5/11，id 为 two，那么就在 A12 中输入 2016/5/11，在 B12 中输入 two，在 C12 中输入 <code>=SUM((A2:A10=A12)*(B2:B10=B12)*(D2:D10))</code>，然后按组合键 <span style="color: #ff0000;"><strong>Ctrl+Shift+Enter</strong></span>，结果就会出现在 C12 单元格了，示例的结果为 6。</p>
+<p><img src="http://cdn.aword.net/images/Excel_example1_598x288.jpg" alt="excel"></p>
+<p>本来想把这个公式的实现原理，或者叫具体计算过程写一下的，因为一些其他事情耽搁，又没了心情……</p>
+<p>如果你看到这篇文章，需要这种数据处理方法，但对公式不十分明白， 又对它比较有兴趣，那么，建议看看下面两篇内容。我就是从它们这学来的。</p>
+<p>1、<a href="http://club.excelhome.net/thread-467862-1-1.html">我对数组与数组运算的认识</a></p>
+<p>2、<a href="http://windyli.blog.51cto.com/1300305/313744/">Excel数组公式从入门到精通之精通篇</a></p>
+<p>还有，欢迎留言，欢迎各种联系<a href="http://aword.net/about/">博主</a>，进行交流。</p>
+]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Excel</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Everything本地急速搜索神器</title>
     <url>//everything/</url>
     <content><![CDATA[<p>来源：<a href="http://xbeta.info/everything/faq.htm">http://xbeta.info/everything/faq.htm</a></p>
@@ -702,29 +728,32 @@
       </tags>
   </entry>
   <entry>
-    <title>Excel中多条件确定行，引用行中其他数值</title>
-    <url>//excel-zhong-duo-tiao-jian-que-ding-hang-yin-yong-hang-zhong-qi-ta-shu-zhi/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Excel_example_597x286.jpg" alt="excel"></p>
-<p>有一个 Excel 数据表，知道某一列中一个格的内容，想找这个格对应行中的其他内容，如何迅速的、可重复性的完成这个过程？Excel 内建的函数 vlookup 很方便。但是如果需要两列或是更多列的内容来确定目的数据的行呢？前面我发过一篇【<a href="http://aword.net/excel%e4%b8%advlookup%e5%a4%9a%e6%9d%a1%e4%bb%b6%e5%bc%95%e7%94%a8/">Excel中vlookup多条件引用</a>】，综合了 vlookup 和数组形式的 if 函数，可以达到目的，但效率不够，源数据比较大的时候会导致表格的保存和打开很慢。前一阵又在网上搜索，找到了下面的方法。</p>
+    <title>Excel中vlookup多条件引用</title>
+    <url>//excel-zhong-vlookup-duo-tiao-jian-yin-yong/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Excel_500x200.jpg" alt="Excel中vlookup多条件引用"></p>
+<p>在Excel中利用<strong>vlookup</strong>和<strong>数组公式</strong>，用2个条件在数据源中进行匹配查找引用。该方法可推广至3个及以上数量的搜索条件，只是公式的样子看上去会更加繁琐一点。</p>
 <span id="more"></span>
 
-<p><strong>优点</strong>：计算速度比较快。</p>
-<p><strong>缺点</strong>：只能引用数值。</p>
-<p>略去别的不表，直接来正文。</p>
-<p>看前图所示表格，举例来说，如果我们想获取 data2 列中的一个数据，知道这个数据对应的 date 为 2016/5/11，id 为 two，那么就在 A12 中输入 2016/5/11，在 B12 中输入 two，在 C12 中输入 <code>=SUM((A2:A10=A12)*(B2:B10=B12)*(D2:D10))</code>，然后按组合键 <span style="color: #ff0000;"><strong>Ctrl+Shift+Enter</strong></span>，结果就会出现在 C12 单元格了，示例的结果为 6。</p>
-<p><img src="http://cdn.aword.net/images/Excel_example1_598x288.jpg" alt="excel"></p>
-<p>本来想把这个公式的实现原理，或者叫具体计算过程写一下的，因为一些其他事情耽搁，又没了心情……</p>
-<p>如果你看到这篇文章，需要这种数据处理方法，但对公式不十分明白， 又对它比较有兴趣，那么，建议看看下面两篇内容。我就是从它们这学来的。</p>
-<p>1、<a href="http://club.excelhome.net/thread-467862-1-1.html">我对数组与数组运算的认识</a></p>
-<p>2、<a href="http://windyli.blog.51cto.com/1300305/313744/">Excel数组公式从入门到精通之精通篇</a></p>
-<p>还有，欢迎留言，欢迎各种联系<a href="http://aword.net/about/">博主</a>，进行交流。</p>
+<p>Excel中vlookup函数默认的是根据给定的第一个参数，在选定区域的第一列进行搜索，确定行数，再根据给定的列数，确定单元格，返回值。函数需要4个传入参数，形式如下</p>
+<p>VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</p>
+<p>有时候我们的数据源比较复杂，只用一个条件（第一个参数）无法唯一确定所需要查找区域（第二个参数）中的一行。而是需要两个条件同时参与才能唯一确定区域（第二个参数）中的唯一一行。所以我们需要做些手脚，把两个条件合并成一个，放进vlookup的第一个参数；对应的，两个条件的合并变成查找区域的第一列，要返回的值变成查找区域的第二列，放进vlookup的第二个参数。这样就可以继续利用vlookup了。</p>
+<p>看下面这个例子。</p>
+<p><img src="http://cdn.aword.net/images/Excel_Vlookup_1.jpg" alt="Excel中vlookup多条件引用"></p>
+<p>如果在图中区域找女的张三的ID，由于有两个张三，只用名字，只用vlookup的默认形式就无法完成。</p>
+<p>所以用“&amp;”把名字和性别弄到一起用作vlookup的第一个参数，用if函数第一个参数的数组化（if({1,0},A,B)）把搜索区域的第一列弄成跟第一个参数相同的模样。</p>
+<p><img src="http://cdn.aword.net/images/Excel_Vlookup_2.jpg" alt="Excel中vlookup多条件引用"></p>
+<p>在C6单元格中输入=VLOOKUP(A6&amp;B6,IF({1,0},A2:A4&amp;B2:B4,C2:C4),2,0)，并同按组合键Ctrl+Shift+Enter完成公式，就可以看到结果了。</p>
+<p>在工作中一次偶然的机会需要解决上述问题，自己想来想去没有办法，在网上送搜索了一通，终于找到答案，在此记录。感谢shaowu459的分享。</p>
+<p>参考源：<a href="http://jingyan.baidu.com/article/2fb0ba4048655500f2ec5ffa.html">http://jingyan.baidu.com/article/2fb0ba4048655500f2ec5ffa.html</a></p>
 ]]></content>
       <categories>
         <category>软件</category>
       </categories>
       <tags>
-        <tag>教程</tag>
+        <tag>笔记</tag>
+        <tag>工作</tag>
         <tag>Excel</tag>
+        <tag>VBA</tag>
       </tags>
   </entry>
   <entry>
@@ -815,35 +844,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Excel中vlookup多条件引用</title>
-    <url>//excel-zhong-vlookup-duo-tiao-jian-yin-yong/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Excel_500x200.jpg" alt="Excel中vlookup多条件引用"></p>
-<p>在Excel中利用<strong>vlookup</strong>和<strong>数组公式</strong>，用2个条件在数据源中进行匹配查找引用。该方法可推广至3个及以上数量的搜索条件，只是公式的样子看上去会更加繁琐一点。</p>
-<span id="more"></span>
-
-<p>Excel中vlookup函数默认的是根据给定的第一个参数，在选定区域的第一列进行搜索，确定行数，再根据给定的列数，确定单元格，返回值。函数需要4个传入参数，形式如下</p>
-<p>VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</p>
-<p>有时候我们的数据源比较复杂，只用一个条件（第一个参数）无法唯一确定所需要查找区域（第二个参数）中的一行。而是需要两个条件同时参与才能唯一确定区域（第二个参数）中的唯一一行。所以我们需要做些手脚，把两个条件合并成一个，放进vlookup的第一个参数；对应的，两个条件的合并变成查找区域的第一列，要返回的值变成查找区域的第二列，放进vlookup的第二个参数。这样就可以继续利用vlookup了。</p>
-<p>看下面这个例子。</p>
-<p><img src="http://cdn.aword.net/images/Excel_Vlookup_1.jpg" alt="Excel中vlookup多条件引用"></p>
-<p>如果在图中区域找女的张三的ID，由于有两个张三，只用名字，只用vlookup的默认形式就无法完成。</p>
-<p>所以用“&amp;”把名字和性别弄到一起用作vlookup的第一个参数，用if函数第一个参数的数组化（if({1,0},A,B)）把搜索区域的第一列弄成跟第一个参数相同的模样。</p>
-<p><img src="http://cdn.aword.net/images/Excel_Vlookup_2.jpg" alt="Excel中vlookup多条件引用"></p>
-<p>在C6单元格中输入=VLOOKUP(A6&amp;B6,IF({1,0},A2:A4&amp;B2:B4,C2:C4),2,0)，并同按组合键Ctrl+Shift+Enter完成公式，就可以看到结果了。</p>
-<p>在工作中一次偶然的机会需要解决上述问题，自己想来想去没有办法，在网上送搜索了一通，终于找到答案，在此记录。感谢shaowu459的分享。</p>
-<p>参考源：<a href="http://jingyan.baidu.com/article/2fb0ba4048655500f2ec5ffa.html">http://jingyan.baidu.com/article/2fb0ba4048655500f2ec5ffa.html</a></p>
-]]></content>
-      <categories>
-        <category>软件</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>工作</tag>
-        <tag>Excel</tag>
-        <tag>VBA</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Gravatar全球通用头像</title>
     <url>//gravatar/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/Gavatar_600x200.jpg" alt="gravatar"></p>
@@ -863,6 +863,25 @@
       <tags>
         <tag>WordPress</tag>
         <tag>网络</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Islands</title>
+    <url>//Islands/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Islands4_600x337.jpg" alt="Islands"></p>
+<p>船身荡起的水波与乘风而来的浪头，紧紧相拥，是他乡故知，是阔别重逢。</p>
+<p>千万点水花激荡而起，又迎风直上，翻过一座座海浪，纵身跃起，看天涯，望海角。</p>
+<p>终于，应声而没。</p>
+<span id="more"></span>
+
+<p><img src="http://cdn.aword.net/images/Islands1_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands2_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands3_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands5_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands6_1024x266.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands7_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands8_350x510.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands9_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands10_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands11_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands12_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands13_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands14_1024x172.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands15_1024x181.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands16_350x623.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands17_600x337.jpg" alt="Islands"></p>
+]]></content>
+      <categories>
+        <category>相册</category>
+      </categories>
+      <tags>
+        <tag>风景</tag>
+        <tag>工作</tag>
       </tags>
   </entry>
   <entry>
@@ -891,25 +910,6 @@
       <tags>
         <tag>Hexo</tag>
         <tag>NexT</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Islands</title>
-    <url>//Islands/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Islands4_600x337.jpg" alt="Islands"></p>
-<p>船身荡起的水波与乘风而来的浪头，紧紧相拥，是他乡故知，是阔别重逢。</p>
-<p>千万点水花激荡而起，又迎风直上，翻过一座座海浪，纵身跃起，看天涯，望海角。</p>
-<p>终于，应声而没。</p>
-<span id="more"></span>
-
-<p><img src="http://cdn.aword.net/images/Islands1_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands2_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands3_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands5_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands6_1024x266.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands7_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands8_350x510.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands9_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands10_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands11_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands12_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands13_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands14_1024x172.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands15_1024x181.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands16_350x623.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands17_600x337.jpg" alt="Islands"></p>
-]]></content>
-      <categories>
-        <category>相册</category>
-      </categories>
-      <tags>
-        <tag>风景</tag>
-        <tag>工作</tag>
       </tags>
   </entry>
   <entry>
@@ -957,19 +957,6 @@
       <tags>
         <tag>教程</tag>
         <tag>Laravel</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My Gril</title>
-    <url>//my-gril/</url>
-    <content><![CDATA[<p><strong>This is my gril.</strong></p>
-<p><img src="http://cdn.aword.net/images/MyGirl_623x639.jpg" alt="my gril"></p>
-]]></content>
-      <categories>
-        <category>相册</category>
-      </categories>
-      <tags>
-        <tag>Girl</tag>
       </tags>
   </entry>
   <entry>
@@ -1447,7 +1434,7 @@ equivalent of &lt;code&gt;&amp;amp;mdash;&lt;/code&gt;.&lt;/p&gt;
 &amp;#109;&quot;&gt;&amp;#x61;&amp;#x64;&amp;#x64;&amp;#x72;&amp;#x65;&amp;#115;&amp;#115;&amp;#64;&amp;#101;&amp;#120;&amp;#x61;
 &amp;#109;&amp;#x70;&amp;#x6C;e&amp;#x2E;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;
 </code></pre>
-<p>在浏览器里面，这段字串（其实是 <code>&lt;a href=&quot;mailto:address@example.com&quot;&gt;address@example.com&lt;/a&gt;</code>）会变成一个可以点击的「<a href="mailto:&#x61;&#100;&#100;&#x72;&#101;&#115;&#115;&#x40;&#101;&#x78;&#x61;&#109;&#112;&#108;&#x65;&#x2e;&#x63;&#x6f;&#x6d;">&#x61;&#100;&#100;&#x72;&#101;&#115;&#115;&#x40;&#101;&#x78;&#x61;&#109;&#112;&#108;&#x65;&#x2e;&#x63;&#x6f;&#x6d;</a>」链接。</p>
+<p>在浏览器里面，这段字串（其实是 <code>&lt;a href=&quot;mailto:address@example.com&quot;&gt;address@example.com&lt;/a&gt;</code>）会变成一个可以点击的「<a href="mailto:&#x61;&#x64;&#100;&#114;&#x65;&#115;&#x73;&#64;&#101;&#120;&#97;&#109;&#112;&#x6c;&#101;&#x2e;&#99;&#x6f;&#109;">&#x61;&#x64;&#100;&#114;&#x65;&#115;&#x73;&#64;&#101;&#120;&#97;&#109;&#112;&#x6c;&#101;&#x2e;&#99;&#x6f;&#109;</a>」链接。</p>
 <p>（这种作法虽然可以糊弄不少的机器人，但并不能全部挡下来，不过总比什么都不做好些。不管怎样，公开你的信箱终究会引来广告信件的。）</p>
 <h3 id="反斜杠"><a href="#反斜杠" class="headerlink" title="反斜杠"></a>反斜杠</h3><p>Markdown 可以利用反斜杠来插入一些在语法中有其它意义的符号，例如：如果你想要用星号加在文字旁边的方式来做出强调效果（但不用 <code>&lt;em&gt;</code> 标签），你可以在星号的前面加上反斜杠：</p>
 <pre><code>\*literal asterisks\*
@@ -1476,6 +1463,34 @@ _   底线
       </tags>
   </entry>
   <entry>
+    <title>Marry</title>
+    <url>//marry/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Merry1.jpg" alt="Merry"></p>
+<span id="more"></span>
+
+<p><img src="http://cdn.aword.net/images/Merry2.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry3.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry4.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry5.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry6.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry7.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry8.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry9.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry10.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry11.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry12.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry13.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry14.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry15.jpg" alt="Merry"></p>
+]]></content>
+      <categories>
+        <category>相册</category>
+      </categories>
+      <tags>
+        <tag>纪念</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My Gril</title>
+    <url>//my-gril/</url>
+    <content><![CDATA[<p><strong>This is my gril.</strong></p>
+<p><img src="http://cdn.aword.net/images/MyGirl_623x639.jpg" alt="my gril"></p>
+]]></content>
+      <categories>
+        <category>相册</category>
+      </categories>
+      <tags>
+        <tag>Girl</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>My First VBA Program</title>
     <url>//my-first-vba-program/</url>
     <content><![CDATA[<p>之前几度想把VBA系统的学习一下，各种原因，各种情况，每每都是超不过三天的热度，虎头未成，蛇尾便早早不见了。</p>
@@ -1491,21 +1506,6 @@ _   底线
         <tag>笔记</tag>
         <tag>Excel</tag>
         <tag>VBA</tag>
-        <tag>纪念</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Marry</title>
-    <url>//marry/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Merry1.jpg" alt="Merry"></p>
-<span id="more"></span>
-
-<p><img src="http://cdn.aword.net/images/Merry2.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry3.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry4.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry5.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry6.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry7.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry8.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry9.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry10.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry11.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry12.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry13.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry14.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry15.jpg" alt="Merry"></p>
-]]></content>
-      <categories>
-        <category>相册</category>
-      </categories>
-      <tags>
         <tag>纪念</tag>
       </tags>
   </entry>
@@ -1616,6 +1616,61 @@ _   底线
       </tags>
   </entry>
   <entry>
+    <title>Win环境下配置Apache+PHP读取Oracle数据库</title>
+    <url>//config-apache+php-read-oracle-database-in-win/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/PHP_Oracle_600x190.jpg" alt="PHP,Oracle"></p>
+<p>记录一下自己在 win 环境下配置 Apache 和 PHP 并成功连接 Oracle 数据库的经历。因为开始在网上查来查去，各种说法都有，一个一个试验，得到的却是各种错误。最后算是阴差阳错，还是人品给力，或是坚持不懈，总算连接成功并获得正确数据。</p>
+<p>不知是否为个例，仅供参考。</p>
+<span id="more"></span>
+
+<p><strong>远程：</strong></p>
+<p>Oracle 数据库版本：未知</p>
+<p><strong>本地：</strong></p>
+<p>Windows 系统：win7，32位</p>
+<p>HTTP 服务器：xampp-win32-5.6.15-1-VC11-installer.exe；PHP版本：5.6.15</p>
+<p>Oracle Instant Client：12.1.0.2.0</p>
+<p>闲言少叙。</p>
+<p>HTTP 服务之前一直习惯用 xampp 的免安装版，因为最开始试的时候 PHP 各种报错找不到原因，所以才换了当时最新的安装版，不确定这项是否为必须。这里面带的 PHP 版本为 5.6.15。</p>
+<p>官网下载：<a href="https://www.apachefriends.org/zh_cn/download.html">https://www.apachefriends.org/zh_cn/download.html</a></p>
+<p>Oracle Instant Client 最开始下载的 11.* 的版本，因为网上搜来，别人说的例子都是 11.* 版本。但是测试各种不成功。后来发现 \xampp\php\ext 目录下 PHP 的 oci 拓展是 php_oci8_12c.dll，猜可能是版本不匹配，所以换了当时最新的 12.1.0.2.0。</p>
+<p>官网下载：<a href="http://www.oracle.com/technetwork/topics/winsoft-085727.html">http://www.oracle.com/technetwork/topics/winsoft-085727.html</a></p>
+<p><strong>下面开始说配置过程。</strong></p>
+<p><strong>一、修改 php.ini</strong></p>
+<p>软件自带的 php.ini 里面关于 oci 的拓展是这三个。</p>
+<p>extension=php_oci8.dll</p>
+<p>extension=php_oci8_11g.dll</p>
+<p>extension=php_pdo_oci.dll</p>
+<p><img src="http://cdn.aword.net/images/PHP_ini_500x275.jpg" alt="PHP"></p>
+<p>前两个默认被注释掉了，第三个开着呢。但是前面说了，软件自带的是 php_oci8_12c.dll， php_oci8.dll 和 php_oci8_11g.dll 显然不行（<a href="http://aword.net/about">博主</a>试了好久才发现的……这里归功于一款本地文件搜索神器?<a href="http://aword.net/everthing/">everything</a>），所以自己添加一行 extension=php_oci8_12c.dll。（<a href="http://aword.net/about">博主</a>还尝试了在网上下载php_oci8.dll文件，然后丢到 PHP 拓展的文件夹里，失败……）</p>
+<p><strong>二、配置 Win 的环境变量</strong></p>
+<p>网上搜索到各种说法，不知道具体哪个完全正确。博主把别人提到的环境变量全部设置了进去，可能其中有部分是不必要的。</p>
+<p>1、Path 中添加 Oracle Instant Client 的解压目录。（不要说你想用中文路径名）</p>
+<p>2、添加 TNS_ADMIN 变量，值设置为 Oracle Instant Client 的解压目录。</p>
+<p>3、添加 LD_LIBRARY_PATH 变量，值设置为 Oracle Instant Client 的解压目录。</p>
+<p>4、添加 ORACLE_HOME 变量，值设置为 Oracle Instant Client 的解压目录。</p>
+<p>5、添加 SQLPATH 变量，值设置为 Oracle Instant Client 的解压目录。</p>
+<p>6、添加 TNS 变量，值设置为 Oracle Instant Client 的解压目录。</p>
+<p><strong>三、复制文件到 C:\Windows\System32</strong></p>
+<p>把 Oracle Instant Client 目录里的 oci.dll 复制到 Win 系统的 System32 里面。</p>
+<p>一直没搞懂为何已经在 Path 中添加了 Oracle Instant Client 的目录，还必须要把文件复制到 System32 里。但是你不放它就会报错！……</p>
+<p><strong>四、复制文件到 \xampp\apache\bin</strong></p>
+<p>把下面 Oracle Instant Client 目录里这仨货丢到 Apache 的 bin 里面。</p>
+<p>oraociei12.dll、orannzsbb12.dll、oci.dll</p>
+<p>这一步貌似是必须的。因为博主前面各种测试，不厌其烦，最后做了这一步之后，呵呵，成功了……</p>
+<p>整个过程异常艰辛和烦躁，还好最终成功了。前面只是个人经历的记录，不知能否推广，但如若完全按博主写的步骤，想来也必能成功。</p>
+<p>其实后面还挺麻烦，<a href="http://aword.net/about">博主</a>只知道远程数据库的 ip 地址和服务名，还有用户名及密码，但是不知道数据表名，不知道数据表结构啊……进去一扫，擦，几十个表，表名各种不可读……最后把库里所有的字段名查出来，纯粹靠需要的字段名来猜数据表……</p>
+]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>Windows</tag>
+        <tag>PHP</tag>
+        <tag>网络</tag>
+        <tag>数据库</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Win10 关闭任务栏缩略图</title>
     <url>//win-10-guan-bi-ren-wu-lan-suo-lue-tu/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/Win10TaskbarThumbnail_500x250.jpg" alt="win10"></p>
@@ -1673,58 +1728,23 @@ _   底线
       </tags>
   </entry>
   <entry>
-    <title>Win环境下配置Apache+PHP读取Oracle数据库</title>
-    <url>//config-apache+php-read-oracle-database-in-win/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/PHP_Oracle_600x190.jpg" alt="PHP,Oracle"></p>
-<p>记录一下自己在 win 环境下配置 Apache 和 PHP 并成功连接 Oracle 数据库的经历。因为开始在网上查来查去，各种说法都有，一个一个试验，得到的却是各种错误。最后算是阴差阳错，还是人品给力，或是坚持不懈，总算连接成功并获得正确数据。</p>
-<p>不知是否为个例，仅供参考。</p>
+    <title>excel循环从其他工作簿复制数据</title>
+    <url>//excel-xun-huan-cong-qi-ta-gong-zuo-bu-fu-zhi-shu-ju/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Excel_500x200.jpg" alt="excel循环从其他工作簿复制数据"></p>
+<p>现在工作这里，他们查询单井数据都是在浏览器上，输井号和日期，从网络的数据库查询，返回的数据再输出到网页上。</p>
+<p>网页上只是最简单的用表格显示数据，不管是看，还是算，都显得太苍白。之前习惯了在微软的 Excel 里操作，所以打算把2015年之内的数据全粘到一个 Excel 表格里。</p>
 <span id="more"></span>
 
-<p><strong>远程：</strong></p>
-<p>Oracle 数据库版本：未知</p>
-<p><strong>本地：</strong></p>
-<p>Windows 系统：win7，32位</p>
-<p>HTTP 服务器：xampp-win32-5.6.15-1-VC11-installer.exe；PHP版本：5.6.15</p>
-<p>Oracle Instant Client：12.1.0.2.0</p>
-<p>闲言少叙。</p>
-<p>HTTP 服务之前一直习惯用 xampp 的免安装版，因为最开始试的时候 PHP 各种报错找不到原因，所以才换了当时最新的安装版，不确定这项是否为必须。这里面带的 PHP 版本为 5.6.15。</p>
-<p>官网下载：<a href="https://www.apachefriends.org/zh_cn/download.html">https://www.apachefriends.org/zh_cn/download.html</a></p>
-<p>Oracle Instant Client 最开始下载的 11.* 的版本，因为网上搜来，别人说的例子都是 11.* 版本。但是测试各种不成功。后来发现 \xampp\php\ext 目录下 PHP 的 oci 拓展是 php_oci8_12c.dll，猜可能是版本不匹配，所以换了当时最新的 12.1.0.2.0。</p>
-<p>官网下载：<a href="http://www.oracle.com/technetwork/topics/winsoft-085727.html">http://www.oracle.com/technetwork/topics/winsoft-085727.html</a></p>
-<p><strong>下面开始说配置过程。</strong></p>
-<p><strong>一、修改 php.ini</strong></p>
-<p>软件自带的 php.ini 里面关于 oci 的拓展是这三个。</p>
-<p>extension=php_oci8.dll</p>
-<p>extension=php_oci8_11g.dll</p>
-<p>extension=php_pdo_oci.dll</p>
-<p><img src="http://cdn.aword.net/images/PHP_ini_500x275.jpg" alt="PHP"></p>
-<p>前两个默认被注释掉了，第三个开着呢。但是前面说了，软件自带的是 php_oci8_12c.dll， php_oci8.dll 和 php_oci8_11g.dll 显然不行（<a href="http://aword.net/about">博主</a>试了好久才发现的……这里归功于一款本地文件搜索神器?<a href="http://aword.net/everthing/">everything</a>），所以自己添加一行 extension=php_oci8_12c.dll。（<a href="http://aword.net/about">博主</a>还尝试了在网上下载php_oci8.dll文件，然后丢到 PHP 拓展的文件夹里，失败……）</p>
-<p><strong>二、配置 Win 的环境变量</strong></p>
-<p>网上搜索到各种说法，不知道具体哪个完全正确。博主把别人提到的环境变量全部设置了进去，可能其中有部分是不必要的。</p>
-<p>1、Path 中添加 Oracle Instant Client 的解压目录。（不要说你想用中文路径名）</p>
-<p>2、添加 TNS_ADMIN 变量，值设置为 Oracle Instant Client 的解压目录。</p>
-<p>3、添加 LD_LIBRARY_PATH 变量，值设置为 Oracle Instant Client 的解压目录。</p>
-<p>4、添加 ORACLE_HOME 变量，值设置为 Oracle Instant Client 的解压目录。</p>
-<p>5、添加 SQLPATH 变量，值设置为 Oracle Instant Client 的解压目录。</p>
-<p>6、添加 TNS 变量，值设置为 Oracle Instant Client 的解压目录。</p>
-<p><strong>三、复制文件到 C:\Windows\System32</strong></p>
-<p>把 Oracle Instant Client 目录里的 oci.dll 复制到 Win 系统的 System32 里面。</p>
-<p>一直没搞懂为何已经在 Path 中添加了 Oracle Instant Client 的目录，还必须要把文件复制到 System32 里。但是你不放它就会报错！……</p>
-<p><strong>四、复制文件到 \xampp\apache\bin</strong></p>
-<p>把下面 Oracle Instant Client 目录里这仨货丢到 Apache 的 bin 里面。</p>
-<p>oraociei12.dll、orannzsbb12.dll、oci.dll</p>
-<p>这一步貌似是必须的。因为博主前面各种测试，不厌其烦，最后做了这一步之后，呵呵，成功了……</p>
-<p>整个过程异常艰辛和烦躁，还好最终成功了。前面只是个人经历的记录，不知能否推广，但如若完全按博主写的步骤，想来也必能成功。</p>
-<p>其实后面还挺麻烦，<a href="http://aword.net/about">博主</a>只知道远程数据库的 ip 地址和服务名，还有用户名及密码，但是不知道数据表名，不知道数据表结构啊……进去一扫，擦，几十个表，表名各种不可读……最后把库里所有的字段名查出来，纯粹靠需要的字段名来猜数据表……</p>
-]]></content>
+<p>文件内部的格式基本一致，文件名和存储路径都很规整，所以直接在固定区域来回的复制粘贴就行了。不会别的办法，用两层循环，实际使用，执行效率可以忍受。</p>
+<p>于是有了下面这段丑的代码。</p>
+<figure class="highlight vb"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Sub</span> test()</span><br><span class="line">Application.ScreenUpdating = <span class="literal">False</span></span><br><span class="line">Application.ShowWindowsInTaskbar = <span class="literal">False</span></span><br><span class="line">yueZ = Array(<span class="string">&quot;一&quot;</span>, <span class="string">&quot;二&quot;</span>, <span class="string">&quot;三&quot;</span>, <span class="string">&quot;四&quot;</span>, <span class="string">&quot;五&quot;</span>, <span class="string">&quot;六&quot;</span>, <span class="string">&quot;七&quot;</span>, <span class="string">&quot;八&quot;</span>, <span class="string">&quot;九&quot;</span>)</span><br><span class="line">yueA = Array(<span class="string">&quot;1&quot;</span>, <span class="string">&quot;2&quot;</span>, <span class="string">&quot;3&quot;</span>, <span class="string">&quot;4&quot;</span>, <span class="string">&quot;5&quot;</span>, <span class="string">&quot;6&quot;</span>, <span class="string">&quot;7&quot;</span>, <span class="string">&quot;8&quot;</span>, <span class="string">&quot;9&quot;</span>)</span><br><span class="line">yueMax = Array(<span class="number">31</span>, <span class="number">28</span>, <span class="number">31</span>, <span class="number">30</span>, <span class="number">31</span>, <span class="number">30</span>, <span class="number">31</span>, <span class="number">31</span>, <span class="number">5</span>)</span><br><span class="line">myCount = <span class="number">0</span></span><br><span class="line"><span class="keyword">For</span> i = <span class="number">1</span> <span class="keyword">To</span> <span class="number">1</span></span><br><span class="line">    <span class="keyword">For</span> j = <span class="number">1</span> <span class="keyword">To</span> <span class="number">14</span></span><br><span class="line">    <span class="keyword">If</span> j &lt; <span class="number">10</span> <span class="keyword">Then</span></span><br><span class="line">    havezero = <span class="string">&quot;0&quot;</span></span><br><span class="line">    <span class="keyword">Else</span></span><br><span class="line">    havezero = Null</span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">    fname = <span class="string">&quot;E:\综合日报表\综合日报\2015年综合日报\&quot;</span> &amp; yueZ(i - <span class="number">1</span>) &amp; <span class="string">&quot;月\采油五区生产综合日报&quot;</span> &amp; yueA(i - <span class="number">1</span>) &amp; <span class="string">&quot;.&quot;</span> &amp; havezero &amp; j &amp; <span class="string">&quot;.xls&quot;</span></span><br><span class="line">    <span class="keyword">Set</span> wb = Workbooks.Open(fname, <span class="number">0</span>, ture)</span><br><span class="line">    ThisWorkbook.Sheets(<span class="number">1</span>).Range(<span class="string">&quot;a&quot;</span> &amp; <span class="number">6</span> + myCount * <span class="number">117</span> &amp; <span class="string">&quot;:a&quot;</span> &amp; <span class="number">122</span> + myCount * <span class="number">117</span>) = <span class="string">&quot;2015-&quot;</span> &amp; yueA(i - <span class="number">1</span>) &amp; <span class="string">&quot;-&quot;</span> &amp; j</span><br><span class="line">    wb.Sheets(<span class="number">4</span>).Range(<span class="string">&quot;a6:d122&quot;</span>).Copy Destination:=ThisWorkbook.Sheets(<span class="number">1</span>).Range(<span class="string">&quot;b&quot;</span> &amp; <span class="number">6</span> + myCount * <span class="number">117</span> &amp; <span class="string">&quot;:e&quot;</span> &amp; <span class="number">122</span> + myCount * <span class="number">117</span>)</span><br><span class="line">    wb.Sheets(<span class="number">4</span>).Range(<span class="string">&quot;e6:an122&quot;</span>).Copy Destination:=ThisWorkbook.Sheets(<span class="number">1</span>).Range(<span class="string">&quot;g&quot;</span> &amp; <span class="number">6</span> + myCount * <span class="number">117</span> &amp; <span class="string">&quot;:ao&quot;</span> &amp; <span class="number">122</span> + myCount * <span class="number">117</span>)</span><br><span class="line">    wb.Close <span class="literal">False</span></span><br><span class="line">    myCount = <span class="number">1</span> + myCount</span><br><span class="line">    <span class="keyword">Next</span></span><br><span class="line"><span class="keyword">Next</span></span><br><span class="line"><span class="keyword">For</span> i = <span class="number">1</span> <span class="keyword">To</span> <span class="number">1</span></span><br><span class="line">    <span class="keyword">For</span> j = <span class="number">15</span> <span class="keyword">To</span> yueMax(i - <span class="number">1</span>)</span><br><span class="line">    <span class="keyword">If</span> j &lt; <span class="number">10</span> <span class="keyword">Then</span></span><br><span class="line">    havezero = <span class="string">&quot;0&quot;</span></span><br><span class="line">    <span class="keyword">Else</span></span><br><span class="line">    havezero = Null</span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">    fname = <span class="string">&quot;E:\综合日报表\综合日报\2015年综合日报\&quot;</span> &amp; yueZ(i - <span class="number">1</span>) &amp; <span class="string">&quot;月\采油五区生产综合日报&quot;</span> &amp; yueA(i - <span class="number">1</span>) &amp; <span class="string">&quot;.&quot;</span> &amp; havezero &amp; j &amp; <span class="string">&quot;.xls&quot;</span></span><br><span class="line">    <span class="keyword">Set</span> wb = Workbooks.Open(fname, <span class="number">0</span>, ture)</span><br><span class="line">    ThisWorkbook.Sheets(<span class="number">1</span>).Range(<span class="string">&quot;a&quot;</span> &amp; <span class="number">6</span> + myCount * <span class="number">117</span> &amp; <span class="string">&quot;:a&quot;</span> &amp; <span class="number">122</span> + myCount * <span class="number">117</span>) = <span class="string">&quot;2015-&quot;</span> &amp; yueA(i - <span class="number">1</span>) &amp; <span class="string">&quot;-&quot;</span> &amp; j</span><br><span class="line">    wb.Sheets(<span class="number">1</span>).Range(<span class="string">&quot;a6:an122&quot;</span>).Copy Destination:=ThisWorkbook.Sheets(<span class="number">1</span>).Range(<span class="string">&quot;b&quot;</span> &amp; <span class="number">6</span> + myCount * <span class="number">117</span> &amp; <span class="string">&quot;:ao&quot;</span> &amp; <span class="number">122</span> + myCount * <span class="number">117</span>)</span><br><span class="line">    wb.Close <span class="literal">False</span></span><br><span class="line">    myCount = <span class="number">1</span> + myCount</span><br><span class="line">    <span class="keyword">Next</span></span><br><span class="line"><span class="keyword">Next</span></span><br><span class="line"><span class="keyword">For</span> i = <span class="number">2</span> <span class="keyword">To</span> <span class="number">9</span></span><br><span class="line">    <span class="keyword">For</span> j = <span class="number">1</span> <span class="keyword">To</span> yueMax(i - <span class="number">1</span>)</span><br><span class="line">    <span class="keyword">If</span> j &lt; <span class="number">10</span> <span class="keyword">Then</span></span><br><span class="line">    havezero = <span class="string">&quot;0&quot;</span></span><br><span class="line">    <span class="keyword">Else</span></span><br><span class="line">    havezero = Null</span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">    fname = <span class="string">&quot;E:\综合日报表\综合日报\2015年综合日报\&quot;</span> &amp; yueZ(i - <span class="number">1</span>) &amp; <span class="string">&quot;月\采油五区生产综合日报&quot;</span> &amp; yueA(i - <span class="number">1</span>) &amp; <span class="string">&quot;.&quot;</span> &amp; havezero &amp; j &amp; <span class="string">&quot;.xls&quot;</span></span><br><span class="line">    <span class="keyword">Set</span> wb = Workbooks.Open(fname, <span class="number">0</span>, ture)</span><br><span class="line">    ThisWorkbook.Sheets(<span class="number">1</span>).Range(<span class="string">&quot;a&quot;</span> &amp; <span class="number">6</span> + myCount * <span class="number">117</span> &amp; <span class="string">&quot;:a&quot;</span> &amp; <span class="number">122</span> + myCount * <span class="number">117</span>) = <span class="string">&quot;2015-&quot;</span> &amp; yueA(i - <span class="number">1</span>) &amp; <span class="string">&quot;-&quot;</span> &amp; j</span><br><span class="line">    wb.Sheets(<span class="number">1</span>).Range(<span class="string">&quot;a6:an122&quot;</span>).Copy Destination:=ThisWorkbook.Sheets(<span class="number">1</span>).Range(<span class="string">&quot;b&quot;</span> &amp; <span class="number">6</span> + myCount * <span class="number">117</span> &amp; <span class="string">&quot;:ao&quot;</span> &amp; <span class="number">122</span> + myCount * <span class="number">117</span>)</span><br><span class="line">    wb.Close <span class="literal">False</span></span><br><span class="line">    myCount = <span class="number">1</span> + myCount</span><br><span class="line">    <span class="keyword">Next</span></span><br><span class="line"><span class="keyword">Next</span></span><br><span class="line">Application.ShowWindowsInTaskbar = <span class="literal">True</span></span><br><span class="line">Application.ScreenUpdating = <span class="literal">True</span></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>软件</category>
       </categories>
       <tags>
-        <tag>Windows</tag>
-        <tag>PHP</tag>
-        <tag>网络</tag>
-        <tag>数据库</tag>
+        <tag>工作</tag>
+        <tag>Excel</tag>
+        <tag>VBA</tag>
       </tags>
   </entry>
   <entry>
@@ -1771,65 +1791,6 @@ _   底线
       <tags>
         <tag>WordPress</tag>
         <tag>网络</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>两载又半</title>
-    <url>//liang-zai-you-ban/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/DesertRoad_1024x554.jpg" alt="沙漠之路"></p>
-<p>晴朗的午后。</p>
-<p>坐在办公室，本熟悉却又一股莫名的陌生，端着半杯浓浓的咖啡轻抿。相比室内单调无序的键盘鼠标敲击声，窗外阵阵寒风的呼啸倒是显得像那黄土大地充满情感的呼喊。不懂，一窗之隔，仿佛成就了内外时空的隔膜，不同的维度，不同的陌生。</p>
-<span id="more"></span>
-
-<p>背后明朗的阳光，刺破湛蓝的天空，驱散洁白的云朵，依然不顾木讷窗帘的阻挡，径直的打在电脑屏幕的正中央。似奋不顾身勇往直前的执着，又若无心无力偶然而就的堕落，总之眼前的画面一片茫然，不知是明晃的日光刻出这斑驳的字迹，还是那懒散的话语不小心割裂了皎洁的光明……</p>
-<p>影之于光，为之奈何。</p>
-<p>对面墙上贴着三幅照片，他们笑的好开心。一丝微笑，之后却是更甚寒风的悲凉。瞬间的笑容可以用精准的相机记录封存，漫长的苦楚却由何来排解消除……</p>
-<p>可爱的小姑娘，从前面进来，一路欢笑奔驰，由后门走了。</p>
-<p>情之于景，去来何从。</p>
-<p>”A Place Nearby“，轻灵的声音从天际飘来，赶走了呼啸的西风，吹淡了凝重的空气。似离别似团聚，若轻谈若默然。在另一个时空的我，也许同样的感觉吧。</p>
-<p>两载又半，一步一步肆意向前，大漠孤烟长河落日，只记得，身后的背影愈行愈远。来时的路还在那里，来时的足迹却已斑斑驳驳。</p>
-<p>究竟何为时空？</p>
-<p>明天仍然会是一个晴天。</p>
-<p>后天呢？</p>
-]]></content>
-      <categories>
-        <category>文字</category>
-      </categories>
-      <tags>
-        <tag>纪念</tag>
-        <tag>心情</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>中国特色的竞技体育</title>
-    <url>//zhong-guo-te-se-de-jing-ji-ti-yu/</url>
-    <content><![CDATA[<p>其实，太应该多点运动啦，减肥啊减肥……</p>
-<div style="text-align: center;"><object width="480" height="400" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://www.tudou.com/v/P-631FSUlUM/&amp;resourceId=0_05_02_99&amp;tid=0/v.swf" /><param name="allowscriptaccess" value="always" /><param name="allowfullscreen" value="true" /><param name="wmode" value="opaque" /><embed width="480" height="400" type="application/x-shockwave-flash" src="http://www.tudou.com/v/P-631FSUlUM/&amp;resourceId=0_05_02_99&amp;tid=0/v.swf" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" /></object></div>]]></content>
-      <categories>
-        <category>视频</category>
-      </categories>
-      <tags>
-        <tag>体育</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>excel循环从其他工作簿复制数据</title>
-    <url>//excel-xun-huan-cong-qi-ta-gong-zuo-bu-fu-zhi-shu-ju/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Excel_500x200.jpg" alt="excel循环从其他工作簿复制数据"></p>
-<p>现在工作这里，他们查询单井数据都是在浏览器上，输井号和日期，从网络的数据库查询，返回的数据再输出到网页上。</p>
-<p>网页上只是最简单的用表格显示数据，不管是看，还是算，都显得太苍白。之前习惯了在微软的 Excel 里操作，所以打算把2015年之内的数据全粘到一个 Excel 表格里。</p>
-<span id="more"></span>
-
-<p>文件内部的格式基本一致，文件名和存储路径都很规整，所以直接在固定区域来回的复制粘贴就行了。不会别的办法，用两层循环，实际使用，执行效率可以忍受。</p>
-<p>于是有了下面这段丑的代码。</p>
-<figure class="highlight vb"><table><tr><td class="code"><pre><span class="line"><span class="keyword">Sub</span> test()</span><br><span class="line">Application.ScreenUpdating = <span class="literal">False</span></span><br><span class="line">Application.ShowWindowsInTaskbar = <span class="literal">False</span></span><br><span class="line">yueZ = Array(<span class="string">&quot;一&quot;</span>, <span class="string">&quot;二&quot;</span>, <span class="string">&quot;三&quot;</span>, <span class="string">&quot;四&quot;</span>, <span class="string">&quot;五&quot;</span>, <span class="string">&quot;六&quot;</span>, <span class="string">&quot;七&quot;</span>, <span class="string">&quot;八&quot;</span>, <span class="string">&quot;九&quot;</span>)</span><br><span class="line">yueA = Array(<span class="string">&quot;1&quot;</span>, <span class="string">&quot;2&quot;</span>, <span class="string">&quot;3&quot;</span>, <span class="string">&quot;4&quot;</span>, <span class="string">&quot;5&quot;</span>, <span class="string">&quot;6&quot;</span>, <span class="string">&quot;7&quot;</span>, <span class="string">&quot;8&quot;</span>, <span class="string">&quot;9&quot;</span>)</span><br><span class="line">yueMax = Array(<span class="number">31</span>, <span class="number">28</span>, <span class="number">31</span>, <span class="number">30</span>, <span class="number">31</span>, <span class="number">30</span>, <span class="number">31</span>, <span class="number">31</span>, <span class="number">5</span>)</span><br><span class="line">myCount = <span class="number">0</span></span><br><span class="line"><span class="keyword">For</span> i = <span class="number">1</span> <span class="keyword">To</span> <span class="number">1</span></span><br><span class="line">    <span class="keyword">For</span> j = <span class="number">1</span> <span class="keyword">To</span> <span class="number">14</span></span><br><span class="line">    <span class="keyword">If</span> j &lt; <span class="number">10</span> <span class="keyword">Then</span></span><br><span class="line">    havezero = <span class="string">&quot;0&quot;</span></span><br><span class="line">    <span class="keyword">Else</span></span><br><span class="line">    havezero = Null</span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">    fname = <span class="string">&quot;E:\综合日报表\综合日报\2015年综合日报\&quot;</span> &amp; yueZ(i - <span class="number">1</span>) &amp; <span class="string">&quot;月\采油五区生产综合日报&quot;</span> &amp; yueA(i - <span class="number">1</span>) &amp; <span class="string">&quot;.&quot;</span> &amp; havezero &amp; j &amp; <span class="string">&quot;.xls&quot;</span></span><br><span class="line">    <span class="keyword">Set</span> wb = Workbooks.Open(fname, <span class="number">0</span>, ture)</span><br><span class="line">    ThisWorkbook.Sheets(<span class="number">1</span>).Range(<span class="string">&quot;a&quot;</span> &amp; <span class="number">6</span> + myCount * <span class="number">117</span> &amp; <span class="string">&quot;:a&quot;</span> &amp; <span class="number">122</span> + myCount * <span class="number">117</span>) = <span class="string">&quot;2015-&quot;</span> &amp; yueA(i - <span class="number">1</span>) &amp; <span class="string">&quot;-&quot;</span> &amp; j</span><br><span class="line">    wb.Sheets(<span class="number">4</span>).Range(<span class="string">&quot;a6:d122&quot;</span>).Copy Destination:=ThisWorkbook.Sheets(<span class="number">1</span>).Range(<span class="string">&quot;b&quot;</span> &amp; <span class="number">6</span> + myCount * <span class="number">117</span> &amp; <span class="string">&quot;:e&quot;</span> &amp; <span class="number">122</span> + myCount * <span class="number">117</span>)</span><br><span class="line">    wb.Sheets(<span class="number">4</span>).Range(<span class="string">&quot;e6:an122&quot;</span>).Copy Destination:=ThisWorkbook.Sheets(<span class="number">1</span>).Range(<span class="string">&quot;g&quot;</span> &amp; <span class="number">6</span> + myCount * <span class="number">117</span> &amp; <span class="string">&quot;:ao&quot;</span> &amp; <span class="number">122</span> + myCount * <span class="number">117</span>)</span><br><span class="line">    wb.Close <span class="literal">False</span></span><br><span class="line">    myCount = <span class="number">1</span> + myCount</span><br><span class="line">    <span class="keyword">Next</span></span><br><span class="line"><span class="keyword">Next</span></span><br><span class="line"><span class="keyword">For</span> i = <span class="number">1</span> <span class="keyword">To</span> <span class="number">1</span></span><br><span class="line">    <span class="keyword">For</span> j = <span class="number">15</span> <span class="keyword">To</span> yueMax(i - <span class="number">1</span>)</span><br><span class="line">    <span class="keyword">If</span> j &lt; <span class="number">10</span> <span class="keyword">Then</span></span><br><span class="line">    havezero = <span class="string">&quot;0&quot;</span></span><br><span class="line">    <span class="keyword">Else</span></span><br><span class="line">    havezero = Null</span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">    fname = <span class="string">&quot;E:\综合日报表\综合日报\2015年综合日报\&quot;</span> &amp; yueZ(i - <span class="number">1</span>) &amp; <span class="string">&quot;月\采油五区生产综合日报&quot;</span> &amp; yueA(i - <span class="number">1</span>) &amp; <span class="string">&quot;.&quot;</span> &amp; havezero &amp; j &amp; <span class="string">&quot;.xls&quot;</span></span><br><span class="line">    <span class="keyword">Set</span> wb = Workbooks.Open(fname, <span class="number">0</span>, ture)</span><br><span class="line">    ThisWorkbook.Sheets(<span class="number">1</span>).Range(<span class="string">&quot;a&quot;</span> &amp; <span class="number">6</span> + myCount * <span class="number">117</span> &amp; <span class="string">&quot;:a&quot;</span> &amp; <span class="number">122</span> + myCount * <span class="number">117</span>) = <span class="string">&quot;2015-&quot;</span> &amp; yueA(i - <span class="number">1</span>) &amp; <span class="string">&quot;-&quot;</span> &amp; j</span><br><span class="line">    wb.Sheets(<span class="number">1</span>).Range(<span class="string">&quot;a6:an122&quot;</span>).Copy Destination:=ThisWorkbook.Sheets(<span class="number">1</span>).Range(<span class="string">&quot;b&quot;</span> &amp; <span class="number">6</span> + myCount * <span class="number">117</span> &amp; <span class="string">&quot;:ao&quot;</span> &amp; <span class="number">122</span> + myCount * <span class="number">117</span>)</span><br><span class="line">    wb.Close <span class="literal">False</span></span><br><span class="line">    myCount = <span class="number">1</span> + myCount</span><br><span class="line">    <span class="keyword">Next</span></span><br><span class="line"><span class="keyword">Next</span></span><br><span class="line"><span class="keyword">For</span> i = <span class="number">2</span> <span class="keyword">To</span> <span class="number">9</span></span><br><span class="line">    <span class="keyword">For</span> j = <span class="number">1</span> <span class="keyword">To</span> yueMax(i - <span class="number">1</span>)</span><br><span class="line">    <span class="keyword">If</span> j &lt; <span class="number">10</span> <span class="keyword">Then</span></span><br><span class="line">    havezero = <span class="string">&quot;0&quot;</span></span><br><span class="line">    <span class="keyword">Else</span></span><br><span class="line">    havezero = Null</span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">    fname = <span class="string">&quot;E:\综合日报表\综合日报\2015年综合日报\&quot;</span> &amp; yueZ(i - <span class="number">1</span>) &amp; <span class="string">&quot;月\采油五区生产综合日报&quot;</span> &amp; yueA(i - <span class="number">1</span>) &amp; <span class="string">&quot;.&quot;</span> &amp; havezero &amp; j &amp; <span class="string">&quot;.xls&quot;</span></span><br><span class="line">    <span class="keyword">Set</span> wb = Workbooks.Open(fname, <span class="number">0</span>, ture)</span><br><span class="line">    ThisWorkbook.Sheets(<span class="number">1</span>).Range(<span class="string">&quot;a&quot;</span> &amp; <span class="number">6</span> + myCount * <span class="number">117</span> &amp; <span class="string">&quot;:a&quot;</span> &amp; <span class="number">122</span> + myCount * <span class="number">117</span>) = <span class="string">&quot;2015-&quot;</span> &amp; yueA(i - <span class="number">1</span>) &amp; <span class="string">&quot;-&quot;</span> &amp; j</span><br><span class="line">    wb.Sheets(<span class="number">1</span>).Range(<span class="string">&quot;a6:an122&quot;</span>).Copy Destination:=ThisWorkbook.Sheets(<span class="number">1</span>).Range(<span class="string">&quot;b&quot;</span> &amp; <span class="number">6</span> + myCount * <span class="number">117</span> &amp; <span class="string">&quot;:ao&quot;</span> &amp; <span class="number">122</span> + myCount * <span class="number">117</span>)</span><br><span class="line">    wb.Close <span class="literal">False</span></span><br><span class="line">    myCount = <span class="number">1</span> + myCount</span><br><span class="line">    <span class="keyword">Next</span></span><br><span class="line"><span class="keyword">Next</span></span><br><span class="line">Application.ShowWindowsInTaskbar = <span class="literal">True</span></span><br><span class="line">Application.ScreenUpdating = <span class="literal">True</span></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>软件</category>
-      </categories>
-      <tags>
-        <tag>工作</tag>
-        <tag>Excel</tag>
-        <tag>VBA</tag>
       </tags>
   </entry>
   <entry>
@@ -1920,22 +1881,42 @@ _   底线
       </tags>
   </entry>
   <entry>
-    <title>为什么要高调的使用大炮？</title>
-    <url>//wei-shen-me-yao-gao-diao-de-shi-yong-da-pao/</url>
-    <content><![CDATA[<p>大炮的第一个目标不是<strong>GitHub</strong>，而是<strong>Greatfire.org</strong>。Greatfire上月中旬受到的DDoS攻击也是大炮在劫持百度JS脚本后发动的，世界各地的无辜网民在访问中国境内网站后成为了DDoS攻击武器库的一员。</p>
+    <title>两载又半</title>
+    <url>//liang-zai-you-ban/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/DesertRoad_1024x554.jpg" alt="沙漠之路"></p>
+<p>晴朗的午后。</p>
+<p>坐在办公室，本熟悉却又一股莫名的陌生，端着半杯浓浓的咖啡轻抿。相比室内单调无序的键盘鼠标敲击声，窗外阵阵寒风的呼啸倒是显得像那黄土大地充满情感的呼喊。不懂，一窗之隔，仿佛成就了内外时空的隔膜，不同的维度，不同的陌生。</p>
 <span id="more"></span>
 
-<p>对此次攻击所用代码的分析发现（PDF），大炮的程序员混淆了JS的getDate()和 getday()函数（前者对应的是月，后者对应的是周）。GitHub不同于Greatfire.org，它是非常有影响力的网站。对GitHub的攻击让大炮迅速显形，现在全世界的人都知道联通骨干网上存在一个主要不是用于审查而是发动攻击的设备。这个设备可以纂改特定目标的内容，注入恶意的代码。</p>
-<p>让公民实验室的研究人员感到不解的是，为什么大炮的操作人员要采用如此高调的方式去展示他们的能力？一些人认为原因很可能是政客不懂互联网。对普通用户来说，使用安装有NoScript插件的浏览器或禁用JS可能目前唯一能做的事。</p>
-<hr>
-<p>转载来源：<a href="http://www.solidot.org/story?sid=43668">solidot | 为什么要高调的使用大炮？</a></p>
+<p>背后明朗的阳光，刺破湛蓝的天空，驱散洁白的云朵，依然不顾木讷窗帘的阻挡，径直的打在电脑屏幕的正中央。似奋不顾身勇往直前的执着，又若无心无力偶然而就的堕落，总之眼前的画面一片茫然，不知是明晃的日光刻出这斑驳的字迹，还是那懒散的话语不小心割裂了皎洁的光明……</p>
+<p>影之于光，为之奈何。</p>
+<p>对面墙上贴着三幅照片，他们笑的好开心。一丝微笑，之后却是更甚寒风的悲凉。瞬间的笑容可以用精准的相机记录封存，漫长的苦楚却由何来排解消除……</p>
+<p>可爱的小姑娘，从前面进来，一路欢笑奔驰，由后门走了。</p>
+<p>情之于景，去来何从。</p>
+<p>”A Place Nearby“，轻灵的声音从天际飘来，赶走了呼啸的西风，吹淡了凝重的空气。似离别似团聚，若轻谈若默然。在另一个时空的我，也许同样的感觉吧。</p>
+<p>两载又半，一步一步肆意向前，大漠孤烟长河落日，只记得，身后的背影愈行愈远。来时的路还在那里，来时的足迹却已斑斑驳驳。</p>
+<p>究竟何为时空？</p>
+<p>明天仍然会是一个晴天。</p>
+<p>后天呢？</p>
 ]]></content>
       <categories>
-        <category>资讯</category>
+        <category>文字</category>
       </categories>
       <tags>
-        <tag>网络</tag>
-        <tag>GFW</tag>
+        <tag>纪念</tag>
+        <tag>心情</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中国特色的竞技体育</title>
+    <url>//zhong-guo-te-se-de-jing-ji-ti-yu/</url>
+    <content><![CDATA[<p>其实，太应该多点运动啦，减肥啊减肥……</p>
+<div style="text-align: center;"><object width="480" height="400" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://www.tudou.com/v/P-631FSUlUM/&amp;resourceId=0_05_02_99&amp;tid=0/v.swf" /><param name="allowscriptaccess" value="always" /><param name="allowfullscreen" value="true" /><param name="wmode" value="opaque" /><embed width="480" height="400" type="application/x-shockwave-flash" src="http://www.tudou.com/v/P-631FSUlUM/&amp;resourceId=0_05_02_99&amp;tid=0/v.swf" allowscriptaccess="always" allowfullscreen="true" wmode="opaque" /></object></div>]]></content>
+      <categories>
+        <category>视频</category>
+      </categories>
+      <tags>
+        <tag>体育</tag>
       </tags>
   </entry>
   <entry>
@@ -1952,6 +1933,25 @@ _   底线
       <tags>
         <tag>风景</tag>
         <tag>工作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>为什么要高调的使用大炮？</title>
+    <url>//wei-shen-me-yao-gao-diao-de-shi-yong-da-pao/</url>
+    <content><![CDATA[<p>大炮的第一个目标不是<strong>GitHub</strong>，而是<strong>Greatfire.org</strong>。Greatfire上月中旬受到的DDoS攻击也是大炮在劫持百度JS脚本后发动的，世界各地的无辜网民在访问中国境内网站后成为了DDoS攻击武器库的一员。</p>
+<span id="more"></span>
+
+<p>对此次攻击所用代码的分析发现（PDF），大炮的程序员混淆了JS的getDate()和 getday()函数（前者对应的是月，后者对应的是周）。GitHub不同于Greatfire.org，它是非常有影响力的网站。对GitHub的攻击让大炮迅速显形，现在全世界的人都知道联通骨干网上存在一个主要不是用于审查而是发动攻击的设备。这个设备可以纂改特定目标的内容，注入恶意的代码。</p>
+<p>让公民实验室的研究人员感到不解的是，为什么大炮的操作人员要采用如此高调的方式去展示他们的能力？一些人认为原因很可能是政客不懂互联网。对普通用户来说，使用安装有NoScript插件的浏览器或禁用JS可能目前唯一能做的事。</p>
+<hr>
+<p>转载来源：<a href="http://www.solidot.org/story?sid=43668">solidot | 为什么要高调的使用大炮？</a></p>
+]]></content>
+      <categories>
+        <category>资讯</category>
+      </categories>
+      <tags>
+        <tag>网络</tag>
+        <tag>GFW</tag>
       </tags>
   </entry>
   <entry>
@@ -1978,6 +1978,32 @@ _   底线
       <tags>
         <tag>工作</tag>
         <tag>纪念</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>今年的端午</title>
+    <url>//jin-nian-de-duan-wu/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Zongzi_600x338.jpg" alt="粽子"></p>
+<span id="more"></span>
+
+<h2 id="雨夜"><a href="#雨夜" class="headerlink" title="雨夜"></a>雨夜</h2><p>从作业区办公楼后门出来，黑漆漆的，听声音天还下着雨。下台阶一脚踩在了水里，赶忙三两步跳到了自行车棚，没想到这雨下的还不小。迅速的穿好雨披，打开电动车，回家。</p>
+<p>知道时间已经过了零点。空荡的马路上，我仰起头向着天，小声的念了一句，端午节快乐。</p>
+<p>向东骑行，雨淅淅沥沥，小心的躲避着路上的积水。每日长丰路口整晚不收的水果摊今天不见了，往时面包车后箱里盖棉被躺着的老板现在应该在自家床上吧，不知他梦里是庆幸这场雨带来的休息，还是抱怨坏天气增加的额外工作。夜路上，平添一盏孤独。</p>
+<p>偶尔几点水滴落在脸上，凉凉的，却没了儿时雨水的甘甜。</p>
+<p>到家的时候，小家伙还没睡，一起继续熬夜。</p>
+<h2 id="忙碌"><a href="#忙碌" class="headerlink" title="忙碌"></a>忙碌</h2><p>前前后后小半个月，一直在忙活汇报材料，早的时候半夜，晚的时候天亮。虽然大部分是整合数据，制作图表。</p>
+<p>久违的状态。</p>
+<p>又想起了在西北的时候。</p>
+<h2 id="粽子"><a href="#粽子" class="headerlink" title="粽子"></a>粽子</h2><p>最近这些年虽然多远在他乡， 但想想好像每年都端午都吃到了粽子，各种各样的粽子。</p>
+<p>当然怀念的，永远是母亲新手包的。枣、红豆、花生，还有糯米跟芦苇叶。和在一起，完美的味道。</p>
+<h2 id="家"><a href="#家" class="headerlink" title="家"></a>家</h2><p>虽然回到家乡工作，与父母都见面的时间并没有怎么增多。母亲常在这里帮忙带孩子，父亲多是自己在家。也好，少了很多吵闹。</p>
+<p>2017-05-30</p>
+]]></content>
+      <categories>
+        <category>文字</category>
+      </categories>
+      <tags>
+        <tag>心情</tag>
       </tags>
   </entry>
   <entry>
@@ -2013,32 +2039,6 @@ _   底线
 <p>风在吹着，不会顾虑现在是冷还是热。既然它朝着那个方向走了，何需要苦苦央求。逝去吧，随风，随雨……就让思绪弥散，回到它该去的地方。</p>
 <p>还会希望明天下场淅淅沥沥的小雨。也一直知道，其实它不会下来，哪怕是一丝的慰藉……</p>
 <p>2009-6-29</p>
-]]></content>
-      <categories>
-        <category>文字</category>
-      </categories>
-      <tags>
-        <tag>心情</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>今年的端午</title>
-    <url>//jin-nian-de-duan-wu/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Zongzi_600x338.jpg" alt="粽子"></p>
-<span id="more"></span>
-
-<h2 id="雨夜"><a href="#雨夜" class="headerlink" title="雨夜"></a>雨夜</h2><p>从作业区办公楼后门出来，黑漆漆的，听声音天还下着雨。下台阶一脚踩在了水里，赶忙三两步跳到了自行车棚，没想到这雨下的还不小。迅速的穿好雨披，打开电动车，回家。</p>
-<p>知道时间已经过了零点。空荡的马路上，我仰起头向着天，小声的念了一句，端午节快乐。</p>
-<p>向东骑行，雨淅淅沥沥，小心的躲避着路上的积水。每日长丰路口整晚不收的水果摊今天不见了，往时面包车后箱里盖棉被躺着的老板现在应该在自家床上吧，不知他梦里是庆幸这场雨带来的休息，还是抱怨坏天气增加的额外工作。夜路上，平添一盏孤独。</p>
-<p>偶尔几点水滴落在脸上，凉凉的，却没了儿时雨水的甘甜。</p>
-<p>到家的时候，小家伙还没睡，一起继续熬夜。</p>
-<h2 id="忙碌"><a href="#忙碌" class="headerlink" title="忙碌"></a>忙碌</h2><p>前前后后小半个月，一直在忙活汇报材料，早的时候半夜，晚的时候天亮。虽然大部分是整合数据，制作图表。</p>
-<p>久违的状态。</p>
-<p>又想起了在西北的时候。</p>
-<h2 id="粽子"><a href="#粽子" class="headerlink" title="粽子"></a>粽子</h2><p>最近这些年虽然多远在他乡， 但想想好像每年都端午都吃到了粽子，各种各样的粽子。</p>
-<p>当然怀念的，永远是母亲新手包的。枣、红豆、花生，还有糯米跟芦苇叶。和在一起，完美的味道。</p>
-<h2 id="家"><a href="#家" class="headerlink" title="家"></a>家</h2><p>虽然回到家乡工作，与父母都见面的时间并没有怎么增多。母亲常在这里帮忙带孩子，父亲多是自己在家。也好，少了很多吵闹。</p>
-<p>2017-05-30</p>
 ]]></content>
       <categories>
         <category>文字</category>
@@ -2142,6 +2142,31 @@ _   底线
       </tags>
   </entry>
   <entry>
+    <title>初来记忆（一）</title>
+    <url>//chu-lai-ji-yi-1/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/ChuLaiJiYi(1)_500x250.jpg" alt="初来记忆（一）"></p>
+<p>匆匆忙忙，由祖国的西北一路向东赶到家乡。</p>
+<p>首先是到局里报到，折腾，貌似来回跑了四趟。先是没人，所谓出差；再是缺手续，原单位真笨，无他；三次去，又出差；终于，算是报了到，中间还是你推我我推你……前前后后，半月有余，清闲但又不安。</p>
+<p>之后往二级单位报到，中途，二到死……</p>
+<span id="more"></span>
+
+<p>往简单里说。早晨赶路，带着报到所需全部身家，坐板的。到站，人下了，东西落车上。瞬间天塌。东西各种难以补办，板的、车主信息完全没有，只能考运气寻找。最后，庆幸多年的人品没白攒，原物找回。死而复生。</p>
+<p>二级单位报到。</p>
+<p>早起到指定位置路边等通勤车，大巴。快到时间，路边茫茫多大巴，十多二十辆，前前后后问司机，问未来同事。算是顺利，上对了车，不需要什么手续。车上每座一条安全带，身旁所有人都系了，所以跟着系了……一路匀速前行，自己思绪翻飞。看着窗外的景色如此熟悉，想着前方的目的地却全然不知。打开手机地图各种定位寻找行进路线，无奈手机差劲，或者信号不佳，毫无头绪。宽路窄路，左拐右拐，愣愣的等待。</p>
+<p>终于到达目的地。办公楼坐北朝南，大门前面不足五十米就是海滩。喜欢。极目而望，淡淡的灰蒙后面，天蓝水碧，缓缓交融为一。远处几座人工岛，两侧零星几艘船，全然一动不动，专心的点缀这海边景色。</p>
+<p>大门简单宽敞，广场平坦整洁，由此步入。办公楼五层，坐北朝南，正门大厅进深短，二层通高，迎面一大屏风，楼梯电梯均在其背后。电话联系人事科，直奔三楼。交材料，交照片，登记信息，填写表格，签订合同，程序说多不多，说少不少，只是已经记不起当年刚刚刚毕业进入单位时候的情景。</p>
+<p>在人事科签完劳动合同，被领到安全科，入厂教育先。</p>
+<p>待续</p>
+]]></content>
+      <categories>
+        <category>文字</category>
+      </categories>
+      <tags>
+        <tag>工作</tag>
+        <tag>纪念</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关心则乱</title>
     <url>//guan-xin-ze-luan/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/Balance_500x300.jpg" alt="Balance"></p>
@@ -2185,31 +2210,6 @@ _   底线
         <tag>生活</tag>
         <tag>纪念</tag>
         <tag>心情</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>初来记忆（一）</title>
-    <url>//chu-lai-ji-yi-1/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/ChuLaiJiYi(1)_500x250.jpg" alt="初来记忆（一）"></p>
-<p>匆匆忙忙，由祖国的西北一路向东赶到家乡。</p>
-<p>首先是到局里报到，折腾，貌似来回跑了四趟。先是没人，所谓出差；再是缺手续，原单位真笨，无他；三次去，又出差；终于，算是报了到，中间还是你推我我推你……前前后后，半月有余，清闲但又不安。</p>
-<p>之后往二级单位报到，中途，二到死……</p>
-<span id="more"></span>
-
-<p>往简单里说。早晨赶路，带着报到所需全部身家，坐板的。到站，人下了，东西落车上。瞬间天塌。东西各种难以补办，板的、车主信息完全没有，只能考运气寻找。最后，庆幸多年的人品没白攒，原物找回。死而复生。</p>
-<p>二级单位报到。</p>
-<p>早起到指定位置路边等通勤车，大巴。快到时间，路边茫茫多大巴，十多二十辆，前前后后问司机，问未来同事。算是顺利，上对了车，不需要什么手续。车上每座一条安全带，身旁所有人都系了，所以跟着系了……一路匀速前行，自己思绪翻飞。看着窗外的景色如此熟悉，想着前方的目的地却全然不知。打开手机地图各种定位寻找行进路线，无奈手机差劲，或者信号不佳，毫无头绪。宽路窄路，左拐右拐，愣愣的等待。</p>
-<p>终于到达目的地。办公楼坐北朝南，大门前面不足五十米就是海滩。喜欢。极目而望，淡淡的灰蒙后面，天蓝水碧，缓缓交融为一。远处几座人工岛，两侧零星几艘船，全然一动不动，专心的点缀这海边景色。</p>
-<p>大门简单宽敞，广场平坦整洁，由此步入。办公楼五层，坐北朝南，正门大厅进深短，二层通高，迎面一大屏风，楼梯电梯均在其背后。电话联系人事科，直奔三楼。交材料，交照片，登记信息，填写表格，签订合同，程序说多不多，说少不少，只是已经记不起当年刚刚刚毕业进入单位时候的情景。</p>
-<p>在人事科签完劳动合同，被领到安全科，入厂教育先。</p>
-<p>待续</p>
-]]></content>
-      <categories>
-        <category>文字</category>
-      </categories>
-      <tags>
-        <tag>工作</tag>
-        <tag>纪念</tag>
       </tags>
   </entry>
   <entry>
@@ -2391,22 +2391,6 @@ _   底线
       </tags>
   </entry>
   <entry>
-    <title>工信部回应防火长城屏蔽VPN</title>
-    <url>//gong-xin-bu-hui-ying-fang-huo-chang-cheng-ping-bi-vpn/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/GreatFirewall_500x300.jpg" alt="gfw"></p>
-<p>在今天上午国务院新闻办举行的新闻发布会上，香港明报记者向工信部副部长毛伟明询问了防火长城屏蔽VPN等翻墙软件的问题<span id="more"></span>，“我想请问毛部长，近日有报道指出，说中国屏蔽了新一批的翻墙软件，也有评论指出中国互联网自由开放的程度堪忧，请您给我们提供一下网络防火墙目前最新的状况以及官方此举背后的逻辑是什么，是否担心升级网络防火墙会影响到互联网的活力？”</p>
-<p>回答的人不是毛伟明而是通信发展司司长闻库，“中国的互联网发展在世界上是有目共睹的，特别是在移动互联网的发展上，我们取得了很大成就。TD-LTE基站我们布了70万个，到12月底4G用户超过9000万，这些4G用户看起来是手机用户，但实际上是广泛使用宽带的移动用户。在中国，互联网业务的发展也是非常有效的，发展不错的企业大概有40%—50%的增长率。阿里巴巴在美国上市取得的成就，大家都可以看到，这一切都源于中国政府对互联网企业发展的一个好的政策环境保障。在中国发展互联网一定要按照中国的法律法规来进行，一些不良信息应该按照中国法律进行监管，所以，随着互联网的发展，新的情况出现一定会有新的监管措施跟上。”</p>
-<p>转载文章，原文链接：<a href="http://www.solidot.org/story?sid=42843">http://www.solidot.org/story?sid=42843</a></p>
-]]></content>
-      <categories>
-        <category>资讯</category>
-      </categories>
-      <tags>
-        <tag>网络</tag>
-        <tag>VPN</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>应子之邀</title>
     <url>//ying-zi-zhi-yao/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/YingZiZhiYao_500x281.jpg" alt="应子之邀"></p>
@@ -2425,6 +2409,22 @@ _   底线
       <tags>
         <tag>纪念</tag>
         <tag>心情</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>工信部回应防火长城屏蔽VPN</title>
+    <url>//gong-xin-bu-hui-ying-fang-huo-chang-cheng-ping-bi-vpn/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/GreatFirewall_500x300.jpg" alt="gfw"></p>
+<p>在今天上午国务院新闻办举行的新闻发布会上，香港明报记者向工信部副部长毛伟明询问了防火长城屏蔽VPN等翻墙软件的问题<span id="more"></span>，“我想请问毛部长，近日有报道指出，说中国屏蔽了新一批的翻墙软件，也有评论指出中国互联网自由开放的程度堪忧，请您给我们提供一下网络防火墙目前最新的状况以及官方此举背后的逻辑是什么，是否担心升级网络防火墙会影响到互联网的活力？”</p>
+<p>回答的人不是毛伟明而是通信发展司司长闻库，“中国的互联网发展在世界上是有目共睹的，特别是在移动互联网的发展上，我们取得了很大成就。TD-LTE基站我们布了70万个，到12月底4G用户超过9000万，这些4G用户看起来是手机用户，但实际上是广泛使用宽带的移动用户。在中国，互联网业务的发展也是非常有效的，发展不错的企业大概有40%—50%的增长率。阿里巴巴在美国上市取得的成就，大家都可以看到，这一切都源于中国政府对互联网企业发展的一个好的政策环境保障。在中国发展互联网一定要按照中国的法律法规来进行，一些不良信息应该按照中国法律进行监管，所以，随着互联网的发展，新的情况出现一定会有新的监管措施跟上。”</p>
+<p>转载文章，原文链接：<a href="http://www.solidot.org/story?sid=42843">http://www.solidot.org/story?sid=42843</a></p>
+]]></content>
+      <categories>
+        <category>资讯</category>
+      </categories>
+      <tags>
+        <tag>网络</tag>
+        <tag>VPN</tag>
       </tags>
   </entry>
   <entry>
@@ -2695,31 +2695,6 @@ _   底线
       </tags>
   </entry>
   <entry>
-    <title>最近状态很差</title>
-    <url>//recently-bad-state/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/BadState_500x250.jpg" alt="最近状态很差"></p>
-<p>最近状态很差，对不起。心里面一阵清晰，一阵杂乱。思念，连绵不绝。</p>
-<p>三月几将过半，暖的春，悄然而至。怕是仍如旧时，匆匆而逝。羞答答静悄悄。</p>
-<p>身后的光阴，总是过的这么快。回首来时的路途，恍恍惚惚间竟又有四载之遥。唏嘘感叹，也许做作，五味杂陈却实如翻江倒海。四年的求学，四年的工作，再个四年，真不知又将如何。想着勇敢，同时也藏不掉怯怯的心虚。满心期待故里的温馨，盼着将来的事情可以顺利。</p>
-<span id="more"></span>
-
-<p>心里常是乱乱的。不仅是因为短短三四年时间已将初出茅庐的激情掩埋，把曾经的方向扭转，更在感叹一直自认为执着的念头在现实面前被粉碎的如此彻底。今后的日子，该要如何坚持，又能怎样的变通。工作上呢，现在只是全心期待着回家，想着家庭的和睦，念着故乡的归属，对于几乎未知的工作，茫然。</p>
-<p>三十。青春在慢慢逝去，衰老又还是很远。常说的而立之年，我做什么，而后我又应该做些什么。心里尘堆已久的喜好，是否还有机会，能否再找到时间。选择，是如此逐流而去，还是该斜出旁逸，再觅它途。理想仿佛挂在当空的皓月，美丽，遥远，时隐时现。也许真的高处不胜寒，极目而望，却只好肆意揣测古时大家作出此句时，何情，何景。</p>
-<p>在这里四年，吃过苦，流过汗，收获有兄弟朋友的情谊，也成了人生里第一次的砺炼。虽然早已厌烦，燥无复加，但若此离去之时，诚然丝缕牵扯。此朝一去，已无再见。</p>
-<p>还是不会调节自我的心情，烦躁不堪。偶尔找些事情，翻出玩意，总是虎头蛇尾。何为坚持，如何执着，仿佛绒羽般飘于眼前，呼吸间，左忽右闪，伏起转旋。时间，吾等凡人无法左右的维度，将每一个人雕雕琢琢，无从逃脱。“我还是我”，曾经的回忆，已然只是回忆。悄然后怕，将来的时日是否如言，“我们终将变成曾经自己讨厌的模样。”</p>
-<p>时空，宇宙，我们真的只存在这四维之中吗。微观的莫测里，时空如何弯折；宏观的浩渺里，宇之于宙，又是怎样的变化。更高的维度是怎样，我们能否感知，与其是否存在，所谓的第五维度到底在哪。然后，还有更高吗，尽头何如。</p>
-<p>目的，方法，路径，过程控制，难度抉择，循环调整，时间效率，程度效率，收益效率。</p>
-<p>任何事情，环环相扣，漫延无限。认知，范围愈大，所接触的未知，也就愈大。求知，并且成长。惟愿无论何时回首而顾，坦然自若，心盈意满。</p>
-<p>难。然，努力。</p>
-]]></content>
-      <categories>
-        <category>文字</category>
-      </categories>
-      <tags>
-        <tag>心情</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>月圆之后</title>
     <url>//after-full-moon/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/AfterFullMoon_623x162.jpg" alt="月圆之后"></p>
@@ -2742,6 +2717,31 @@ _   底线
 <p>唯念月圆之后，愿千里之遥的亲人安好，愿四散漂泊的朋友顺利。</p>
 <p>默默祝福</p>
 <p>2012年10月19日</p>
+]]></content>
+      <categories>
+        <category>文字</category>
+      </categories>
+      <tags>
+        <tag>心情</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>最近状态很差</title>
+    <url>//recently-bad-state/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/BadState_500x250.jpg" alt="最近状态很差"></p>
+<p>最近状态很差，对不起。心里面一阵清晰，一阵杂乱。思念，连绵不绝。</p>
+<p>三月几将过半，暖的春，悄然而至。怕是仍如旧时，匆匆而逝。羞答答静悄悄。</p>
+<p>身后的光阴，总是过的这么快。回首来时的路途，恍恍惚惚间竟又有四载之遥。唏嘘感叹，也许做作，五味杂陈却实如翻江倒海。四年的求学，四年的工作，再个四年，真不知又将如何。想着勇敢，同时也藏不掉怯怯的心虚。满心期待故里的温馨，盼着将来的事情可以顺利。</p>
+<span id="more"></span>
+
+<p>心里常是乱乱的。不仅是因为短短三四年时间已将初出茅庐的激情掩埋，把曾经的方向扭转，更在感叹一直自认为执着的念头在现实面前被粉碎的如此彻底。今后的日子，该要如何坚持，又能怎样的变通。工作上呢，现在只是全心期待着回家，想着家庭的和睦，念着故乡的归属，对于几乎未知的工作，茫然。</p>
+<p>三十。青春在慢慢逝去，衰老又还是很远。常说的而立之年，我做什么，而后我又应该做些什么。心里尘堆已久的喜好，是否还有机会，能否再找到时间。选择，是如此逐流而去，还是该斜出旁逸，再觅它途。理想仿佛挂在当空的皓月，美丽，遥远，时隐时现。也许真的高处不胜寒，极目而望，却只好肆意揣测古时大家作出此句时，何情，何景。</p>
+<p>在这里四年，吃过苦，流过汗，收获有兄弟朋友的情谊，也成了人生里第一次的砺炼。虽然早已厌烦，燥无复加，但若此离去之时，诚然丝缕牵扯。此朝一去，已无再见。</p>
+<p>还是不会调节自我的心情，烦躁不堪。偶尔找些事情，翻出玩意，总是虎头蛇尾。何为坚持，如何执着，仿佛绒羽般飘于眼前，呼吸间，左忽右闪，伏起转旋。时间，吾等凡人无法左右的维度，将每一个人雕雕琢琢，无从逃脱。“我还是我”，曾经的回忆，已然只是回忆。悄然后怕，将来的时日是否如言，“我们终将变成曾经自己讨厌的模样。”</p>
+<p>时空，宇宙，我们真的只存在这四维之中吗。微观的莫测里，时空如何弯折；宏观的浩渺里，宇之于宙，又是怎样的变化。更高的维度是怎样，我们能否感知，与其是否存在，所谓的第五维度到底在哪。然后，还有更高吗，尽头何如。</p>
+<p>目的，方法，路径，过程控制，难度抉择，循环调整，时间效率，程度效率，收益效率。</p>
+<p>任何事情，环环相扣，漫延无限。认知，范围愈大，所接触的未知，也就愈大。求知，并且成长。惟愿无论何时回首而顾，坦然自若，心盈意满。</p>
+<p>难。然，努力。</p>
 ]]></content>
       <categories>
         <category>文字</category>
@@ -2820,6 +2820,40 @@ _   底线
       </tags>
   </entry>
   <entry>
+    <title>杂记之看井</title>
+    <url>//za-ji-zhi-kan-jing/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/KanJing_600x200.jpg" alt="看井"></p>
+<p>置身于一个既熟悉又陌生的小环境里，短暂的脱离了日常繁琐的工作，半天一夜的时光，虽谈不上所谓的种种感悟，但这经历着实应该记下一笔。</p>
+<span id="more"></span>
+
+<ul>
+<li>时间：2013年5月11日</li>
+<li>地点：中国西部某油田某区块</li>
+<li>背景：该区块“外部”环境复杂</li>
+<li>起因：12增产量再次出现大幅偏差</li>
+</ul>
+<p>于是：领导决定，前指以及井区若干名干部到各个单井驻守，为期一天，落实该区块真实生产水平。</p>
+<p>我到这个井上的时候看井工人正在院子里坐着，个头不高，蓬蓬的头发，红工衣还算干净，看上去二十五六的年纪。“我来陪你了。”第一句我就开玩笑的说，不过估计他没听明白，我紧接着把自己来到这里的原因随便解释了一下。</p>
+<p>转过身几步走进他的房子，收拾的挺整洁的，虽然这些破旧的铁皮野营房总是那破这漏的。电视是个比较旧的，电子管那种，大屁股，声音开的挺大，但里面放的却是难看的广告。“你这电视咋没弄个液晶的，我看别的井上挺多的啊？”我又随口问了一句，他无奈的回答道，“别人不给嘛，没办法。”的确，我知道的，在这种地方看井的员工待遇太差了。空旷的井场，冰冷的抽油机，冬冷夏热的野营房，一日三餐要自己做自己吃，白天各种重要的不重要的活，晚上还要防着老乡过来偷油，当然还有偶尔经警中队的查夜。稍微负责的工人遇上老乡光顾频繁的井，每晚几乎都是是睡不好觉的。想着这些，我只好也无奈的叹一口气。以往我习惯于感叹面对大自然伟力下人类的渺小，现在看着人类自己给自己带上的重重枷锁，心中的吁叹不禁又更加沉重了一些。为什么要这样呢？什么时候才能有所改变？会有吗？不得而知……</p>
+<p>我们又随便聊了几句，这位看井的师傅跟我同岁，大我不到一个月，开始一直在修井队当修井工，两三个月之前才从修井工转岗到采油工。我问他的感觉是干修井好还是干采油好，“修井吧，比较辛苦，但是干活单纯，只要你卖力气认真干就好好的。干采油虽然没修井那么累，但就是麻烦的很。”对于后边这句话我的感触还是颇深的，不禁脱口而出：“就是的。”他继续说道：“每天白天投球、加药、看抽油机、打扫卫生，到了晚上还得提心吊胆的防着老乡偷油。”而且他是一个人看了两个井场，另一个在马路对面，距离不远。这师傅对此很自然的流露出一种淡淡的不满和厌烦。我是理解的，每天跑井这活的确烦人的很。“没办法，现在缺人的很啊。”我也略感无奈的应道。的确，这是没办法的事情，至少对于我和他而言，这是完全无能为力的。</p>
+<p><img src="http://cdn.aword.net/images/KanJing_insert_500x375.jpg"></p>
+<p>我起身往他厨房里扫了一眼，“你这都没东西了嘛，咋吃饭着呢？”“我本来应该上次换班休息的，所以没要菜，现在就剩点鸡蛋剩点米了。”我继续问，“那你上次怎么没休息啊？”他还是带着一种淡淡的无奈说：“没人换嘛。人不够没人来换班就走不成，你也知道呢吧。”的确，我知道的，但是这次我脑海里的第一反映不是石油工人的工作如何艰苦，而是突然想到了一些个别的、特殊的看井工人。井上很少能看到他们的身影，偶尔看到，他们或自己开车来或有司机专程把他们送来，在井场转上一圈，然后又风尘仆仆的不知朝着哪个饭店走了。这个世界本来就是不公平的，我在心里暗暗对自己又念了一遍这句话。这句话是没错的，但是当我们对此表示认同的时候，是不是应该还考虑其他呢？何谓之公，而又将何谓之不公？当亲自面对种种不公的境况时，你是在朝着较高的位置奔走准备去继续欺压弱势，还是把自己放在天平的支点，奋力实现我们所谓的大公。</p>
+<p>“你拿我这的米做饭，要不我放假走了也不知道给谁吃了。”看井的师傅向一位刚走进野营房的女士说道。我正在独自猜想着这位女士的来历和身份，她语速很快的回答：“不用不用，我们修井对上啥都带着呢，借你的厨具用用就好了。”原来她是外面修井对的厨师。我随口向她问：“这口井干啥着呢？”“检泵，具体的我也不知道。”然后看井的师傅接过话茬，“这个井双失，都报了好久了，今天队伍才上来的。”“哦，你这井肯定是油量不行吧……”不用他回答我也知道，肯定的，修井要先修产油量高的，他这个井产量不行所以一直排在队尾。产量，产量，多么熟悉而又让我反感的一个词语。在一个唯利是图的时代，利益，早已经把自己的精神贯彻的无孔不入。低孔低渗的油藏物性，与学校课本里保护地层、提高采收率格格不入的开发策略，一塌糊涂的现场管理，里勾外连的默契配合，层层递进的形式主义，为了一己私利坑了爹再坑娘的种种事迹……罢了，罢了，恐胜佛亲临唯叹无力回天。心之将死，大限之至。</p>
+<p>一架单薄的高低床，一把略显破旧的折叠椅，我们三人各自坐下。他们两人用相近的方言闲聊，我偶尔陪他们呵呵一笑，偶尔听到几个词语让我困惑不解。他们两位算不上老乡，但是各自家乡离的也不算远。小伙子已经离家出来工作几年，从修井到采油，一直是社会化员工，俗称临时工，目前还是单身。厨师女士之前在一家私企当会计，工作清闲，工资不菲，又深得领导赏识。通过关系她把儿子调到自己所在的单位工作，干保安，虽然工资不高，但是工作还算清闲。好景不长，或者应该说就没有好景，保安的工作难干，有它自己特有矛盾，儿子甚至曾被别人辱称“看门狗”。在儿子十分决绝的坚持下，他们放弃了单位领导本已答应，过一段时间给她儿子调动工作的承诺。于是这女士的儿子来到了爸爸工作的修井队里。为了照顾家庭的和睦，解决两地分居的困境，她只好放弃清闲高薪的会计工作，跟丈夫儿子一起，来到这个修井队当厨师。我心里深深感叹，同时用“就是”这两个字对看井工小伙子的话表示赞同。他说：“你真是个贤妻良母啊……”这是祖国西北僻壤一个普通的下午。我的心里没有惊涛骇浪的翻滚，但是一股默默的暗流却久久不能平息。</p>
+<p>一谈到修井的种种工作，看井工小伙子总是表现出一种莫名的兴奋。看的出，那里含着的，是留恋。我虽然没有感到困惑，但是真心的，不懂那是什么样一种感觉。修井的工作又苦又累，是什么让他感到不舍，我想不出。当他还在兴奋的给我们讲述着当年他们队伍干活多么迅速多么麻利的时候，一阵汽车的喇叭声响起，把他打断了。小伙子迅速的跑出屋子查看，原来是领导来给送饭了。一下子把这么多人放到各个井场，而且要住上一晚，送上一顿饭应该算是最基本的吧。炒饭，2盒，绿茶，2瓶，馒头，2个。我们一时间还比较高兴，下午正念叨着说饿呢，马上吃的就来了。恭敬的送走了来送饭的领导，我们马上开饭。貌似……炒饭忘了放盐了……好吧，为了响应国家号召，为了不浪费粮食，我们很坚强的，把难吃到盒饭全部咽下去了。抱怨了抱怨，然后，没办法，纯屌丝。</p>
+<p>天色渐渐变暗，湛蓝的苍穹蒙上了一层灰色，地平线上残阳默默远去，还拖着一条无比绚丽的红霞。夜，如期而至。</p>
+<p>未完 戚然</p>
+<p>2013年6月18日</p>
+]]></content>
+      <categories>
+        <category>文字</category>
+      </categories>
+      <tags>
+        <tag>工作</tag>
+        <tag>心情</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>桐花万里语不息-第一章 相逢何必曾相识，未曾相识已相思</title>
     <url>//tong-hua-wan-li-yu-bu-xi-di-yi-zhang/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/TongHua_500x300.jpg"></p>
@@ -2846,6 +2880,45 @@ _   底线
 <p>一来一回，大家确定这两个人除了名字像之外，没有半点联系，又恢复了最开始的状态。天寂也落了座，但依稀有种说不出来无法形容的感觉，而且能感到不时有若有若无的目光在她们俩身上流动，天寂又在心里嘀咕了：不就名字像了点嘛，至于么，跟参观稀有动物似的。心里这么想，就错过了好多人点名，回过神来，依稀听到老师喊过：许沐白，陆樱溪，傅帛寒，程歌……</p>
 <p>天寂心里郁郁，随口丢了一句：名字起这么好听，能当饭吃啊？！</p>
 <p>下一章：<a href="http://aword.net/tong-hua-wan-li-yu-bu-xi-di-er-zhang/">第二章 与君初相识，犹如故人归</a></p>
+]]></content>
+      <categories>
+        <category>文字</category>
+      </categories>
+      <tags>
+        <tag>小说</tag>
+        <tag>青春</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>桐花万里语不息-第二章 与君初相识，犹如故人归</title>
+    <url>//tong-hua-wan-li-yu-bu-xi-di-er-zhang/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/TongHua2_500x250.jpg"></p>
+<p>旁边的男生扔来一句：你嫉妒？</p>
+<p>其实天寂的口头语就有一句：能当饭吃啊？比如，高一有一次同桌地理考100分，她把自己不及格的试卷捏成一团藏在书桌，不屑地撇撇嘴翻翻白眼：“考满分又怎么了，能当饭吃？”</p>
+<p>每当她说这句话的时候，其实都是技不如人或者境况不如人的时候，拍肿脸充胖子，说的就是她。地理白痴对同桌的满分不屑一顾的时候如是，今次这些陌生又好听的名字，也如是。自己心里明白的很，但别人能不能这么说，就是另一回事了，于是…</p>
+<span id="more"></span>
+
+<p>天寂心里的小火苗“腾”就燃了起来，抬起头循着声音的来源咬牙切齿一字一顿：“你-说-我-嫉-妒？”</p>
+<p>旁边的男生一头清爽的短发，细闻能闻到清香淡雅的海飞丝洗发水的味道，侧脸看上去棱角分明，他头也不抬，一把低沉的嗓子：“要不然是什么？”</p>
+<p>如长流的细水一般温润无波，轻而易举就浇灭了天寂的小火苗。很久之后，天寂想起这日这时的情景，对着某篇文章结尾的四个字感慨万千，世事轮回，有因有果，这四个字描述当日那境况，竟是如此契合，分毫不差，这四个字便是——柔能克刚。</p>
+<p>小 宇宙不燃烧时的天寂也很有条理很有思维，比如现在她就在头头是道的为别人解释她理解的意思：“在我们那个小县城，男生不是叫建国就是叫国庆，要不就是王强 张刚，老师刚才念的几个名字多好听，一听名字就知道父母都是文化人，但我有觉得有些不明白，譬如说，‘许沐白’，沐浴着白色？理解不了；‘陆樱溪’，樱桃 汁形成的小溪？那是什么啊，‘傅帛寒’，字都那么不好找，难为给他起名字的人了，而且完全不懂什么意思。”</p>
+<p>明明是稳坐如山，天寂还是看到了男生嘴角抽了几抽，然后眼皮也不抬，扔过来一句话：“我就是许沐白。”天寂石化了…</p>
+<p>里面的一男孩子探出头，眼底眉梢掩不住的笑意，不得不压低嗓音：“你好，我是陆樱溪。从没想过我的名字是这个意思哦。你叫天寂？想象力好丰富啊！”</p>
+<p>再 里面的男孩子按住陆樱溪的头，夸张地咧着嘴用力的朝天寂摆手：“小丫头，还有我，我是傅帛寒，叫我小寒也行，其实我也不知道名字究竟是什么意思。哈哈 –”没来得及笑完就被旁边这个低着头的男生准确的用面包把笑声堵在了嘴里，然后这个叫许沐白的男生缓缓抬头瞪了他一眼。</p>
+<p>然后，便轮到我们天不怕地不怕的天寂女侠傻眼了，今天鬼撞墙？都说世上没有不透风的墙，但那好歹也是有堵墙啊，今日这情景，明显就是自己不仅没站在墙后面，反而就是直愣愣的冲着枪口就去了。</p>
+<p>当然，那时的词汇还没现今这么发达，用近日流行的一句话形容就是：NO zuo , NO die。</p>
+<p>后来，当小寒问起当初对他们的第一印象时，天寂总是会窘个大红脸：“总觉得像是背后说人闲话被人当场抓获的感觉，别提多尴尬了。咋能那么巧？不会是你们三合起来整我的吧？”</p>
+<p>许沐白就抛来一个大白眼：谁稀罕。噎得天寂一愣一愣的，攥着小拳头就要揍他，这时候，陆樱溪就会过来打圆场：别在意，许沐白就那德行。小寒也凑过来，狡黠的眨眼：你真有够白痴的，那时我们都不认识你啊，怎么整你啊！</p>
+<p>天寂和大家的初识是这样戏剧化，以至于很久很久以后，大家还记得当初走进教室时穿着大大的T恤，破旧牛仔裤，染着头发，一脸淡然冷漠却眼神慌张的瘦小女孩子，也记得后来跟他们解说名字的意义时那个神采飞扬的姑娘。</p>
+<p>古 语有云：不打不相识，老前辈留下的话有时候真是真理呢，天寂很快和大家打成一片。她本身就是大咧咧，因为无所谓，所以便无所惧，天生豪爽的性子在男生圈里 很是如鱼得水，她也乐得跟男生打交道，少了女人之间的勾心斗角和明争暗斗，她们之间的小心机总是让她手足无措。于是她也便安心混迹在他们三个中间，乐不思 蜀乐此不疲。</p>
+<p>分宿舍的时候，天寂和天落都分在了217，反正无论从学号还是姓氏来说，她俩都挨着，这也是必然的事。天寂总是早出晚归，在没有搞清楚宿舍其余三个女人的性格习惯忌讳之前，她避而远之，唯恐自己不经意得罪了谁，都入学快半年了，她刚勉强将名字与人对上号。</p>
+<p>钱 乐乐，一号床的大姐大，175的身高在她们班都是鹤立鸡群的存在，难得是人家的身材保持的也相当好，从第一天见她，天寂几乎就没见过她素颜的模样，早晨天 寂挂着耳机赶去操场散步，其它三个还在被窝里；晚上天寂回宿舍，乐乐小姐早已经洗漱完毕躺在床上按摩脸、胸、腰、屁股…白天这位大小姐也随身携带各种化妆 品随时补妆，用傅帛寒的话说，哪怕当街被人抢了钱袭了胸捏了臀，也要优雅的拿出镜子看看妆花了没…</p>
+<p>天寂和天落的床挨着，头靠头睡 的那种。虽然未曾过多接触，但一个屋檐下，抬头不见低头见的，天寂对这个沉默少言总是挂着浅浅微笑的女生十分有好感。天落是典型的大家闺秀，温风软雨的江 南养育了她的恬静内秀，沾衣欲湿杏花雨，如黛纤眉桃花面，天落本身就是一幅上好的山水画。</p>
+<p>4床的女生姓袁名缘，传说中每个宿舍每 个班级都有个胖子，袁缘便是这传说的实践者，当然，这个白嫩嫩圆滚滚的小姑娘的名字也着实没有辜负这身卡路里，袁缘其实长的蛮清秀，双眼皮的眼睛大而有 神，清澈灵动，但由于脸实在是胖，挤得眼睛便不那么大了。我们整天叫她“圆圆”，不过听起来倒也没差…据她自己说，她爸爸认定与她妈妈的相遇相爱是天注定 的缘分，所以给未来的小孩定了单名一个缘字。但未曾料到自家闺女横向发展的厉害，等她爹娘觉察有些不妥的时候，晚了…</p>
+<p>虽然各有各的性格，但毕竟刚入大学，新奇和陌生都让大家彼此接近彼此包容，四个女生倒也住的和谐。</p>
+<p>那 时天寂真心觉得日子美好的很，白天跟许沐白他们三个晃荡，回宿舍也偶尔跟姑娘们八卦聊天，简直是如鱼得水，整日整日眼角眉梢都是上翘的。人总是在不知觉不 知情中，挥霍掉了最美好的时光，等后来意识到想挽回想珍惜的时候，或已与之失之交臂，或已失去了拥有它的资格。</p>
+<p>天寂未曾想到，他，终究是她逃不开的一场烟罗。</p>
+<p>下一章：<a href="http://aword.net/tong-hua-wan-li-yu-bu-xi-di-san-zhang/">第三章 有匪君子，如切如磋，如琢如磨</a></p>
 ]]></content>
       <categories>
         <category>文字</category>
@@ -2886,45 +2959,6 @@ _   底线
 <p>“呐，天寂，你见过万里桐花极致盛开的美景么？”</p>
 <hr>
 <p>因着她的性格，天寂的记性一向不咋样，她不喜欢记那些有的没的东西，总觉得生活已经够丰富多彩了，再不停的往脑子里塞东西，迟早会被累死。但这首诗，天寂却是再也没忘记，确切的说，那个凉风习习的晚上，男生的每一句话，都成了天寂心底最持久的回响。</p>
-]]></content>
-      <categories>
-        <category>文字</category>
-      </categories>
-      <tags>
-        <tag>小说</tag>
-        <tag>青春</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>桐花万里语不息-第二章 与君初相识，犹如故人归</title>
-    <url>//tong-hua-wan-li-yu-bu-xi-di-er-zhang/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/TongHua2_500x250.jpg"></p>
-<p>旁边的男生扔来一句：你嫉妒？</p>
-<p>其实天寂的口头语就有一句：能当饭吃啊？比如，高一有一次同桌地理考100分，她把自己不及格的试卷捏成一团藏在书桌，不屑地撇撇嘴翻翻白眼：“考满分又怎么了，能当饭吃？”</p>
-<p>每当她说这句话的时候，其实都是技不如人或者境况不如人的时候，拍肿脸充胖子，说的就是她。地理白痴对同桌的满分不屑一顾的时候如是，今次这些陌生又好听的名字，也如是。自己心里明白的很，但别人能不能这么说，就是另一回事了，于是…</p>
-<span id="more"></span>
-
-<p>天寂心里的小火苗“腾”就燃了起来，抬起头循着声音的来源咬牙切齿一字一顿：“你-说-我-嫉-妒？”</p>
-<p>旁边的男生一头清爽的短发，细闻能闻到清香淡雅的海飞丝洗发水的味道，侧脸看上去棱角分明，他头也不抬，一把低沉的嗓子：“要不然是什么？”</p>
-<p>如长流的细水一般温润无波，轻而易举就浇灭了天寂的小火苗。很久之后，天寂想起这日这时的情景，对着某篇文章结尾的四个字感慨万千，世事轮回，有因有果，这四个字描述当日那境况，竟是如此契合，分毫不差，这四个字便是——柔能克刚。</p>
-<p>小 宇宙不燃烧时的天寂也很有条理很有思维，比如现在她就在头头是道的为别人解释她理解的意思：“在我们那个小县城，男生不是叫建国就是叫国庆，要不就是王强 张刚，老师刚才念的几个名字多好听，一听名字就知道父母都是文化人，但我有觉得有些不明白，譬如说，‘许沐白’，沐浴着白色？理解不了；‘陆樱溪’，樱桃 汁形成的小溪？那是什么啊，‘傅帛寒’，字都那么不好找，难为给他起名字的人了，而且完全不懂什么意思。”</p>
-<p>明明是稳坐如山，天寂还是看到了男生嘴角抽了几抽，然后眼皮也不抬，扔过来一句话：“我就是许沐白。”天寂石化了…</p>
-<p>里面的一男孩子探出头，眼底眉梢掩不住的笑意，不得不压低嗓音：“你好，我是陆樱溪。从没想过我的名字是这个意思哦。你叫天寂？想象力好丰富啊！”</p>
-<p>再 里面的男孩子按住陆樱溪的头，夸张地咧着嘴用力的朝天寂摆手：“小丫头，还有我，我是傅帛寒，叫我小寒也行，其实我也不知道名字究竟是什么意思。哈哈 –”没来得及笑完就被旁边这个低着头的男生准确的用面包把笑声堵在了嘴里，然后这个叫许沐白的男生缓缓抬头瞪了他一眼。</p>
-<p>然后，便轮到我们天不怕地不怕的天寂女侠傻眼了，今天鬼撞墙？都说世上没有不透风的墙，但那好歹也是有堵墙啊，今日这情景，明显就是自己不仅没站在墙后面，反而就是直愣愣的冲着枪口就去了。</p>
-<p>当然，那时的词汇还没现今这么发达，用近日流行的一句话形容就是：NO zuo , NO die。</p>
-<p>后来，当小寒问起当初对他们的第一印象时，天寂总是会窘个大红脸：“总觉得像是背后说人闲话被人当场抓获的感觉，别提多尴尬了。咋能那么巧？不会是你们三合起来整我的吧？”</p>
-<p>许沐白就抛来一个大白眼：谁稀罕。噎得天寂一愣一愣的，攥着小拳头就要揍他，这时候，陆樱溪就会过来打圆场：别在意，许沐白就那德行。小寒也凑过来，狡黠的眨眼：你真有够白痴的，那时我们都不认识你啊，怎么整你啊！</p>
-<p>天寂和大家的初识是这样戏剧化，以至于很久很久以后，大家还记得当初走进教室时穿着大大的T恤，破旧牛仔裤，染着头发，一脸淡然冷漠却眼神慌张的瘦小女孩子，也记得后来跟他们解说名字的意义时那个神采飞扬的姑娘。</p>
-<p>古 语有云：不打不相识，老前辈留下的话有时候真是真理呢，天寂很快和大家打成一片。她本身就是大咧咧，因为无所谓，所以便无所惧，天生豪爽的性子在男生圈里 很是如鱼得水，她也乐得跟男生打交道，少了女人之间的勾心斗角和明争暗斗，她们之间的小心机总是让她手足无措。于是她也便安心混迹在他们三个中间，乐不思 蜀乐此不疲。</p>
-<p>分宿舍的时候，天寂和天落都分在了217，反正无论从学号还是姓氏来说，她俩都挨着，这也是必然的事。天寂总是早出晚归，在没有搞清楚宿舍其余三个女人的性格习惯忌讳之前，她避而远之，唯恐自己不经意得罪了谁，都入学快半年了，她刚勉强将名字与人对上号。</p>
-<p>钱 乐乐，一号床的大姐大，175的身高在她们班都是鹤立鸡群的存在，难得是人家的身材保持的也相当好，从第一天见她，天寂几乎就没见过她素颜的模样，早晨天 寂挂着耳机赶去操场散步，其它三个还在被窝里；晚上天寂回宿舍，乐乐小姐早已经洗漱完毕躺在床上按摩脸、胸、腰、屁股…白天这位大小姐也随身携带各种化妆 品随时补妆，用傅帛寒的话说，哪怕当街被人抢了钱袭了胸捏了臀，也要优雅的拿出镜子看看妆花了没…</p>
-<p>天寂和天落的床挨着，头靠头睡 的那种。虽然未曾过多接触，但一个屋檐下，抬头不见低头见的，天寂对这个沉默少言总是挂着浅浅微笑的女生十分有好感。天落是典型的大家闺秀，温风软雨的江 南养育了她的恬静内秀，沾衣欲湿杏花雨，如黛纤眉桃花面，天落本身就是一幅上好的山水画。</p>
-<p>4床的女生姓袁名缘，传说中每个宿舍每 个班级都有个胖子，袁缘便是这传说的实践者，当然，这个白嫩嫩圆滚滚的小姑娘的名字也着实没有辜负这身卡路里，袁缘其实长的蛮清秀，双眼皮的眼睛大而有 神，清澈灵动，但由于脸实在是胖，挤得眼睛便不那么大了。我们整天叫她“圆圆”，不过听起来倒也没差…据她自己说，她爸爸认定与她妈妈的相遇相爱是天注定 的缘分，所以给未来的小孩定了单名一个缘字。但未曾料到自家闺女横向发展的厉害，等她爹娘觉察有些不妥的时候，晚了…</p>
-<p>虽然各有各的性格，但毕竟刚入大学，新奇和陌生都让大家彼此接近彼此包容，四个女生倒也住的和谐。</p>
-<p>那 时天寂真心觉得日子美好的很，白天跟许沐白他们三个晃荡，回宿舍也偶尔跟姑娘们八卦聊天，简直是如鱼得水，整日整日眼角眉梢都是上翘的。人总是在不知觉不 知情中，挥霍掉了最美好的时光，等后来意识到想挽回想珍惜的时候，或已与之失之交臂，或已失去了拥有它的资格。</p>
-<p>天寂未曾想到，他，终究是她逃不开的一场烟罗。</p>
-<p>下一章：<a href="http://aword.net/tong-hua-wan-li-yu-bu-xi-di-san-zhang/">第三章 有匪君子，如切如磋，如琢如磨</a></p>
 ]]></content>
       <categories>
         <category>文字</category>
@@ -3059,40 +3093,6 @@ _   底线
       </categories>
       <tags>
         <tag>生活</tag>
-        <tag>心情</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>杂记之看井</title>
-    <url>//za-ji-zhi-kan-jing/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/KanJing_600x200.jpg" alt="看井"></p>
-<p>置身于一个既熟悉又陌生的小环境里，短暂的脱离了日常繁琐的工作，半天一夜的时光，虽谈不上所谓的种种感悟，但这经历着实应该记下一笔。</p>
-<span id="more"></span>
-
-<ul>
-<li>时间：2013年5月11日</li>
-<li>地点：中国西部某油田某区块</li>
-<li>背景：该区块“外部”环境复杂</li>
-<li>起因：12增产量再次出现大幅偏差</li>
-</ul>
-<p>于是：领导决定，前指以及井区若干名干部到各个单井驻守，为期一天，落实该区块真实生产水平。</p>
-<p>我到这个井上的时候看井工人正在院子里坐着，个头不高，蓬蓬的头发，红工衣还算干净，看上去二十五六的年纪。“我来陪你了。”第一句我就开玩笑的说，不过估计他没听明白，我紧接着把自己来到这里的原因随便解释了一下。</p>
-<p>转过身几步走进他的房子，收拾的挺整洁的，虽然这些破旧的铁皮野营房总是那破这漏的。电视是个比较旧的，电子管那种，大屁股，声音开的挺大，但里面放的却是难看的广告。“你这电视咋没弄个液晶的，我看别的井上挺多的啊？”我又随口问了一句，他无奈的回答道，“别人不给嘛，没办法。”的确，我知道的，在这种地方看井的员工待遇太差了。空旷的井场，冰冷的抽油机，冬冷夏热的野营房，一日三餐要自己做自己吃，白天各种重要的不重要的活，晚上还要防着老乡过来偷油，当然还有偶尔经警中队的查夜。稍微负责的工人遇上老乡光顾频繁的井，每晚几乎都是是睡不好觉的。想着这些，我只好也无奈的叹一口气。以往我习惯于感叹面对大自然伟力下人类的渺小，现在看着人类自己给自己带上的重重枷锁，心中的吁叹不禁又更加沉重了一些。为什么要这样呢？什么时候才能有所改变？会有吗？不得而知……</p>
-<p>我们又随便聊了几句，这位看井的师傅跟我同岁，大我不到一个月，开始一直在修井队当修井工，两三个月之前才从修井工转岗到采油工。我问他的感觉是干修井好还是干采油好，“修井吧，比较辛苦，但是干活单纯，只要你卖力气认真干就好好的。干采油虽然没修井那么累，但就是麻烦的很。”对于后边这句话我的感触还是颇深的，不禁脱口而出：“就是的。”他继续说道：“每天白天投球、加药、看抽油机、打扫卫生，到了晚上还得提心吊胆的防着老乡偷油。”而且他是一个人看了两个井场，另一个在马路对面，距离不远。这师傅对此很自然的流露出一种淡淡的不满和厌烦。我是理解的，每天跑井这活的确烦人的很。“没办法，现在缺人的很啊。”我也略感无奈的应道。的确，这是没办法的事情，至少对于我和他而言，这是完全无能为力的。</p>
-<p><img src="http://cdn.aword.net/images/KanJing_insert_500x375.jpg"></p>
-<p>我起身往他厨房里扫了一眼，“你这都没东西了嘛，咋吃饭着呢？”“我本来应该上次换班休息的，所以没要菜，现在就剩点鸡蛋剩点米了。”我继续问，“那你上次怎么没休息啊？”他还是带着一种淡淡的无奈说：“没人换嘛。人不够没人来换班就走不成，你也知道呢吧。”的确，我知道的，但是这次我脑海里的第一反映不是石油工人的工作如何艰苦，而是突然想到了一些个别的、特殊的看井工人。井上很少能看到他们的身影，偶尔看到，他们或自己开车来或有司机专程把他们送来，在井场转上一圈，然后又风尘仆仆的不知朝着哪个饭店走了。这个世界本来就是不公平的，我在心里暗暗对自己又念了一遍这句话。这句话是没错的，但是当我们对此表示认同的时候，是不是应该还考虑其他呢？何谓之公，而又将何谓之不公？当亲自面对种种不公的境况时，你是在朝着较高的位置奔走准备去继续欺压弱势，还是把自己放在天平的支点，奋力实现我们所谓的大公。</p>
-<p>“你拿我这的米做饭，要不我放假走了也不知道给谁吃了。”看井的师傅向一位刚走进野营房的女士说道。我正在独自猜想着这位女士的来历和身份，她语速很快的回答：“不用不用，我们修井对上啥都带着呢，借你的厨具用用就好了。”原来她是外面修井对的厨师。我随口向她问：“这口井干啥着呢？”“检泵，具体的我也不知道。”然后看井的师傅接过话茬，“这个井双失，都报了好久了，今天队伍才上来的。”“哦，你这井肯定是油量不行吧……”不用他回答我也知道，肯定的，修井要先修产油量高的，他这个井产量不行所以一直排在队尾。产量，产量，多么熟悉而又让我反感的一个词语。在一个唯利是图的时代，利益，早已经把自己的精神贯彻的无孔不入。低孔低渗的油藏物性，与学校课本里保护地层、提高采收率格格不入的开发策略，一塌糊涂的现场管理，里勾外连的默契配合，层层递进的形式主义，为了一己私利坑了爹再坑娘的种种事迹……罢了，罢了，恐胜佛亲临唯叹无力回天。心之将死，大限之至。</p>
-<p>一架单薄的高低床，一把略显破旧的折叠椅，我们三人各自坐下。他们两人用相近的方言闲聊，我偶尔陪他们呵呵一笑，偶尔听到几个词语让我困惑不解。他们两位算不上老乡，但是各自家乡离的也不算远。小伙子已经离家出来工作几年，从修井到采油，一直是社会化员工，俗称临时工，目前还是单身。厨师女士之前在一家私企当会计，工作清闲，工资不菲，又深得领导赏识。通过关系她把儿子调到自己所在的单位工作，干保安，虽然工资不高，但是工作还算清闲。好景不长，或者应该说就没有好景，保安的工作难干，有它自己特有矛盾，儿子甚至曾被别人辱称“看门狗”。在儿子十分决绝的坚持下，他们放弃了单位领导本已答应，过一段时间给她儿子调动工作的承诺。于是这女士的儿子来到了爸爸工作的修井队里。为了照顾家庭的和睦，解决两地分居的困境，她只好放弃清闲高薪的会计工作，跟丈夫儿子一起，来到这个修井队当厨师。我心里深深感叹，同时用“就是”这两个字对看井工小伙子的话表示赞同。他说：“你真是个贤妻良母啊……”这是祖国西北僻壤一个普通的下午。我的心里没有惊涛骇浪的翻滚，但是一股默默的暗流却久久不能平息。</p>
-<p>一谈到修井的种种工作，看井工小伙子总是表现出一种莫名的兴奋。看的出，那里含着的，是留恋。我虽然没有感到困惑，但是真心的，不懂那是什么样一种感觉。修井的工作又苦又累，是什么让他感到不舍，我想不出。当他还在兴奋的给我们讲述着当年他们队伍干活多么迅速多么麻利的时候，一阵汽车的喇叭声响起，把他打断了。小伙子迅速的跑出屋子查看，原来是领导来给送饭了。一下子把这么多人放到各个井场，而且要住上一晚，送上一顿饭应该算是最基本的吧。炒饭，2盒，绿茶，2瓶，馒头，2个。我们一时间还比较高兴，下午正念叨着说饿呢，马上吃的就来了。恭敬的送走了来送饭的领导，我们马上开饭。貌似……炒饭忘了放盐了……好吧，为了响应国家号召，为了不浪费粮食，我们很坚强的，把难吃到盒饭全部咽下去了。抱怨了抱怨，然后，没办法，纯屌丝。</p>
-<p>天色渐渐变暗，湛蓝的苍穹蒙上了一层灰色，地平线上残阳默默远去，还拖着一条无比绚丽的红霞。夜，如期而至。</p>
-<p>未完 戚然</p>
-<p>2013年6月18日</p>
-]]></content>
-      <categories>
-        <category>文字</category>
-      </categories>
-      <tags>
-        <tag>工作</tag>
         <tag>心情</tag>
       </tags>
   </entry>
@@ -3295,29 +3295,6 @@ _   底线
       </tags>
   </entry>
   <entry>
-    <title>这里的天空很美</title>
-    <url>//here-beautiful-sky/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/HereBeautifulSky_503x162.jpg" alt="宁夏的天空"></p>
-<p>这里的天空湛蓝，这里的云朵雪白，和着风、和着雨、和着雪、和着太阳明亮的光芒，这里的天空很美。</p>
-<span id="more"></span>
-
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_rain1_800x600.jpg" alt="宁夏的天空" title="远处的雨"></p>
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_rain2_800x600.jpg" alt="宁夏的天空" title="孤云落雨"></p>
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_snow_800x600.jpg" alt="宁夏的天空" title="白雪蓝天"></p>
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_sunny1_800x600.jpg" alt="宁夏的天空" title="蓝天白云"></p>
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_sunny2_800x600.jpg" alt="宁夏的天空" title="蓝天白云"></p>
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_sunny3_800x600.jpg" alt="宁夏的天空" title="蓝天白云"></p>
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_windmill_800x600.jpg" alt="宁夏的天空" title="风车静静"></p>
-<p>都是自己用手机拍的，效果欠佳。</p>
-]]></content>
-      <categories>
-        <category>相册</category>
-      </categories>
-      <tags>
-        <tag>风景</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>追寻</title>
     <url>//zhui-xun/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/TinyLadybird_ZH-CN14023054484_1920x1080.jpg" alt="追寻"></p>
@@ -3349,6 +3326,29 @@ _   底线
       </categories>
       <tags>
         <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>这里的天空很美</title>
+    <url>//here-beautiful-sky/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/HereBeautifulSky_503x162.jpg" alt="宁夏的天空"></p>
+<p>这里的天空湛蓝，这里的云朵雪白，和着风、和着雨、和着雪、和着太阳明亮的光芒，这里的天空很美。</p>
+<span id="more"></span>
+
+<p><img src="http://cdn.aword.net/images/HereBeautifulSky_rain1_800x600.jpg" alt="宁夏的天空" title="远处的雨"></p>
+<p><img src="http://cdn.aword.net/images/HereBeautifulSky_rain2_800x600.jpg" alt="宁夏的天空" title="孤云落雨"></p>
+<p><img src="http://cdn.aword.net/images/HereBeautifulSky_snow_800x600.jpg" alt="宁夏的天空" title="白雪蓝天"></p>
+<p><img src="http://cdn.aword.net/images/HereBeautifulSky_sunny1_800x600.jpg" alt="宁夏的天空" title="蓝天白云"></p>
+<p><img src="http://cdn.aword.net/images/HereBeautifulSky_sunny2_800x600.jpg" alt="宁夏的天空" title="蓝天白云"></p>
+<p><img src="http://cdn.aword.net/images/HereBeautifulSky_sunny3_800x600.jpg" alt="宁夏的天空" title="蓝天白云"></p>
+<p><img src="http://cdn.aword.net/images/HereBeautifulSky_windmill_800x600.jpg" alt="宁夏的天空" title="风车静静"></p>
+<p>都是自己用手机拍的，效果欠佳。</p>
+]]></content>
+      <categories>
+        <category>相册</category>
+      </categories>
+      <tags>
+        <tag>风景</tag>
       </tags>
   </entry>
   <entry>
@@ -3427,30 +3427,6 @@ _   底线
       </tags>
   </entry>
   <entry>
-    <title>闲言碎语3</title>
-    <url>//xian-yan-sui-yu-3/</url>
-    <content><![CDATA[<p>2014/4/29</p>
-<p>懒惰，拖延，消极，被动。</p>
-<p>是理由，还是借口。</p>
-<p>性格，终究是一个坚定的东西，坚韧不拔，历久弥新。丝毫的更改，似乎都循环嵌套，圆转成环。仔细挖一挖记忆的尘土，陌生的样子，却又熟悉的温暖。想起当时的光景，唏嘘感叹，鲜活亮丽的画面，在脑海漂流激荡，笑语欢声，鸟语花香。扪心自问，竟波澜不惊。</p>
-<p>一个小小的圆圈内，不同的点，不同的人，不同的样子，不同的信念。丰富么，不清楚，已经不晓得外界的模样，同一片蓝天，同一轮明月。</p>
-<span id="more"></span>
-
-<p>2014/5/13</p>
-<p>会议，不同的场地，不同的内容，不同的人员，不同的气氛，却相同的感觉。</p>
-<p>春末夏初，这地方气候不错，有山有水，有树有鸟。清新的空气，温婉的春风，吹在身上，一阵舒爽，拂在心头，莫名悲凉。</p>
-<p>2014/5/15</p>
-<p>还想前两日在shunning的情景，恐怕是所召开的最具技术性的会议。求知的欲望还在，可惜早已失去了往昔的精力。领导的言语很具高度，宏大明晰，精准深刻。不禁念起当年教室里慨当以慷的老师、教授。周围坐落，依然是领导，却是各揣心思。浮躁而坦然，只见其表不思其身，短浅急功，杂乱潦草。整个企业的现状可见一斑。</p>
-<p>思路思路，何时共产主义。</p>
-]]></content>
-      <categories>
-        <category>文字</category>
-      </categories>
-      <tags>
-        <tag>心情</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>随手拍来</title>
     <url>//sui-shou-pai-lai/</url>
     <content><![CDATA[<p>一些近期随手拍来的照片。</p>
@@ -3472,6 +3448,30 @@ _   底线
       </categories>
       <tags>
         <tag>风景</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>闲言碎语3</title>
+    <url>//xian-yan-sui-yu-3/</url>
+    <content><![CDATA[<p>2014/4/29</p>
+<p>懒惰，拖延，消极，被动。</p>
+<p>是理由，还是借口。</p>
+<p>性格，终究是一个坚定的东西，坚韧不拔，历久弥新。丝毫的更改，似乎都循环嵌套，圆转成环。仔细挖一挖记忆的尘土，陌生的样子，却又熟悉的温暖。想起当时的光景，唏嘘感叹，鲜活亮丽的画面，在脑海漂流激荡，笑语欢声，鸟语花香。扪心自问，竟波澜不惊。</p>
+<p>一个小小的圆圈内，不同的点，不同的人，不同的样子，不同的信念。丰富么，不清楚，已经不晓得外界的模样，同一片蓝天，同一轮明月。</p>
+<span id="more"></span>
+
+<p>2014/5/13</p>
+<p>会议，不同的场地，不同的内容，不同的人员，不同的气氛，却相同的感觉。</p>
+<p>春末夏初，这地方气候不错，有山有水，有树有鸟。清新的空气，温婉的春风，吹在身上，一阵舒爽，拂在心头，莫名悲凉。</p>
+<p>2014/5/15</p>
+<p>还想前两日在shunning的情景，恐怕是所召开的最具技术性的会议。求知的欲望还在，可惜早已失去了往昔的精力。领导的言语很具高度，宏大明晰，精准深刻。不禁念起当年教室里慨当以慷的老师、教授。周围坐落，依然是领导，却是各揣心思。浮躁而坦然，只见其表不思其身，短浅急功，杂乱潦草。整个企业的现状可见一斑。</p>
+<p>思路思路，何时共产主义。</p>
+]]></content>
+      <categories>
+        <category>文字</category>
+      </categories>
+      <tags>
+        <tag>心情</tag>
       </tags>
   </entry>
   <entry>
