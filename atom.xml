@@ -6,7 +6,7 @@
   <link href="http://aword.net/atom.xml" rel="self"/>
   
   <link href="http://aword.net/"/>
-  <updated>2021-12-30T16:55:13.315Z</updated>
+  <updated>2022-03-31T14:43:08.255Z</updated>
   <id>http://aword.net/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>XAMPP 升级 PHP</title>
+    <link href="http://aword.net/upgrade-php-of-xampp/"/>
+    <id>http://aword.net/upgrade-php-of-xampp/</id>
+    <published>2022-03-31T16:02:56.000Z</published>
+    <updated>2022-03-31T14:43:08.255Z</updated>
+    
+    <content type="html"><![CDATA[<p>Windows 环境，给 XAMPP 升级 PHP 7.4 → 8.0，记录一下要点。</p><ol><li><p>下载 PHP8.0，要 ts 版，以文件夹名 <code>php8</code> 解压到 XAMPP 跟目录，为了不与原 <code>php</code> 文件夹重名。</p></li><li><p>下载对应 8.0 版本的 <code>extension</code> 到 <code>xampp/php8/ext</code>。</p></li><li><p>修改 <code>xampp/php8/php.ini</code> 启用需要的 <code>extension</code>。</p></li><li><p>修改 <code>xampp/php8/php.ini</code> 内文件路径参数，基本都以 <code>\xampp</code> 开头，修改为实际的绝对路径。</p></li><li><p>修改 <code>xampp/apache/conf/extra/httpd-xampp.conf</code>。</p> <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># LoadFile &quot;D:/xampp/php/php7ts.dll&quot;</span></span><br><span class="line"><span class="comment"># LoadFile &quot;D:/xampp/php/libpq.dll&quot;</span></span><br><span class="line"><span class="comment"># LoadFile &quot;D:/xampp/php/libsqlite3.dll&quot;</span></span><br><span class="line"><span class="comment"># LoadModule php7_module &quot;D:/xampp/php/php7apache2_4.dll&quot;</span></span><br><span class="line">LoadFile <span class="string">&quot;D:/xampp/php/php8ts.dll&quot;</span></span><br><span class="line">LoadFile <span class="string">&quot;D:/xampp/php/libpq.dll&quot;</span></span><br><span class="line">LoadFile <span class="string">&quot;D:/xampp/php/libsqlite3.dll&quot;</span></span><br><span class="line">LoadModule php_module <span class="string">&quot;D:/xampp/php/php8apache2_4.dll&quot;</span></span><br></pre></td></tr></table></figure><p> 并且把其余所有 <code>php7_module</code> 改为 <code>php_module</code>。</p></li><li><p>关闭 apache，把 <code>xampp/php</code> 改为 <code>xampp/php7.4</code>，把 <code>xampp/php8</code> 改为 <code>xampp/php</code>。</p></li><li><p>启动 apache。无法正常启动的话运行 <code>xampp/apache_start.bat</code>，可以看到报错信息。</p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Windows 环境，给 XAMPP 升级 PHP 7.4 → 8.0，记录一下要点。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;下载 PHP8.0，要 ts 版，以文件夹名 &lt;code&gt;php8&lt;/code&gt; 解压到 XAMPP 跟目录，为了不与原 &lt;code&gt;php&lt;/code&gt;</summary>
+      
+    
+    
+    
+    <category term="软件" scheme="http://aword.net/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="PHP" scheme="http://aword.net/tags/PHP/"/>
+    
+  </entry>
   
   <entry>
     <title>内网搭建 apt mirror</title>
@@ -210,7 +236,7 @@
     <link href="http://aword.net/stop-wechat-ad/"/>
     <id>http://aword.net/stop-wechat-ad/</id>
     <published>2019-10-19T22:17:50.000Z</published>
-    <updated>2021-12-30T15:36:17.275Z</updated>
+    <updated>2022-03-31T14:34:22.149Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://cdn.aword.net/images/BubbleNebula_ZH-CN2787112807_1920x1080.jpg" alt="Bubble Nebula"></p><p>朋友圈里不只朋友的广告，还有腾讯的广告。朋友的可以设置为不看，腾讯的可以设置为不看吗？</p><p>可以。</p><span id="more"></span><p><strong>方法如下：</strong></p><ol><li>打开 <strong>腾讯隐私保护平台</strong><br>地址 <a href="https://privacy.qq.com/">https://privacy.qq.com</a></li><li>找到 <strong>广告</strong> 部分，点击 <strong>关于广告</strong><br>地址 <a href="https://privacy.qq.com/advertisement.htm">https://privacy.qq.com/advertisement.htm</a></li><li>找新页面第二部分，点击 “您可以 <strong>管理</strong> 腾讯为您展示的广告”<br>地址 <a href="https://privacy.qq.com/ads/optout.html">https://privacy.qq.com/ads/optout.html</a></li><li>新页面右上角 <strong>微信登陆</strong><br>扫码登陆（实测：本机截图然后扫相册里的图片不行，需要用摄像头扫的才行）</li><li>登陆之后有 <strong>个性化服务设置</strong><br>把里面四个选项都关掉<br><img src="http://cdn.aword.net/images/privacy.qq.com_ads_optout.png" alt="privacy.qq.com"></li></ol><p><strong>实测</strong> 有效。<br>也可以用QQ登陆，把QQ的部分广告关掉。</p><p>还有一句提示<br>   <code>请注意，关闭上述服务意味着我们的广告系统不会再利用该类信息为您展示广告，但不代表您将减少看到的广告或不再看到广告。在关闭该项服务期间，您仍可能收到普遍投放的广告。</code></p><blockquote><p>参考来源：<br><a href="https://laod.cn/black-technology/weixin-guanggao.html">https://laod.cn/black-technology/weixin-guanggao.html</a></p></blockquote>]]></content>
     
@@ -227,8 +253,6 @@
     <category term="教程" scheme="http://aword.net/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="广告" scheme="http://aword.net/tags/%E5%B9%BF%E5%91%8A/"/>
-    
-    <category term="ad" scheme="http://aword.net/tags/ad/"/>
     
     <category term="微信" scheme="http://aword.net/tags/%E5%BE%AE%E4%BF%A1/"/>
     
@@ -508,30 +532,6 @@
     <category term="教程" scheme="http://aword.net/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="Python" scheme="http://aword.net/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>近来可好</title>
-    <link href="http://aword.net/jin-lai-ke-hao/"/>
-    <id>http://aword.net/jin-lai-ke-hao/</id>
-    <published>2017-08-26T16:20:00.000Z</published>
-    <updated>2021-12-30T15:36:17.273Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://cdn.aword.net/images/ShanwangpingKarst_ZH-CN5360258756_1920x1080.jpg"></p><p>迷雾茫茫，何其寻探。随心随性，一路玩赏；迎难而上，披荆斩棘。责为趣，苦寻乐，魂魄不分，形神如一。</p><span id="more"></span><h2 id="窗前"><a href="#窗前" class="headerlink" title="窗前"></a>窗前</h2><p>坐在电脑前，迎着窗子，清风徐来，初秋的凉爽没有丝毫的吝啬之意。外面路边一盏路灯，直矗矗的站着，坚定却又木讷。他将头顶一片光芒用力向脚下洒去，打在了树梢的绿叶上，溅在了脚下的柏油路，光影之间，也许真的藏着另一个次元。蟋蟀的声音窸窸窣窣，在两楼间不知反射几次，明亮、清澈，径直闯来。细细而听，又仿佛在房间的角落，自顾自讲述着不知名的故事。</p><p>我不禁嘴角微扬，转念，心中却是空白。</p><p>路上一辆白色的车子缓缓驶过，不知道他从哪来，不知道他到哪去。只是凑巧，我在楼上目送，愿所有的人平安，愿这个世界和平。</p><p>盛夏之后的清凉虽爽，却是不得多享。孩子睡了，一则怕凉，二则怕吵，只好关窗闭户。</p><p>外面依然清亮，只是我已听不到你。</p><h2 id="妞儿"><a href="#妞儿" class="headerlink" title="妞儿"></a>妞儿</h2><p>女儿长的很快。仿佛刚会翻身还是昨日，今时已经可以爬的飞快。</p><p>一天天的陪伴，看她哭，看她笑，有满心欢喜，有生气烦躁，也有哭笑不得。</p><p>已经八个多月，还是十八斤，近来体重增速很低。</p><p>想想相机又在某个角落吃了不少的灰了。不该不该。</p><p>只盼她健康成长。</p><h2 id="CODING"><a href="#CODING" class="headerlink" title="CODING"></a>CODING</h2><p>断断续续的，有过连续两三天一个字没动，也有过从入夜开始一直写到天蒙亮。昨天突然发现，最大的一个文件，竟然已经有了八万多个字符。</p><p>这两天又看到那个说法，“<em>七年就是一辈子</em> ”。毕业已六年，我也快到下一个辈子了吗？也许，不知道，至少现在，还没准备好。</p><p>纠结了许久是否要换方向，近来在心里逐渐明晰，也算终于做出了决定。只是时机的把握和事情的运作仍然会有未知的变数，会变成康庄坦途，还是会需要披荆斩棘，晓不得。</p><p>只管向前。</p><h2 id="事事儿"><a href="#事事儿" class="headerlink" title="事事儿"></a>事事儿</h2><p>家家有本难念的经。</p><p>与生俱来的，接受；自己选择的，承受；无法改变的，忍受。</p><p>当然，能做的，还有很多很多。生活，尽心而做，尽力而为，相信着，一切都会好起来的。</p><h2 id="胖"><a href="#胖" class="headerlink" title="胖"></a>胖</h2><p>贪吃、熬夜、少运动。</p><p>控制饮食，尽量早睡，定期锻炼。</p><blockquote><p>“花了一生的时间，终于，把自己变成了原本讨厌的样子”。</p></blockquote><p>之前想买个 kindle 的，纠结了一阵。现在决心不买了，怕弄回来之后它会向我那块 raspberry pi 一样，躺灰。但是书还是要读的，现在脑袋已经跟木头一样，再下去就变成朽木了。先把手上这几本看完。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;http://cdn.aword.net/images/ShanwangpingKarst_ZH-CN5360258756_1920x1080.jpg&quot;&gt;&lt;/p&gt;
-&lt;p&gt;迷雾茫茫，何其寻探。随心随性，一路玩赏；迎难而上，披荆斩棘。责为趣，苦寻乐，魂魄不分，形神如一。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="文字" scheme="http://aword.net/categories/%E6%96%87%E5%AD%97/"/>
-    
-    
-    <category term="工作" scheme="http://aword.net/tags/%E5%B7%A5%E4%BD%9C/"/>
-    
-    <category term="生活" scheme="http://aword.net/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
