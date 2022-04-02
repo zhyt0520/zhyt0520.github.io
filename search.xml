@@ -3567,7 +3567,7 @@ _   底线
     <url>//upgrade-php-of-xampp/</url>
     <content><![CDATA[<p>Windows 环境，给 XAMPP 升级 PHP 7.4 → 8.0，记录一下要点。</p>
 <ol>
-<li><p>下载 PHP8.0，要 ts 版，以文件夹名 <code>php8</code> 解压到 XAMPP 跟目录，为了不与原 <code>php</code> 文件夹重名。</p>
+<li><p>下载 PHP8.0 版本的 XAMPP，提取其中的 <code>php</code> 文件夹，改名为 <code>php8</code> 放到原 XAMPP 根目录，为了不与原 <code>php</code> 文件夹重名。</p>
 </li>
 <li><p>下载对应 8.0 版本的 <code>extension</code> 到 <code>xampp/php8/ext</code>。</p>
 </li>
