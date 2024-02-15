@@ -3,9 +3,7 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 6.0.0">
-
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.1.1">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
@@ -16,10 +14,12 @@
 
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha256-yIDrPSXHZdOZhAqiBP7CKzIwMQmRCJ8UeB8Jo17YC4o=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"aword.net","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"buttons","active":"disqusjs","storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="这里是 zhyt 的分享和记录">
+<script class="next-config" data-name="main" type="application/json">{"hostname":"aword.net","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.19.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="这里是 zhyt 的分享和记录">
 <meta property="og:type" content="website">
 <meta property="og:title" content="一语">
 <meta property="og:url" content="http://aword.net/page/5/index.html">
@@ -41,23 +41,25 @@
 <title>一语</title>
   
 
-  <script src="/js/third-party/analytics/baidu-analytics.js"></script>
-  <script async src="https://hm.baidu.com/hm.js?05252d3ab1825c4f51ef7797d46dde56"></script>
 
 
 
+
+
+
+<link rel="dns-prefetch" href="https://waline-mu-lyart.vercel.app/">
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
 <link rel="alternate" href="/atom.xml" title="一语" type="application/atom+xml">
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage">
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
 
   <main class="main">
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏" role="button">
         <span class="toggle-line"></span>
@@ -77,7 +79,7 @@
   </div>
 
   <div class="site-nav-right">
-    <div class="toggle popup-trigger">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
         <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
@@ -86,11 +88,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu">
-        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
-        <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
-        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li>
-        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
@@ -123,15 +121,9 @@
     </div>
   </div>
 
-</div>
+</header>
         
   
-  <div class="toggle sidebar-toggle" role="button">
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
-  </div>
-
   <aside class="sidebar">
 
     <div class="sidebar-inner sidebar-overview-active">
@@ -151,165 +143,47 @@
         <!--/noindex-->
 
         <div class="site-overview-wrap sidebar-panel">
-          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">zhyt</p>
   <div class="site-description" itemprop="description">这里是 zhyt 的分享和记录</div>
 </div>
-<div class="site-state-wrap site-overview-item animated">
+<div class="site-state-wrap animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">104</span>
+          <span class="site-state-item-count">90</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">52</span>
+        <span class="site-state-item-count">42</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
-  <div class="links-of-author site-overview-item animated">
+  <div class="links-of-author animated">
       <span class="links-of-author-item">
-        <a href="mailto:zhyt0520@gmail.com" title="E-Mail → mailto:zhyt0520@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+        <a href="mailto:zhyt0520@gmail.com" title="E-Mail → mailto:zhyt0520@gmail.com" rel="noopener me" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
       </span>
   </div>
-  <div class="cc-license site-overview-item animated" itemprop="license">
-    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
-  </div>
-
-
 
         </div>
       </div>
     </div>
+
+    
   </aside>
-  <div class="sidebar-dimmer"></div>
 
 
-    </header>
-
-    
-  <div class="back-to-top" role="button" aria-label="返回顶部">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
-
-<noscript>
-  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
-</noscript>
-
-
-    <div class="main-inner index posts-expand">
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://aword.net/excel-xun-huan-cong-qi-ta-gong-zuo-bu-fu-zhi-shu-ju/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhyt">
-      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="一语">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/excel-xun-huan-cong-qi-ta-gong-zuo-bu-fu-zhi-shu-ju/" class="post-title-link" itemprop="url">excel循环从其他工作簿复制数据</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2015-09-18 22:45:00" itemprop="dateCreated datePublished" datetime="2015-09-18T22:45:00+08:00">2015-09-18</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E8%BD%AF%E4%BB%B6/" itemprop="url" rel="index"><span itemprop="name">软件</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-    <span class="post-meta-item-icon">
-      <i class="far fa-comment"></i>
-    </span>
-    <span class="post-meta-item-text">Valine：</span>
-  
-    <a title="valine" href="/excel-xun-huan-cong-qi-ta-gong-zuo-bu-fu-zhi-shu-ju/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/excel-xun-huan-cong-qi-ta-gong-zuo-bu-fu-zhi-shu-ju/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p><img src="http://cdn.aword.net/images/Excel_500x200.jpg" alt="excel循环从其他工作簿复制数据"></p>
-<p>现在工作这里，他们查询单井数据都是在浏览器上，输井号和日期，从网络的数据库查询，返回的数据再输出到网页上。</p>
-<p>网页上只是最简单的用表格显示数据，不管是看，还是算，都显得太苍白。之前习惯了在微软的 Excel 里操作，所以打算把2015年之内的数据全粘到一个 Excel 表格里。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/excel-xun-huan-cong-qi-ta-gong-zuo-bu-fu-zhi-shu-ju/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
     </div>
 
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
+    <div class="main-inner index posts-expand">
 
     
 
@@ -324,11 +198,16 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="zhyt">
-      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="一语">
+      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | 一语">
+      <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
@@ -345,13 +224,13 @@
 
       <time title="创建时间：2015-09-11 23:49:00" itemprop="dateCreated datePublished" datetime="2015-09-11T23:49:00+08:00">2015-09-11</time>
     </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
       </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
@@ -369,10 +248,10 @@
     <span class="post-meta-item-icon">
       <i class="far fa-comment"></i>
     </span>
-    <span class="post-meta-item-text">Valine：</span>
+    <span class="post-meta-item-text">Waline：</span>
   
-    <a title="valine" href="/my-wordpress-track-4/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/my-wordpress-track-4/" itemprop="commentCount"></span>
+    <a title="waline" href="/my-wordpress-track-4/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/my-wordpress-track-4/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -422,222 +301,21 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://aword.net/gao-xiao-chuang-ye-jing-cheng-yi-di-ji-mao/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhyt">
-      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="一语">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/gao-xiao-chuang-ye-jing-cheng-yi-di-ji-mao/" class="post-title-link" itemprop="url">高校创业竟成一地鸡毛</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2015-09-03 23:06:00" itemprop="dateCreated datePublished" datetime="2015-09-03T23:06:00+08:00">2015-09-03</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E8%A7%86%E9%A2%91/" itemprop="url" rel="index"><span itemprop="name">视频</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-    <span class="post-meta-item-icon">
-      <i class="far fa-comment"></i>
-    </span>
-    <span class="post-meta-item-text">Valine：</span>
-  
-    <a title="valine" href="/gao-xiao-chuang-ye-jing-cheng-yi-di-ji-mao/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/gao-xiao-chuang-ye-jing-cheng-yi-di-ji-mao/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <blockquote>
-<p>昨天写了篇《直面万众创业泡沫浪潮：一个90后连续创业失败者的三大反思》，不出所料，今天又有不少创业者和笔者交流，希望能得到所谓的“创业指导”。有位读者甚至说，能不能推荐一些创业者的微信给我，我想默默关注他们，向他们学习。当时我回复了这样一句话——真正靠谱的创业者哪有时间天天发朋友圈。这句话原创作者其实是我的一位朋友，他常常给我讲述大学生创业者的浮夸故事，说到最后时往往会用这句话收尾。</p>
-</blockquote>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/gao-xiao-chuang-ye-jing-cheng-yi-di-ji-mao/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://aword.net/rong-yao-7-ti-yan/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhyt">
-      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="一语">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/rong-yao-7-ti-yan/" class="post-title-link" itemprop="url">华为荣耀7体验「ZEALER|Media出品」</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2015-08-26 21:59:00" itemprop="dateCreated datePublished" datetime="2015-08-26T21:59:00+08:00">2015-08-26</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E8%A7%86%E9%A2%91/" itemprop="url" rel="index"><span itemprop="name">视频</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-    <span class="post-meta-item-icon">
-      <i class="far fa-comment"></i>
-    </span>
-    <span class="post-meta-item-text">Valine：</span>
-  
-    <a title="valine" href="/rong-yao-7-ti-yan/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/rong-yao-7-ti-yan/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p><img src="http://cdn.aword.net/images/RongYao7_500x300.jpg" alt="荣耀7"></p>
-<p>因为前任 nexus4 提前报废，直接入手了华为的荣耀7。</p>
-<p>优缺点都挺多的，性价比不够高，总体没达到我的预期。现在补一个测评来看看吧。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/rong-yao-7-ti-yan/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="http://aword.net/Markdown-Syntax-CN/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="zhyt">
-      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="一语">
+      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | 一语">
+      <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
@@ -654,13 +332,13 @@
 
       <time title="创建时间：2015-08-21 21:24:00" itemprop="dateCreated datePublished" datetime="2015-08-21T21:24:00+08:00">2015-08-21</time>
     </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
       </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
@@ -678,10 +356,10 @@
     <span class="post-meta-item-icon">
       <i class="far fa-comment"></i>
     </span>
-    <span class="post-meta-item-text">Valine：</span>
+    <span class="post-meta-item-text">Waline：</span>
   
-    <a title="valine" href="/Markdown-Syntax-CN/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/Markdown-Syntax-CN/" itemprop="commentCount"></span>
+    <a title="waline" href="/Markdown-Syntax-CN/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/Markdown-Syntax-CN/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -735,11 +413,16 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="zhyt">
-      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="一语">
+      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | 一语">
+      <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
@@ -756,13 +439,13 @@
 
       <time title="创建时间：2015-08-02 23:29:00" itemprop="dateCreated datePublished" datetime="2015-08-02T23:29:00+08:00">2015-08-02</time>
     </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
       </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
@@ -780,10 +463,10 @@
     <span class="post-meta-item-icon">
       <i class="far fa-comment"></i>
     </span>
-    <span class="post-meta-item-text">Valine：</span>
+    <span class="post-meta-item-text">Waline：</span>
   
-    <a title="valine" href="/chu-lai-ji-yi-1/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/chu-lai-ji-yi-1/" itemprop="commentCount"></span>
+    <a title="waline" href="/chu-lai-ji-yi-1/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/chu-lai-ji-yi-1/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -839,11 +522,16 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="zhyt">
-      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="一语">
+      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | 一语">
+      <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
@@ -860,13 +548,13 @@
 
       <time title="创建时间：2015-07-08 17:49:00" itemprop="dateCreated datePublished" datetime="2015-07-08T17:49:00+08:00">2015-07-08</time>
     </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
       </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
@@ -884,10 +572,10 @@
     <span class="post-meta-item-icon">
       <i class="far fa-comment"></i>
     </span>
-    <span class="post-meta-item-text">Valine：</span>
+    <span class="post-meta-item-text">Waline：</span>
   
-    <a title="valine" href="/now-another-four-year-passed/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/now-another-four-year-passed/" itemprop="commentCount"></span>
+    <a title="waline" href="/now-another-four-year-passed/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/now-another-four-year-passed/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -937,120 +625,21 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://aword.net/tong-hua-wan-li-yu-bu-xi-di-er-zhang/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zhyt">
-      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="一语">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/tong-hua-wan-li-yu-bu-xi-di-er-zhang/" class="post-title-link" itemprop="url">桐花万里语不息-第二章 与君初相识，犹如故人归</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2015-05-17 22:09:00" itemprop="dateCreated datePublished" datetime="2015-05-17T22:09:00+08:00">2015-05-17</time>
-    </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
-      </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">分类于</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E6%96%87%E5%AD%97/" itemprop="url" rel="index"><span itemprop="name">文字</span></a>
-        </span>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-    <span class="post-meta-item-icon">
-      <i class="far fa-comment"></i>
-    </span>
-    <span class="post-meta-item-text">Valine：</span>
-  
-    <a title="valine" href="/tong-hua-wan-li-yu-bu-xi-di-er-zhang/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/tong-hua-wan-li-yu-bu-xi-di-er-zhang/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p><img src="http://cdn.aword.net/images/TongHua2_500x250.jpg"></p>
-<p>旁边的男生扔来一句：你嫉妒？</p>
-<p>其实天寂的口头语就有一句：能当饭吃啊？比如，高一有一次同桌地理考100分，她把自己不及格的试卷捏成一团藏在书桌，不屑地撇撇嘴翻翻白眼：“考满分又怎么了，能当饭吃？”</p>
-<p>每当她说这句话的时候，其实都是技不如人或者境况不如人的时候，拍肿脸充胖子，说的就是她。地理白痴对同桌的满分不屑一顾的时候如是，今次这些陌生又好听的名字，也如是。自己心里明白的很，但别人能不能这么说，就是另一回事了，于是…</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/tong-hua-wan-li-yu-bu-xi-di-er-zhang/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="http://aword.net/excel-zhong-vlookup-duo-tiao-jian-yin-yong/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="zhyt">
-      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="一语">
+      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | 一语">
+      <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
@@ -1067,13 +656,13 @@
 
       <time title="创建时间：2015-05-05 17:17:00" itemprop="dateCreated datePublished" datetime="2015-05-05T17:17:00+08:00">2015-05-05</time>
     </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
       </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
@@ -1091,10 +680,10 @@
     <span class="post-meta-item-icon">
       <i class="far fa-comment"></i>
     </span>
-    <span class="post-meta-item-text">Valine：</span>
+    <span class="post-meta-item-text">Waline：</span>
   
-    <a title="valine" href="/excel-zhong-vlookup-duo-tiao-jian-yin-yong/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/excel-zhong-vlookup-duo-tiao-jian-yin-yong/" itemprop="commentCount"></span>
+    <a title="waline" href="/excel-zhong-vlookup-duo-tiao-jian-yin-yong/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/excel-zhong-vlookup-duo-tiao-jian-yin-yong/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -1148,11 +737,16 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="zhyt">
-      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="一语">
+      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | 一语">
+      <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
@@ -1169,13 +763,13 @@
 
       <time title="创建时间：2015-04-29 00:35:00" itemprop="dateCreated datePublished" datetime="2015-04-29T00:35:00+08:00">2015-04-29</time>
     </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
       </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
@@ -1193,10 +787,10 @@
     <span class="post-meta-item-icon">
       <i class="far fa-comment"></i>
     </span>
-    <span class="post-meta-item-text">Valine：</span>
+    <span class="post-meta-item-text">Waline：</span>
   
-    <a title="valine" href="/recently-bad-state/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/recently-bad-state/" itemprop="commentCount"></span>
+    <a title="waline" href="/recently-bad-state/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/recently-bad-state/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -1239,8 +833,445 @@
 
 
 
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://aword.net/ie-liu-lan-qi-fang-wen-ben-zhan-hui-xian-shi-bu-quan/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="zhyt">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="一语">
+      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | 一语">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/ie-liu-lan-qi-fang-wen-ben-zhan-hui-xian-shi-bu-quan/" class="post-title-link" itemprop="url">ie浏览器访问本站会显示不全</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2015-03-10 23:56:00" itemprop="dateCreated datePublished" datetime="2015-03-10T23:56:00+08:00">2015-03-10</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%BB%BA%E7%AB%99/" itemprop="url" rel="index"><span itemprop="name">建站</span></a>
+        </span>
+    </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Waline：</span>
+  
+    <a title="waline" href="/ie-liu-lan-qi-fang-wen-ben-zhan-hui-xian-shi-bu-quan/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/ie-liu-lan-qi-fang-wen-ben-zhan-hui-xian-shi-bu-quan/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><del>不知道从什么时候开始的，用ie浏览器访问本站会出现显示不全的问题……</del></p>
+<p>检查过了，貌似不是ie的兼容性问题，也不是css加载不全。</p>
+<p>查看网页的源代码，代码是从半截上突然停掉了，后半部分突然就没了。</p>
+<p>貌似出现这个问题的人不多，在网上只找到一个类似的问题。是百度知道里面的，地址是这个<br><a target="_blank" rel="noopener" href="http://zhidao.baidu.com/link?url=4JIdhZ2AltmhPCG_jwVz_Mg7VHSxlrPXGt9XJNjT-NxpnkgDwBmFrV0tF0IzoZ1xjYzaAhz6tpRqK6GtnOVdnP11BJgP7QJ6uq71BUYtO7a">http://zhidao.baidu.com/link?url=4JIdhZ2AltmhPCG_jwVz_Mg7VHSxlrPXGt9XJNjT-NxpnkgDwBmFrV0tF0IzoZ1xjYzaAhz6tpRqK6GtnOVdnP11BJgP7QJ6uq71BUYtO7a</a></p>
+<p>但是也没说出明确的答案，还是解决不了我这网站的问题……</p>
+<p>近期事情很多，工作也很忙，没时间更新博客，没时间鼓捣网站的主机和网站程序。</p>
+<p>所以，想来转转的，就尽量不要用ie浏览本站吧……</p>
+<p>如果有知道如何解决该问题的大神，一定联系我哈，留言啊，邮件啊，什么的。</p>
+<p>&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;&#x3D;</p>
+<p><span style="color: #ff0000;">2015&#x2F;3&#x2F;30</span></p>
+<p><span style="color: #ff0000;"> 问题还是没搞定，但是把网站从老薛搬到万网了，重新安装的wordpress，现在ie可以正常访问了……</span></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://aword.net/bye-my2014/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="zhyt">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="一语">
+      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | 一语">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/bye-my2014/" class="post-title-link" itemprop="url">别了，我的2014～～</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2015-01-01 22:43:00" itemprop="dateCreated datePublished" datetime="2015-01-01T22:43:00+08:00">2015-01-01</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%96%87%E5%AD%97/" itemprop="url" rel="index"><span itemprop="name">文字</span></a>
+        </span>
+    </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Waline：</span>
+  
+    <a title="waline" href="/bye-my2014/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/bye-my2014/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><img src="http://cdn.aword.net/images/bye,my2014_500x300.jpg" alt="2014"></p>
+<p>这看似平淡无奇的一年中我却经历了许多，可以算作是有生以来最重要的的一年。毕业，结婚，工作……其中每件事单独提到其重要性都不言而喻的，在短短的一年中我却有幸经历了全部，心情也是错综复杂，五味杂陈……</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/bye-my2014/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://aword.net/si-ceng-xiang-shi/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="zhyt">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="一语">
+      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | 一语">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/si-ceng-xiang-shi/" class="post-title-link" itemprop="url">似曾相识</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2014-12-05 17:09:00" itemprop="dateCreated datePublished" datetime="2014-12-05T17:09:00+08:00">2014-12-05</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E6%96%87%E5%AD%97/" itemprop="url" rel="index"><span itemprop="name">文字</span></a>
+        </span>
+    </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Waline：</span>
+  
+    <a title="waline" href="/si-ceng-xiang-shi/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/si-ceng-xiang-shi/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><img src="http://cdn.aword.net/images/SiCengXiangShi_500x250.jpg" alt="si-ceng-xiang-shi"></p>
+<center>寒风冷月点芒星</center>
+
+<center>肩包耳塞孤影行</center>
+
+<center>他乡异客曾相识</center>
+
+<center><p>低头故里奈何情</p></center>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/si-ceng-xiang-shi/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://aword.net/win7-taskbar-no-thumbnail/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="zhyt">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="一语">
+      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | 一语">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/win7-taskbar-no-thumbnail/" class="post-title-link" itemprop="url">Win7关闭任务栏缩略图，只显示名称</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2014-11-21 08:44:00" itemprop="dateCreated datePublished" datetime="2014-11-21T08:44:00+08:00">2014-11-21</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E8%BD%AF%E4%BB%B6/" itemprop="url" rel="index"><span itemprop="name">软件</span></a>
+        </span>
+    </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+    <span class="post-meta-item-icon">
+      <i class="far fa-comment"></i>
+    </span>
+    <span class="post-meta-item-text">Waline：</span>
+  
+    <a title="waline" href="/win7-taskbar-no-thumbnail/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/win7-taskbar-no-thumbnail/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><img src="http://cdn.aword.net/images/Win7Thumbnail.jpg" alt="win7-taskbar-no-thumbnail"></p>
+<p>Windows 7 RTM 于2009年7月14日正式上线，至今已经5年多，时间过的真快。虽然 Win8 早出，接着 8.1，然后又来一个 update，作为微软继 XP 之后又一代经典系统的 Win7，目前在各版本 Windows 系统中使用率仍占半壁江山。</p>
+<p>记得当时在学校鼓捣 Win7 的时候，看着任务栏缩略图预览，半透明的毛玻璃特效，流畅的动画效果，真心感觉高大上。工作之后对该功能的态度却是 180° 翻转，鸡肋的特效实在没有实用性，而且影响工作效率。窗口开的多了，就会左右满屏宽度的一排缩略图，切换窗口时必须左右来回移动鼠标，看着缩略图晃来晃去，烦死。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/win7-taskbar-no-thumbnail/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/4/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><span class="space">&hellip;</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/6/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+    <a class="extend prev" rel="prev" title="上一页" aria-label="上一页" href="/page/4/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><span class="space">&hellip;</span><a class="page-number" href="/page/9/">9</a><a class="extend next" rel="next" title="下一页" aria-label="下一页" href="/page/6/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 </div>
@@ -1249,17 +1280,14 @@
   <footer class="footer">
     <div class="footer-inner">
 
-  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">冀ICP备18035027号 </a>
+  <div class="copyright">
+    &copy; 2013 – 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">zhyt</span>
   </div>
-
-<div class="copyright">
-  &copy; 2013 – 
-  <span itemprop="copyrightYear">2022</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">zhyt</span>
-</div>
   <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
@@ -1267,32 +1295,43 @@
   </footer>
 
   
-  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
 
   
-<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
 <script src="/js/third-party/search/local-search.js"></script>
 
 
 
 
 
+
+
   
 
 
 
 
-
+<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-CN","enable":true,"serverURL":"https://waline-mu-lyart.vercel.app/","cssUrl":"https://unpkg.com/@waline/client@v2/dist/waline.css","commentCount":true,"pageview":false,"el":"#waline","comment":true,"libUrl":"//unpkg.com/@waline/client@v2/dist/waline.js","path":"/page/5/"}</script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
 <script>
-NexT.utils.loadComments('#valine-comments', () => {
-  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
-    new Valine(Object.assign({"enable":true,"appId":"OufkRwzjUh5OH1XJ4cgiBpy8-gzGzoHsz","appKey":"t4QXVJvDqh2nlRGEvVh8lh4e","serverURLs":"https://valine.aword.net","placeholder":"欢迎留言","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":"zh-cn","visitor":false,"comment_count":true,"recordIP":false,"enableQQ":false,"requiredFields":["nick","mail"]}, {
-      el: '#valine-comments',
-      path: "/page/5/",
-      serverURLs: "https://valine.aword.net"
-    }));
-  }, window.Valine);
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.waline.el).then(() =>
+    NexT.utils.getScript(CONFIG.waline.libUrl, { condition: window.Waline })
+  ).then(() => 
+    Waline.init(Object.assign({}, CONFIG.waline,{ el: document.querySelector(CONFIG.waline.el) }))
+  );
 });
 </script>
 

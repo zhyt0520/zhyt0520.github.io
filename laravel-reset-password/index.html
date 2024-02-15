@@ -3,9 +3,7 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 6.0.0">
-
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.1.1">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
@@ -16,10 +14,12 @@
 
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha256-yIDrPSXHZdOZhAqiBP7CKzIwMQmRCJ8UeB8Jo17YC4o=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"aword.net","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"buttons","active":"disqusjs","storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="需要使用laravel搭建一个后台内容管理系统，但是laravel默认的登陆注册不能满足目前的需求。重置密码的话因为是用在后台，并且不需要发送邮件进行重置，所以默认的重置密码肯定是不行的。">
+<script class="next-config" data-name="main" type="application/json">{"hostname":"aword.net","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.19.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="需要使用laravel搭建一个后台内容管理系统，但是laravel默认的登陆注册不能满足目前的需求。重置密码的话因为是用在后台，并且不需要发送邮件进行重置，所以默认的重置密码肯定是不行的。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Laravel重置密码重构">
 <meta property="og:url" content="http://aword.net/laravel-reset-password/index.html">
@@ -46,23 +46,25 @@
 <title>Laravel重置密码重构 | 一语</title>
   
 
-  <script src="/js/third-party/analytics/baidu-analytics.js"></script>
-  <script async src="https://hm.baidu.com/hm.js?05252d3ab1825c4f51ef7797d46dde56"></script>
 
 
 
+
+
+
+<link rel="dns-prefetch" href="https://waline-mu-lyart.vercel.app/">
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
 <link rel="alternate" href="/atom.xml" title="一语" type="application/atom+xml">
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage">
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
 
   <main class="main">
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏" role="button">
         <span class="toggle-line"></span>
@@ -82,7 +84,7 @@
   </div>
 
   <div class="site-nav-right">
-    <div class="toggle popup-trigger">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
         <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
@@ -91,11 +93,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu">
-        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
-        <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
-        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li>
-        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
@@ -128,15 +126,9 @@
     </div>
   </div>
 
-</div>
+</header>
         
   
-  <div class="toggle sidebar-toggle" role="button">
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
-  </div>
-
   <aside class="sidebar">
 
     <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
@@ -157,60 +149,45 @@
         <!--/noindex-->
 
         <div class="site-overview-wrap sidebar-panel">
-          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">zhyt</p>
   <div class="site-description" itemprop="description">这里是 zhyt 的分享和记录</div>
 </div>
-<div class="site-state-wrap site-overview-item animated">
+<div class="site-state-wrap animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">104</span>
+          <span class="site-state-item-count">90</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">52</span>
+        <span class="site-state-item-count">42</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
-  <div class="links-of-author site-overview-item animated">
+  <div class="links-of-author animated">
       <span class="links-of-author-item">
-        <a href="mailto:zhyt0520@gmail.com" title="E-Mail → mailto:zhyt0520@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+        <a href="mailto:zhyt0520@gmail.com" title="E-Mail → mailto:zhyt0520@gmail.com" rel="noopener me" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
       </span>
   </div>
-  <div class="cc-license site-overview-item animated" itemprop="license">
-    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
-  </div>
-
-
 
         </div>
       </div>
     </div>
-  </aside>
-  <div class="sidebar-dimmer"></div>
-
-
-    </header>
 
     
-  <div class="back-to-top" role="button" aria-label="返回顶部">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
+  </aside>
 
-<noscript>
-  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
-</noscript>
 
+    </div>
 
     <div class="main-inner post posts-expand">
 
@@ -228,11 +205,16 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="zhyt">
-      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="一语">
+      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="Laravel重置密码重构 | 一语">
+      <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -249,13 +231,13 @@
 
       <time title="创建时间：2017-07-14 11:25:00" itemprop="dateCreated datePublished" datetime="2017-07-14T11:25:00+08:00">2017-07-14</time>
     </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
       </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
@@ -273,10 +255,10 @@
     <span class="post-meta-item-icon">
       <i class="far fa-comment"></i>
     </span>
-    <span class="post-meta-item-text">Valine：</span>
+    <span class="post-meta-item-text">Waline：</span>
   
-    <a title="valine" href="/laravel-reset-password/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/laravel-reset-password/" itemprop="commentCount"></span>
+    <a title="waline" href="/laravel-reset-password/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/laravel-reset-password/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -289,8 +271,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
-        <p><img src="http://cdn.aword.net/images/KyrgyzstanCat_ZH-CN10422392512_1920x1080.jpg" alt="KyrgyzstanCat"></p>
+    <div class="post-body" itemprop="articleBody"><p><img src="http://cdn.aword.net/images/KyrgyzstanCat_ZH-CN10422392512_1920x1080.jpg" alt="KyrgyzstanCat"></p>
 <blockquote>
 <p>需要使用laravel搭建一个后台内容管理系统，但是laravel默认的登陆注册不能满足目前的需求。<br>重置密码的话因为是用在后台，并且不需要发送邮件进行重置，所以默认的重置密码肯定是不行的。</p>
 </blockquote>
@@ -298,15 +279,15 @@
 
 <h2 id="1-首先确定重置密码的路由"><a href="#1-首先确定重置密码的路由" class="headerlink" title="1. 首先确定重置密码的路由"></a>1. 首先确定重置密码的路由</h2><p>我们在安装好laravel的时候默认生成的重置密码是在用户未登录的情况下进行的。所以使用原来的控制器是不可行的。<br>并且原有的重置密码，并不需要查看原始密码是否正确，而是通过邮件来进行直接更改密码，所以控制器方法的话，我们也需要重新写个。<br>我们使用 <code>php artisan make:controller UserController</code> 创建一个控制器类。<br>然后创建两条路由 <code>Route::get(&#39;reset&#39;, &#39;UserController@getReset&#39;)</code> 和 <code>Route::post(&#39;reset&#39;, &#39;UserController@postReset&#39;)</code><br>前者是显示一个重置密码的页面get请求，后面是重置密码post请求。</p>
 <h2 id="2-显示重置密码页"><a href="#2-显示重置密码页" class="headerlink" title="2. 显示重置密码页"></a>2. 显示重置密码页</h2><p>这个使用的是 <code>getReset</code> 这个方法，这个方法只需要显示一个视图所以并没有特别的逻辑。</p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">getReset</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> view(<span class="string">&#x27;auth.reset&#x27;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">getReset</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="title function_ invoke__">view</span>(<span class="string">&#x27;auth.reset&#x27;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h2 id="3-请求重置密码"><a href="#3-请求重置密码" class="headerlink" title="3. 请求重置密码"></a>3. 请求重置密码</h2><p>这个使用的是 <code>postReset</code> 方法。<br>接收数据的话我们使用两种方法接收传过来的数据都可以：<br>一种是使用 <code>request</code> 的方法接收数据，另外一种是使用 <code>Input::get</code> 的方法获取数据。<br>Request的话需要引入 <code>use Illuminate\Http\Request</code> 类。<br>Input的话需要引入 <code>use Input</code> 类。<br>这里我们选择使用 <code>request</code> 来接收。</p>
 <h2 id="4-验证规则"><a href="#4-验证规则" class="headerlink" title="4. 验证规则"></a>4. 验证规则</h2><p>验证的话，laravel为我们提供了一套验证的规则，使用 <code>validator</code> 的 <code>Validator::make()</code> 方法进行验证。</p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$data</span> = <span class="variable">$request</span>-&gt;all(); <span class="comment">//接收所有的数据</span></span><br><span class="line"><span class="variable">$rules</span> = [</span><br><span class="line">    <span class="string">&#x27;oldpassword&#x27;</span>=&gt;<span class="string">&#x27;required|between:6,20&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;password&#x27;</span>=&gt;<span class="string">&#x27;required|between:6,20|confirmed&#x27;</span>,</span><br><span class="line">];</span><br><span class="line"><span class="variable">$messages</span> = [</span><br><span class="line">    <span class="string">&#x27;required&#x27;</span> =&gt; <span class="string">&#x27;密码不能为空&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;between&#x27;</span> =&gt; <span class="string">&#x27;密码必须是6~20位之间&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;confirmed&#x27;</span> =&gt; <span class="string">&#x27;新密码和确认密码不匹配&#x27;</span></span><br><span class="line">];</span><br><span class="line"><span class="variable">$validator</span> = Validator::make(<span class="variable">$data</span>, <span class="variable">$rules</span>, <span class="variable">$messages</span>);</span><br></pre></td></tr></table></figure>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$data</span> = <span class="variable">$request</span>-&gt;<span class="title function_ invoke__">all</span>(); <span class="comment">//接收所有的数据</span></span><br><span class="line"><span class="variable">$rules</span> = [</span><br><span class="line">    <span class="string">&#x27;oldpassword&#x27;</span>=&gt;<span class="string">&#x27;required|between:6,20&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;password&#x27;</span>=&gt;<span class="string">&#x27;required|between:6,20|confirmed&#x27;</span>,</span><br><span class="line">];</span><br><span class="line"><span class="variable">$messages</span> = [</span><br><span class="line">    <span class="string">&#x27;required&#x27;</span> =&gt; <span class="string">&#x27;密码不能为空&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;between&#x27;</span> =&gt; <span class="string">&#x27;密码必须是6~20位之间&#x27;</span>,</span><br><span class="line">    <span class="string">&#x27;confirmed&#x27;</span> =&gt; <span class="string">&#x27;新密码和确认密码不匹配&#x27;</span></span><br><span class="line">];</span><br><span class="line"><span class="variable">$validator</span> = <span class="title class_">Validator</span>::<span class="title function_ invoke__">make</span>(<span class="variable">$data</span>, <span class="variable">$rules</span>, <span class="variable">$messages</span>);</span><br></pre></td></tr></table></figure>
 
 <p><code>$data</code> 接收到从from传过来的数据信息。<br><code>rules</code> 对接收到的值进行判断，其中数组前面的 <code>oldpassword</code> 和 <code>password</code> 是从前端from接收到的原始密码和新密码的 name 字段数据进行验证。<br>验证规则的话在手册的验证章节都有，值得注意的是，使用 confirmed 的话是为了新密码和确认密码进行相同判断，确认密码必须的 name 值必须是新密码的 name 值后面加上’_confirmation’,比如新密码的 name 值为 <code>newpassword</code> 的话，确认密码的 name 值则必须为 <code>newpassword_confirmation</code> 才可以进行判断。<br><code>messages</code> 对验证的数据请求，显示什么提示。</p>
 <p>然后通过上面的验证，还有个情况是没有验证的，那就是输入的原始密码是否和数据库里的原始密码相同。<br>这里我们可以先把这个用户的信息从数据库里给查出来，然后和输入的原始密码进行比对。<br>这里我们使用 <code>Auth::user()</code> 来获取用户的信息，这个方法需要引入 <code>use Auth</code> 类。<br>然后通过 <code>Hash::check()</code> 来进行密码判断。<br>判断完以后还有个问题，那就是如何把错误信息给压入到 validator 的错误信息里，这里 laravel 为我们提供了 <code>after</code> 方法。</p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$user</span> = Auth::user();</span><br><span class="line"><span class="variable">$validator</span>-&gt;after(<span class="function"><span class="keyword">function</span>(<span class="params"><span class="variable">$validator</span></span>) <span class="keyword">use</span> (<span class="params"><span class="variable">$oldpassword</span>, <span class="variable">$user</span></span>) </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (!\Hash::check(<span class="variable">$oldpassword</span>, <span class="variable">$user</span>-&gt;password)) &#123; <span class="comment">//原始密码和数据库里的密码进行比对</span></span><br><span class="line">        <span class="variable">$validator</span>-&gt;errors()-&gt;add(<span class="string">&#x27;oldpassword&#x27;</span>, <span class="string">&#x27;原密码错误&#x27;</span>); <span class="comment">//错误的话显示原始密码错误</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br><span class="line"><span class="keyword">if</span> (<span class="variable">$validator</span>-&gt;fails()) &#123;      <span class="comment">//判断是否有错误</span></span><br><span class="line">    <span class="keyword">return</span> back()-&gt;withErrors(<span class="variable">$validator</span>);  <span class="comment">//重定向页面，并把错误信息存入一次性session里</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="variable">$user</span>-&gt;password = bcrypt(<span class="variable">$password</span>);       <span class="comment">//使用bcrypt函数进行新密码加密</span></span><br><span class="line"><span class="variable">$user</span>-&gt;save();      <span class="comment">//成功后，保存新密码</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$user</span> = <span class="title class_">Auth</span>::<span class="title function_ invoke__">user</span>();</span><br><span class="line"><span class="variable">$validator</span>-&gt;<span class="title function_ invoke__">after</span>(function(<span class="variable">$validator</span>) <span class="keyword">use</span> ($<span class="title">oldpassword</span>, $<span class="title">user</span>) &#123;</span><br><span class="line">    <span class="title">if</span> (!\<span class="title">Hash</span>::<span class="title">check</span>($<span class="title">oldpassword</span>, $<span class="title">user</span>-&gt;<span class="title">password</span>)) &#123; //原始密码和数据库里的密码进行比对</span><br><span class="line">        $<span class="title">validator</span>-&gt;<span class="title">errors</span>()-&gt;<span class="title">add</span>(&#x27;<span class="title">oldpassword</span>&#x27;, &#x27;原密码错误&#x27;); <span class="comment">//错误的话显示原始密码错误</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br><span class="line"><span class="keyword">if</span> (<span class="variable">$validator</span>-&gt;<span class="title function_ invoke__">fails</span>()) &#123;      <span class="comment">//判断是否有错误</span></span><br><span class="line">    <span class="keyword">return</span> <span class="title function_ invoke__">back</span>()-&gt;<span class="title function_ invoke__">withErrors</span>(<span class="variable">$validator</span>);  <span class="comment">//重定向页面，并把错误信息存入一次性session里</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="variable">$user</span>-&gt;password = <span class="title function_ invoke__">bcrypt</span>(<span class="variable">$password</span>);       <span class="comment">//使用bcrypt函数进行新密码加密</span></span><br><span class="line"><span class="variable">$user</span>-&gt;<span class="title function_ invoke__">save</span>();      <span class="comment">//成功后，保存新密码</span></span><br></pre></td></tr></table></figure>
 
 <blockquote>
 <p>这里因为 <code>after</code> 引入了一个 PHP 的匿名函数，所以我们需要使用 <code>use</code> 关键字把外部数据给传入到匿名函数里。（PS:php新特性，闭包和匿名函数）<br>在匿名函数里我们引入了一个全局函数所以我们需要在函数前面加 <code>\</code> 。(PS:php新特性，命名空间章节，全局命名空间)</p>
@@ -319,12 +300,12 @@
 
 <p>其中 oldpassword 是每个表单的里的 name 值，所以在使用 <code>after</code> 方法添加自定义错误的时候<br><code>$validator-&gt;errors()-&gt;add(&#39;oldpassword&#39;, &#39;原密码错误&#39;);</code> 中， oldpassword 一定要写对是在哪个表单的错误，这样才能正确的显示。</p>
 <h2 id="8-完成后的示例"><a href="#8-完成后的示例" class="headerlink" title="8. 完成后的示例"></a>8. 完成后的示例</h2><p>UserController</p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">getReset</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> view(<span class="string">&#x27;auth.reset&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">postReset</span>(<span class="params">Request <span class="variable">$request</span></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="variable">$oldpassword</span> = <span class="variable">$request</span>-&gt;input(<span class="string">&#x27;oldpassword&#x27;</span>);</span><br><span class="line">    <span class="variable">$password</span> = <span class="variable">$request</span>-&gt;input(<span class="string">&#x27;password&#x27;</span>);</span><br><span class="line">    <span class="variable">$data</span> = <span class="variable">$request</span>-&gt;all();</span><br><span class="line">    <span class="variable">$rules</span> = [</span><br><span class="line">        <span class="string">&#x27;oldpassword&#x27;</span>=&gt;<span class="string">&#x27;required|between:6,20&#x27;</span>,</span><br><span class="line">        <span class="string">&#x27;password&#x27;</span>=&gt;<span class="string">&#x27;required|between:6,20|confirmed&#x27;</span>,</span><br><span class="line">    ];</span><br><span class="line">    <span class="variable">$messages</span> = [</span><br><span class="line">        <span class="string">&#x27;required&#x27;</span> =&gt; <span class="string">&#x27;密码不能为空&#x27;</span>,</span><br><span class="line">        <span class="string">&#x27;between&#x27;</span> =&gt; <span class="string">&#x27;密码必须是6~20位之间&#x27;</span>,</span><br><span class="line">        <span class="string">&#x27;confirmed&#x27;</span> =&gt; <span class="string">&#x27;新密码和确认密码不匹配&#x27;</span></span><br><span class="line">    ];</span><br><span class="line">    <span class="variable">$validator</span> = Validator::make(<span class="variable">$data</span>, <span class="variable">$rules</span>, <span class="variable">$messages</span>);</span><br><span class="line">    <span class="variable">$user</span> = Auth::user();</span><br><span class="line">    <span class="variable">$validator</span>-&gt;after(<span class="function"><span class="keyword">function</span>(<span class="params"><span class="variable">$validator</span></span>) <span class="keyword">use</span> (<span class="params"><span class="variable">$oldpassword</span>, <span class="variable">$user</span></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (!\Hash::check(<span class="variable">$oldpassword</span>, <span class="variable">$user</span>-&gt;password)) &#123;</span><br><span class="line">            <span class="variable">$validator</span>-&gt;errors()-&gt;add(<span class="string">&#x27;oldpassword&#x27;</span>, <span class="string">&#x27;原密码错误&#x27;</span>);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">    <span class="keyword">if</span> (<span class="variable">$validator</span>-&gt;fails()) &#123;</span><br><span class="line">        <span class="keyword">return</span> back()-&gt;withErrors(<span class="variable">$validator</span>);  <span class="comment">//返回一次性错误</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="variable">$user</span>-&gt;password = bcrypt(<span class="variable">$password</span>);</span><br><span class="line">    <span class="variable">$user</span>-&gt;save();</span><br><span class="line">    Auth::logout();  <span class="comment">//更改完这次密码后，退出这个用户</span></span><br><span class="line">    <span class="keyword">return</span> redirect(<span class="string">&#x27;/login&#x27;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">getReset</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="title function_ invoke__">view</span>(<span class="string">&#x27;auth.reset&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">postReset</span>(<span class="params">Request <span class="variable">$request</span></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="variable">$oldpassword</span> = <span class="variable">$request</span>-&gt;<span class="title function_ invoke__">input</span>(<span class="string">&#x27;oldpassword&#x27;</span>);</span><br><span class="line">    <span class="variable">$password</span> = <span class="variable">$request</span>-&gt;<span class="title function_ invoke__">input</span>(<span class="string">&#x27;password&#x27;</span>);</span><br><span class="line">    <span class="variable">$data</span> = <span class="variable">$request</span>-&gt;<span class="title function_ invoke__">all</span>();</span><br><span class="line">    <span class="variable">$rules</span> = [</span><br><span class="line">        <span class="string">&#x27;oldpassword&#x27;</span>=&gt;<span class="string">&#x27;required|between:6,20&#x27;</span>,</span><br><span class="line">        <span class="string">&#x27;password&#x27;</span>=&gt;<span class="string">&#x27;required|between:6,20|confirmed&#x27;</span>,</span><br><span class="line">    ];</span><br><span class="line">    <span class="variable">$messages</span> = [</span><br><span class="line">        <span class="string">&#x27;required&#x27;</span> =&gt; <span class="string">&#x27;密码不能为空&#x27;</span>,</span><br><span class="line">        <span class="string">&#x27;between&#x27;</span> =&gt; <span class="string">&#x27;密码必须是6~20位之间&#x27;</span>,</span><br><span class="line">        <span class="string">&#x27;confirmed&#x27;</span> =&gt; <span class="string">&#x27;新密码和确认密码不匹配&#x27;</span></span><br><span class="line">    ];</span><br><span class="line">    <span class="variable">$validator</span> = <span class="title class_">Validator</span>::<span class="title function_ invoke__">make</span>(<span class="variable">$data</span>, <span class="variable">$rules</span>, <span class="variable">$messages</span>);</span><br><span class="line">    <span class="variable">$user</span> = <span class="title class_">Auth</span>::<span class="title function_ invoke__">user</span>();</span><br><span class="line">    <span class="variable">$validator</span>-&gt;<span class="title function_ invoke__">after</span>(function(<span class="variable">$validator</span>) <span class="keyword">use</span> ($<span class="title">oldpassword</span>, $<span class="title">user</span>) &#123;</span><br><span class="line">        <span class="title">if</span> (!\<span class="title">Hash</span>::<span class="title">check</span>($<span class="title">oldpassword</span>, $<span class="title">user</span>-&gt;<span class="title">password</span>)) &#123;</span><br><span class="line">            $<span class="title">validator</span>-&gt;<span class="title">errors</span>()-&gt;<span class="title">add</span>(&#x27;<span class="title">oldpassword</span>&#x27;, &#x27;原密码错误&#x27;);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;);</span><br><span class="line">    <span class="keyword">if</span> (<span class="variable">$validator</span>-&gt;<span class="title function_ invoke__">fails</span>()) &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="title function_ invoke__">back</span>()-&gt;<span class="title function_ invoke__">withErrors</span>(<span class="variable">$validator</span>);  <span class="comment">//返回一次性错误</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="variable">$user</span>-&gt;password = <span class="title function_ invoke__">bcrypt</span>(<span class="variable">$password</span>);</span><br><span class="line">    <span class="variable">$user</span>-&gt;<span class="title function_ invoke__">save</span>();</span><br><span class="line">    <span class="title class_">Auth</span>::<span class="title function_ invoke__">logout</span>();  <span class="comment">//更改完这次密码后，退出这个用户</span></span><br><span class="line">    <span class="keyword">return</span> <span class="title function_ invoke__">redirect</span>(<span class="string">&#x27;/login&#x27;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>reset.blade</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">class</span>=<span class="string">&quot;login-form&quot;</span> <span class="attr">action</span>=<span class="string">&quot;&#123;&#123; url(&#x27;/reset&#x27;) &#125;&#125;&quot;</span> <span class="attr">method</span>=<span class="string">&quot;post&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">h3</span> <span class="attr">class</span>=<span class="string">&quot;font-green&quot;</span>&gt;</span>修改密码<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></span><br><span class="line">    @if($errors-&gt;first())</span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;alert alert-danger display-hide&quot;</span> <span class="attr">style</span>=<span class="string">&quot;display: block;&quot;</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;close&quot;</span> <span class="attr">data-close</span>=<span class="string">&quot;alert&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">span</span>&gt;</span> &#123;&#123;$errors-&gt;first()&#125;&#125;  <span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    @endif</span><br><span class="line">    &#123;!! csrf_field() !!&#125;</span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;form-group&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">label</span> <span class="attr">class</span>=<span class="string">&quot;control-label visible-ie8 visible-ie9&quot;</span>&gt;</span>原始密码<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">class</span>=<span class="string">&quot;form-control placeholder-no-fix&quot;</span> <span class="attr">type</span>=<span class="string">&quot;password&quot;</span> <span class="attr">autocomplete</span>=<span class="string">&quot;off&quot;</span> <span class="attr">placeholder</span>=<span class="string">&quot;Old Password&quot;</span> <span class="attr">name</span>=<span class="string">&quot;oldpassword&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;form-group&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">label</span> <span class="attr">class</span>=<span class="string">&quot;control-label visible-ie8 visible-ie9&quot;</span>&gt;</span>新密码<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">class</span>=<span class="string">&quot;form-control placeholder-no-fix&quot;</span> <span class="attr">type</span>=<span class="string">&quot;password&quot;</span> <span class="attr">autocomplete</span>=<span class="string">&quot;off&quot;</span> <span class="attr">id</span>=<span class="string">&quot;register_password&quot;</span> <span class="attr">placeholder</span>=<span class="string">&quot;New password&quot;</span> <span class="attr">name</span>=<span class="string">&quot;password&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;form-group&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">label</span> <span class="attr">class</span>=<span class="string">&quot;control-label visible-ie8 visible-ie9&quot;</span>&gt;</span>重复密码<span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">input</span> <span class="attr">class</span>=<span class="string">&quot;form-control placeholder-no-fix&quot;</span> <span class="attr">type</span>=<span class="string">&quot;password&quot;</span> <span class="attr">autocomplete</span>=<span class="string">&quot;off&quot;</span> <span class="attr">placeholder</span>=<span class="string">&quot;Repeat password&quot;</span> <span class="attr">name</span>=<span class="string">&quot;password_confirmation&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">&quot;form-actions&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">button</span> <span class="attr">type</span>=<span class="string">&quot;submit&quot;</span> <span class="attr">id</span>=<span class="string">&quot;register-submit-btn&quot;</span> <span class="attr">class</span>=<span class="string">&quot;btn btn-success uppercase pull-right&quot;</span>&gt;</span>确定<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
-<p>原文链接：[Dennis`s blog](<a target="_blank" rel="noopener" href="http://ukagaka.github.io/laravel/2016/08/03/laravel-reset.html">http://ukagaka.github.io/laravel/2016/08/03/laravel-reset.html</a>)</p>
+<p>原文链接：[Dennis&#96;s blog](<a target="_blank" rel="noopener" href="http://ukagaka.github.io/laravel/2016/08/03/laravel-reset.html">http://ukagaka.github.io/laravel/2016/08/03/laravel-reset.html</a>)</p>
 
     </div>
 
@@ -343,12 +324,12 @@
           <div class="post-nav">
             <div class="post-nav-item">
                 <a href="/Islands/" rel="prev" title="Islands">
-                  <i class="fa fa-chevron-left"></i> Islands
+                  <i class="fa fa-angle-left"></i> Islands
                 </a>
             </div>
             <div class="post-nav-item">
                 <a href="/jin-lai-ke-hao/" rel="next" title="近来可好">
-                  近来可好 <i class="fa fa-chevron-right"></i>
+                  近来可好 <i class="fa fa-angle-right"></i>
                 </a>
             </div>
           </div>
@@ -361,24 +342,21 @@
 
 
 
-    <div class="comments" id="valine-comments"></div>
+    <div class="comments" id="waline"></div>
 </div>
   </main>
 
   <footer class="footer">
     <div class="footer-inner">
 
-  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">冀ICP备18035027号 </a>
+  <div class="copyright">
+    &copy; 2013 – 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">zhyt</span>
   </div>
-
-<div class="copyright">
-  &copy; 2013 – 
-  <span itemprop="copyrightYear">2022</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">zhyt</span>
-</div>
   <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
@@ -386,32 +364,43 @@
   </footer>
 
   
-  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
 
   
-<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
 <script src="/js/third-party/search/local-search.js"></script>
 
 
 
 
 
+
+
   
 
 
 
 
-
+<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-CN","enable":true,"serverURL":"https://waline-mu-lyart.vercel.app/","cssUrl":"https://unpkg.com/@waline/client@v2/dist/waline.css","commentCount":true,"pageview":false,"el":"#waline","comment":true,"libUrl":"//unpkg.com/@waline/client@v2/dist/waline.js","path":"/laravel-reset-password/"}</script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
 <script>
-NexT.utils.loadComments('#valine-comments', () => {
-  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
-    new Valine(Object.assign({"enable":true,"appId":"OufkRwzjUh5OH1XJ4cgiBpy8-gzGzoHsz","appKey":"t4QXVJvDqh2nlRGEvVh8lh4e","serverURLs":"https://valine.aword.net","placeholder":"欢迎留言","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":"zh-cn","visitor":false,"comment_count":true,"recordIP":false,"enableQQ":false,"requiredFields":["nick","mail"]}, {
-      el: '#valine-comments',
-      path: "/laravel-reset-password/",
-      serverURLs: "https://valine.aword.net"
-    }));
-  }, window.Valine);
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.waline.el).then(() =>
+    NexT.utils.getScript(CONFIG.waline.libUrl, { condition: window.Waline })
+  ).then(() => 
+    Waline.init(Object.assign({}, CONFIG.waline,{ el: document.querySelector(CONFIG.waline.el) }))
+  );
 });
 </script>
 

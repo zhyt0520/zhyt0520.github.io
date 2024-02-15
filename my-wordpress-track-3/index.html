@@ -3,9 +3,7 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
-<meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 6.0.0">
-
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.1.1">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
@@ -16,10 +14,12 @@
 
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha256-yIDrPSXHZdOZhAqiBP7CKzIwMQmRCJ8UeB8Jo17YC4o=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"aword.net","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.8.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"buttons","active":"disqusjs","storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":false,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="想想上次记录这个还是在四月份，一转眼马上就过了四个月了，真的好快啊。之前写的还是margin、padding、hover什么的呢，从我的一语成现在的样子，好久没有再改动过CSS了。 貌似近期最大的改动就是侧边栏挂件的自动浮动了。也就是网页向下滚动时，当我的分类目录和标签到达窗口顶端时自动固定在窗口顶端位置，不再随网页滚动。早就在别的网站上见过这个功能，但是没准备加到我的一语里。一是自己不会写，在网">
+<script class="next-config" data-name="main" type="application/json">{"hostname":"aword.net","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.19.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="想想上次记录这个还是在四月份，一转眼马上就过了四个月了，真的好快啊。之前写的还是margin、padding、hover什么的呢，从我的一语成现在的样子，好久没有再改动过CSS了。 貌似近期最大的改动就是侧边栏挂件的自动浮动了。也就是网页向下滚动时，当我的分类目录和标签到达窗口顶端时自动固定在窗口顶端位置，不再随网页滚动。早就在别的网站上见过这个功能，但是没准备加到我的一语里。一是自己不会写，在网">
 <meta property="og:type" content="article">
 <meta property="og:title" content="我的wordpress历程3">
 <meta property="og:url" content="http://aword.net/my-wordpress-track-3/index.html">
@@ -44,23 +44,25 @@
 <title>我的wordpress历程3 | 一语</title>
   
 
-  <script src="/js/third-party/analytics/baidu-analytics.js"></script>
-  <script async src="https://hm.baidu.com/hm.js?05252d3ab1825c4f51ef7797d46dde56"></script>
 
 
 
+
+
+
+<link rel="dns-prefetch" href="https://waline-mu-lyart.vercel.app/">
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
 <link rel="alternate" href="/atom.xml" title="一语" type="application/atom+xml">
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage">
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
   <div class="headband"></div>
 
   <main class="main">
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏" role="button">
         <span class="toggle-line"></span>
@@ -80,7 +82,7 @@
   </div>
 
   <div class="site-nav-right">
-    <div class="toggle popup-trigger">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
         <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
@@ -89,11 +91,7 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu">
-        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li>
-        <li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li>
-        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li>
-        <li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a></li><li class="menu-item menu-item-about"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a></li><li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a></li><li class="menu-item menu-item-archives"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a></li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
@@ -126,15 +124,9 @@
     </div>
   </div>
 
-</div>
+</header>
         
   
-  <div class="toggle sidebar-toggle" role="button">
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
-    <span class="toggle-line"></span>
-  </div>
-
   <aside class="sidebar">
 
     <div class="sidebar-inner sidebar-overview-active">
@@ -154,60 +146,45 @@
         <!--/noindex-->
 
         <div class="site-overview-wrap sidebar-panel">
-          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">zhyt</p>
   <div class="site-description" itemprop="description">这里是 zhyt 的分享和记录</div>
 </div>
-<div class="site-state-wrap site-overview-item animated">
+<div class="site-state-wrap animated">
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">104</span>
+          <span class="site-state-item-count">90</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
           <a href="/categories/">
-        <span class="site-state-item-count">6</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">52</span>
+        <span class="site-state-item-count">42</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
-  <div class="links-of-author site-overview-item animated">
+  <div class="links-of-author animated">
       <span class="links-of-author-item">
-        <a href="mailto:zhyt0520@gmail.com" title="E-Mail → mailto:zhyt0520@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+        <a href="mailto:zhyt0520@gmail.com" title="E-Mail → mailto:zhyt0520@gmail.com" rel="noopener me" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
       </span>
   </div>
-  <div class="cc-license site-overview-item animated" itemprop="license">
-    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="https://cdn.jsdelivr.net/npm/@creativecommons/vocabulary@2020.11.3/assets/license_badges/small/by_nc_sa.svg" alt="Creative Commons"></a>
-  </div>
-
-
 
         </div>
       </div>
     </div>
-  </aside>
-  <div class="sidebar-dimmer"></div>
-
-
-    </header>
 
     
-  <div class="back-to-top" role="button" aria-label="返回顶部">
-    <i class="fa fa-arrow-up"></i>
-    <span>0%</span>
-  </div>
+  </aside>
 
-<noscript>
-  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
-</noscript>
 
+    </div>
 
     <div class="main-inner post posts-expand">
 
@@ -225,11 +202,16 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="zhyt">
-      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="一语">
+      <meta itemprop="description" content="这里是 zhyt 的分享和记录">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="我的wordpress历程3 | 一语">
+      <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
@@ -246,13 +228,13 @@
 
       <time title="创建时间：2013-09-11 02:00:00" itemprop="dateCreated datePublished" datetime="2013-09-11T02:00:00+08:00">2013-09-11</time>
     </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
       </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2021-12-30 23:36:17" itemprop="dateModified" datetime="2021-12-30T23:36:17+08:00">2021-12-30</time>
+    </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-folder"></i>
@@ -270,10 +252,10 @@
     <span class="post-meta-item-icon">
       <i class="far fa-comment"></i>
     </span>
-    <span class="post-meta-item-text">Valine：</span>
+    <span class="post-meta-item-text">Waline：</span>
   
-    <a title="valine" href="/my-wordpress-track-3/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/my-wordpress-track-3/" itemprop="commentCount"></span>
+    <a title="waline" href="/my-wordpress-track-3/#waline" itemprop="discussionUrl">
+      <span class="post-comments-count waline-comment-count" data-path="/my-wordpress-track-3/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -286,15 +268,14 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
-        <p>想想上次记录这个还是在四月份，一转眼马上就过了四个月了，真的好快啊。之前写的还是margin、padding、hover什么的呢，从我的<a href="http://aword.net/">一语</a>成现在的样子，好久没有再改动过CSS了。</p>
+    <div class="post-body" itemprop="articleBody"><p>想想上次记录这个还是在四月份，一转眼马上就过了四个月了，真的好快啊。之前写的还是margin、padding、hover什么的呢，从我的<a href="http://aword.net/">一语</a>成现在的样子，好久没有再改动过CSS了。</p>
 <p>貌似近期最大的改动就是侧边栏挂件的自动浮动了。也就是网页向下滚动时，当我的分类目录和标签到达窗口顶端时自动固定在窗口顶端位置，不再随网页滚动。早就在别的网站上见过这个功能，但是没准备加到我的<a href="http://aword.net/">一语</a>里。一是自己不会写，在网上找又麻烦的，工作的琐事就已经够烦的了，没心情搞这个；二是感觉不加这功能也无所谓，我这网站本来就是单调的风格……</p>
 <span id="more"></span>
 
 <p>一次在贴吧里乱逛，一个网友提出来，网页滚动到下边的时候右边栏是空的。于是终于决心抓闲暇挤时间，把这个东西搞出来。只好在网上胡搜了，貌似关于这个的东西还不是太多，不过最终还是找到了，我的参考在这里<br><a target="_blank" rel="noopener" href="http://www.zhangxinxu.com/wordpress/?p=1242">http://www.zhangxinxu.com/wordpress/?p=1242</a></p>
 <p>当时把代码看了几遍啊，看不懂……没基础就是没基础，php的语法不熟，几个地方读不过去。不过幸好，通过浏览器的工具我发现固定在窗口顶端的东西是position的值被改成fix了，然后代码里，就是对网页滚动距离和元素位置进行比较，修改position的值。所以好吧，代码我不能全懂，但是我可以用了。</p>
 <p>还有一个问题，就是别人都是固定的一个元素，在我这想同时固定两个。我能想到的只有两个方法，要么把这个两个合到一起，要么改代码控制两个元素的固定。前一个得改wordpress的代码，小工具的模板在wp-includes里面，而不是存主题的目录里，所以就放弃了。因为改includes里面的东西会在wordpress升级时被覆盖掉，升级3.6的时候略显麻烦，以后再有什么升级也会很麻烦。虽然我升级3.6没成功又回到3.5了……所以就改抄来的代码吧，其实也简单，就是把判断条件稍微改动，在函数调用的时候加的个输入参数就ok了。当年的C还是没有白学的。不过缺点还是很明显，固定的参数，只能用于现在分类目录的大小，后期分类多了还得再手动调。</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">$.fn.smartFloat = <span class="function"><span class="keyword">function</span>(<span class="params">x</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">var</span> position = <span class="function"><span class="keyword">function</span>(<span class="params">element</span>) </span>&#123;</span><br><span class="line">        <span class="keyword">var</span> top = element.position().top, pos = element.css(<span class="string">&#x27;position&#x27;</span>);</span><br><span class="line">        $(<span class="built_in">window</span>).scroll(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">            <span class="keyword">var</span> scrolls = $(<span class="built_in">this</span>).scrollTop();</span><br><span class="line">            <span class="keyword">if</span> (scrolls + x &amp;gt; top) &#123;</span><br><span class="line">                <span class="keyword">if</span> (<span class="built_in">window</span>.XMLHttpRequest) &#123;</span><br><span class="line">                    element.css(&#123;</span><br><span class="line">                        <span class="attr">position</span>: <span class="string">&#x27;fixed&#x27;</span>,</span><br><span class="line">                        <span class="attr">top</span>: x,</span><br><span class="line">                        <span class="attr">width</span>: <span class="number">250</span>,</span><br><span class="line">                    &#125;);</span><br><span class="line">                &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                    element.css(&#123;</span><br><span class="line">                        <span class="attr">top</span>: scrolls</span><br><span class="line">                    &#125;);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">                element.css(&#123;</span><br><span class="line">                    <span class="attr">position</span>: pos,</span><br><span class="line">                    <span class="attr">top</span>: top</span><br><span class="line">                &#125;);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;;</span><br><span class="line"><span class="keyword">return</span> $(<span class="built_in">this</span>).each(<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">    position($(<span class="built_in">this</span>));</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;;</span><br><span class="line">$(<span class="string">&#x27;#categories-3&#x27;</span>).smartFloat(<span class="number">10</span>);</span><br><span class="line">$(<span class="string">&#x27;#tag_cloud-2&#x27;</span>).smartFloat(<span class="number">147</span>);</span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">$.fn.<span class="property">smartFloat</span> = <span class="keyword">function</span>(<span class="params">x</span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> position = <span class="keyword">function</span>(<span class="params">element</span>) &#123;</span><br><span class="line">        <span class="keyword">var</span> top = element.<span class="title function_">position</span>().<span class="property">top</span>, pos = element.<span class="title function_">css</span>(<span class="string">&#x27;position&#x27;</span>);</span><br><span class="line">        $(<span class="variable language_">window</span>).<span class="title function_">scroll</span>(<span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">            <span class="keyword">var</span> scrolls = $(<span class="variable language_">this</span>).<span class="title function_">scrollTop</span>();</span><br><span class="line">            <span class="keyword">if</span> (scrolls + x &amp;gt; top) &#123;</span><br><span class="line">                <span class="keyword">if</span> (<span class="variable language_">window</span>.<span class="property">XMLHttpRequest</span>) &#123;</span><br><span class="line">                    element.<span class="title function_">css</span>(&#123;</span><br><span class="line">                        <span class="attr">position</span>: <span class="string">&#x27;fixed&#x27;</span>,</span><br><span class="line">                        <span class="attr">top</span>: x,</span><br><span class="line">                        <span class="attr">width</span>: <span class="number">250</span>,</span><br><span class="line">                    &#125;);</span><br><span class="line">                &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                    element.<span class="title function_">css</span>(&#123;</span><br><span class="line">                        <span class="attr">top</span>: scrolls</span><br><span class="line">                    &#125;);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">                element.<span class="title function_">css</span>(&#123;</span><br><span class="line">                    <span class="attr">position</span>: pos,</span><br><span class="line">                    <span class="attr">top</span>: top</span><br><span class="line">                &#125;);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;);</span><br><span class="line">    &#125;;</span><br><span class="line"><span class="keyword">return</span> $(<span class="variable language_">this</span>).<span class="title function_">each</span>(<span class="keyword">function</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="title function_">position</span>($(<span class="variable language_">this</span>));</span><br><span class="line">    &#125;);</span><br><span class="line">&#125;;</span><br><span class="line">$(<span class="string">&#x27;#categories-3&#x27;</span>).<span class="title function_">smartFloat</span>(<span class="number">10</span>);</span><br><span class="line">$(<span class="string">&#x27;#tag_cloud-2&#x27;</span>).<span class="title function_">smartFloat</span>(<span class="number">147</span>);</span><br></pre></td></tr></table></figure>
 
 <p>暂时也不会别的方法了，就先凑合着吧。在我的页面上用的代码是这样的。</p>
 <p>最后再说一句，升级wordpress的时候一定要先做好程序文件和数据库的备份。经验之谈了，我经历了两次wordpress出问题，不得不用备份进行恢复……</p>
@@ -315,13 +296,13 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/zhong-guo-te-se-de-jing-ji-ti-yu/" rel="prev" title="中国特色的竞技体育">
-                  <i class="fa fa-chevron-left"></i> 中国特色的竞技体育
+                <a href="/xian-yan-sui-yu/" rel="prev" title="闲言碎语">
+                  <i class="fa fa-angle-left"></i> 闲言碎语
                 </a>
             </div>
             <div class="post-nav-item">
                 <a href="/xian-yan-sui-yu-2/" rel="next" title="闲言碎语2">
-                  闲言碎语2 <i class="fa fa-chevron-right"></i>
+                  闲言碎语2 <i class="fa fa-angle-right"></i>
                 </a>
             </div>
           </div>
@@ -334,24 +315,21 @@
 
 
 
-    <div class="comments" id="valine-comments"></div>
+    <div class="comments" id="waline"></div>
 </div>
   </main>
 
   <footer class="footer">
     <div class="footer-inner">
 
-  <div class="beian"><a href="https://beian.miit.gov.cn/" rel="noopener" target="_blank">冀ICP备18035027号 </a>
+  <div class="copyright">
+    &copy; 2013 – 
+    <span itemprop="copyrightYear">2024</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">zhyt</span>
   </div>
-
-<div class="copyright">
-  &copy; 2013 – 
-  <span itemprop="copyrightYear">2022</span>
-  <span class="with-love">
-    <i class="fa fa-heart"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">zhyt</span>
-</div>
   <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
   </div>
 
@@ -359,32 +337,43 @@
   </footer>
 
   
-  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
-<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/next-boot.js"></script>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
 
   
-<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-generator-searchdb/1.4.1/search.js" integrity="sha256-1kfA5uHPf65M5cphT2dvymhkuyHPQp5A53EGZOnOLmc=" crossorigin="anonymous"></script>
 <script src="/js/third-party/search/local-search.js"></script>
 
 
 
 
 
+
+
   
 
 
 
 
-
+<script class="next-config" data-name="waline" type="application/json">{"lang":"zh-CN","enable":true,"serverURL":"https://waline-mu-lyart.vercel.app/","cssUrl":"https://unpkg.com/@waline/client@v2/dist/waline.css","commentCount":true,"pageview":false,"el":"#waline","comment":true,"libUrl":"//unpkg.com/@waline/client@v2/dist/waline.js","path":"/my-wordpress-track-3/"}</script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css">
 <script>
-NexT.utils.loadComments('#valine-comments', () => {
-  NexT.utils.getScript('https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js', () => {
-    new Valine(Object.assign({"enable":true,"appId":"OufkRwzjUh5OH1XJ4cgiBpy8-gzGzoHsz","appKey":"t4QXVJvDqh2nlRGEvVh8lh4e","serverURLs":"https://valine.aword.net","placeholder":"欢迎留言","avatar":"mm","meta":["nick","mail","link"],"pageSize":10,"lang":"zh-cn","visitor":false,"comment_count":true,"recordIP":false,"enableQQ":false,"requiredFields":["nick","mail"]}, {
-      el: '#valine-comments',
-      path: "/my-wordpress-track-3/",
-      serverURLs: "https://valine.aword.net"
-    }));
-  }, window.Valine);
+document.addEventListener('page:loaded', () => {
+  NexT.utils.loadComments(CONFIG.waline.el).then(() =>
+    NexT.utils.getScript(CONFIG.waline.libUrl, { condition: window.Waline })
+  ).then(() => 
+    Waline.init(Object.assign({}, CONFIG.waline,{ el: document.querySelector(CONFIG.waline.el) }))
+  );
 });
 </script>
 
