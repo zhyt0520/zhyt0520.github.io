@@ -14,26 +14,6 @@
       </tags>
   </entry>
   <entry>
-    <title>我的wordpress历程</title>
-    <url>//my-wordpress-track/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/MyWordpressTrack_623x162.jpg" alt="wordpress"></p>
-<p>html、css、javascript 基本知识是在 <a href="http://www.codecademy.com/" title="www.codecademy.com">www.codecademy.com</a> 上看来的，这个网站做的真不错，略羡慕啊……到我把这几 部分看完的时候网站上php部分还没做出来，遗憾了……然后就在 <a href="http://www.w3school.com/" title="www.w3school.com">www.w3school.com</a> 上随便看了看php，挺枯燥也挺腻的，还好php的语法跟c很像，大学里课上学的现在多少还剩了那么一点。</p>
-<p>然后开始在网上一顿子搜索，怎么注册域名、怎么设置空间、怎么安装wordpress，免费的收费的，各种折腾，终于，总算凑合能访问网站了。那天是2013年3月15日。</p>
-<span id="more"></span>
-
-<p>虽然我喜欢简洁，但是默认的 twenty twelve 实在太简洁了，全一种颜色一种字体，于是又搜了搜wordpress主题。算了，还是继续学习吧，自己改的才舒服（哪怕自己做的并不漂亮）。百度上下载到了《从零开始制作WordPress主题》，也搜到了英文原版，看上去不错，写的很详细，真心想英汉对照着学完。可惜文章太久了，好多内容在新版的wordpress里已经没法用了。</p>
-<p>继续找其他教程。目前在看露兜博客上的主题制作教程。感觉良好。</p>
-<p>未完待续……</p>
-<p>2013&#x2F;3&#x2F;20</p>
-]]></content>
-      <categories>
-        <category>建站</category>
-      </categories>
-      <tags>
-        <tag>WordPress</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>又是一年</title>
     <url>//a-year-again/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/AYearAgain_Subway_623x162.jpg" alt="归途"></p>
@@ -60,6 +40,49 @@
       <tags>
         <tag>纪念</tag>
         <tag>心情</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的wordpress历程</title>
+    <url>//my-wordpress-track/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/MyWordpressTrack_623x162.jpg" alt="wordpress"></p>
+<p>html、css、javascript 基本知识是在 <a href="http://www.codecademy.com/" title="www.codecademy.com">www.codecademy.com</a> 上看来的，这个网站做的真不错，略羡慕啊……到我把这几 部分看完的时候网站上php部分还没做出来，遗憾了……然后就在 <a href="http://www.w3school.com/" title="www.w3school.com">www.w3school.com</a> 上随便看了看php，挺枯燥也挺腻的，还好php的语法跟c很像，大学里课上学的现在多少还剩了那么一点。</p>
+<p>然后开始在网上一顿子搜索，怎么注册域名、怎么设置空间、怎么安装wordpress，免费的收费的，各种折腾，终于，总算凑合能访问网站了。那天是2013年3月15日。</p>
+<span id="more"></span>
+
+<p>虽然我喜欢简洁，但是默认的 twenty twelve 实在太简洁了，全一种颜色一种字体，于是又搜了搜wordpress主题。算了，还是继续学习吧，自己改的才舒服（哪怕自己做的并不漂亮）。百度上下载到了《从零开始制作WordPress主题》，也搜到了英文原版，看上去不错，写的很详细，真心想英汉对照着学完。可惜文章太久了，好多内容在新版的wordpress里已经没法用了。</p>
+<p>继续找其他教程。目前在看露兜博客上的主题制作教程。感觉良好。</p>
+<p>未完待续……</p>
+<p>2013&#x2F;3&#x2F;20</p>
+]]></content>
+      <categories>
+        <category>建站</category>
+      </categories>
+      <tags>
+        <tag>WordPress</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>这里的天空很美</title>
+    <url>//here-beautiful-sky/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/HereBeautifulSky_503x162.jpg" alt="宁夏的天空"></p>
+<p>这里的天空湛蓝，这里的云朵雪白，和着风、和着雨、和着雪、和着太阳明亮的光芒，这里的天空很美。</p>
+<span id="more"></span>
+
+<p><img src="http://cdn.aword.net/images/HereBeautifulSky_rain1_800x600.jpg" alt="宁夏的天空" title="远处的雨"></p>
+<p><img src="http://cdn.aword.net/images/HereBeautifulSky_rain2_800x600.jpg" alt="宁夏的天空" title="孤云落雨"></p>
+<p><img src="http://cdn.aword.net/images/HereBeautifulSky_snow_800x600.jpg" alt="宁夏的天空" title="白雪蓝天"></p>
+<p><img src="http://cdn.aword.net/images/HereBeautifulSky_sunny1_800x600.jpg" alt="宁夏的天空" title="蓝天白云"></p>
+<p><img src="http://cdn.aword.net/images/HereBeautifulSky_sunny2_800x600.jpg" alt="宁夏的天空" title="蓝天白云"></p>
+<p><img src="http://cdn.aword.net/images/HereBeautifulSky_sunny3_800x600.jpg" alt="宁夏的天空" title="蓝天白云"></p>
+<p><img src="http://cdn.aword.net/images/HereBeautifulSky_windmill_800x600.jpg" alt="宁夏的天空" title="风车静静"></p>
+<p>都是自己用手机拍的，效果欠佳。</p>
+]]></content>
+      <categories>
+        <category>相册</category>
+      </categories>
+      <tags>
+        <tag>风景</tag>
       </tags>
   </entry>
   <entry>
@@ -94,29 +117,6 @@
       </tags>
   </entry>
   <entry>
-    <title>这里的天空很美</title>
-    <url>//here-beautiful-sky/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/HereBeautifulSky_503x162.jpg" alt="宁夏的天空"></p>
-<p>这里的天空湛蓝，这里的云朵雪白，和着风、和着雨、和着雪、和着太阳明亮的光芒，这里的天空很美。</p>
-<span id="more"></span>
-
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_rain1_800x600.jpg" alt="宁夏的天空" title="远处的雨"></p>
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_rain2_800x600.jpg" alt="宁夏的天空" title="孤云落雨"></p>
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_snow_800x600.jpg" alt="宁夏的天空" title="白雪蓝天"></p>
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_sunny1_800x600.jpg" alt="宁夏的天空" title="蓝天白云"></p>
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_sunny2_800x600.jpg" alt="宁夏的天空" title="蓝天白云"></p>
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_sunny3_800x600.jpg" alt="宁夏的天空" title="蓝天白云"></p>
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_windmill_800x600.jpg" alt="宁夏的天空" title="风车静静"></p>
-<p>都是自己用手机拍的，效果欠佳。</p>
-]]></content>
-      <categories>
-        <category>相册</category>
-      </categories>
-      <tags>
-        <tag>风景</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>我的wordpress历程2</title>
     <url>//my-wordpress-track-2/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/MyWordpressTrack2_600x250.jpg" alt="wordpress"></p>
@@ -134,6 +134,19 @@
       </categories>
       <tags>
         <tag>WordPress</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My Gril</title>
+    <url>//my-gril/</url>
+    <content><![CDATA[<p><strong>my gril</strong></p>
+<p><img src="http://cdn.aword.net/images/MyGirl_623x639.jpg" alt="my gril"></p>
+]]></content>
+      <categories>
+        <category>相册</category>
+      </categories>
+      <tags>
+        <tag>Girl</tag>
       </tags>
   </entry>
   <entry>
@@ -166,53 +179,6 @@
       <tags>
         <tag>Vim</tag>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>杂记之看井</title>
-    <url>//za-ji-zhi-kan-jing/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/KanJing_600x200.jpg" alt="看井"></p>
-<p>置身于一个既熟悉又陌生的小环境里，短暂的脱离了日常繁琐的工作，半天一夜的时光，虽谈不上所谓的种种感悟，但这经历着实应该记下一笔。</p>
-<span id="more"></span>
-
-<ul>
-<li>时间：2013年5月11日</li>
-<li>地点：中国西部某油田某区块</li>
-<li>背景：该区块“外部”环境复杂</li>
-<li>起因：12增产量再次出现大幅偏差</li>
-</ul>
-<p>于是：领导决定，前指以及井区若干名干部到各个单井驻守，为期一天，落实该区块真实生产水平。</p>
-<p>我到这个井上的时候看井工人正在院子里坐着，个头不高，蓬蓬的头发，红工衣还算干净，看上去二十五六的年纪。“我来陪你了。”第一句我就开玩笑的说，不过估计他没听明白，我紧接着把自己来到这里的原因随便解释了一下。</p>
-<p>转过身几步走进他的房子，收拾的挺整洁的，虽然这些破旧的铁皮野营房总是那破这漏的。电视是个比较旧的，电子管那种，大屁股，声音开的挺大，但里面放的却是难看的广告。“你这电视咋没弄个液晶的，我看别的井上挺多的啊？”我又随口问了一句，他无奈的回答道，“别人不给嘛，没办法。”的确，我知道的，在这种地方看井的员工待遇太差了。空旷的井场，冰冷的抽油机，冬冷夏热的野营房，一日三餐要自己做自己吃，白天各种重要的不重要的活，晚上还要防着老乡过来偷油，当然还有偶尔经警中队的查夜。稍微负责的工人遇上老乡光顾频繁的井，每晚几乎都是是睡不好觉的。想着这些，我只好也无奈的叹一口气。以往我习惯于感叹面对大自然伟力下人类的渺小，现在看着人类自己给自己带上的重重枷锁，心中的吁叹不禁又更加沉重了一些。为什么要这样呢？什么时候才能有所改变？会有吗？不得而知……</p>
-<p>我们又随便聊了几句，这位看井的师傅跟我同岁，大我不到一个月，开始一直在修井队当修井工，两三个月之前才从修井工转岗到采油工。我问他的感觉是干修井好还是干采油好，“修井吧，比较辛苦，但是干活单纯，只要你卖力气认真干就好好的。干采油虽然没修井那么累，但就是麻烦的很。”对于后边这句话我的感触还是颇深的，不禁脱口而出：“就是的。”他继续说道：“每天白天投球、加药、看抽油机、打扫卫生，到了晚上还得提心吊胆的防着老乡偷油。”而且他是一个人看了两个井场，另一个在马路对面，距离不远。这师傅对此很自然的流露出一种淡淡的不满和厌烦。我是理解的，每天跑井这活的确烦人的很。“没办法，现在缺人的很啊。”我也略感无奈的应道。的确，这是没办法的事情，至少对于我和他而言，这是完全无能为力的。</p>
-<p><img src="http://cdn.aword.net/images/KanJing_insert_500x375.jpg"></p>
-<p>我起身往他厨房里扫了一眼，“你这都没东西了嘛，咋吃饭着呢？”“我本来应该上次换班休息的，所以没要菜，现在就剩点鸡蛋剩点米了。”我继续问，“那你上次怎么没休息啊？”他还是带着一种淡淡的无奈说：“没人换嘛。人不够没人来换班就走不成，你也知道呢吧。”的确，我知道的，但是这次我脑海里的第一反映不是石油工人的工作如何艰苦，而是突然想到了一些个别的、特殊的看井工人。井上很少能看到他们的身影，偶尔看到，他们或自己开车来或有司机专程把他们送来，在井场转上一圈，然后又风尘仆仆的不知朝着哪个饭店走了。这个世界本来就是不公平的，我在心里暗暗对自己又念了一遍这句话。这句话是没错的，但是当我们对此表示认同的时候，是不是应该还考虑其他呢？何谓之公，而又将何谓之不公？当亲自面对种种不公的境况时，你是在朝着较高的位置奔走准备去继续欺压弱势，还是把自己放在天平的支点，奋力实现我们所谓的大公。</p>
-<p>“你拿我这的米做饭，要不我放假走了也不知道给谁吃了。”看井的师傅向一位刚走进野营房的女士说道。我正在独自猜想着这位女士的来历和身份，她语速很快的回答：“不用不用，我们修井对上啥都带着呢，借你的厨具用用就好了。”原来她是外面修井对的厨师。我随口向她问：“这口井干啥着呢？”“检泵，具体的我也不知道。”然后看井的师傅接过话茬，“这个井双失，都报了好久了，今天队伍才上来的。”“哦，你这井肯定是油量不行吧……”不用他回答我也知道，肯定的，修井要先修产油量高的，他这个井产量不行所以一直排在队尾。产量，产量，多么熟悉而又让我反感的一个词语。在一个唯利是图的时代，利益，早已经把自己的精神贯彻的无孔不入。低孔低渗的油藏物性，与学校课本里保护地层、提高采收率格格不入的开发策略，一塌糊涂的现场管理，里勾外连的默契配合，层层递进的形式主义，为了一己私利坑了爹再坑娘的种种事迹……罢了，罢了，恐胜佛亲临唯叹无力回天。心之将死，大限之至。</p>
-<p>一架单薄的高低床，一把略显破旧的折叠椅，我们三人各自坐下。他们两人用相近的方言闲聊，我偶尔陪他们呵呵一笑，偶尔听到几个词语让我困惑不解。他们两位算不上老乡，但是各自家乡离的也不算远。小伙子已经离家出来工作几年，从修井到采油，一直是社会化员工，俗称临时工，目前还是单身。厨师女士之前在一家私企当会计，工作清闲，工资不菲，又深得领导赏识。通过关系她把儿子调到自己所在的单位工作，干保安，虽然工资不高，但是工作还算清闲。好景不长，或者应该说就没有好景，保安的工作难干，有它自己特有矛盾，儿子甚至曾被别人辱称“看门狗”。在儿子十分决绝的坚持下，他们放弃了单位领导本已答应，过一段时间给她儿子调动工作的承诺。于是这女士的儿子来到了爸爸工作的修井队里。为了照顾家庭的和睦，解决两地分居的困境，她只好放弃清闲高薪的会计工作，跟丈夫儿子一起，来到这个修井队当厨师。我心里深深感叹，同时用“就是”这两个字对看井工小伙子的话表示赞同。他说：“你真是个贤妻良母啊……”这是祖国西北僻壤一个普通的下午。我的心里没有惊涛骇浪的翻滚，但是一股默默的暗流却久久不能平息。</p>
-<p>一谈到修井的种种工作，看井工小伙子总是表现出一种莫名的兴奋。看的出，那里含着的，是留恋。我虽然没有感到困惑，但是真心的，不懂那是什么样一种感觉。修井的工作又苦又累，是什么让他感到不舍，我想不出。当他还在兴奋的给我们讲述着当年他们队伍干活多么迅速多么麻利的时候，一阵汽车的喇叭声响起，把他打断了。小伙子迅速的跑出屋子查看，原来是领导来给送饭了。一下子把这么多人放到各个井场，而且要住上一晚，送上一顿饭应该算是最基本的吧。炒饭，2盒，绿茶，2瓶，馒头，2个。我们一时间还比较高兴，下午正念叨着说饿呢，马上吃的就来了。恭敬的送走了来送饭的领导，我们马上开饭。貌似……炒饭忘了放盐了……好吧，为了响应国家号召，为了不浪费粮食，我们很坚强的，把难吃到盒饭全部咽下去了。抱怨了抱怨，然后，没办法，纯屌丝。</p>
-<p>天色渐渐变暗，湛蓝的苍穹蒙上了一层灰色，地平线上残阳默默远去，还拖着一条无比绚丽的红霞。夜，如期而至。</p>
-<p>未完 戚然</p>
-<p>2013年6月18日</p>
-]]></content>
-      <categories>
-        <category>文字</category>
-      </categories>
-      <tags>
-        <tag>心情</tag>
-        <tag>工作</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My Gril</title>
-    <url>//my-gril/</url>
-    <content><![CDATA[<p><strong>my gril</strong></p>
-<p><img src="http://cdn.aword.net/images/MyGirl_623x639.jpg" alt="my gril"></p>
-]]></content>
-      <categories>
-        <category>相册</category>
-      </categories>
-      <tags>
-        <tag>Girl</tag>
       </tags>
   </entry>
   <entry>
@@ -276,6 +242,64 @@
       </tags>
   </entry>
   <entry>
+    <title>杂记之看井</title>
+    <url>//za-ji-zhi-kan-jing/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/KanJing_600x200.jpg" alt="看井"></p>
+<p>置身于一个既熟悉又陌生的小环境里，短暂的脱离了日常繁琐的工作，半天一夜的时光，虽谈不上所谓的种种感悟，但这经历着实应该记下一笔。</p>
+<span id="more"></span>
+
+<ul>
+<li>时间：2013年5月11日</li>
+<li>地点：中国西部某油田某区块</li>
+<li>背景：该区块“外部”环境复杂</li>
+<li>起因：12增产量再次出现大幅偏差</li>
+</ul>
+<p>于是：领导决定，前指以及井区若干名干部到各个单井驻守，为期一天，落实该区块真实生产水平。</p>
+<p>我到这个井上的时候看井工人正在院子里坐着，个头不高，蓬蓬的头发，红工衣还算干净，看上去二十五六的年纪。“我来陪你了。”第一句我就开玩笑的说，不过估计他没听明白，我紧接着把自己来到这里的原因随便解释了一下。</p>
+<p>转过身几步走进他的房子，收拾的挺整洁的，虽然这些破旧的铁皮野营房总是那破这漏的。电视是个比较旧的，电子管那种，大屁股，声音开的挺大，但里面放的却是难看的广告。“你这电视咋没弄个液晶的，我看别的井上挺多的啊？”我又随口问了一句，他无奈的回答道，“别人不给嘛，没办法。”的确，我知道的，在这种地方看井的员工待遇太差了。空旷的井场，冰冷的抽油机，冬冷夏热的野营房，一日三餐要自己做自己吃，白天各种重要的不重要的活，晚上还要防着老乡过来偷油，当然还有偶尔经警中队的查夜。稍微负责的工人遇上老乡光顾频繁的井，每晚几乎都是是睡不好觉的。想着这些，我只好也无奈的叹一口气。以往我习惯于感叹面对大自然伟力下人类的渺小，现在看着人类自己给自己带上的重重枷锁，心中的吁叹不禁又更加沉重了一些。为什么要这样呢？什么时候才能有所改变？会有吗？不得而知……</p>
+<p>我们又随便聊了几句，这位看井的师傅跟我同岁，大我不到一个月，开始一直在修井队当修井工，两三个月之前才从修井工转岗到采油工。我问他的感觉是干修井好还是干采油好，“修井吧，比较辛苦，但是干活单纯，只要你卖力气认真干就好好的。干采油虽然没修井那么累，但就是麻烦的很。”对于后边这句话我的感触还是颇深的，不禁脱口而出：“就是的。”他继续说道：“每天白天投球、加药、看抽油机、打扫卫生，到了晚上还得提心吊胆的防着老乡偷油。”而且他是一个人看了两个井场，另一个在马路对面，距离不远。这师傅对此很自然的流露出一种淡淡的不满和厌烦。我是理解的，每天跑井这活的确烦人的很。“没办法，现在缺人的很啊。”我也略感无奈的应道。的确，这是没办法的事情，至少对于我和他而言，这是完全无能为力的。</p>
+<p><img src="http://cdn.aword.net/images/KanJing_insert_500x375.jpg"></p>
+<p>我起身往他厨房里扫了一眼，“你这都没东西了嘛，咋吃饭着呢？”“我本来应该上次换班休息的，所以没要菜，现在就剩点鸡蛋剩点米了。”我继续问，“那你上次怎么没休息啊？”他还是带着一种淡淡的无奈说：“没人换嘛。人不够没人来换班就走不成，你也知道呢吧。”的确，我知道的，但是这次我脑海里的第一反映不是石油工人的工作如何艰苦，而是突然想到了一些个别的、特殊的看井工人。井上很少能看到他们的身影，偶尔看到，他们或自己开车来或有司机专程把他们送来，在井场转上一圈，然后又风尘仆仆的不知朝着哪个饭店走了。这个世界本来就是不公平的，我在心里暗暗对自己又念了一遍这句话。这句话是没错的，但是当我们对此表示认同的时候，是不是应该还考虑其他呢？何谓之公，而又将何谓之不公？当亲自面对种种不公的境况时，你是在朝着较高的位置奔走准备去继续欺压弱势，还是把自己放在天平的支点，奋力实现我们所谓的大公。</p>
+<p>“你拿我这的米做饭，要不我放假走了也不知道给谁吃了。”看井的师傅向一位刚走进野营房的女士说道。我正在独自猜想着这位女士的来历和身份，她语速很快的回答：“不用不用，我们修井对上啥都带着呢，借你的厨具用用就好了。”原来她是外面修井对的厨师。我随口向她问：“这口井干啥着呢？”“检泵，具体的我也不知道。”然后看井的师傅接过话茬，“这个井双失，都报了好久了，今天队伍才上来的。”“哦，你这井肯定是油量不行吧……”不用他回答我也知道，肯定的，修井要先修产油量高的，他这个井产量不行所以一直排在队尾。产量，产量，多么熟悉而又让我反感的一个词语。在一个唯利是图的时代，利益，早已经把自己的精神贯彻的无孔不入。低孔低渗的油藏物性，与学校课本里保护地层、提高采收率格格不入的开发策略，一塌糊涂的现场管理，里勾外连的默契配合，层层递进的形式主义，为了一己私利坑了爹再坑娘的种种事迹……罢了，罢了，恐胜佛亲临唯叹无力回天。心之将死，大限之至。</p>
+<p>一架单薄的高低床，一把略显破旧的折叠椅，我们三人各自坐下。他们两人用相近的方言闲聊，我偶尔陪他们呵呵一笑，偶尔听到几个词语让我困惑不解。他们两位算不上老乡，但是各自家乡离的也不算远。小伙子已经离家出来工作几年，从修井到采油，一直是社会化员工，俗称临时工，目前还是单身。厨师女士之前在一家私企当会计，工作清闲，工资不菲，又深得领导赏识。通过关系她把儿子调到自己所在的单位工作，干保安，虽然工资不高，但是工作还算清闲。好景不长，或者应该说就没有好景，保安的工作难干，有它自己特有矛盾，儿子甚至曾被别人辱称“看门狗”。在儿子十分决绝的坚持下，他们放弃了单位领导本已答应，过一段时间给她儿子调动工作的承诺。于是这女士的儿子来到了爸爸工作的修井队里。为了照顾家庭的和睦，解决两地分居的困境，她只好放弃清闲高薪的会计工作，跟丈夫儿子一起，来到这个修井队当厨师。我心里深深感叹，同时用“就是”这两个字对看井工小伙子的话表示赞同。他说：“你真是个贤妻良母啊……”这是祖国西北僻壤一个普通的下午。我的心里没有惊涛骇浪的翻滚，但是一股默默的暗流却久久不能平息。</p>
+<p>一谈到修井的种种工作，看井工小伙子总是表现出一种莫名的兴奋。看的出，那里含着的，是留恋。我虽然没有感到困惑，但是真心的，不懂那是什么样一种感觉。修井的工作又苦又累，是什么让他感到不舍，我想不出。当他还在兴奋的给我们讲述着当年他们队伍干活多么迅速多么麻利的时候，一阵汽车的喇叭声响起，把他打断了。小伙子迅速的跑出屋子查看，原来是领导来给送饭了。一下子把这么多人放到各个井场，而且要住上一晚，送上一顿饭应该算是最基本的吧。炒饭，2盒，绿茶，2瓶，馒头，2个。我们一时间还比较高兴，下午正念叨着说饿呢，马上吃的就来了。恭敬的送走了来送饭的领导，我们马上开饭。貌似……炒饭忘了放盐了……好吧，为了响应国家号召，为了不浪费粮食，我们很坚强的，把难吃到盒饭全部咽下去了。抱怨了抱怨，然后，没办法，纯屌丝。</p>
+<p>天色渐渐变暗，湛蓝的苍穹蒙上了一层灰色，地平线上残阳默默远去，还拖着一条无比绚丽的红霞。夜，如期而至。</p>
+<p>未完 戚然</p>
+<p>2013年6月18日</p>
+]]></content>
+      <categories>
+        <category>文字</category>
+      </categories>
+      <tags>
+        <tag>心情</tag>
+        <tag>工作</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>AutoHotkey学习笔记</title>
+    <url>//autohotkey-learn/</url>
+    <content><![CDATA[<p>这是我在学习使用 AutoHotkey 过程中的随笔记录。</p>
+<p><strong>命令不区分大小写</strong></p>
+<p><code>run</code> 运行程序或打开文件</p>
+<p><code>#</code> win键</p>
+<p><code>^</code> control键</p>
+<p><code>+</code> shift键</p>
+<p><code>!</code> alt键</p>
+<p><code>runwait</code> 运行程序或打开文,直到当前程序或文件关闭后才执行下一句</p>
+<p><code>send</code> 输出内容或按键，按键写在大括号里{enter}，（输出中文貌似会乱码）</p>
+<p><code>::btw::by the way</code> 自动改写，输入btw后按空格或逗号自动改写为 by the way</p>
+<p><code>click</code> 点击鼠标，参数可选点击坐标、左右键、双击、键按下、键释放、点击次数</p>
+<p><code>winactivate</code> 激活窗口</p>
+<span id="more"></span>]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>AutoHotkey</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>何时长大</title>
     <url>//when-to-grow-up/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/WhenToGrowUp_600x200.jpg" alt="trees"></p>
@@ -311,51 +335,6 @@
       </tags>
   </entry>
   <entry>
-    <title>工作之余</title>
-    <url>//out-of-work/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/SunsetGlow_1024x700.jpg" alt="out of work" title="Sunset Glow"></p>
-<span id="more"></span>
-
-<p><img src="http://cdn.aword.net/images/OutOfWrok1_800x600.jpg" alt="帽子"></p>
-<p>大爷的帽子很别致</p>
-<p><img src="http://cdn.aword.net/images/OutOfWrok2_450x600.jpg" alt="鸟窝"></p>
-<p>投球器里的温暖的鸟窝、小鸟出生后省的蛋壳、还有不知是父母还是子女的尸体……</p>
-<p><img src="http://cdn.aword.net/images/OutOfWrok3_800x600.jpg" alt="油袋子"></p>
-<p>满满一车的油袋子</p>
-]]></content>
-      <categories>
-        <category>相册</category>
-      </categories>
-      <tags>
-        <tag>风景</tag>
-        <tag>工作</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>AutoHotkey学习笔记</title>
-    <url>//autohotkey-learn/</url>
-    <content><![CDATA[<p>这是我在学习使用 AutoHotkey 过程中的随笔记录。</p>
-<p><strong>命令不区分大小写</strong></p>
-<p><code>run</code> 运行程序或打开文件</p>
-<p><code>#</code> win键</p>
-<p><code>^</code> control键</p>
-<p><code>+</code> shift键</p>
-<p><code>!</code> alt键</p>
-<p><code>runwait</code> 运行程序或打开文,直到当前程序或文件关闭后才执行下一句</p>
-<p><code>send</code> 输出内容或按键，按键写在大括号里{enter}，（输出中文貌似会乱码）</p>
-<p><code>::btw::by the way</code> 自动改写，输入btw后按空格或逗号自动改写为 by the way</p>
-<p><code>click</code> 点击鼠标，参数可选点击坐标、左右键、双击、键按下、键释放、点击次数</p>
-<p><code>winactivate</code> 激活窗口</p>
-<span id="more"></span>]]></content>
-      <categories>
-        <category>软件</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>AutoHotkey</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>何谓迷茫何谓彷徨</title>
     <url>//confused-or-hesitate/</url>
     <content><![CDATA[<p>少年不识愁滋味，爱上层楼。爱上层楼，为赋新词强说愁。</p>
@@ -380,6 +359,27 @@
       <tags>
         <tag>纪念</tag>
         <tag>心情</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>工作之余</title>
+    <url>//out-of-work/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/SunsetGlow_1024x700.jpg" alt="out of work" title="Sunset Glow"></p>
+<span id="more"></span>
+
+<p><img src="http://cdn.aword.net/images/OutOfWrok1_800x600.jpg" alt="帽子"></p>
+<p>大爷的帽子很别致</p>
+<p><img src="http://cdn.aword.net/images/OutOfWrok2_450x600.jpg" alt="鸟窝"></p>
+<p>投球器里的温暖的鸟窝、小鸟出生后省的蛋壳、还有不知是父母还是子女的尸体……</p>
+<p><img src="http://cdn.aword.net/images/OutOfWrok3_800x600.jpg" alt="油袋子"></p>
+<p>满满一车的油袋子</p>
+]]></content>
+      <categories>
+        <category>相册</category>
+      </categories>
+      <tags>
+        <tag>风景</tag>
+        <tag>工作</tag>
       </tags>
   </entry>
   <entry>
@@ -433,6 +433,22 @@
       </tags>
   </entry>
   <entry>
+    <title>闲言碎语2</title>
+    <url>//xian-yan-sui-yu-2/</url>
+    <content><![CDATA[<p>2013-9-3</p>
+<p>微微泛凉的风，在夏秋之交。灰蒙蒙的天空，是一层薄薄的乌云，似皱不皱，欲展不展。</p>
+<p>杂乱的声音，这一言，那一语，由门口溢出，从窗子飘落，随风随雨，无影无踪。</p>
+<p>乳白的纸杯，茶香淡淡，茗雾缭绕，一缕儒雅之余，尽是悲凉。“水性油墨，柔版印刷；爱护环境，从我做起。”几乎可比“吸烟有害健康”。爱护环境，为何总是一纸空文。是人类的固性？口口声声以历史为镜，却对眼前经验教训视若不见。先污染再治理,貌似成了每个民族必然经历的路程。人性，如此的可悲。</p>
+<p>又是一阵微风拂过，沁心寒凉。</p>
+]]></content>
+      <categories>
+        <category>文字</category>
+      </categories>
+      <tags>
+        <tag>心情</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>银川and第一款相机</title>
     <url>//yin-chuan-he-di-yi-kuan-xiang-ji/</url>
     <content><![CDATA[<p>银川的几日逗留很是愉快，甜甜的幸福。</p>
@@ -462,22 +478,6 @@
       <tags>
         <tag>纪念</tag>
         <tag>风景</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>闲言碎语2</title>
-    <url>//xian-yan-sui-yu-2/</url>
-    <content><![CDATA[<p>2013-9-3</p>
-<p>微微泛凉的风，在夏秋之交。灰蒙蒙的天空，是一层薄薄的乌云，似皱不皱，欲展不展。</p>
-<p>杂乱的声音，这一言，那一语，由门口溢出，从窗子飘落，随风随雨，无影无踪。</p>
-<p>乳白的纸杯，茶香淡淡，茗雾缭绕，一缕儒雅之余，尽是悲凉。“水性油墨，柔版印刷；爱护环境，从我做起。”几乎可比“吸烟有害健康”。爱护环境，为何总是一纸空文。是人类的固性？口口声声以历史为镜，却对眼前经验教训视若不见。先污染再治理,貌似成了每个民族必然经历的路程。人性，如此的可悲。</p>
-<p>又是一阵微风拂过，沁心寒凉。</p>
-]]></content>
-      <categories>
-        <category>文字</category>
-      </categories>
-      <tags>
-        <tag>心情</tag>
       </tags>
   </entry>
   <entry>
@@ -648,24 +648,6 @@
       </tags>
   </entry>
   <entry>
-    <title>夜语无题</title>
-    <url>//ye-yu-wu-ti/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Moonnight_500x264.jpg" alt="夜语无题" title="夜语无题"></p>
-<p>又看了零星，听了些许，也许最近真的信息量有点大了。</p>
-<p>熟悉而又清晰的感触，躺在床上，知道明天又是完全类似的圆转，而今却无法那怕搬动丝毫的角度。</p>
-<p>怀念，可以独自静坐于凌晨，眼观于心，而心则随风肆意。笔下虽然无神，灵气却自然充盈于心底，清风和煦，翩然而舞。</p>
-<p>丝缕明晰的线条曲卷成麻，此牵于彼，彼执于他，近则连绵起伏，远则全无头绪。</p>
-<p>唯有开天辟地之利，凡夫俗子，可于酒醒睡梦之时，见闻其详。</p>
-]]></content>
-      <categories>
-        <category>文字</category>
-      </categories>
-      <tags>
-        <tag>心情</tag>
-        <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>My First VBA Program</title>
     <url>//my-first-vba-program/</url>
     <content><![CDATA[<p>之前几度想把VBA系统的学习一下，各种原因，各种情况，每每都是超不过三天的热度，虎头未成，蛇尾便早早不见了。</p>
@@ -738,6 +720,24 @@
       </tags>
   </entry>
   <entry>
+    <title>夜语无题</title>
+    <url>//ye-yu-wu-ti/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Moonnight_500x264.jpg" alt="夜语无题" title="夜语无题"></p>
+<p>又看了零星，听了些许，也许最近真的信息量有点大了。</p>
+<p>熟悉而又清晰的感触，躺在床上，知道明天又是完全类似的圆转，而今却无法那怕搬动丝毫的角度。</p>
+<p>怀念，可以独自静坐于凌晨，眼观于心，而心则随风肆意。笔下虽然无神，灵气却自然充盈于心底，清风和煦，翩然而舞。</p>
+<p>丝缕明晰的线条曲卷成麻，此牵于彼，彼执于他，近则连绵起伏，远则全无头绪。</p>
+<p>唯有开天辟地之利，凡夫俗子，可于酒醒睡梦之时，见闻其详。</p>
+]]></content>
+      <categories>
+        <category>文字</category>
+      </categories>
+      <tags>
+        <tag>心情</tag>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>曾经</title>
     <url>//ever/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/Hourglass_500x319.jpg" alt="曾经" title="曾经"></p>
@@ -796,28 +796,27 @@
       </tags>
   </entry>
   <entry>
-    <title>无题无期</title>
-    <url>//wu-ti-wu-qi/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/WuTiWuQi_500x281.jpg" alt="无题无期"></p>
-<p>小河、斑驳、桃花、翠柏。</p>
-<p>土窑洞、砖瓦房、高楼大厦。</p>
-<p>麻木、淡漠、浑浑噩噩。</p>
+    <title>闲言碎语3</title>
+    <url>//xian-yan-sui-yu-3/</url>
+    <content><![CDATA[<p>2014&#x2F;4&#x2F;29</p>
+<p>懒惰，拖延，消极，被动。</p>
+<p>是理由，还是借口。</p>
+<p>性格，终究是一个坚定的东西，坚韧不拔，历久弥新。丝毫的更改，似乎都循环嵌套，圆转成环。仔细挖一挖记忆的尘土，陌生的样子，却又熟悉的温暖。想起当时的光景，唏嘘感叹，鲜活亮丽的画面，在脑海漂流激荡，笑语欢声，鸟语花香。扪心自问，竟波澜不惊。</p>
+<p>一个小小的圆圈内，不同的点，不同的人，不同的样子，不同的信念。丰富么，不清楚，已经不晓得外界的模样，同一片蓝天，同一轮明月。</p>
 <span id="more"></span>
 
-<p>活着、生命、选择、退却、自私。</p>
-<p>堕落、贪婪、漫无目的。</p>
-<p>怀念、沉迷、厌世嫉俗。</p>
-<p>貌似写在一三年三月</p>
-<p>本想把这些串成一段文字</p>
-<p>然后，放弃了</p>
+<p>2014&#x2F;5&#x2F;13</p>
+<p>会议，不同的场地，不同的内容，不同的人员，不同的气氛，却相同的感觉。</p>
+<p>春末夏初，这地方气候不错，有山有水，有树有鸟。清新的空气，温婉的春风，吹在身上，一阵舒爽，拂在心头，莫名悲凉。</p>
+<p>2014&#x2F;5&#x2F;15</p>
+<p>还想前两日在shunning的情景，恐怕是所召开的最具技术性的会议。求知的欲望还在，可惜早已失去了往昔的精力。领导的言语很具高度，宏大明晰，精准深刻。不禁念起当年教室里慨当以慷的老师、教授。周围坐落，依然是领导，却是各揣心思。浮躁而坦然，只见其表不思其身，短浅急功，杂乱潦草。整个企业的现状可见一斑。</p>
+<p>思路思路，何时共产主义。</p>
 ]]></content>
       <categories>
         <category>文字</category>
       </categories>
       <tags>
         <tag>心情</tag>
-        <tag>工作</tag>
-        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -842,27 +841,28 @@
       </tags>
   </entry>
   <entry>
-    <title>闲言碎语3</title>
-    <url>//xian-yan-sui-yu-3/</url>
-    <content><![CDATA[<p>2014&#x2F;4&#x2F;29</p>
-<p>懒惰，拖延，消极，被动。</p>
-<p>是理由，还是借口。</p>
-<p>性格，终究是一个坚定的东西，坚韧不拔，历久弥新。丝毫的更改，似乎都循环嵌套，圆转成环。仔细挖一挖记忆的尘土，陌生的样子，却又熟悉的温暖。想起当时的光景，唏嘘感叹，鲜活亮丽的画面，在脑海漂流激荡，笑语欢声，鸟语花香。扪心自问，竟波澜不惊。</p>
-<p>一个小小的圆圈内，不同的点，不同的人，不同的样子，不同的信念。丰富么，不清楚，已经不晓得外界的模样，同一片蓝天，同一轮明月。</p>
+    <title>无题无期</title>
+    <url>//wu-ti-wu-qi/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/WuTiWuQi_500x281.jpg" alt="无题无期"></p>
+<p>小河、斑驳、桃花、翠柏。</p>
+<p>土窑洞、砖瓦房、高楼大厦。</p>
+<p>麻木、淡漠、浑浑噩噩。</p>
 <span id="more"></span>
 
-<p>2014&#x2F;5&#x2F;13</p>
-<p>会议，不同的场地，不同的内容，不同的人员，不同的气氛，却相同的感觉。</p>
-<p>春末夏初，这地方气候不错，有山有水，有树有鸟。清新的空气，温婉的春风，吹在身上，一阵舒爽，拂在心头，莫名悲凉。</p>
-<p>2014&#x2F;5&#x2F;15</p>
-<p>还想前两日在shunning的情景，恐怕是所召开的最具技术性的会议。求知的欲望还在，可惜早已失去了往昔的精力。领导的言语很具高度，宏大明晰，精准深刻。不禁念起当年教室里慨当以慷的老师、教授。周围坐落，依然是领导，却是各揣心思。浮躁而坦然，只见其表不思其身，短浅急功，杂乱潦草。整个企业的现状可见一斑。</p>
-<p>思路思路，何时共产主义。</p>
+<p>活着、生命、选择、退却、自私。</p>
+<p>堕落、贪婪、漫无目的。</p>
+<p>怀念、沉迷、厌世嫉俗。</p>
+<p>貌似写在一三年三月</p>
+<p>本想把这些串成一段文字</p>
+<p>然后，放弃了</p>
 ]]></content>
       <categories>
         <category>文字</category>
       </categories>
       <tags>
         <tag>心情</tag>
+        <tag>工作</tag>
+        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -903,6 +903,22 @@
       </tags>
   </entry>
   <entry>
+    <title>Cloud And Rain</title>
+    <url>//cloud-and-rain/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/CloudAndRain.jpg" alt="Cloud And Rain"></p>
+<span id="more"></span>
+<p><img src="http://cdn.aword.net/images/CloudAndRain1.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain2.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain3.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain4.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain5.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain6.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain7.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain8.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain9.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain10.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain11.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain12.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain13.jpg" alt="Cloud And Rain"></p>
+]]></content>
+      <categories>
+        <category>相册</category>
+      </categories>
+      <tags>
+        <tag>风景</tag>
+        <tag>工作</tag>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>关心则乱</title>
     <url>//guan-xin-ze-luan/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/Balance_500x300.jpg" alt="Balance"></p>
@@ -919,22 +935,6 @@
         <tag>工作</tag>
         <tag>生活</tag>
         <tag>法律</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Cloud And Rain</title>
-    <url>//cloud-and-rain/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/CloudAndRain.jpg" alt="Cloud And Rain"></p>
-<span id="more"></span>
-<p><img src="http://cdn.aword.net/images/CloudAndRain1.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain2.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain3.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain4.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain5.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain6.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain7.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain8.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain9.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain10.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain11.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain12.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain13.jpg" alt="Cloud And Rain"></p>
-]]></content>
-      <categories>
-        <category>相册</category>
-      </categories>
-      <tags>
-        <tag>风景</tag>
-        <tag>工作</tag>
-        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -1054,6 +1054,42 @@
       </tags>
   </entry>
   <entry>
+    <title>Marry</title>
+    <url>//marry/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Merry1.jpg" alt="Merry"></p>
+<span id="more"></span>
+
+<p><img src="http://cdn.aword.net/images/Merry2.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry3.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry4.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry5.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry6.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry7.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry8.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry9.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry10.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry11.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry12.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry13.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry14.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry15.jpg" alt="Merry"></p>
+]]></content>
+      <categories>
+        <category>相册</category>
+      </categories>
+      <tags>
+        <tag>纪念</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>应子之邀</title>
+    <url>//ying-zi-zhi-yao/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/YingZiZhiYao_500x281.jpg" alt="应子之邀"></p>
+<p>一个半月的时间不算长也不算短，我的生活和角色发生了翻天覆地的改变，借完成某人约稿的机会，整理下我这一个半月的经历和心情吧。</p>
+<span id="more"></span>
+
+<p>虽然待嫁的心情已经比较急迫，但是听到婚期订在一个月以后之时，心里还是一惊，不过更多的是窃喜，和某人四年多的感情，终于有了一个完满的结果。从拍婚纱照到领证，到准备婚礼，虽然有忙碌、有操劳，但是心里还是暖暖的，因为知道你就在不远处等我，永远也不会分离。感谢上苍让我遇见了你，让我们有彼此了解的机会，更要感谢的是你，对我无边的包容和忍让，对我无微不至的体贴和关怀。从单身少女变为已婚人士，角色的转变没有过多不适，因为早就对这一天有了好很多憧憬，在今后的生活中不奢求过多的惊喜与浪漫，只愿我们能每天窝在自己的小家里，平平淡淡、开心幸福的相依到老，真心期待这样的生活早日到来。</p>
+<p>也许世间根本就不存在完美，等待了四个月的工作终于在结婚的前夜尘埃落定，结果却差强人意。喜悦的心情顿时被忧郁的情绪掩盖，虽然试图掩饰心中的不快，但是这种情绪还是影响到了很多事很多人，感谢某人和家人对我的包容和理解。我知道自己付出的太少，得到的太多，对你们应该时刻怀着感恩的心。</p>
+<p>直到现在，一个人住着诺大的“别墅”，做着清闲的工作，情绪还是比较低落，因为这不是我想要的生活，我知道目前的困难都是暂时的，只要我们两个人有共同的目标，给我更多的信心和勇气，尽管道路曲折，但是我坚信光明就在不远的前方等着我们。</p>
+<p>I love you forever！</p>
+<p>2014年11月17日</p>
+]]></content>
+      <categories>
+        <category>文字</category>
+      </categories>
+      <tags>
+        <tag>纪念</tag>
+        <tag>心情</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Win7关闭任务栏缩略图，只显示名称</title>
     <url>//win7-taskbar-no-thumbnail/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/Win7Thumbnail.jpg" alt="win7-taskbar-no-thumbnail"></p>
@@ -1085,42 +1121,6 @@
       <tags>
         <tag>笔记</tag>
         <tag>Windows</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>应子之邀</title>
-    <url>//ying-zi-zhi-yao/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/YingZiZhiYao_500x281.jpg" alt="应子之邀"></p>
-<p>一个半月的时间不算长也不算短，我的生活和角色发生了翻天覆地的改变，借完成某人约稿的机会，整理下我这一个半月的经历和心情吧。</p>
-<span id="more"></span>
-
-<p>虽然待嫁的心情已经比较急迫，但是听到婚期订在一个月以后之时，心里还是一惊，不过更多的是窃喜，和某人四年多的感情，终于有了一个完满的结果。从拍婚纱照到领证，到准备婚礼，虽然有忙碌、有操劳，但是心里还是暖暖的，因为知道你就在不远处等我，永远也不会分离。感谢上苍让我遇见了你，让我们有彼此了解的机会，更要感谢的是你，对我无边的包容和忍让，对我无微不至的体贴和关怀。从单身少女变为已婚人士，角色的转变没有过多不适，因为早就对这一天有了好很多憧憬，在今后的生活中不奢求过多的惊喜与浪漫，只愿我们能每天窝在自己的小家里，平平淡淡、开心幸福的相依到老，真心期待这样的生活早日到来。</p>
-<p>也许世间根本就不存在完美，等待了四个月的工作终于在结婚的前夜尘埃落定，结果却差强人意。喜悦的心情顿时被忧郁的情绪掩盖，虽然试图掩饰心中的不快，但是这种情绪还是影响到了很多事很多人，感谢某人和家人对我的包容和理解。我知道自己付出的太少，得到的太多，对你们应该时刻怀着感恩的心。</p>
-<p>直到现在，一个人住着诺大的“别墅”，做着清闲的工作，情绪还是比较低落，因为这不是我想要的生活，我知道目前的困难都是暂时的，只要我们两个人有共同的目标，给我更多的信心和勇气，尽管道路曲折，但是我坚信光明就在不远的前方等着我们。</p>
-<p>I love you forever！</p>
-<p>2014年11月17日</p>
-]]></content>
-      <categories>
-        <category>文字</category>
-      </categories>
-      <tags>
-        <tag>纪念</tag>
-        <tag>心情</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Marry</title>
-    <url>//marry/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Merry1.jpg" alt="Merry"></p>
-<span id="more"></span>
-
-<p><img src="http://cdn.aword.net/images/Merry2.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry3.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry4.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry5.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry6.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry7.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry8.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry9.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry10.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry11.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry12.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry13.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry14.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry15.jpg" alt="Merry"></p>
-]]></content>
-      <categories>
-        <category>相册</category>
-      </categories>
-      <tags>
-        <tag>纪念</tag>
       </tags>
   </entry>
   <entry>
@@ -1176,35 +1176,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Excel中vlookup多条件引用</title>
-    <url>//excel-zhong-vlookup-duo-tiao-jian-yin-yong/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Excel_500x200.jpg" alt="Excel中vlookup多条件引用"></p>
-<p>在Excel中利用<strong>vlookup</strong>和<strong>数组公式</strong>，用2个条件在数据源中进行匹配查找引用。该方法可推广至3个及以上数量的搜索条件，只是公式的样子看上去会更加繁琐一点。</p>
-<span id="more"></span>
-
-<p>Excel中vlookup函数默认的是根据给定的第一个参数，在选定区域的第一列进行搜索，确定行数，再根据给定的列数，确定单元格，返回值。函数需要4个传入参数，形式如下</p>
-<p>VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</p>
-<p>有时候我们的数据源比较复杂，只用一个条件（第一个参数）无法唯一确定所需要查找区域（第二个参数）中的一行。而是需要两个条件同时参与才能唯一确定区域（第二个参数）中的唯一一行。所以我们需要做些手脚，把两个条件合并成一个，放进vlookup的第一个参数；对应的，两个条件的合并变成查找区域的第一列，要返回的值变成查找区域的第二列，放进vlookup的第二个参数。这样就可以继续利用vlookup了。</p>
-<p>看下面这个例子。</p>
-<p><img src="http://cdn.aword.net/images/Excel_Vlookup_1.jpg" alt="Excel中vlookup多条件引用"></p>
-<p>如果在图中区域找女的张三的ID，由于有两个张三，只用名字，只用vlookup的默认形式就无法完成。</p>
-<p>所以用“&amp;”把名字和性别弄到一起用作vlookup的第一个参数，用if函数第一个参数的数组化（if({1,0},A,B)）把搜索区域的第一列弄成跟第一个参数相同的模样。</p>
-<p><img src="http://cdn.aword.net/images/Excel_Vlookup_2.jpg" alt="Excel中vlookup多条件引用"></p>
-<p>在C6单元格中输入&#x3D;VLOOKUP(A6&amp;B6,IF({1,0},A2:A4&amp;B2:B4,C2:C4),2,0)，并同按组合键Ctrl+Shift+Enter完成公式，就可以看到结果了。</p>
-<p>在工作中一次偶然的机会需要解决上述问题，自己想来想去没有办法，在网上送搜索了一通，终于找到答案，在此记录。感谢shaowu459的分享。</p>
-<p>参考源：<a href="http://jingyan.baidu.com/article/2fb0ba4048655500f2ec5ffa.html">http://jingyan.baidu.com/article/2fb0ba4048655500f2ec5ffa.html</a></p>
-]]></content>
-      <categories>
-        <category>软件</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>工作</tag>
-        <tag>Excel</tag>
-        <tag>VBA</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>ie浏览器访问本站会显示不全</title>
     <url>//ie-liu-lan-qi-fang-wen-ben-zhan-hui-xian-shi-bu-quan/</url>
     <content><![CDATA[<p><del>不知道从什么时候开始的，用ie浏览器访问本站会出现显示不全的问题……</del></p>
@@ -1250,6 +1221,35 @@
       </categories>
       <tags>
         <tag>心情</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Excel中vlookup多条件引用</title>
+    <url>//excel-zhong-vlookup-duo-tiao-jian-yin-yong/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Excel_500x200.jpg" alt="Excel中vlookup多条件引用"></p>
+<p>在Excel中利用<strong>vlookup</strong>和<strong>数组公式</strong>，用2个条件在数据源中进行匹配查找引用。该方法可推广至3个及以上数量的搜索条件，只是公式的样子看上去会更加繁琐一点。</p>
+<span id="more"></span>
+
+<p>Excel中vlookup函数默认的是根据给定的第一个参数，在选定区域的第一列进行搜索，确定行数，再根据给定的列数，确定单元格，返回值。函数需要4个传入参数，形式如下</p>
+<p>VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</p>
+<p>有时候我们的数据源比较复杂，只用一个条件（第一个参数）无法唯一确定所需要查找区域（第二个参数）中的一行。而是需要两个条件同时参与才能唯一确定区域（第二个参数）中的唯一一行。所以我们需要做些手脚，把两个条件合并成一个，放进vlookup的第一个参数；对应的，两个条件的合并变成查找区域的第一列，要返回的值变成查找区域的第二列，放进vlookup的第二个参数。这样就可以继续利用vlookup了。</p>
+<p>看下面这个例子。</p>
+<p><img src="http://cdn.aword.net/images/Excel_Vlookup_1.jpg" alt="Excel中vlookup多条件引用"></p>
+<p>如果在图中区域找女的张三的ID，由于有两个张三，只用名字，只用vlookup的默认形式就无法完成。</p>
+<p>所以用“&amp;”把名字和性别弄到一起用作vlookup的第一个参数，用if函数第一个参数的数组化（if({1,0},A,B)）把搜索区域的第一列弄成跟第一个参数相同的模样。</p>
+<p><img src="http://cdn.aword.net/images/Excel_Vlookup_2.jpg" alt="Excel中vlookup多条件引用"></p>
+<p>在C6单元格中输入&#x3D;VLOOKUP(A6&amp;B6,IF({1,0},A2:A4&amp;B2:B4,C2:C4),2,0)，并同按组合键Ctrl+Shift+Enter完成公式，就可以看到结果了。</p>
+<p>在工作中一次偶然的机会需要解决上述问题，自己想来想去没有办法，在网上送搜索了一通，终于找到答案，在此记录。感谢shaowu459的分享。</p>
+<p>参考源：<a href="http://jingyan.baidu.com/article/2fb0ba4048655500f2ec5ffa.html">http://jingyan.baidu.com/article/2fb0ba4048655500f2ec5ffa.html</a></p>
+]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>工作</tag>
+        <tag>Excel</tag>
+        <tag>VBA</tag>
       </tags>
   </entry>
   <entry>
@@ -1778,7 +1778,7 @@ equivalent of &lt;code&gt;&amp;amp;mdash;&lt;/code&gt;.&lt;/p&gt;
 &amp;#109;&quot;&gt;&amp;#x61;&amp;#x64;&amp;#x64;&amp;#x72;&amp;#x65;&amp;#115;&amp;#115;&amp;#64;&amp;#101;&amp;#120;&amp;#x61;
 &amp;#109;&amp;#x70;&amp;#x6C;e&amp;#x2E;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;
 </code></pre>
-<p>在浏览器里面，这段字串（其实是 <code>&lt;a href=&quot;mailto:address@example.com&quot;&gt;address@example.com&lt;/a&gt;</code>）会变成一个可以点击的「<a href="mailto:&#97;&#x64;&#x64;&#x72;&#101;&#115;&#x73;&#x40;&#101;&#120;&#97;&#x6d;&#x70;&#108;&#101;&#46;&#x63;&#x6f;&#109;">&#97;&#x64;&#x64;&#x72;&#101;&#115;&#x73;&#x40;&#101;&#120;&#97;&#x6d;&#x70;&#108;&#101;&#46;&#x63;&#x6f;&#109;</a>」链接。</p>
+<p>在浏览器里面，这段字串（其实是 <code>&lt;a href=&quot;mailto:address@example.com&quot;&gt;address@example.com&lt;/a&gt;</code>）会变成一个可以点击的「<a href="mailto:&#97;&#x64;&#x64;&#114;&#101;&#x73;&#x73;&#x40;&#101;&#120;&#x61;&#109;&#x70;&#x6c;&#x65;&#x2e;&#x63;&#111;&#x6d;">&#97;&#x64;&#x64;&#114;&#101;&#x73;&#x73;&#x40;&#101;&#120;&#x61;&#109;&#x70;&#x6c;&#x65;&#x2e;&#x63;&#111;&#x6d;</a>」链接。</p>
 <p>（这种作法虽然可以糊弄不少的机器人，但并不能全部挡下来，不过总比什么都不做好些。不管怎样，公开你的信箱终究会引来广告信件的。）</p>
 <h3 id="反斜杠"><a href="#反斜杠" class="headerlink" title="反斜杠"></a>反斜杠</h3><p>Markdown 可以利用反斜杠来插入一些在语法中有其它意义的符号，例如：如果你想要用星号加在文字旁边的方式来做出强调效果（但不用 <code>&lt;em&gt;</code> 标签），你可以在星号的前面加上反斜杠：</p>
 <pre><code>\*literal asterisks\*
@@ -1807,6 +1807,25 @@ _   底线
       </tags>
   </entry>
   <entry>
+    <title>我的wordpress历程4</title>
+    <url>//my-wordpress-track-4/</url>
+    <content><![CDATA[<p>好久没有折腾我的 <a href="http://aword.net/">一语</a> 了。</p>
+<p>最近闲暇的时间主要放在了自己学习加练习用的一个小东西 <a href="https://github.com/zhyt0520/bookmarks">bookmarks</a> 上，学一点，写一点，教程扫一扫，问题搜一搜，效率真心低下，但总算在一直慢慢坚持。但是这种进度，怕是再有一年半载的也看不到完成的希望……</p>
+<p>前两天突然又想把网站的元素自动浮动固定给加上。</p>
+<span id="more"></span>
+
+<p>晚上折腾了一阵，感觉基础还是很有提升的，至少能看懂最开始从网上抄来完成这个功能的代码了。跟着人家的思路，把代码自己写了一遍，也加了一些改动。在自己的电脑上测试，效果还行。</p>
+<p>代码如下</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;http://libs.baidu.com/jquery/1.11.3/jquery.min.js&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    $.fn.<span class="property">smartFloat</span>=<span class="keyword">function</span>(<span class="params">x</span>)&#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="keyword">var</span> element=$(<span class="variable language_">this</span>);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="keyword">var</span> thetop=element.<span class="title function_">position</span>().<span class="property">top</span>;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="keyword">var</span> pos=element.<span class="title function_">css</span>(<span class="string">&#x27;position&#x27;</span>);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="keyword">var</span> wid=element.<span class="title function_">css</span>(<span class="string">&#x27;width&#x27;</span>);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="keyword">var</span> offsetleft=element.<span class="title function_">offset</span>().<span class="property">left</span>;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="keyword">var</span> offsettop=element.<span class="title function_">offset</span>().<span class="property">top</span>;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        $(<span class="variable language_">window</span>).<span class="title function_">scroll</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            <span class="keyword">var</span> scrolls=$(<span class="variable language_">this</span>).<span class="title function_">scrollTop</span>();</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            <span class="keyword">if</span>(scrolls&gt;thetop+x)&#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                element.<span class="title function_">css</span>(&#123;<span class="attr">position</span>: <span class="string">&#x27;fixed&#x27;</span>,<span class="attr">top</span>: <span class="number">0</span>,<span class="attr">width</span>: wid&#125;);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                element.<span class="title function_">offset</span>(&#123;<span class="attr">top</span>:<span class="literal">null</span>,<span class="attr">left</span>:offsetleft&#125;);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            &#125;<span class="keyword">else</span>&#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                element.<span class="title function_">css</span>(&#123;<span class="attr">position</span>: pos,<span class="attr">top</span>: thetop,<span class="attr">width</span>: wid&#125;);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            &#125;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        &#125;);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    &#125;;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    $(<span class="string">&#x27;#tag_cloud-2&#x27;</span>).<span class="title function_">smartFloat</span>();</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>建站</category>
+      </categories>
+      <tags>
+        <tag>WordPress</tag>
+        <tag>JavaScript</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>excel循环从其他工作簿复制数据</title>
     <url>//excel-xun-huan-cong-qi-ta-gong-zuo-bu-fu-zhi-shu-ju/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/Excel_500x200.jpg" alt="excel循环从其他工作簿复制数据"></p>
@@ -1824,25 +1843,6 @@ _   底线
         <tag>工作</tag>
         <tag>Excel</tag>
         <tag>VBA</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的wordpress历程4</title>
-    <url>//my-wordpress-track-4/</url>
-    <content><![CDATA[<p>好久没有折腾我的 <a href="http://aword.net/">一语</a> 了。</p>
-<p>最近闲暇的时间主要放在了自己学习加练习用的一个小东西 <a href="https://github.com/zhyt0520/bookmarks">bookmarks</a> 上，学一点，写一点，教程扫一扫，问题搜一搜，效率真心低下，但总算在一直慢慢坚持。但是这种进度，怕是再有一年半载的也看不到完成的希望……</p>
-<p>前两天突然又想把网站的元素自动浮动固定给加上。</p>
-<span id="more"></span>
-
-<p>晚上折腾了一阵，感觉基础还是很有提升的，至少能看懂最开始从网上抄来完成这个功能的代码了。跟着人家的思路，把代码自己写了一遍，也加了一些改动。在自己的电脑上测试，效果还行。</p>
-<p>代码如下</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;http://libs.baidu.com/jquery/1.11.3/jquery.min.js&quot;</span>&gt;&lt;/script&gt;</span><br><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">script</span>&gt;</span><span class="language-javascript"></span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    $.fn.<span class="property">smartFloat</span>=<span class="keyword">function</span>(<span class="params">x</span>)&#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="keyword">var</span> element=$(<span class="variable language_">this</span>);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="keyword">var</span> thetop=element.<span class="title function_">position</span>().<span class="property">top</span>;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="keyword">var</span> pos=element.<span class="title function_">css</span>(<span class="string">&#x27;position&#x27;</span>);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="keyword">var</span> wid=element.<span class="title function_">css</span>(<span class="string">&#x27;width&#x27;</span>);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="keyword">var</span> offsetleft=element.<span class="title function_">offset</span>().<span class="property">left</span>;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        <span class="keyword">var</span> offsettop=element.<span class="title function_">offset</span>().<span class="property">top</span>;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        $(<span class="variable language_">window</span>).<span class="title function_">scroll</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            <span class="keyword">var</span> scrolls=$(<span class="variable language_">this</span>).<span class="title function_">scrollTop</span>();</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            <span class="keyword">if</span>(scrolls&gt;thetop+x)&#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                element.<span class="title function_">css</span>(&#123;<span class="attr">position</span>: <span class="string">&#x27;fixed&#x27;</span>,<span class="attr">top</span>: <span class="number">0</span>,<span class="attr">width</span>: wid&#125;);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                element.<span class="title function_">offset</span>(&#123;<span class="attr">top</span>:<span class="literal">null</span>,<span class="attr">left</span>:offsetleft&#125;);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            &#125;<span class="keyword">else</span>&#123;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">                element.<span class="title function_">css</span>(&#123;<span class="attr">position</span>: pos,<span class="attr">top</span>: thetop,<span class="attr">width</span>: wid&#125;);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">            &#125;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">        &#125;);</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    &#125;;</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml">    $(<span class="string">&#x27;#tag_cloud-2&#x27;</span>).<span class="title function_">smartFloat</span>();</span></span></span><br><span class="line"><span class="language-javascript"><span class="language-xml"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>建站</category>
-      </categories>
-      <tags>
-        <tag>WordPress</tag>
-        <tag>JavaScript</tag>
       </tags>
   </entry>
   <entry>
@@ -1889,32 +1889,6 @@ _   底线
       </tags>
   </entry>
   <entry>
-    <title>初来记忆（二）</title>
-    <url>//chu-lai-ji-yi-2/</url>
-    <content><![CDATA[<p>被领到二楼安全科，进门，里面三人，一男两女，各自忙碌着。人事给说了一下就走了，开始入厂教育。</p>
-<p>他们交流了几句，貌似没有电脑可用，找了个椅子让我先坐那待着。我把包放到桌子上，然后弱弱的坐下。他们依然比较忙，不时的进出。这样过了一会，一女起身叫我，说隔壁空着一台电脑，先去那坐。</p>
-<p>来到隔壁，依然是安全科，五桌四人，果然。简单交代后她转身离去。办公室挺宽敞，中央摆一盆小树，不知其名；办公桌四南一北，西边靠墙横一沙发，配茶几。我径直到北侧坐下。他们几个各自忙活着。</p>
-<span id="more"></span>
-
-<p>一会，一个人用U盘考过来几个PPT，大概翻了翻，说说其中主要内容，然后让自己学习。然后我径自浏览。别说，里面写的好多东西之前自己都没有留意过，看了一遍还是颇有收货。</p>
-<p>能静下心做一件事情的时候，时间总会过的很快。中午和他们几个一起去食堂吃饭，闲聊几句，都算同龄人，还挺开心的。饭菜一般。吃完向南出大门散步，沿着海边的柏油路。海风温、潮，还带着些许的腥味，连绵的海浪轻拍在脚下的防浪堤，溅起片片水花。路旁草坪上两只喜鹊，淋着喷洒而下的水珠，唱着，跳着。沿着马路慢走，绕作业区半圈，由南门走到北门。路上不时有其他三三两两的人经过，不知道他们在谈些什么。没看见快乐，也没发现悲伤。北门再往北，是一个联合站，挺大。脱烃的塔就有好几个。自己心里默念，这就是沿海油田的样子吧。</p>
-<p>回到办公室，各自坐回座位。一个继续看着屏幕敲键盘，在做幻灯片呢，肯定挺烦的；一个拿出手机径自浏览，偶尔自顾自的露出微笑；一个趴在桌上，侧着头，似在思考；一个电脑上打开war3，单机dota。自己轻叹，中午不安排休息时间也挺不好的。</p>
-<p>貌似不久，war3被关了，起身换工服工鞋，准备去现场了。东西就在柜子里放着，换起来倒也方便。之后办公室剩四个人，只偶尔几句话，依然感觉静静的。隔壁一人进出几次，过来商量汇报材料的幻灯片，听上去大纲简洁，不晓得内容是怎样。</p>
-<p>静静的，时间在走。</p>
-<p>听着外面楼道里脚步声逐渐增多，看看时间，三点半了。办公室里几个开始收拾东西，“下班了。”“下班。”，似是在宣布这结果，也像是在告知我这旁人该回家了。一个要值夜班，我随其他下楼。人们从各自的办公室里出来，在走廊里、楼梯间汇集，穿过办公楼大门向停在院子里的大巴前进。坐在车上没注意，全站在空旷处人数还显得挺多的。一个一个，人群渐渐全部被吸入大巴，静等汽车发动。车上座位几乎坐满，除了一两个正在打电话，几乎没人交谈。不禁自己问自己，难道一直是这样的吗。</p>
-<p>返程感觉要比刚去时快的多，一路上胡思乱想，还没理出个头绪，依然到站了。虽然中午没有休息时间，但下午下班还挺早的。</p>
-<p>后面两天的培训没有什么大的变化，还是坐在那台电脑前，继续学习。偶尔闲谈，中午吃饭，饭后一圈散步，下午继续坐在那，然后下班。当然中间还有各种接打电话和进进出出，联系公积金，联系社保，办理一卡通等等。记得最后一天还答了半天的问卷，不是自己的考试，是替别人填写。</p>
-<p>最后的下午，安全科通知入厂教育结束，回人事科听从安排。又上三楼，收到结果，五号岛。给了一个联系人，隔天自己联系并坐车到五号岛报到。</p>
-]]></content>
-      <categories>
-        <category>文字</category>
-      </categories>
-      <tags>
-        <tag>纪念</tag>
-        <tag>工作</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>批处理-每隔一段时间运行某程序</title>
     <url>//batch-run-a-program-at-regular-intervals/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/Cmd_500x267.jpg" alt="cmd"></p>
@@ -1940,6 +1914,32 @@ _   底线
         <tag>DOS</tag>
         <tag>教程</tag>
         <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>初来记忆（二）</title>
+    <url>//chu-lai-ji-yi-2/</url>
+    <content><![CDATA[<p>被领到二楼安全科，进门，里面三人，一男两女，各自忙碌着。人事给说了一下就走了，开始入厂教育。</p>
+<p>他们交流了几句，貌似没有电脑可用，找了个椅子让我先坐那待着。我把包放到桌子上，然后弱弱的坐下。他们依然比较忙，不时的进出。这样过了一会，一女起身叫我，说隔壁空着一台电脑，先去那坐。</p>
+<p>来到隔壁，依然是安全科，五桌四人，果然。简单交代后她转身离去。办公室挺宽敞，中央摆一盆小树，不知其名；办公桌四南一北，西边靠墙横一沙发，配茶几。我径直到北侧坐下。他们几个各自忙活着。</p>
+<span id="more"></span>
+
+<p>一会，一个人用U盘考过来几个PPT，大概翻了翻，说说其中主要内容，然后让自己学习。然后我径自浏览。别说，里面写的好多东西之前自己都没有留意过，看了一遍还是颇有收货。</p>
+<p>能静下心做一件事情的时候，时间总会过的很快。中午和他们几个一起去食堂吃饭，闲聊几句，都算同龄人，还挺开心的。饭菜一般。吃完向南出大门散步，沿着海边的柏油路。海风温、潮，还带着些许的腥味，连绵的海浪轻拍在脚下的防浪堤，溅起片片水花。路旁草坪上两只喜鹊，淋着喷洒而下的水珠，唱着，跳着。沿着马路慢走，绕作业区半圈，由南门走到北门。路上不时有其他三三两两的人经过，不知道他们在谈些什么。没看见快乐，也没发现悲伤。北门再往北，是一个联合站，挺大。脱烃的塔就有好几个。自己心里默念，这就是沿海油田的样子吧。</p>
+<p>回到办公室，各自坐回座位。一个继续看着屏幕敲键盘，在做幻灯片呢，肯定挺烦的；一个拿出手机径自浏览，偶尔自顾自的露出微笑；一个趴在桌上，侧着头，似在思考；一个电脑上打开war3，单机dota。自己轻叹，中午不安排休息时间也挺不好的。</p>
+<p>貌似不久，war3被关了，起身换工服工鞋，准备去现场了。东西就在柜子里放着，换起来倒也方便。之后办公室剩四个人，只偶尔几句话，依然感觉静静的。隔壁一人进出几次，过来商量汇报材料的幻灯片，听上去大纲简洁，不晓得内容是怎样。</p>
+<p>静静的，时间在走。</p>
+<p>听着外面楼道里脚步声逐渐增多，看看时间，三点半了。办公室里几个开始收拾东西，“下班了。”“下班。”，似是在宣布这结果，也像是在告知我这旁人该回家了。一个要值夜班，我随其他下楼。人们从各自的办公室里出来，在走廊里、楼梯间汇集，穿过办公楼大门向停在院子里的大巴前进。坐在车上没注意，全站在空旷处人数还显得挺多的。一个一个，人群渐渐全部被吸入大巴，静等汽车发动。车上座位几乎坐满，除了一两个正在打电话，几乎没人交谈。不禁自己问自己，难道一直是这样的吗。</p>
+<p>返程感觉要比刚去时快的多，一路上胡思乱想，还没理出个头绪，依然到站了。虽然中午没有休息时间，但下午下班还挺早的。</p>
+<p>后面两天的培训没有什么大的变化，还是坐在那台电脑前，继续学习。偶尔闲谈，中午吃饭，饭后一圈散步，下午继续坐在那，然后下班。当然中间还有各种接打电话和进进出出，联系公积金，联系社保，办理一卡通等等。记得最后一天还答了半天的问卷，不是自己的考试，是替别人填写。</p>
+<p>最后的下午，安全科通知入厂教育结束，回人事科听从安排。又上三楼，收到结果，五号岛。给了一个联系人，隔天自己联系并坐车到五号岛报到。</p>
+]]></content>
+      <categories>
+        <category>文字</category>
+      </categories>
+      <tags>
+        <tag>纪念</tag>
+        <tag>工作</tag>
       </tags>
   </entry>
   <entry>
@@ -2242,6 +2242,29 @@ _   底线
       </tags>
   </entry>
   <entry>
+    <title>Win10 关闭任务栏缩略图</title>
+    <url>//win-10-guan-bi-ren-wu-lan-suo-lue-tu/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Win10TaskbarThumbnail_500x250.jpg" alt="win10"></p>
+<p>当年在网上各种搜索，终于找到了<a href="http://aword.net/win7-taskbar-no-thumbnail/">给 win7 系统关闭任务栏缩略图的方法</a>，后来自己的笔记本升级 win8、win8.1 ，闲来无事的时候都试验了一下，之前的方法还能用。</p>
+<p>再后来安装了 win10 ，不能用了。最近工作上一些原因，需要用自己的笔记本干活，开一堆 excel 表格，任务栏的各种缩略图就又来捣乱了。还好，现在又找到方法了。</p>
+<span id="more"></span>
+
+<p>直接捞干的。</p>
+<p>打开注册表编辑器（<strong>Win+R</strong>，输入<strong>regedit</strong>，回车），定位如下路径：</p>
+<p><strong><code>HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Taskband</code></strong></p>
+<p>在右侧，新建一个名称为<code>NumThumbnails</code>的<strong>DWORD（32位）值</strong>，并把值设为0。</p>
+<p>最后重启 explorer 进程，或注销当前用户重新登陆，或重启电脑，就看到效果了。</p>
+<p>参考来源：<a href="http://www.pcpop.com/doc/1/1127/1127959.shtml">如何手动开关Windows 10任务栏预览窗口</a></p>
+]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>随手拍来</title>
     <url>//sui-shou-pai-lai/</url>
     <content><![CDATA[<p>一些近期随手拍来的照片。</p>
@@ -2266,26 +2289,26 @@ _   底线
       </tags>
   </entry>
   <entry>
-    <title>Win10 关闭任务栏缩略图</title>
-    <url>//win-10-guan-bi-ren-wu-lan-suo-lue-tu/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Win10TaskbarThumbnail_500x250.jpg" alt="win10"></p>
-<p>当年在网上各种搜索，终于找到了<a href="http://aword.net/win7-taskbar-no-thumbnail/">给 win7 系统关闭任务栏缩略图的方法</a>，后来自己的笔记本升级 win8、win8.1 ，闲来无事的时候都试验了一下，之前的方法还能用。</p>
-<p>再后来安装了 win10 ，不能用了。最近工作上一些原因，需要用自己的笔记本干活，开一堆 excel 表格，任务栏的各种缩略图就又来捣乱了。还好，现在又找到方法了。</p>
+    <title>a little girl</title>
+    <url>//a-little-girl/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/ALittleGirl2_600x400.jpg" alt="a little girl"></p>
 <span id="more"></span>
 
-<p>直接捞干的。</p>
-<p>打开注册表编辑器（<strong>Win+R</strong>，输入<strong>regedit</strong>，回车），定位如下路径：</p>
-<p><strong><code>HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Taskband</code></strong></p>
-<p>在右侧，新建一个名称为<code>NumThumbnails</code>的<strong>DWORD（32位）值</strong>，并把值设为0。</p>
-<p>最后重启 explorer 进程，或注销当前用户重新登陆，或重启电脑，就看到效果了。</p>
-<p>参考来源：<a href="http://www.pcpop.com/doc/1/1127/1127959.shtml">如何手动开关Windows 10任务栏预览窗口</a></p>
+<p><img src="http://cdn.aword.net/images/ALittleGirl1_600x400.jpg" alt="a little girl"></p>
+<p><img src="http://cdn.aword.net/images/ALittleGirl3_600x400.jpg" alt="a little girl"></p>
+<p><img src="http://cdn.aword.net/images/ALittleGirl4_600x400.jpg" alt="a little girl"></p>
+<p><img src="http://cdn.aword.net/images/ALittleGirl5_600x400.jpg" alt="a little girl"></p>
+<p><img src="http://cdn.aword.net/images/ALittleGirl6_600x400.jpg" alt="a little girl"></p>
+<p><img src="http://cdn.aword.net/images/ALittleGirl7_600x400.jpg" alt="a little girl"></p>
+<p><img src="http://cdn.aword.net/images/ALittleGirl8_600x400.jpg" alt="a little girl"></p>
+<p><img src="http://cdn.aword.net/images/ALittleGirl9_600x400.jpg" alt="a little girl"></p>
 ]]></content>
       <categories>
-        <category>软件</category>
+        <category>相册</category>
       </categories>
       <tags>
-        <tag>笔记</tag>
-        <tag>Windows</tag>
+        <tag>纪念</tag>
+        <tag>Girl</tag>
       </tags>
   </entry>
   <entry>
@@ -2358,29 +2381,6 @@ _   底线
       </tags>
   </entry>
   <entry>
-    <title>a little girl</title>
-    <url>//a-little-girl/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/ALittleGirl2_600x400.jpg" alt="a little girl"></p>
-<span id="more"></span>
-
-<p><img src="http://cdn.aword.net/images/ALittleGirl1_600x400.jpg" alt="a little girl"></p>
-<p><img src="http://cdn.aword.net/images/ALittleGirl3_600x400.jpg" alt="a little girl"></p>
-<p><img src="http://cdn.aword.net/images/ALittleGirl4_600x400.jpg" alt="a little girl"></p>
-<p><img src="http://cdn.aword.net/images/ALittleGirl5_600x400.jpg" alt="a little girl"></p>
-<p><img src="http://cdn.aword.net/images/ALittleGirl6_600x400.jpg" alt="a little girl"></p>
-<p><img src="http://cdn.aword.net/images/ALittleGirl7_600x400.jpg" alt="a little girl"></p>
-<p><img src="http://cdn.aword.net/images/ALittleGirl8_600x400.jpg" alt="a little girl"></p>
-<p><img src="http://cdn.aword.net/images/ALittleGirl9_600x400.jpg" alt="a little girl"></p>
-]]></content>
-      <categories>
-        <category>相册</category>
-      </categories>
-      <tags>
-        <tag>纪念</tag>
-        <tag>Girl</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>仲夏凌晨</title>
     <url>//zhong-xia-ling-chen/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/SutroBaths_ZH-CN10530101768_1920x1080.jpg" alt="Daughter"></p>
@@ -2445,6 +2445,42 @@ _   底线
       </categories>
       <tags>
         <tag>心情</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>漂洋过海来看你</title>
+    <url>//piao-yang-guo-hai-lai-kan-ni/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/WoNiu1_600x337.jpg" alt="蜗牛"></p>
+<span id="more"></span>
+
+<p><img src="http://cdn.aword.net/images/WoNiu2_600x337.jpg" alt="蜗牛"></p>
+<p><img src="http://cdn.aword.net/images/WoNiu3_600x337.jpg" alt="蜗牛"></p>
+<p><img src="http://cdn.aword.net/images/WoNiu4_600x337.jpg" alt="蜗牛"></p>
+]]></content>
+      <categories>
+        <category>相册</category>
+      </categories>
+      <tags>
+        <tag>风景</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Islands</title>
+    <url>//Islands/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Islands4_600x337.jpg" alt="Islands"></p>
+<p>船身荡起的水波与乘风而来的浪头，紧紧相拥，是他乡故知，是阔别重逢。</p>
+<p>千万点水花激荡而起，又迎风直上，翻过一座座海浪，纵身跃起，看天涯，望海角。</p>
+<p>终于，应声而没。</p>
+<span id="more"></span>
+
+<p><img src="http://cdn.aword.net/images/Islands1_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands2_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands3_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands5_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands6_1024x266.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands7_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands8_350x510.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands9_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands10_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands11_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands12_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands13_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands14_1024x172.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands15_1024x181.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands16_350x623.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands17_600x337.jpg" alt="Islands"></p>
+]]></content>
+      <categories>
+        <category>相册</category>
+      </categories>
+      <tags>
+        <tag>风景</tag>
+        <tag>工作</tag>
       </tags>
   </entry>
   <entry>
@@ -2531,42 +2567,6 @@ _   底线
       <tags>
         <tag>工作</tag>
         <tag>生活</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Islands</title>
-    <url>//Islands/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Islands4_600x337.jpg" alt="Islands"></p>
-<p>船身荡起的水波与乘风而来的浪头，紧紧相拥，是他乡故知，是阔别重逢。</p>
-<p>千万点水花激荡而起，又迎风直上，翻过一座座海浪，纵身跃起，看天涯，望海角。</p>
-<p>终于，应声而没。</p>
-<span id="more"></span>
-
-<p><img src="http://cdn.aword.net/images/Islands1_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands2_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands3_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands5_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands6_1024x266.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands7_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands8_350x510.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands9_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands10_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands11_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands12_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands13_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands14_1024x172.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands15_1024x181.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands16_350x623.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands17_600x337.jpg" alt="Islands"></p>
-]]></content>
-      <categories>
-        <category>相册</category>
-      </categories>
-      <tags>
-        <tag>风景</tag>
-        <tag>工作</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>漂洋过海来看你</title>
-    <url>//piao-yang-guo-hai-lai-kan-ni/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/WoNiu1_600x337.jpg" alt="蜗牛"></p>
-<span id="more"></span>
-
-<p><img src="http://cdn.aword.net/images/WoNiu2_600x337.jpg" alt="蜗牛"></p>
-<p><img src="http://cdn.aword.net/images/WoNiu3_600x337.jpg" alt="蜗牛"></p>
-<p><img src="http://cdn.aword.net/images/WoNiu4_600x337.jpg" alt="蜗牛"></p>
-]]></content>
-      <categories>
-        <category>相册</category>
-      </categories>
-      <tags>
-        <tag>风景</tag>
       </tags>
   </entry>
   <entry>
@@ -2811,40 +2811,6 @@ _   底线
       </tags>
   </entry>
   <entry>
-    <title>卸载360天擎</title>
-    <url>//uninstall-360-tian-qing/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/ChannelIslandFox_ZH-CN5568101953_1920x1080.jpg" alt="ChannelIslandFox"></p>
-<p>许多企业（可能主要是国企）在内部电脑上强制安装360天擎。</p>
-<p>企业固然是想保证内部机器和网络的安全，但是360这货……大家懂的。</p>
-<p>想退出？请输入密码。</p>
-<p>想卸载？请输入密码。</p>
-<p>但是我没密码……</p>
-<span id="more"></span>
-
-<p><strong>1.在360的安装路径下删除所有文件名中包含 ent 的文件和文件夹。</strong></p>
-<p>可以直接使用360自带的文件粉碎机，也可以找其它工具软件，或者进 pe 删。</p>
-<p>默认路径安装的话，这些文件在C:\Program Files\360\360Safe，或C:\Program Files (x86)\360\360Safe里面。</p>
-<p><img src="http://cdn.aword.net/images/360Ent_882x446_2019-10-13.png" alt="删除带ent的文件和文件夹"></p>
-<p>见上图，共6个文件和1个文件夹。</p>
-<p><strong>2.到系统的控制面板正常卸载即可。</strong></p>
-<hr>
-<blockquote>
-<p>参考来源：</p>
-<p><a href="https://www.daozhao.com/3702.html">https://www.daozhao.com/3702.html</a></p>
-<p><a href="http://bbs.360safe.com/thread-883017-2-tumult">http://bbs.360safe.com/thread-883017-2-tumult</a></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>软件</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>Windows</tag>
-        <tag>技术</tag>
-        <tag>360</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>追寻</title>
     <url>//zhui-xun/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/TinyLadybird_ZH-CN14023054484_1920x1080.jpg" alt="追寻"></p>
@@ -2881,6 +2847,40 @@ _   底线
       </categories>
       <tags>
         <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>卸载360天擎</title>
+    <url>//uninstall-360-tian-qing/</url>
+    <content><![CDATA[<p><img src="http://cdn.aword.net/images/ChannelIslandFox_ZH-CN5568101953_1920x1080.jpg" alt="ChannelIslandFox"></p>
+<p>许多企业（可能主要是国企）在内部电脑上强制安装360天擎。</p>
+<p>企业固然是想保证内部机器和网络的安全，但是360这货……大家懂的。</p>
+<p>想退出？请输入密码。</p>
+<p>想卸载？请输入密码。</p>
+<p>但是我没密码……</p>
+<span id="more"></span>
+
+<p><strong>1.在360的安装路径下删除所有文件名中包含 ent 的文件和文件夹。</strong></p>
+<p>可以直接使用360自带的文件粉碎机，也可以找其它工具软件，或者进 pe 删。</p>
+<p>默认路径安装的话，这些文件在C:\Program Files\360\360Safe，或C:\Program Files (x86)\360\360Safe里面。</p>
+<p><img src="http://cdn.aword.net/images/360Ent_882x446_2019-10-13.png" alt="删除带ent的文件和文件夹"></p>
+<p>见上图，共6个文件和1个文件夹。</p>
+<p><strong>2.到系统的控制面板正常卸载即可。</strong></p>
+<hr>
+<blockquote>
+<p>参考来源：</p>
+<p><a href="https://www.daozhao.com/3702.html">https://www.daozhao.com/3702.html</a></p>
+<p><a href="http://bbs.360safe.com/thread-883017-2-tumult">http://bbs.360safe.com/thread-883017-2-tumult</a></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Windows</tag>
+        <tag>技术</tag>
+        <tag>360</tag>
       </tags>
   </entry>
   <entry>
@@ -2954,34 +2954,6 @@ _   底线
       </tags>
   </entry>
   <entry>
-    <title>安装 DockerToolbox 遇到 VT-X/AMD-v not enabled</title>
-    <url>//VT-X-or-AMD-v-not-enabled-error-when-install-DockerToolbox/</url>
-    <content><![CDATA[<p>网上搜了一下，遇到这个问题的貌似都是用的 AMD 的 CPU</p>
-<p>若确实已经启用 CPU 虚拟化，仍有此问题，<strong>解决方案</strong>：</p>
-<p><strong>添加如下参数 （不检查虚拟化是否已启用）</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">--virtualbox-no-vtx-check</span><br></pre></td></tr></table></figure>
-
-<p><strong>①手动执行简单命令</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker-machine create default --virtualbox-no-vtx-check</span><br></pre></td></tr></table></figure>
-
-<p>或者</p>
-<p><strong>②修改 DockerToolbox 自带的启动脚本</strong></p>
-<p>修改 start.sh （在 DockerToolbox 的安装目录下）</p>
-<p>找到这行</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;<span class="variable">$&#123;DOCKER_MACHINE&#125;</span>&quot;</span> create -d virtualbox <span class="variable">$PROXY_ENV</span> <span class="string">&quot;<span class="variable">$&#123;VM&#125;</span>&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>改为</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;<span class="variable">$&#123;DOCKER_MACHINE&#125;</span>&quot;</span> create -d virtualbox <span class="variable">$PROXY_ENV</span> --virtualbox-no-vtx-check <span class="string">&quot;<span class="variable">$&#123;VM&#125;</span>&quot;</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>软件</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-        <tag>docker</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>关闭朋友圈广告</title>
     <url>//stop-wechat-ad/</url>
     <content><![CDATA[<p><img src="http://cdn.aword.net/images/BubbleNebula_ZH-CN2787112807_1920x1080.jpg" alt="Bubble Nebula"></p>
@@ -3022,6 +2994,34 @@ _   底线
       </categories>
       <tags>
         <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>安装 DockerToolbox 遇到 VT-X/AMD-v not enabled</title>
+    <url>//VT-X-or-AMD-v-not-enabled-error-when-install-DockerToolbox/</url>
+    <content><![CDATA[<p>网上搜了一下，遇到这个问题的貌似都是用的 AMD 的 CPU</p>
+<p>若确实已经启用 CPU 虚拟化，仍有此问题，<strong>解决方案</strong>：</p>
+<p><strong>添加如下参数 （不检查虚拟化是否已启用）</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">--virtualbox-no-vtx-check</span><br></pre></td></tr></table></figure>
+
+<p><strong>①手动执行简单命令</strong></p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">docker-machine create default --virtualbox-no-vtx-check</span><br></pre></td></tr></table></figure>
+
+<p>或者</p>
+<p><strong>②修改 DockerToolbox 自带的启动脚本</strong></p>
+<p>修改 start.sh （在 DockerToolbox 的安装目录下）</p>
+<p>找到这行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;<span class="variable">$&#123;DOCKER_MACHINE&#125;</span>&quot;</span> create -d virtualbox <span class="variable">$PROXY_ENV</span> <span class="string">&quot;<span class="variable">$&#123;VM&#125;</span>&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>改为</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="string">&quot;<span class="variable">$&#123;DOCKER_MACHINE&#125;</span>&quot;</span> create -d virtualbox <span class="variable">$PROXY_ENV</span> --virtualbox-no-vtx-check <span class="string">&quot;<span class="variable">$&#123;VM&#125;</span>&quot;</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>docker</tag>
       </tags>
   </entry>
   <entry>
