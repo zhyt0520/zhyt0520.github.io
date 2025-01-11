@@ -3,7 +3,7 @@
   <entry>
     <title>第一篇文字</title>
     <url>//first-words/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/FristWords_Rubbit_623x162.jpg" alt="first words"></p>
+    <content><![CDATA[<p><img src="/images/FristWords_Rubbit_623x162.jpg" alt="first words"></p>
 <p>没错，这就是第一篇。</p>
 ]]></content>
       <categories>
@@ -16,7 +16,7 @@
   <entry>
     <title>又是一年</title>
     <url>//a-year-again/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/AYearAgain_Subway_623x162.jpg" alt="归途"></p>
+    <content><![CDATA[<p><img src="/images/AYearAgain_Subway_623x162.jpg" alt="归途"></p>
 <p>春夏秋冬，一次轮回周而复始，寒暑枯荣，一年光阴匆匆已逝。</p>
 <p>电脑放着熟悉却不知名字的歌曲，和着火车哐啷哐啷的伴奏，独自走在这新春回家的路上。</p>
 <p>身旁的路人们已静静的睡去，只听不时轻轻的鼾声，或是小孩偶尔的哭泣；只见对面的窗帘不住摇摆，淡淡的影子随它一起，困倦却不愿小憩。</p>
@@ -45,7 +45,7 @@
   <entry>
     <title>我的wordpress历程</title>
     <url>//my-wordpress-track/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/MyWordpressTrack_623x162.jpg" alt="wordpress"></p>
+    <content><![CDATA[<p><img src="/images/MyWordpressTrack_623x162.jpg" alt="wordpress"></p>
 <p>html、css、javascript 基本知识是在 <a href="http://www.codecademy.com/" title="www.codecademy.com">www.codecademy.com</a> 上看来的，这个网站做的真不错，略羡慕啊……到我把这几 部分看完的时候网站上php部分还没做出来，遗憾了……然后就在 <a href="http://www.w3school.com/" title="www.w3school.com">www.w3school.com</a> 上随便看了看php，挺枯燥也挺腻的，还好php的语法跟c很像，大学里课上学的现在多少还剩了那么一点。</p>
 <p>然后开始在网上一顿子搜索，怎么注册域名、怎么设置空间、怎么安装wordpress，免费的收费的，各种折腾，终于，总算凑合能访问网站了。那天是2013年3月15日。</p>
 <span id="more"></span>
@@ -65,17 +65,17 @@
   <entry>
     <title>这里的天空很美</title>
     <url>//here-beautiful-sky/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/HereBeautifulSky_503x162.jpg" alt="宁夏的天空"></p>
+    <content><![CDATA[<p><img src="/images/HereBeautifulSky_503x162.jpg" alt="宁夏的天空"></p>
 <p>这里的天空湛蓝，这里的云朵雪白，和着风、和着雨、和着雪、和着太阳明亮的光芒，这里的天空很美。</p>
 <span id="more"></span>
 
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_rain1_800x600.jpg" alt="宁夏的天空" title="远处的雨"></p>
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_rain2_800x600.jpg" alt="宁夏的天空" title="孤云落雨"></p>
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_snow_800x600.jpg" alt="宁夏的天空" title="白雪蓝天"></p>
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_sunny1_800x600.jpg" alt="宁夏的天空" title="蓝天白云"></p>
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_sunny2_800x600.jpg" alt="宁夏的天空" title="蓝天白云"></p>
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_sunny3_800x600.jpg" alt="宁夏的天空" title="蓝天白云"></p>
-<p><img src="http://cdn.aword.net/images/HereBeautifulSky_windmill_800x600.jpg" alt="宁夏的天空" title="风车静静"></p>
+<p><img src="/images/HereBeautifulSky_rain1_800x600.jpg" alt="宁夏的天空" title="远处的雨"></p>
+<p><img src="/images/HereBeautifulSky_rain2_800x600.jpg" alt="宁夏的天空" title="孤云落雨"></p>
+<p><img src="/images/HereBeautifulSky_snow_800x600.jpg" alt="宁夏的天空" title="白雪蓝天"></p>
+<p><img src="/images/HereBeautifulSky_sunny1_800x600.jpg" alt="宁夏的天空" title="蓝天白云"></p>
+<p><img src="/images/HereBeautifulSky_sunny2_800x600.jpg" alt="宁夏的天空" title="蓝天白云"></p>
+<p><img src="/images/HereBeautifulSky_sunny3_800x600.jpg" alt="宁夏的天空" title="蓝天白云"></p>
+<p><img src="/images/HereBeautifulSky_windmill_800x600.jpg" alt="宁夏的天空" title="风车静静"></p>
 <p>都是自己用手机拍的，效果欠佳。</p>
 ]]></content>
       <categories>
@@ -88,7 +88,7 @@
   <entry>
     <title>月圆之后</title>
     <url>//after-full-moon/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/AfterFullMoon_623x162.jpg" alt="月圆之后"></p>
+    <content><![CDATA[<p><img src="/images/AfterFullMoon_623x162.jpg" alt="月圆之后"></p>
 <center>枯藤，老树，昏鸦不现；</center>
 
 <center>小桥，人家，流水何迁；</center>
@@ -119,7 +119,7 @@
   <entry>
     <title>我的wordpress历程2</title>
     <url>//my-wordpress-track-2/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/MyWordpressTrack2_600x250.jpg" alt="wordpress"></p>
+    <content><![CDATA[<p><img src="/images/MyWordpressTrack2_600x250.jpg" alt="wordpress"></p>
 <p>又是二十多天过去了，依然是浑浑噩噩。不过这次有了我的<a href="http://aword.net/"> 一语 | aword.net </a>在一直改变着。</p>
 <p>当初信誓旦旦想着仔细看完的 wordpress 主题教程终于还是在半路被遗弃了。一是因为自己基础差，各种php、wordpress的函数都不熟悉，想要写代码自己做主题实在捉襟见肘；二是对于艺术、设计什么的，身上这类细菌着实不多，现在也没有具体的思路，要把自己的网站界面弄成个什么样子。看着网站默认的twentytwelve主题，其实我挺喜欢这简洁的风格，所以<a href="http://aword.net/"> 一语 | aword.net </a>就从修改这个主题始吧。</p>
 <span id="more"></span>
@@ -140,7 +140,7 @@
     <title>My Gril</title>
     <url>//my-gril/</url>
     <content><![CDATA[<p><strong>my gril</strong></p>
-<p><img src="http://cdn.aword.net/images/MyGirl_623x639.jpg" alt="my gril"></p>
+<p><img src="/images/MyGirl_623x639.jpg" alt="my gril"></p>
 ]]></content>
       <categories>
         <category>相册</category>
@@ -184,7 +184,7 @@
   <entry>
     <title>some words in PrisonBreak</title>
     <url>//some-words-in-prisonbreak/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/SomeWordsInPrisonBreak_600x308.jpg" alt="PrisonBreak"></p>
+    <content><![CDATA[<p><img src="/images/SomeWordsInPrisonBreak_600x308.jpg" alt="PrisonBreak"></p>
 <p>还是怀念上学的时光啊……这是当初在学校专心看 <strong><em>Prison Break</em></strong> 时候随手记下的几句台词。权当怀念吧，每每念起这些句子总能回想起当初剧情里的种种感动。</p>
 <span id="more"></span>
 
@@ -244,7 +244,7 @@
   <entry>
     <title>杂记之看井</title>
     <url>//za-ji-zhi-kan-jing/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/KanJing_600x200.jpg" alt="看井"></p>
+    <content><![CDATA[<p><img src="/images/KanJing_600x200.jpg" alt="看井"></p>
 <p>置身于一个既熟悉又陌生的小环境里，短暂的脱离了日常繁琐的工作，半天一夜的时光，虽谈不上所谓的种种感悟，但这经历着实应该记下一笔。</p>
 <span id="more"></span>
 
@@ -258,7 +258,7 @@
 <p>我到这个井上的时候看井工人正在院子里坐着，个头不高，蓬蓬的头发，红工衣还算干净，看上去二十五六的年纪。“我来陪你了。”第一句我就开玩笑的说，不过估计他没听明白，我紧接着把自己来到这里的原因随便解释了一下。</p>
 <p>转过身几步走进他的房子，收拾的挺整洁的，虽然这些破旧的铁皮野营房总是那破这漏的。电视是个比较旧的，电子管那种，大屁股，声音开的挺大，但里面放的却是难看的广告。“你这电视咋没弄个液晶的，我看别的井上挺多的啊？”我又随口问了一句，他无奈的回答道，“别人不给嘛，没办法。”的确，我知道的，在这种地方看井的员工待遇太差了。空旷的井场，冰冷的抽油机，冬冷夏热的野营房，一日三餐要自己做自己吃，白天各种重要的不重要的活，晚上还要防着老乡过来偷油，当然还有偶尔经警中队的查夜。稍微负责的工人遇上老乡光顾频繁的井，每晚几乎都是是睡不好觉的。想着这些，我只好也无奈的叹一口气。以往我习惯于感叹面对大自然伟力下人类的渺小，现在看着人类自己给自己带上的重重枷锁，心中的吁叹不禁又更加沉重了一些。为什么要这样呢？什么时候才能有所改变？会有吗？不得而知……</p>
 <p>我们又随便聊了几句，这位看井的师傅跟我同岁，大我不到一个月，开始一直在修井队当修井工，两三个月之前才从修井工转岗到采油工。我问他的感觉是干修井好还是干采油好，“修井吧，比较辛苦，但是干活单纯，只要你卖力气认真干就好好的。干采油虽然没修井那么累，但就是麻烦的很。”对于后边这句话我的感触还是颇深的，不禁脱口而出：“就是的。”他继续说道：“每天白天投球、加药、看抽油机、打扫卫生，到了晚上还得提心吊胆的防着老乡偷油。”而且他是一个人看了两个井场，另一个在马路对面，距离不远。这师傅对此很自然的流露出一种淡淡的不满和厌烦。我是理解的，每天跑井这活的确烦人的很。“没办法，现在缺人的很啊。”我也略感无奈的应道。的确，这是没办法的事情，至少对于我和他而言，这是完全无能为力的。</p>
-<p><img src="http://cdn.aword.net/images/KanJing_insert_500x375.jpg"></p>
+<p><img src="/images/KanJing_insert_500x375.jpg"></p>
 <p>我起身往他厨房里扫了一眼，“你这都没东西了嘛，咋吃饭着呢？”“我本来应该上次换班休息的，所以没要菜，现在就剩点鸡蛋剩点米了。”我继续问，“那你上次怎么没休息啊？”他还是带着一种淡淡的无奈说：“没人换嘛。人不够没人来换班就走不成，你也知道呢吧。”的确，我知道的，但是这次我脑海里的第一反映不是石油工人的工作如何艰苦，而是突然想到了一些个别的、特殊的看井工人。井上很少能看到他们的身影，偶尔看到，他们或自己开车来或有司机专程把他们送来，在井场转上一圈，然后又风尘仆仆的不知朝着哪个饭店走了。这个世界本来就是不公平的，我在心里暗暗对自己又念了一遍这句话。这句话是没错的，但是当我们对此表示认同的时候，是不是应该还考虑其他呢？何谓之公，而又将何谓之不公？当亲自面对种种不公的境况时，你是在朝着较高的位置奔走准备去继续欺压弱势，还是把自己放在天平的支点，奋力实现我们所谓的大公。</p>
 <p>“你拿我这的米做饭，要不我放假走了也不知道给谁吃了。”看井的师傅向一位刚走进野营房的女士说道。我正在独自猜想着这位女士的来历和身份，她语速很快的回答：“不用不用，我们修井对上啥都带着呢，借你的厨具用用就好了。”原来她是外面修井对的厨师。我随口向她问：“这口井干啥着呢？”“检泵，具体的我也不知道。”然后看井的师傅接过话茬，“这个井双失，都报了好久了，今天队伍才上来的。”“哦，你这井肯定是油量不行吧……”不用他回答我也知道，肯定的，修井要先修产油量高的，他这个井产量不行所以一直排在队尾。产量，产量，多么熟悉而又让我反感的一个词语。在一个唯利是图的时代，利益，早已经把自己的精神贯彻的无孔不入。低孔低渗的油藏物性，与学校课本里保护地层、提高采收率格格不入的开发策略，一塌糊涂的现场管理，里勾外连的默契配合，层层递进的形式主义，为了一己私利坑了爹再坑娘的种种事迹……罢了，罢了，恐胜佛亲临唯叹无力回天。心之将死，大限之至。</p>
 <p>一架单薄的高低床，一把略显破旧的折叠椅，我们三人各自坐下。他们两人用相近的方言闲聊，我偶尔陪他们呵呵一笑，偶尔听到几个词语让我困惑不解。他们两位算不上老乡，但是各自家乡离的也不算远。小伙子已经离家出来工作几年，从修井到采油，一直是社会化员工，俗称临时工，目前还是单身。厨师女士之前在一家私企当会计，工作清闲，工资不菲，又深得领导赏识。通过关系她把儿子调到自己所在的单位工作，干保安，虽然工资不高，但是工作还算清闲。好景不长，或者应该说就没有好景，保安的工作难干，有它自己特有矛盾，儿子甚至曾被别人辱称“看门狗”。在儿子十分决绝的坚持下，他们放弃了单位领导本已答应，过一段时间给她儿子调动工作的承诺。于是这女士的儿子来到了爸爸工作的修井队里。为了照顾家庭的和睦，解决两地分居的困境，她只好放弃清闲高薪的会计工作，跟丈夫儿子一起，来到这个修井队当厨师。我心里深深感叹，同时用“就是”这两个字对看井工小伙子的话表示赞同。他说：“你真是个贤妻良母啊……”这是祖国西北僻壤一个普通的下午。我的心里没有惊涛骇浪的翻滚，但是一股默默的暗流却久久不能平息。</p>
@@ -302,7 +302,7 @@
   <entry>
     <title>何时长大</title>
     <url>//when-to-grow-up/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/WhenToGrowUp_600x200.jpg" alt="trees"></p>
+    <content><![CDATA[<p><img src="/images/WhenToGrowUp_600x200.jpg" alt="trees"></p>
 <p>已经长大了吗？还没有吗？“我还是我”一直在努力恪守这句话，一句恐怕永远不会忘记的话。可，我真的还是我吗？活在记忆中的那个又是谁。</p>
 <p>一年，三年，五年，十年……</p>
 <p>家还在这里，家人还在这里。门前的柳树，十几年，看它一点点长高变粗。十几圈的年轮算是长大了吗？可是，时间已经不再属于它了。去年冬天一觉睡去，今春，今夏，梦还未醒……</p>
@@ -364,14 +364,14 @@
   <entry>
     <title>工作之余</title>
     <url>//out-of-work/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/SunsetGlow_1024x700.jpg" alt="out of work" title="Sunset Glow"></p>
+    <content><![CDATA[<p><img src="/images/SunsetGlow_1024x700.jpg" alt="out of work" title="Sunset Glow"></p>
 <span id="more"></span>
 
-<p><img src="http://cdn.aword.net/images/OutOfWrok1_800x600.jpg" alt="帽子"></p>
+<p><img src="/images/OutOfWrok1_800x600.jpg" alt="帽子"></p>
 <p>大爷的帽子很别致</p>
-<p><img src="http://cdn.aword.net/images/OutOfWrok2_450x600.jpg" alt="鸟窝"></p>
+<p><img src="/images/OutOfWrok2_450x600.jpg" alt="鸟窝"></p>
 <p>投球器里的温暖的鸟窝、小鸟出生后省的蛋壳、还有不知是父母还是子女的尸体……</p>
-<p><img src="http://cdn.aword.net/images/OutOfWrok3_800x600.jpg" alt="油袋子"></p>
+<p><img src="/images/OutOfWrok3_800x600.jpg" alt="油袋子"></p>
 <p>满满一车的油袋子</p>
 ]]></content>
       <categories>
@@ -455,22 +455,22 @@
 <p>还有一波三折的第一款入门相机，600D。</p>
 <span id="more"></span>
 
-<p><img src="http://cdn.aword.net/images/Bird1_1024x683.jpg" alt="湖面的水鸟"></p>
-<p><img src="http://cdn.aword.net/images/Bird2_1024x683.jpg" alt="湖面的水鸟"></p>
-<p><img src="http://cdn.aword.net/images/Bird3_1024x683.jpg" alt="湖面的水鸟"></p>
-<p><img src="http://cdn.aword.net/images/Camel_1024x768.jpg" alt="骆驼"></p>
-<p><img src="http://cdn.aword.net/images/Cup_1024x683.jpg" alt="茶杯和手机"></p>
-<p><img src="http://cdn.aword.net/images/Dragonfly1_1024x683.jpg" alt="蜻蜓"></p>
-<p><img src="http://cdn.aword.net/images/Dragonfly2_1024x683.jpg" alt="蜻蜓"></p>
-<p><img src="http://cdn.aword.net/images/Flower_1024x683.jpg" alt="花"></p>
-<p><img src="http://cdn.aword.net/images/Magpie_1024x683.jpg" alt="喜鹊"></p>
-<p><img src="http://cdn.aword.net/images/Me1_1024x683.jpg"></p>
-<p><img src="http://cdn.aword.net/images/Me2_1024x705.jpg"></p>
-<p><img src="http://cdn.aword.net/images/Me3_768x1024.jpg"></p>
-<p><img src="http://cdn.aword.net/images/Me4_1024x768.jpg"></p>
-<p><img src="http://cdn.aword.net/images/Me5_768x1024.jpg"></p>
-<p><img src="http://cdn.aword.net/images/MyGirl1_1024x729.jpg"></p>
-<p><img src="http://cdn.aword.net/images/MyGirl2_1024x682.jpg"></p>
+<p><img src="/images/Bird1_1024x683.jpg" alt="湖面的水鸟"></p>
+<p><img src="/images/Bird2_1024x683.jpg" alt="湖面的水鸟"></p>
+<p><img src="/images/Bird3_1024x683.jpg" alt="湖面的水鸟"></p>
+<p><img src="/images/Camel_1024x768.jpg" alt="骆驼"></p>
+<p><img src="/images/Cup_1024x683.jpg" alt="茶杯和手机"></p>
+<p><img src="/images/Dragonfly1_1024x683.jpg" alt="蜻蜓"></p>
+<p><img src="/images/Dragonfly2_1024x683.jpg" alt="蜻蜓"></p>
+<p><img src="/images/Flower_1024x683.jpg" alt="花"></p>
+<p><img src="/images/Magpie_1024x683.jpg" alt="喜鹊"></p>
+<p><img src="/images/Me1_1024x683.jpg"></p>
+<p><img src="/images/Me2_1024x705.jpg"></p>
+<p><img src="/images/Me3_768x1024.jpg"></p>
+<p><img src="/images/Me4_1024x768.jpg"></p>
+<p><img src="/images/Me5_768x1024.jpg"></p>
+<p><img src="/images/MyGirl1_1024x729.jpg"></p>
+<p><img src="/images/MyGirl2_1024x682.jpg"></p>
 ]]></content>
       <categories>
         <category>相册</category>
@@ -483,7 +483,7 @@
   <entry>
     <title>生活，直一点好还是弯一点好？</title>
     <url>//life-be-straight-or-bent/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/life-be-straight-or-bent_500x313.jpg" alt="生活"></p>
+    <content><![CDATA[<p><img src="/images/life-be-straight-or-bent_500x313.jpg" alt="生活"></p>
 <p>这是从学校BBS里偶然看到一个同学问的，语气写的很是感慨，但是内容明显还很单纯。貌似，当年，我也是这样的吧……</p>
 <p>心中一阵久违的感触，随笔写下几行文字。非是答给学弟学妹，却是说给自己……</p>
 <span id="more"></span>
@@ -522,7 +522,7 @@
   <entry>
     <title>几家欢喜几家愁</title>
     <url>//ji-jia-huan-xi-ji-jia-chou/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Ji-jia-huan-xi-ji-jia-chou_1024x683.jpg" alt="云浪"></p>
+    <content><![CDATA[<p><img src="/images/Ji-jia-huan-xi-ji-jia-chou_1024x683.jpg" alt="云浪"></p>
 <p>“从一三到一四”，在这2014年元旦前夕似横空出世一般，网络、电视、同学、朋友，一股脑变成话痨开始念叨这句真言……</p>
 <p>不解。</p>
 <p>为何有这许多人总喜欢搞些无趣的噱头出来。</p>
@@ -549,7 +549,7 @@
   <entry>
     <title>用批处理更改网卡ip和dns设置</title>
     <url>//use-bat-file-set-ip-and-dns/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/SetIPAndDNS_414x268.jpg" alt="SetIPAndDNS" title="SetIPAndDNS"></p>
+    <content><![CDATA[<p><img src="/images/SetIPAndDNS_414x268.jpg" alt="SetIPAndDNS" title="SetIPAndDNS"></p>
 <p>用批处理命令设置网卡的ip和dns设置，便于在自动获取和静态地址之间切换。</p>
 <span id="more"></span>
 
@@ -567,7 +567,7 @@
   <entry>
     <title>两载又半</title>
     <url>//liang-zai-you-ban/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/DesertRoad_1024x554.jpg" alt="沙漠之路"></p>
+    <content><![CDATA[<p><img src="/images/DesertRoad_1024x554.jpg" alt="沙漠之路"></p>
 <p>晴朗的午后。</p>
 <p>坐在办公室，本熟悉却又一股莫名的陌生，端着半杯浓浓的咖啡轻抿。相比室内单调无序的键盘鼠标敲击声，窗外阵阵寒风的呼啸倒是显得像那黄土大地充满情感的呼喊。不懂，一窗之隔，仿佛成就了内外时空的隔膜，不同的维度，不同的陌生。</p>
 <span id="more"></span>
@@ -594,7 +594,7 @@
   <entry>
     <title>流浪</title>
     <url>//vagabondage/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Vagabondage_500x337.jpg" alt="流浪"></p>
+    <content><![CDATA[<p><img src="/images/Vagabondage_500x337.jpg" alt="流浪"></p>
 <p>今天是腊月廿八。春节，还有两天。</p>
 <p>清早，坐在宽敞的会议室里，扬声隐隐的嗡嗡声藏在领导讲话的声波下，撞了左墙又打到右壁，想从窗逃，不得，欲从门溜，亦而弗能。于是乎他钻进每一个人的耳朵，敲击着不管薄厚，每一片柔柔的鼓膜，持续不断，却不甚和谐。</p>
 <span id="more"></span>
@@ -722,7 +722,7 @@
   <entry>
     <title>夜语无题</title>
     <url>//ye-yu-wu-ti/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Moonnight_500x264.jpg" alt="夜语无题" title="夜语无题"></p>
+    <content><![CDATA[<p><img src="/images/Moonnight_500x264.jpg" alt="夜语无题" title="夜语无题"></p>
 <p>又看了零星，听了些许，也许最近真的信息量有点大了。</p>
 <p>熟悉而又清晰的感触，躺在床上，知道明天又是完全类似的圆转，而今却无法那怕搬动丝毫的角度。</p>
 <p>怀念，可以独自静坐于凌晨，眼观于心，而心则随风肆意。笔下虽然无神，灵气却自然充盈于心底，清风和煦，翩然而舞。</p>
@@ -740,7 +740,7 @@
   <entry>
     <title>曾经</title>
     <url>//ever/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Hourglass_500x319.jpg" alt="曾经" title="曾经"></p>
+    <content><![CDATA[<p><img src="/images/Hourglass_500x319.jpg" alt="曾经" title="曾经"></p>
 <p>那曾经熟悉的声音，应窗子之邀，又来到耳旁。</p>
 <p>还是一样的凌乱，缠杂。也许是一声叫嚷，亦或阵阵欢呼，却又如窃窃私语。时而夹上汽车的驶过和一两声笛鸣，还有操场上的足球、街头的欢笑——续续断断。教室里则是脚步声和着翻书声，引得桌椅也不再耐得住寂寞。</p>
 <p>一切都是那么相似。窗外渐渐暗下，室内因此更加明亮。一缕清风拂来，没有雨后泥土的芬芳，不是春花烂漫的幽香，淡淡的微微的是随风浮来的尘灰。也许它并不情愿，可还是被我深深地吸入体内。窗帘懒洋洋地摆着，仿佛一颗心，浮起，可不知要去哪里；落下，却又不能。于是随着温柔的春风一起，聆听万物在复苏。</p>
@@ -771,7 +771,7 @@
   <entry>
     <title>要么颠簸，要么嘈杂</title>
     <url>//yao-me-dian-bo-yao-me-cao-za/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/ChunYu_500x277.jpg" alt="春雨"></p>
+    <content><![CDATA[<p><img src="/images/ChunYu_500x277.jpg" alt="春雨"></p>
 <p>星星蒙蒙，轻轻颤颤，春天里最鲜嫩的细雨温柔的抚摸着这贫瘠的黄土。他们轻声的呢喃，如若这细雨中的清风，沁人心脾，又寒彻入骨。</p>
 <p>仿佛已经忘记了曾经泥土的芬芳，树儿的摇摆，还有那巧燕的曼妙身姿。在眼前，风车藏在似云似雾的水汽背后不疾不徐的旋转，额头高昂，全然不知脚下半坡半坡的草儿欲绿还羞。血红血红的磕头机，一昂一垂，一伏一起，晓不得他是在苦苦思索，还是在默默啜泣。</p>
 <span id="more"></span>
@@ -822,7 +822,7 @@
   <entry>
     <title>如何意外</title>
     <url>//ru-he-yi-wai/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/RuHeYiWai_500x313.jpg" alt="如何意外" title="如何意外"></p>
+    <content><![CDATA[<p><img src="/images/RuHeYiWai_500x313.jpg" alt="如何意外" title="如何意外"></p>
 <p>5月30日，又是出现在旅途中的状况。20：50的车，大概20：00到车站，因为网上订的票，不早。一进售票厅，怎么黑压压这么多人，自助取票机前……不明觉厉，只好跟着排队。人头攒动，尽头隐约。</p>
 <p>许久，“又坏了。”“怎么回事？”“不知道啊。”一共4台机器，我来的时候只排了3队，空的那台显示着“暂停服务”。刚才一阵骚动后，身旁的队伍散了，机器又停了一台，还好，人们比较遵守秩序，只见队伍还在，只是队尾已经到了门外。暗自庆幸，前面七八个人，离发车还有三十多分钟，时间够，如果一切正常……心中几分着急，再带着些许紧张。</p>
 <span id="more"></span>
@@ -843,7 +843,7 @@
   <entry>
     <title>无题无期</title>
     <url>//wu-ti-wu-qi/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/WuTiWuQi_500x281.jpg" alt="无题无期"></p>
+    <content><![CDATA[<p><img src="/images/WuTiWuQi_500x281.jpg" alt="无题无期"></p>
 <p>小河、斑驳、桃花、翠柏。</p>
 <p>土窑洞、砖瓦房、高楼大厦。</p>
 <p>麻木、淡漠、浑浑噩噩。</p>
@@ -868,10 +868,10 @@
   <entry>
     <title>云和风车</title>
     <url>//cloud-with-windmill/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/CloudWithWindmill2_1024x768.jpg" alt="cloud with windmill"></p>
+    <content><![CDATA[<p><img src="/images/CloudWithWindmill2_1024x768.jpg" alt="cloud with windmill"></p>
 <span id="more"></span>
 
-<p><img src="http://cdn.aword.net/images/CloudWithWindmill1_1024x768.jpg" alt="cloud with windmill"><br><img src="http://cdn.aword.net/images/CloudWithWindmill3_1024x768.jpg" alt="cloud with windmill"><br><img src="http://cdn.aword.net/images/CloudWithWindmill4_1024x768.jpg" alt="cloud with windmill"><br><img src="http://cdn.aword.net/images/CloudWithWindmill5_1024x768.jpg" alt="cloud with windmill"></p>
+<p><img src="/images/CloudWithWindmill1_1024x768.jpg" alt="cloud with windmill"><br><img src="/images/CloudWithWindmill3_1024x768.jpg" alt="cloud with windmill"><br><img src="/images/CloudWithWindmill4_1024x768.jpg" alt="cloud with windmill"><br><img src="/images/CloudWithWindmill5_1024x768.jpg" alt="cloud with windmill"></p>
 ]]></content>
       <categories>
         <category>相册</category>
@@ -905,9 +905,9 @@
   <entry>
     <title>Cloud And Rain</title>
     <url>//cloud-and-rain/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/CloudAndRain.jpg" alt="Cloud And Rain"></p>
+    <content><![CDATA[<p><img src="/images/CloudAndRain.jpg" alt="Cloud And Rain"></p>
 <span id="more"></span>
-<p><img src="http://cdn.aword.net/images/CloudAndRain1.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain2.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain3.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain4.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain5.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain6.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain7.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain8.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain9.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain10.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain11.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain12.jpg" alt="Cloud And Rain"><br><img src="http://cdn.aword.net/images/CloudAndRain13.jpg" alt="Cloud And Rain"></p>
+<p><img src="/images/CloudAndRain1.jpg" alt="Cloud And Rain"><br><img src="/images/CloudAndRain2.jpg" alt="Cloud And Rain"><br><img src="/images/CloudAndRain3.jpg" alt="Cloud And Rain"><br><img src="/images/CloudAndRain4.jpg" alt="Cloud And Rain"><br><img src="/images/CloudAndRain5.jpg" alt="Cloud And Rain"><br><img src="/images/CloudAndRain6.jpg" alt="Cloud And Rain"><br><img src="/images/CloudAndRain7.jpg" alt="Cloud And Rain"><br><img src="/images/CloudAndRain8.jpg" alt="Cloud And Rain"><br><img src="/images/CloudAndRain9.jpg" alt="Cloud And Rain"><br><img src="/images/CloudAndRain10.jpg" alt="Cloud And Rain"><br><img src="/images/CloudAndRain11.jpg" alt="Cloud And Rain"><br><img src="/images/CloudAndRain12.jpg" alt="Cloud And Rain"><br><img src="/images/CloudAndRain13.jpg" alt="Cloud And Rain"></p>
 ]]></content>
       <categories>
         <category>相册</category>
@@ -921,7 +921,7 @@
   <entry>
     <title>关心则乱</title>
     <url>//guan-xin-ze-luan/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Balance_500x300.jpg" alt="Balance"></p>
+    <content><![CDATA[<p><img src="/images/Balance_500x300.jpg" alt="Balance"></p>
 <p>法律，远远的它在那里，不卑不亢；人文，静静地它不知所踪，杳无音信。处在这小小的圈子里，封闭已成既然，晓不得外界庞大博杂，亦或多彩丰富，只在此处仰望晴空，得一井之方圆，异想万物之轮回。</p>
 <p>不清楚法制与人治清晰的界限，不明了中国宪法与美国宪法间本质间的区别，只好从星星点点的见闻，从丝丝缕缕的收集里，慢慢猜想，悄悄愤青。大多主流媒体，可悲而不可怜，在无可奈何的环境里，虽无法进取，却倒转而行，更执迷不悟。国内形势一片大好，偶尔的斑驳，只被道成细枝末节。除此两端，中间剩下的多是无聊与萎靡，要么张长李短，要么纸醉金迷。多少坚挺的脊梁被残酷压折，多少聪颖的头脑被无情眩晕，朱赤墨黑的大染缸里已然让明晰的色彩无从容身。混混沌沌，里遮外裹。</p>
 <p>悄然而叹</p>
@@ -940,7 +940,7 @@
   <entry>
     <title>Excel合并定位截取字符串</title>
     <url>//excel-he-bing-ding-wei-jie-qu-zi-fu-chuan/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Excel_500x200.jpg" alt="Excel"></p>
+    <content><![CDATA[<p><img src="/images/Excel_500x200.jpg" alt="Excel"></p>
 <p>工作的时候，需要在长字符串中截取比较有规律的部分内容，而表格又太大，手工复制粘贴太麻烦，于是找了一下Excel的字符串操作函数。</p>
 <p>稍微整理一下。</p>
 <span id="more"></span>
@@ -1027,7 +1027,7 @@
   <entry>
     <title>披星戴月</title>
     <url>//pi-xing-dai-yue/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/PiXingDaiYue_500x250.jpg" alt="披星戴月"></p>
+    <content><![CDATA[<p><img src="/images/PiXingDaiYue_500x250.jpg" alt="披星戴月"></p>
 <p>在那个傍晚，夕阳起兴拉住一抹红霞，迟迟不愿离开。</p>
 <p>坐在熟悉的皮卡车里，一颠一簸，缓缓向前。呆呆的望着窗外，看这个风车转，瞧那个风车停。见那晚霞伴着夕阳，追逐嬉戏，不知何时又惹来一缕彩虹，环而起舞。赤橙黄绿，井然分列；青蓝又紫，挽手鳞次。</p>
 <p>沿着彩虹之桥，在那尽头便是天堂。</p>
@@ -1056,10 +1056,10 @@
   <entry>
     <title>Marry</title>
     <url>//marry/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Merry1.jpg" alt="Merry"></p>
+    <content><![CDATA[<p><img src="/images/Merry1.jpg" alt="Merry"></p>
 <span id="more"></span>
 
-<p><img src="http://cdn.aword.net/images/Merry2.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry3.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry4.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry5.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry6.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry7.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry8.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry9.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry10.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry11.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry12.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry13.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry14.jpg" alt="Merry"><br><img src="http://cdn.aword.net/images/Merry15.jpg" alt="Merry"></p>
+<p><img src="/images/Merry2.jpg" alt="Merry"><br><img src="/images/Merry3.jpg" alt="Merry"><br><img src="/images/Merry4.jpg" alt="Merry"><br><img src="/images/Merry5.jpg" alt="Merry"><br><img src="/images/Merry6.jpg" alt="Merry"><br><img src="/images/Merry7.jpg" alt="Merry"><br><img src="/images/Merry8.jpg" alt="Merry"><br><img src="/images/Merry9.jpg" alt="Merry"><br><img src="/images/Merry10.jpg" alt="Merry"><br><img src="/images/Merry11.jpg" alt="Merry"><br><img src="/images/Merry12.jpg" alt="Merry"><br><img src="/images/Merry13.jpg" alt="Merry"><br><img src="/images/Merry14.jpg" alt="Merry"><br><img src="/images/Merry15.jpg" alt="Merry"></p>
 ]]></content>
       <categories>
         <category>相册</category>
@@ -1071,7 +1071,7 @@
   <entry>
     <title>应子之邀</title>
     <url>//ying-zi-zhi-yao/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/YingZiZhiYao_500x281.jpg" alt="应子之邀"></p>
+    <content><![CDATA[<p><img src="/images/YingZiZhiYao_500x281.jpg" alt="应子之邀"></p>
 <p>一个半月的时间不算长也不算短，我的生活和角色发生了翻天覆地的改变，借完成某人约稿的机会，整理下我这一个半月的经历和心情吧。</p>
 <span id="more"></span>
 
@@ -1092,7 +1092,7 @@
   <entry>
     <title>Win7关闭任务栏缩略图，只显示名称</title>
     <url>//win7-taskbar-no-thumbnail/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Win7Thumbnail.jpg" alt="win7-taskbar-no-thumbnail"></p>
+    <content><![CDATA[<p><img src="/images/Win7Thumbnail.jpg" alt="win7-taskbar-no-thumbnail"></p>
 <p>Windows 7 RTM 于2009年7月14日正式上线，至今已经5年多，时间过的真快。虽然 Win8 早出，接着 8.1，然后又来一个 update，作为微软继 XP 之后又一代经典系统的 Win7，目前在各版本 Windows 系统中使用率仍占半壁江山。</p>
 <p>记得当时在学校鼓捣 Win7 的时候，看着任务栏缩略图预览，半透明的毛玻璃特效，流畅的动画效果，真心感觉高大上。工作之后对该功能的态度却是 180° 翻转，鸡肋的特效实在没有实用性，而且影响工作效率。窗口开的多了，就会左右满屏宽度的一排缩略图，切换窗口时必须左右来回移动鼠标，看着缩略图晃来晃去，烦死。</p>
 <span id="more"></span>
@@ -1109,7 +1109,7 @@
 <p>直接在个性化里选择 basic 主题即可。效果是不显示缩略图，只显示窗口名称，纵向堆叠，每个一行。实现后跟 XP 的样子很像。</p>
 <p>或者也可以在“高级系统设置”-“高级”-“设置”-“视觉效果”下面去掉“启用桌面组合”选项，同样效果。</p>
 <p>如何既实现既关闭缩略图预览只显示窗口名称，又保留 aero 的半透明效果呢，下面方法来了。</p>
-<p><img src="http://cdn.aword.net/images/Win7Thumbnail1.png" alt="win7-taskbar-no-thumbnail"></p>
+<p><img src="/images/Win7Thumbnail1.png" alt="win7-taskbar-no-thumbnail"></p>
 <p>其实很简单，还是修改注册表，相信明白点的一看就懂，就是通过控制缩略图的大小尺寸来影响窗口预览的显示方式。</p>
 <p><strong>定位注册表路径<code>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband</code>，新建类型为“DWORD (32-位)值(D)”的项，名称为“MaxThumbSizePx”。顾名思义，最大缩略图尺寸，像素为单位。没仔细找缩略图的默认尺寸是多少，反正只要把“MaxThumbSizePx”值改的足够小，缩略图就出不来了。（我把这个值改成了4，十进制）</strong></p>
 <p>修改完成后重启机器，效果就是本文最开头的图片了，预览窗口不显示缩略图，只显示窗口名称，纵向堆叠，每个一行，同时有 aero 半透明的背景框。</p>
@@ -1126,7 +1126,7 @@
   <entry>
     <title>似曾相识</title>
     <url>//si-ceng-xiang-shi/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/SiCengXiangShi_500x250.jpg" alt="si-ceng-xiang-shi"></p>
+    <content><![CDATA[<p><img src="/images/SiCengXiangShi_500x250.jpg" alt="si-ceng-xiang-shi"></p>
 <center>寒风冷月点芒星</center>
 
 <center>肩包耳塞孤影行</center>
@@ -1158,7 +1158,7 @@
   <entry>
     <title>别了，我的2014～～</title>
     <url>//bye-my2014/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/bye,my2014_500x300.jpg" alt="2014"></p>
+    <content><![CDATA[<p><img src="/images/bye,my2014_500x300.jpg" alt="2014"></p>
 <p>这看似平淡无奇的一年中我却经历了许多，可以算作是有生以来最重要的的一年。毕业，结婚，工作……其中每件事单独提到其重要性都不言而喻的，在短短的一年中我却有幸经历了全部，心情也是错综复杂，五味杂陈……</p>
 <span id="more"></span>
 
@@ -1201,7 +1201,7 @@
   <entry>
     <title>最近状态很差</title>
     <url>//recently-bad-state/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/BadState_500x250.jpg" alt="最近状态很差"></p>
+    <content><![CDATA[<p><img src="/images/BadState_500x250.jpg" alt="最近状态很差"></p>
 <p>最近状态很差，对不起。心里面一阵清晰，一阵杂乱。思念，连绵不绝。</p>
 <p>三月几将过半，暖的春，悄然而至。怕是仍如旧时，匆匆而逝。羞答答静悄悄。</p>
 <p>身后的光阴，总是过的这么快。回首来时的路途，恍恍惚惚间竟又有四载之遥。唏嘘感叹，也许做作，五味杂陈却实如翻江倒海。四年的求学，四年的工作，再个四年，真不知又将如何。想着勇敢，同时也藏不掉怯怯的心虚。满心期待故里的温馨，盼着将来的事情可以顺利。</p>
@@ -1226,7 +1226,7 @@
   <entry>
     <title>Excel中vlookup多条件引用</title>
     <url>//excel-zhong-vlookup-duo-tiao-jian-yin-yong/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Excel_500x200.jpg" alt="Excel中vlookup多条件引用"></p>
+    <content><![CDATA[<p><img src="/images/Excel_500x200.jpg" alt="Excel中vlookup多条件引用"></p>
 <p>在Excel中利用<strong>vlookup</strong>和<strong>数组公式</strong>，用2个条件在数据源中进行匹配查找引用。该方法可推广至3个及以上数量的搜索条件，只是公式的样子看上去会更加繁琐一点。</p>
 <span id="more"></span>
 
@@ -1234,10 +1234,10 @@
 <p>VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])</p>
 <p>有时候我们的数据源比较复杂，只用一个条件（第一个参数）无法唯一确定所需要查找区域（第二个参数）中的一行。而是需要两个条件同时参与才能唯一确定区域（第二个参数）中的唯一一行。所以我们需要做些手脚，把两个条件合并成一个，放进vlookup的第一个参数；对应的，两个条件的合并变成查找区域的第一列，要返回的值变成查找区域的第二列，放进vlookup的第二个参数。这样就可以继续利用vlookup了。</p>
 <p>看下面这个例子。</p>
-<p><img src="http://cdn.aword.net/images/Excel_Vlookup_1.jpg" alt="Excel中vlookup多条件引用"></p>
+<p><img src="/images/Excel_Vlookup_1.jpg" alt="Excel中vlookup多条件引用"></p>
 <p>如果在图中区域找女的张三的ID，由于有两个张三，只用名字，只用vlookup的默认形式就无法完成。</p>
 <p>所以用“&amp;”把名字和性别弄到一起用作vlookup的第一个参数，用if函数第一个参数的数组化（if({1,0},A,B)）把搜索区域的第一列弄成跟第一个参数相同的模样。</p>
-<p><img src="http://cdn.aword.net/images/Excel_Vlookup_2.jpg" alt="Excel中vlookup多条件引用"></p>
+<p><img src="/images/Excel_Vlookup_2.jpg" alt="Excel中vlookup多条件引用"></p>
 <p>在C6单元格中输入&#x3D;VLOOKUP(A6&amp;B6,IF({1,0},A2:A4&amp;B2:B4,C2:C4),2,0)，并同按组合键Ctrl+Shift+Enter完成公式，就可以看到结果了。</p>
 <p>在工作中一次偶然的机会需要解决上述问题，自己想来想去没有办法，在网上送搜索了一通，终于找到答案，在此记录。感谢shaowu459的分享。</p>
 <p>参考源：<a href="http://jingyan.baidu.com/article/2fb0ba4048655500f2ec5ffa.html">http://jingyan.baidu.com/article/2fb0ba4048655500f2ec5ffa.html</a></p>
@@ -1255,14 +1255,14 @@
   <entry>
     <title>马上，又过了一个四年</title>
     <url>//now-another-four-year-passed/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/ShiGuang_500x300.jpg" alt="时光"></p>
+    <content><![CDATA[<p><img src="/images/ShiGuang_500x300.jpg" alt="时光"></p>
 <p>又是，好久，没有动笔了。高中四年，大学四年，工作四年。马上结束的就在脚下，即将开始的也就在眼前。回想这十二年的时光，一点一滴的过往。</p>
 <p>也许当初不懂自己，也许曾经冥顽执拗，或者因四载荏苒车铣刨磨，西北之行，如此谬误。生命里最为宝贵的青春，在那里，多是奢侈……</p>
 <span id="more"></span>
 
 <p>人生路上，务必认准方向。若不然，奋力寻找。恣意而行，也许轻快，回往而顾，喟然叹然……无际黄土，风沙肆虐，流离他乡，坐井而望。</p>
 <p>当然，还有收获。</p>
-<p><img src="http://cdn.aword.net/images/XianRenZhang_625x417.jpg" alt="仙人掌"></p>
+<p><img src="/images/XianRenZhang_625x417.jpg" alt="仙人掌"></p>
 <p>蔚蓝蔚蓝的穹顶上，总是飘荡着妙曼皎洁的白云。在静寂无尽的深夜，每每抬头而叹，也总会有无数闪耀的明星点缀于浩瀚银河，凝神默然。</p>
 <p>匆匆离别。满心彷徨纠结，满心怅然不舍。我们踏越祖国半壁疆土，风雨兼程，在那不期而遇，然后共同奋力前行。初生牛犊，热情和着汗水，一幕一幕。不知对于新者，所有是否一样，历炼、彷徨、抉择。临行之际，事多情杂，想象已久的辞行，终于，成了被食之言。</p>
 <p>不像思念，非是留恋。只是偶尔的闲暇，想再一起溜一溜，耍一耍。浅弹低吟，知是难再聚首，却不住掠进脑海，尽是再会之景。相同的回忆交织错杂，不同的方向各奔西东。若是真有一天，会是何情，会是何景。</p>
@@ -1281,7 +1281,7 @@
   <entry>
     <title>初来记忆（一）</title>
     <url>//chu-lai-ji-yi-1/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/ChuLaiJiYi(1)_500x250.jpg" alt="初来记忆（一）"></p>
+    <content><![CDATA[<p><img src="/images/ChuLaiJiYi(1)_500x250.jpg" alt="初来记忆（一）"></p>
 <p>匆匆忙忙，由祖国的西北一路向东赶到家乡。</p>
 <p>首先是到局里报到，折腾，貌似来回跑了四趟。先是没人，所谓出差；再是缺手续，原单位真笨，无他；三次去，又出差；终于，算是报了到，中间还是你推我我推你……前前后后，半月有余，清闲但又不安。</p>
 <p>之后往二级单位报到，中途，二到死……</p>
@@ -1306,7 +1306,7 @@
   <entry>
     <title>Markdown-Syntax-CN</title>
     <url>//Markdown-Syntax-CN/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Markdown_500x148.jpg" alt="Markdown"></p>
+    <content><![CDATA[<p><img src="/images/Markdown_500x148.jpg" alt="Markdown"></p>
 <p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面。Markdown 是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。Markdown 的语法十分简单，常用的标记符号也不超过十个，这种相对于更为复杂的 HTML 来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。</p>
 <span id="more"></span>
 
@@ -1778,7 +1778,7 @@ equivalent of &lt;code&gt;&amp;amp;mdash;&lt;/code&gt;.&lt;/p&gt;
 &amp;#109;&quot;&gt;&amp;#x61;&amp;#x64;&amp;#x64;&amp;#x72;&amp;#x65;&amp;#115;&amp;#115;&amp;#64;&amp;#101;&amp;#120;&amp;#x61;
 &amp;#109;&amp;#x70;&amp;#x6C;e&amp;#x2E;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;
 </code></pre>
-<p>在浏览器里面，这段字串（其实是 <code>&lt;a href=&quot;mailto:address@example.com&quot;&gt;address@example.com&lt;/a&gt;</code>）会变成一个可以点击的「<a href="mailto:&#97;&#x64;&#x64;&#114;&#101;&#x73;&#x73;&#x40;&#101;&#120;&#x61;&#109;&#x70;&#x6c;&#x65;&#x2e;&#x63;&#111;&#x6d;">&#97;&#x64;&#x64;&#114;&#101;&#x73;&#x73;&#x40;&#101;&#120;&#x61;&#109;&#x70;&#x6c;&#x65;&#x2e;&#x63;&#111;&#x6d;</a>」链接。</p>
+<p>在浏览器里面，这段字串（其实是 <code>&lt;a href=&quot;mailto:address@example.com&quot;&gt;address@example.com&lt;/a&gt;</code>）会变成一个可以点击的「<a href="mailto:&#x61;&#x64;&#x64;&#x72;&#x65;&#115;&#115;&#x40;&#101;&#x78;&#x61;&#x6d;&#112;&#108;&#101;&#x2e;&#99;&#111;&#x6d;">&#x61;&#x64;&#x64;&#x72;&#x65;&#115;&#115;&#x40;&#101;&#x78;&#x61;&#x6d;&#112;&#108;&#101;&#x2e;&#99;&#111;&#x6d;</a>」链接。</p>
 <p>（这种作法虽然可以糊弄不少的机器人，但并不能全部挡下来，不过总比什么都不做好些。不管怎样，公开你的信箱终究会引来广告信件的。）</p>
 <h3 id="反斜杠"><a href="#反斜杠" class="headerlink" title="反斜杠"></a>反斜杠</h3><p>Markdown 可以利用反斜杠来插入一些在语法中有其它意义的符号，例如：如果你想要用星号加在文字旁边的方式来做出强调效果（但不用 <code>&lt;em&gt;</code> 标签），你可以在星号的前面加上反斜杠：</p>
 <pre><code>\*literal asterisks\*
@@ -1828,7 +1828,7 @@ _   底线
   <entry>
     <title>excel循环从其他工作簿复制数据</title>
     <url>//excel-xun-huan-cong-qi-ta-gong-zuo-bu-fu-zhi-shu-ju/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Excel_500x200.jpg" alt="excel循环从其他工作簿复制数据"></p>
+    <content><![CDATA[<p><img src="/images/Excel_500x200.jpg" alt="excel循环从其他工作簿复制数据"></p>
 <p>现在工作这里，他们查询单井数据都是在浏览器上，输井号和日期，从网络的数据库查询，返回的数据再输出到网页上。</p>
 <p>网页上只是最简单的用表格显示数据，不管是看，还是算，都显得太苍白。之前习惯了在微软的 Excel 里操作，所以打算把2015年之内的数据全粘到一个 Excel 表格里。</p>
 <span id="more"></span>
@@ -1891,7 +1891,7 @@ _   底线
   <entry>
     <title>批处理-每隔一段时间运行某程序</title>
     <url>//batch-run-a-program-at-regular-intervals/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Cmd_500x267.jpg" alt="cmd"></p>
+    <content><![CDATA[<p><img src="/images/Cmd_500x267.jpg" alt="cmd"></p>
 <p>在特别的环境里，出现了特别的需求。</p>
 <p>需要运行某程序 <code>mou.exe</code> ，但是这个某程序被电脑上装的一个（或几个）恶心的软件禁止了，资源浏览器界面内打不开，命令行可以打开，运行一小段时间后会被强制关闭，所以需要每隔一段时间就启动 <code>mou.exe</code> 一次。</p>
 <span id="more"></span>
@@ -1945,7 +1945,7 @@ _   底线
   <entry>
     <title>Win环境下配置Apache+PHP读取Oracle数据库</title>
     <url>//config-apache+php-read-oracle-database-in-win/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/PHP_Oracle_600x190.jpg" alt="PHP,Oracle"></p>
+    <content><![CDATA[<p><img src="/images/PHP_Oracle_600x190.jpg" alt="PHP,Oracle"></p>
 <p>记录一下自己在 win 环境下配置 Apache 和 PHP 并成功连接 Oracle 数据库的经历。因为开始在网上查来查去，各种说法都有，一个一个试验，得到的却是各种错误。最后算是阴差阳错，还是人品给力，或是坚持不懈，总算连接成功并获得正确数据。</p>
 <p>不知是否为个例，仅供参考。</p>
 <span id="more"></span>
@@ -1967,7 +1967,7 @@ _   底线
 <p>extension&#x3D;php_oci8.dll</p>
 <p>extension&#x3D;php_oci8_11g.dll</p>
 <p>extension&#x3D;php_pdo_oci.dll</p>
-<p><img src="http://cdn.aword.net/images/PHP_ini_500x275.jpg" alt="PHP"></p>
+<p><img src="/images/PHP_ini_500x275.jpg" alt="PHP"></p>
 <p>前两个默认被注释掉了，第三个开着呢。但是前面说了，软件自带的是 php_oci8_12c.dll， php_oci8.dll 和 php_oci8_11g.dll 显然不行（<a href="http://aword.net/about">博主</a>试了好久才发现的……这里归功于一款本地文件搜索神器?<a href="http://aword.net/everthing/">everything</a>），所以自己添加一行 extension&#x3D;php_oci8_12c.dll。（<a href="http://aword.net/about">博主</a>还尝试了在网上下载php_oci8.dll文件，然后丢到 PHP 拓展的文件夹里，失败……）</p>
 <p><strong>二、配置 Win 的环境变量</strong></p>
 <p>网上搜索到各种说法，不知道具体哪个完全正确。博主把别人提到的环境变量全部设置了进去，可能其中有部分是不必要的。</p>
@@ -2028,20 +2028,20 @@ _   底线
     <url>//altrun-guo-chan-kuai-su-qi-dong-ruan-jian-shen-pin/</url>
     <content><![CDATA[<p><a href="https://github.com/etworker/ALTRun">ALTRun</a> 是由网友 <a href="http://weibo.com/journeyonmyway">ET民工</a> 个人独立开发的一款快速启动软件，小巧绿色，简单易用。精致简洁的操作界面、精巧灵动的智能匹配、疾如雷电的响应速度和行云流水般畅快淋漓的操控体验的完美结合，足以令人爱不释手。</p>
 <p>由于 <a href="https://github.com/etworker/ALTRun">ALTRun</a>? 功能相当强大，可配置性和可玩性极高，本文比较详尽地介绍了它的不少特性，所以篇幅比较长。热衷于提供电脑工作效率的，喜爱玩软件的，热爱各种折腾的朋友们，可千万不能错过此款神器级别的软件哦……</p>
-<p><img src="http://cdn.aword.net/images/altrun_01.png"></p>
+<p><img src="/images/altrun_01.png"></p>
 <span id="more"></span>
 
 <h3 id="软件界面讲解"><a href="#软件界面讲解" class="headerlink" title="软件界面讲解"></a>软件界面讲解</h3><p>热键呼出软件主界面后，光标会自动定位在界面左上角<strong>输入框</strong>内前端处，可以输入英文字母筛选过虑列表清单，输入框右后方显现的浅灰色文字是智能随机的<strong>操作提示</strong>。</p>
 <p>居于界面中部的白色背景主体大框里显示<strong>快捷项目列表清单</strong>。左侧半部前头带数字的便是<strong>快捷项</strong>，右侧半部是与之一一对应的<strong>描述</strong>名称，两者均可凭个人喜好随心所欲的定制。</p>
 <p>主界面底部命令框显示当前快捷项目的<strong>命令行</strong>，此框可以设置隐藏。</p>
-<p><img src="http://cdn.aword.net/images/altrun_03.png"></p>
+<p><img src="/images/altrun_03.png"></p>
 <p>（主界面解析说明）</p>
-<p><img src="http://cdn.aword.net/images/altrun_04.png">（与主界面解析对应的快捷项内容图示）</p>
+<p><img src="/images/altrun_04.png">（与主界面解析对应的快捷项内容图示）</p>
 <h3 id="ALTRun的基本使用方法"><a href="#ALTRun的基本使用方法" class="headerlink" title="ALTRun的基本使用方法"></a>ALTRun的基本使用方法</h3><p>开宗明义：使用ALTRun软件，最为关键的是要记住两条。</p>
 <p>第一条：主界面显现后按 Alt+S 呼出快捷项管理界面；</p>
 <p>第二条：主界面显现后按 Alt+C 呼出配置设定界面。</p>
 <h3 id="超多方式执行快捷项"><a href="#超多方式执行快捷项" class="headerlink" title="超多方式执行快捷项"></a>超多方式执行快捷项</h3><p>工欲善其事，必先利其器。第一步自然是设置自己喜欢且方便好使的热键了，在系统托盘区ALTRun可爱的星星图标上点击右键，选择菜单中的配置，就呼出配置界面，选择热键这一标签页。</p>
-<p><img src="http://cdn.aword.net/images/altrun_05.png">（配置中双热键设定标签页中默认热键之一ALT+R也是ALTRun软件得名的由来）</p>
+<p><img src="/images/altrun_05.png">（配置中双热键设定标签页中默认热键之一ALT+R也是ALTRun软件得名的由来）</p>
 <p>ALTRun独创性的支持主热键和辅热键这种双热键并行不悖、独一无二的呼出呼入方法，喜欢单手启动程序朋友们有福了！据我的使用经验，建议修改主热键设置成Alt+X，将辅热键设置成~键(键盘左上角Esc键下面那个)，基本上只用一只左手就可以搞定任意程序、文档、目录和网页的快捷启动。</p>
 <p>OK，现在按~键(或者自主设定的主辅热键)，立刻呼出主界面(若是随后再次按击自主设定的主辅热键则会隐藏主界面)。</p>
 <p>呈现在眼前的主界面清单列表支持多种方式执行快捷项目<strong>：</strong></p>
@@ -2051,15 +2051,15 @@ _   底线
 <p>4.<strong>鼠标左键双击</strong>启动快捷项。</p>
 <p>5.在主界面窗体内任何位置<strong>按击鼠标中键滑轮</strong>也可启动引导定位所在行的快捷项。</p>
 <p>6.特为推荐超级简便的一种执行方法需要设定一下实现，只要<strong>勾选配置中的仅剩一项时立即执行</strong>(段末图解)，敲击字母过滤后<strong>自动执行</strong>剩余的唯一一项匹配快捷项(<strong>无需按下空格键或者回车键启动</strong>)。</p>
-<p><img src="http://cdn.aword.net/images/altrun_06.png">（部分执行方法图示）</p>
+<p><img src="/images/altrun_06.png">（部分执行方法图示）</p>
 <p>一指热键（~键）呼出主界面，屈指弹向任意数字键，便可启动十个程序中的任意一个程序。全程只要按两下，耗时0.5秒左右，快捷绝伦，疾如雷电。关于该如何设置，让自己心仪的快捷项目出现在热键呼出后优先显示的前十项可供数字键快速启动的默认列表清单中。</p>
 <p>支持数字键启动真是好东西，可视化清单类快捷启动软件中在这一点上能够和ALTRun差相比拟的唯有Find and Run Robot，可惜Find and Run Robot资源占用居高不下，响应迟缓，乏善可陈。若是不太在意资源占用而注重功能的可延展性，插件丰富的Find and Run Robot则是上佳的选择。</p>
 <p>不喜欢数字键启动风格的朋友建议使用<strong>汉语拼音全拼（容易记忆）</strong>设定快捷项，通常敲入三两个字母，就能直接命中目标。要是没命中，待选的顶多就只剩2项，余下的事情也就极为简单了。</p>
 <p>要是你觉得还不过瘾，还有一种<strong>最为简便</strong>的启动快捷项的方式，只要你敲击一两个英文字母，甚至不需要你按下空格键或者回车键就可自动执行只余一项的匹配项！凤毛麟角，超乎想象，一蹴而就，傲视群伦，在目前的快捷启动软件中也算是独领风骚了！设置方法如下图解所示。</p>
-<p><img src="http://cdn.aword.net/images/altrun_07.png"></p>
+<p><img src="/images/altrun_07.png"></p>
 <p>（仅剩一项时立即执行设置图解）</p>
 <h3 id="迅捷方便的定位方法"><a href="#迅捷方便的定位方法" class="headerlink" title="迅捷方便的定位方法"></a>迅捷方便的定位方法</h3><p>ALTRun主界面列表清单支持多种定位方法：<strong>上下箭头键</strong>移动定位前后项目；<strong>Tab键</strong>轮换定位下一个快捷项目（按下<strong>Shift+Tab键</strong>显示上一项快捷项）；最为好玩的是支持<strong>鼠标滑轮滑动</strong>定位项目。三者皆可<strong>周而复始</strong>，<strong>循环往复</strong>！</p>
-<p><img src="http://cdn.aword.net/images/altrun_08.png"></p>
+<p><img src="/images/altrun_08.png"></p>
 <p>（三种定位方法）</p>
 <p>键盘达人大概会选择上下箭头键移动定位或者Tab键，不过本人觉得有时候用用鼠标滑轮也很爽快，因为滚轮定位比较迅速，耗费的力气最小，定位完成后按击空格键或者按击鼠标中键滑轮便可启动快捷项。左手键盘，右手鼠标，左右开弓，相得益彰。</p>
 <h3 id="过滤筛选和智能匹配"><a href="#过滤筛选和智能匹配" class="headerlink" title="过滤筛选和智能匹配"></a>过滤筛选和智能匹配</h3><p>快捷启动软件可谓形态多样，五花八门，不过万变不离其宗，均是依托各自独到的理念设计程式，帮助使用者实现更为高效流畅的快捷操作这一目的。</p>
@@ -2074,61 +2074,61 @@ _   底线
 <p>上下求索之下，直到ALTRun步入我的视线，发现心目中的完美工具终于出现了。</p>
 <p>缺省默认的情形下，相较于TypeAndRun的首字母匹配、Executor的词首匹配以及Launchy效率欠佳的模糊匹配， ALTRun采取的是更为灵活精巧的<strong>任意位置关键字匹配</strong>，个人觉得快速启动软件采用这种过滤匹配方式最为得宜。</p>
 <p>举例说明一下，热键呼出主界面，软件会自动定位到输入框输入处并锁定成英文输入方式，敲入gr两个字母，看看筛选过滤后会匹配出什么结果来。</p>
-<p><img src="http://cdn.aword.net/images/altrun_09.png"></p>
+<p><img src="/images/altrun_09.png"></p>
 <p>（任意位置匹配关键字）</p>
 <p>如果喜欢<strong>只从首字母开始匹配</strong>，只要在主界面按Alt+C呼出配置界面，取消从任意位置匹配关键字这一项的勾选就可以实现。</p>
-<p><img src="http://cdn.aword.net/images/altrun_10.png"></p>
+<p><img src="/images/altrun_10.png"></p>
 <p>（仅从首字母开始匹配关键字设定方法）</p>
 <p>细心的朋友可能会从图片中发现 <a href="http://www.iplaysoft.com/altrun.html">ALTRun</a> 似乎不支持智能补全，没错，的确不支持！是不为也，非不能也！这也是ALTRun软件开发者秉持<strong>简单易用</strong>的设计理念，有意如此设定的。智能补全看似智能，其实操作过程中会出现多余的删除动作，正所谓欲速则不达，特别是输入中途突然想要变动的时候极其麻烦。使用ALTRun不会有上述的麻烦，可以随时迅捷快速、轻便灵巧的调整输入内容。</p>
 <p>提示几点<strong>输入小技巧</strong>：输入框输入内容后支持Backspace（退格键）删除，按Home键光标直接定位到输入内容的最前面，按End键光标直接定位内容末尾处。按←左箭头键往左移动一个字母，按→右箭头键往右移动一个字母。ESC键消去全部内容（如果再按一下ESC键则会隐藏主界面）。</p>
 <h3 id="人性化的匹配设定"><a href="#人性化的匹配设定" class="headerlink" title="人性化的匹配设定"></a>人性化的匹配设定</h3><p><strong>ALTRun</strong> <strong>极其智能，会根据快捷项使用频率自动调节显示顺序，自动调整项目优先级</strong>。除此之外，作者还极为佛心的安排了一项极富人性化的设定，可以让我们<strong>快速匹配上一次的启动项目</strong>，设定方法依旧是热键呼出主界面后，再按击Alt+C呼出配置界面，勾选上保存最近一次匹配选项。这样设定可以自由操控快捷项显示顺序，快速匹配上一次的启动项目。</p>
-<p><img src="http://cdn.aword.net/images/altrun_11.png"></p>
+<p><img src="/images/altrun_11.png"></p>
 <p>(保存最近一次匹配设置)</p>
 <p>另外软件自带的<strong>多个搜索快捷项的关键字输入框</strong>也具备历史记录自动匹配功能，默认为最后一次<strong>输入或显现过</strong>的内容。</p>
-<p><img src="http://cdn.aword.net/images/altrun_12.png"></p>
+<p><img src="/images/altrun_12.png"></p>
 <p>（Google搜索引擎关键字输入框显示最后一次输入或显现过的内容）</p>
-<p><img src="http://cdn.aword.net/images/altrun_13.png"></p>
+<p><img src="/images/altrun_13.png"></p>
 <p>（关键字输入框支持历史记录自动匹配）</p>
 <p>输入过一次之后的历史记录在<strong>各个搜索快捷项中通用</strong>，换用搜索引擎时如虎添翼，方便易用。如下所示：</p>
-<p><img src="http://cdn.aword.net/images/altrun_14.png"></p>
+<p><img src="/images/altrun_14.png"></p>
 <p>（google搜索引擎关键字输入框历史记录下拉列表）</p>
-<p><img src="http://cdn.aword.net/images/altrun_15.png"></p>
+<p><img src="/images/altrun_15.png"></p>
 <p>（百度搜索引擎关键字输入框历史记录下拉列表）</p>
 <h3 id="别出心裁的Ctrl-D一步定位直接打开文件夹功能"><a href="#别出心裁的Ctrl-D一步定位直接打开文件夹功能" class="headerlink" title="别出心裁的Ctrl+D一步定位直接打开文件夹功能"></a>别出心裁的Ctrl+D一步定位直接打开文件夹功能</h3><p>你是否时常会为工作时需要频繁打开一些文件夹查找文档而感到烦恼呢？编辑一个文档时，会被突然需要打开其他文件弄的手忙脚乱吗？ALTRun可以帮到你轻松搞定这些烦恼。</p>
 <p>ALTRun别出机杼的支持文件的Ctrl+D直接打开相应文件夹功能，一步到位，运用得宜庶几可以免去按步就班的打开我的电脑，然后一步步的打开文件夹查找这等费力费眼的麻烦事。</p>
 <p>可以<strong>按Ctrl+D一步定位直接打开文件夹的快捷项目特殊标识</strong>是外包一对[ ]（方框符号）。</p>
-<p><img src="http://cdn.aword.net/images/altrun_16.png"></p>
+<p><img src="/images/altrun_16.png"></p>
 <p>(Ctrl+D一步定位直接打开文件所在的文件夹)</p>
 <h3 id="从容淡定的Ctrl-L回溯最近执行过的10个历史项目"><a href="#从容淡定的Ctrl-L回溯最近执行过的10个历史项目" class="headerlink" title="从容淡定的Ctrl+L回溯最近执行过的10个历史项目"></a>从容淡定的Ctrl+L回溯最近执行过的10个历史项目</h3><p>记录操作历史，Ctrl+L可以显示最近调用的10项快捷项列表，帮你从容找到启动过的快捷项目，对于需要频繁打开新近刚操作过的快捷项颇有助益。</p>
 <h3 id="体贴舒心的多种隐退方式"><a href="#体贴舒心的多种隐退方式" class="headerlink" title="体贴舒心的多种隐退方式"></a>体贴舒心的多种隐退方式</h3><p>ALTRun令人叹赏的一点是不但可以点击右上角的红色关闭按钮隐藏主界面，支持按Esc键隐藏，按主辅热键消隐（呼出隐藏通用），还支持失去焦点隐藏（鼠标点击主界面外其他地方），另外还有延时自动消隐（真是智能体贴）。</p>
-<p><img src="http://cdn.aword.net/images/altrun_17.png"></p>
+<p><img src="/images/altrun_17.png"></p>
 <p>(关闭按钮图示)</p>
 <p>自己设定了开启ALTRun软件快捷键的朋友，若是不喜欢ALTRun一直开着占用电脑资源，想要启动快捷项之后马上关闭ALTRun程序来节省资源开销的话，ALTRun软件已然极其贴心的提供了这个功能，可以在配置中的<strong>勾选执行快捷项后退出</strong>这一项，这样就能如愿以偿了。</p>
-<p><img src="http://cdn.aword.net/images/altrun_18.png"></p>
+<p><img src="/images/altrun_18.png"></p>
 <p>(执行快捷项后自动退出程序设定)</p>
 <h3 id="清爽怡人之精简主界面的设置方法"><a href="#清爽怡人之精简主界面的设置方法" class="headerlink" title="清爽怡人之精简主界面的设置方法"></a>清爽怡人之精简主界面的设置方法</h3><p>喜欢清爽简单风格界面的朋友可以在配置中去掉几个项目前的勾选,看看改动后的简约界面是否符合你的心意。</p>
-<p><img src="http://cdn.aword.net/images/altrun_19.png"></p>
+<p><img src="/images/altrun_19.png"></p>
 <p>(精简主界面的设定方法图示)</p>
 <p>另外还可在配置中调整透明度、宽度以及字体等设置，个性化定制自己喜好的样式界面。</p>
-<p><img src="http://cdn.aword.net/images/altrun_20.png"></p>
+<p><img src="/images/altrun_20.png"></p>
 <p>(调整宽度、透明度、字体等设置后的小巧透明的主界面)</p>
 <h3 id="快捷项目的增减删改"><a href="#快捷项目的增减删改" class="headerlink" title="快捷项目的增减删改"></a>快捷项目的增减删改</h3><p>ALTRun支持<strong>命令行加参数</strong>运行，喜欢鼓捣的朋友们可以折腾出许多有趣的东西来。可以添加快捷项目实现启动程序、文档、目录、网页，甚至是指定多种程序同时打开多个文件、目录和网页。</p>
 <p>下面细说一下添置快捷项目的方式方法。</p>
 <p><strong>第一种方法</strong>：也是最为直觉方便的方法，即右键“发送到”（可以在快捷图标、文件或文件夹上右键选择“发送到&#x2F;ALTRun”），右键添加快捷项时会对同名快捷项自动显示覆盖提示。</p>
 <p><strong>第二种方法</strong>：支持拖动快捷图标、文件或文件夹到快捷项管理界面快速添加快捷项目（鼠标点击主界面左上角收藏夹小图标快捷项管理按钮进入，或者按击Alt+S快捷键直接弹出快捷项管理界面），快捷项目管理界面按击添加按钮或者快捷键Insert键直接插入各项都留空的快捷项就是分隔空行。</p>
-<p><img src="http://cdn.aword.net/images/altrun_21.png"></p>
+<p><img src="/images/altrun_21.png"></p>
 <p>(快捷项管理按钮图示)</p>
-<p><img src="http://cdn.aword.net/images/altrun_22.png"></p>
+<p><img src="/images/altrun_22.png"></p>
 <p>(支持拖拉文件和文件夹一步完成项目添加的快捷项管理界面示意图)</p>
 <p><strong>第三种方法</strong>：热键呼出主界面后，按Insert添加快捷项，F2修改快捷项，Delete删除快捷项，Esc退出界面，弹出的界面除了手工操作外，同样支持拖拉文件或者文件夹直接添加。）</p>
-<p><img src="http://cdn.aword.net/images/altrun_23.png"></p>
+<p><img src="/images/altrun_23.png"></p>
 <p>(主界面上Insert键呼出的添加快捷项界面同样支持拖拉快捷图标、文件和文件夹一步完成添加)</p>
 <p><strong>第四种方法</strong>：热键呼出主界面后按Alt+S键，在快捷项管界面直接添加，方法同上。</p>
 <p><strong>第五种方法</strong>：在主界面直接输入没有设定过的英文字母，回车后也可进行添加快捷项，弹出的界面除了手工操作外，同样支持拖拽快捷图标、文件或者文件夹直接添加。</p>
 <p><strong>第六种方法</strong>：可以直接修改ALTRun软件所在文件夹内的ShortCutList.txt文本文档，保存后会自动读取。编辑时<strong>不需要太在意对齐</strong>，ALTRun会<strong>自动重新排版写入</strong>。强烈建议喜欢这种方法的朋友不妨将ShortCutList.txt作为一个快捷项目添加到软件中，可以直接设定以自己喜欢的编辑工具打开此一文件，例如使用Emeditor打开ShortCutList.txt文本文件可以添加这样的项目命令:</p>
 <p>C:\Program Files\EmEditor\EmEditor.EXE C:\Program Files\ALTRun\ShortCutList.TXT</p>
 <p>(其他的编辑工具和ALTRun的文件夹在别处的话，可以照此格式修改路径实现，这也是ALTRun可以指定以特定的某一程序打开某个相应文件用法的又一例证。)</p>
-<p><img src="http://cdn.aword.net/images/altrun_24.png"></p>
+<p><img src="/images/altrun_24.png"></p>
 <p>(可以直接编辑的ShortCutList文本文件示意图)</p>
 <p>如此众多的方式方法足可让人不慌不忙，气定神闲的设定自己喜好的快捷项目。</p>
 <h3 id="自娱自乐之动手定制方便好玩的快捷项"><a href="#自娱自乐之动手定制方便好玩的快捷项" class="headerlink" title="自娱自乐之动手定制方便好玩的快捷项"></a>自娱自乐之动手定制方便好玩的快捷项</h3><p>现在到了自己动手丰衣足食时间，提供一些本人定制的实用有趣的项目。</p>
@@ -2218,7 +2218,7 @@ _   底线
   <entry>
     <title>Excel中多条件确定行，引用行中其他数值</title>
     <url>//excel-zhong-duo-tiao-jian-que-ding-hang-yin-yong-hang-zhong-qi-ta-shu-zhi/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Excel_example_597x286.jpg" alt="excel"></p>
+    <content><![CDATA[<p><img src="/images/Excel_example_597x286.jpg" alt="excel"></p>
 <p>有一个 Excel 数据表，知道某一列中一个格的内容，想找这个格对应行中的其他内容，如何迅速的、可重复性的完成这个过程？Excel 内建的函数 vlookup 很方便。但是如果需要两列或是更多列的内容来确定目的数据的行呢？前面我发过一篇【<a href="http://aword.net/excel%e4%b8%advlookup%e5%a4%9a%e6%9d%a1%e4%bb%b6%e5%bc%95%e7%94%a8/">Excel中vlookup多条件引用</a>】，综合了 vlookup 和数组形式的 if 函数，可以达到目的，但效率不够，源数据比较大的时候会导致表格的保存和打开很慢。前一阵又在网上搜索，找到了下面的方法。</p>
 <span id="more"></span>
 
@@ -2226,7 +2226,7 @@ _   底线
 <p><strong>缺点</strong>：只能引用数值。</p>
 <p>略去别的不表，直接来正文。</p>
 <p>看前图所示表格，举例来说，如果我们想获取 data2 列中的一个数据，知道这个数据对应的 date 为 2016&#x2F;5&#x2F;11，id 为 two，那么就在 A12 中输入 2016&#x2F;5&#x2F;11，在 B12 中输入 two，在 C12 中输入 <code>=SUM((A2:A10=A12)*(B2:B10=B12)*(D2:D10))</code>，然后按组合键 <span style="color: #ff0000;"><strong>Ctrl+Shift+Enter</strong></span>，结果就会出现在 C12 单元格了，示例的结果为 6。</p>
-<p><img src="http://cdn.aword.net/images/Excel_example1_598x288.jpg" alt="excel"></p>
+<p><img src="/images/Excel_example1_598x288.jpg" alt="excel"></p>
 <p>本来想把这个公式的实现原理，或者叫具体计算过程写一下的，因为一些其他事情耽搁，又没了心情……</p>
 <p>如果你看到这篇文章，需要这种数据处理方法，但对公式不十分明白， 又对它比较有兴趣，那么，建议看看下面两篇内容。我就是从它们这学来的。</p>
 <p>1、<a href="http://club.excelhome.net/thread-467862-1-1.html">我对数组与数组运算的认识</a></p>
@@ -2244,7 +2244,7 @@ _   底线
   <entry>
     <title>Win10 关闭任务栏缩略图</title>
     <url>//win-10-guan-bi-ren-wu-lan-suo-lue-tu/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Win10TaskbarThumbnail_500x250.jpg" alt="win10"></p>
+    <content><![CDATA[<p><img src="/images/Win10TaskbarThumbnail_500x250.jpg" alt="win10"></p>
 <p>当年在网上各种搜索，终于找到了<a href="http://aword.net/win7-taskbar-no-thumbnail/">给 win7 系统关闭任务栏缩略图的方法</a>，后来自己的笔记本升级 win8、win8.1 ，闲来无事的时候都试验了一下，之前的方法还能用。</p>
 <p>再后来安装了 win10 ，不能用了。最近工作上一些原因，需要用自己的笔记本干活，开一堆 excel 表格，任务栏的各种缩略图就又来捣乱了。还好，现在又找到方法了。</p>
 <span id="more"></span>
@@ -2268,18 +2268,18 @@ _   底线
     <title>随手拍来</title>
     <url>//sui-shou-pai-lai/</url>
     <content><![CDATA[<p>一些近期随手拍来的照片。</p>
-<p><img src="http://cdn.aword.net/images/SuiShouPaiLai10_700x528.jpg" alt="窗前的朝霞" title="窗前的朝霞"></p>
+<p><img src="/images/SuiShouPaiLai10_700x528.jpg" alt="窗前的朝霞" title="窗前的朝霞"></p>
 <span id="more"></span>
 
-<p><img src="http://cdn.aword.net/images/SuiShouPaiLai1_500x737.jpg" alt="一片乌云" title="一片乌云"></p>
-<p><img src="http://cdn.aword.net/images/SuiShouPaiLai2_500x663.jpg" alt="路边黄叶" title="路边黄叶"></p>
-<p><img src="http://cdn.aword.net/images/SuiShouPaiLai3_700x528.jpg" alt="海边夜色" title="海边夜色"></p>
-<p><img src="http://cdn.aword.net/images/SuiShouPaiLai4_700x528.jpg" alt="别家烟火" title="别家烟火"></p>
-<p><img src="http://cdn.aword.net/images/SuiShouPaiLai5_500x663.jpg" alt="家中君子兰" title="家中君子兰"></p>
-<p><img src="http://cdn.aword.net/images/SuiShouPaiLai6_700x528.jpg" alt="屋檐下小燕" title="屋檐下小燕"></p>
-<p><img src="http://cdn.aword.net/images/SuiShouPaiLai7_700x528.jpg" alt="附近的街" title="附近的街"></p>
-<p><img src="http://cdn.aword.net/images/SuiShouPaiLai8_500x663.jpg" alt="路边柏树和小花" title="路边柏树和小花"></p>
-<p><img src="http://cdn.aword.net/images/SuiShouPaiLai9_700x528.jpg" alt="蓝天白云" title="蓝天白云"></p>
+<p><img src="/images/SuiShouPaiLai1_500x737.jpg" alt="一片乌云" title="一片乌云"></p>
+<p><img src="/images/SuiShouPaiLai2_500x663.jpg" alt="路边黄叶" title="路边黄叶"></p>
+<p><img src="/images/SuiShouPaiLai3_700x528.jpg" alt="海边夜色" title="海边夜色"></p>
+<p><img src="/images/SuiShouPaiLai4_700x528.jpg" alt="别家烟火" title="别家烟火"></p>
+<p><img src="/images/SuiShouPaiLai5_500x663.jpg" alt="家中君子兰" title="家中君子兰"></p>
+<p><img src="/images/SuiShouPaiLai6_700x528.jpg" alt="屋檐下小燕" title="屋檐下小燕"></p>
+<p><img src="/images/SuiShouPaiLai7_700x528.jpg" alt="附近的街" title="附近的街"></p>
+<p><img src="/images/SuiShouPaiLai8_500x663.jpg" alt="路边柏树和小花" title="路边柏树和小花"></p>
+<p><img src="/images/SuiShouPaiLai9_700x528.jpg" alt="蓝天白云" title="蓝天白云"></p>
 ]]></content>
       <categories>
         <category>相册</category>
@@ -2291,17 +2291,17 @@ _   底线
   <entry>
     <title>a little girl</title>
     <url>//a-little-girl/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/ALittleGirl2_600x400.jpg" alt="a little girl"></p>
+    <content><![CDATA[<p><img src="/images/ALittleGirl2_600x400.jpg" alt="a little girl"></p>
 <span id="more"></span>
 
-<p><img src="http://cdn.aword.net/images/ALittleGirl1_600x400.jpg" alt="a little girl"></p>
-<p><img src="http://cdn.aword.net/images/ALittleGirl3_600x400.jpg" alt="a little girl"></p>
-<p><img src="http://cdn.aword.net/images/ALittleGirl4_600x400.jpg" alt="a little girl"></p>
-<p><img src="http://cdn.aword.net/images/ALittleGirl5_600x400.jpg" alt="a little girl"></p>
-<p><img src="http://cdn.aword.net/images/ALittleGirl6_600x400.jpg" alt="a little girl"></p>
-<p><img src="http://cdn.aword.net/images/ALittleGirl7_600x400.jpg" alt="a little girl"></p>
-<p><img src="http://cdn.aword.net/images/ALittleGirl8_600x400.jpg" alt="a little girl"></p>
-<p><img src="http://cdn.aword.net/images/ALittleGirl9_600x400.jpg" alt="a little girl"></p>
+<p><img src="/images/ALittleGirl1_600x400.jpg" alt="a little girl"></p>
+<p><img src="/images/ALittleGirl3_600x400.jpg" alt="a little girl"></p>
+<p><img src="/images/ALittleGirl4_600x400.jpg" alt="a little girl"></p>
+<p><img src="/images/ALittleGirl5_600x400.jpg" alt="a little girl"></p>
+<p><img src="/images/ALittleGirl6_600x400.jpg" alt="a little girl"></p>
+<p><img src="/images/ALittleGirl7_600x400.jpg" alt="a little girl"></p>
+<p><img src="/images/ALittleGirl8_600x400.jpg" alt="a little girl"></p>
+<p><img src="/images/ALittleGirl9_600x400.jpg" alt="a little girl"></p>
 ]]></content>
       <categories>
         <category>相册</category>
@@ -2314,7 +2314,7 @@ _   底线
   <entry>
     <title>本想写在二零一六年末</title>
     <url>//ben-xiang-xie-zai-2016-nian-mo/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Daughter_500x333.jpg" alt="Daughter"></p>
+    <content><![CDATA[<p><img src="/images/Daughter_500x333.jpg" alt="Daughter"></p>
 <p>本想在2016年末，把被挥霍的一年光阴记下些许，各种原因，拖了又拖。</p>
 <span id="more"></span>
 
@@ -2341,7 +2341,7 @@ _   底线
 <p>中午，手术24小时之后，护士过来把妻子身上的监护仪撤掉，镇痛泵拔了，尿管拆了，并且要求下床活动，自行排便。各种东西撤走，妻子看上去轻松不少。但上下病床，去卫生间排便，这过程依然苦不堪言，也只好咬牙坚持。下午、晚上，妻子的痛感几乎没有减弱，平躺着疼，侧卧更疼，曲腿难受，直腿更难受。少了点滴和尿管的影响，有所轻松，但仍差不多是一夜未眠。奶奶和姥姥两人照顾孩子，各种喂奶、洗尿布，也是折腾的没完。</p>
 <p>第三天。一切开始有所好转。妻子能够忍着痛各种活动，我能挤在她病床上休息，临病床的产妇出院，病房里宽敞不少，也清净了不少。虽然紧接着新住院进来一个，但第一晚他们回家了，病床空着。第四天。病房恢复拥挤，但心情已大大轻松。最艰难的时间已经走过，最后两天，坐等出院。第五天。等女儿采足跟血，之后收拾东西回家。</p>
 <h3 id="操劳养子"><a href="#操劳养子" class="headerlink" title="操劳养子"></a>操劳养子</h3><p>回到家把东西放下，往沙发上一靠，倍感轻松。</p>
-<p><img src="http://cdn.aword.net/images/ALittleGirl6_600x400.jpg" alt="ALittleGirl"></p>
+<p><img src="/images/ALittleGirl6_600x400.jpg" alt="ALittleGirl"></p>
 <p>攻坚战告一段落，持久战刚刚开始。女儿一觉睡两三个小时，每次醒来其他人就是一顿折腾，白天还好，后半夜可真熬人。每天过的好似不知白天黑夜似的，我们也跟着女儿睡了醒，醒了睡。冲奶粉刷奶瓶洗尿布，买菜做饭刷锅洗碗，扫地擦地整理杂物，虽然人不少，可也忙的不亦乐乎。</p>
 <p>出院回家第二天，便发现女儿呼吸声比较重，类似呼噜。观察了一两天不见好转，这可愁坏了孩子妈，生怕是得了肺炎。网上搜索研究，看症状应该不太像，但总归不正常，终究也放不下心。女儿出生第九天，就带着她又回到医院看病。医生用听诊器给听听呼吸声，肺上没啥毛病，气管可能有点问题，孩子太小，也没好办法，回家继续观察。从那时直到现在，女儿呼吸声重，口中粘稠分泌物，轻微吐泡沫，这些症状一直在，不见减轻，幸好也没有加重。小小的孩子别的地方没怎么去过，两个月大，医院诊所的已经跑了五六趟了。</p>
 <p>初为父母，喜忧混杂，心头的压的责任无比重大。</p>
@@ -2352,7 +2352,7 @@ _   底线
 <p>时间久了，此情此景早已非当初所想。</p>
 <p>尽心尽力。</p>
 <h2 id="三、工作踏步，前路茫茫"><a href="#三、工作踏步，前路茫茫" class="headerlink" title="三、工作踏步，前路茫茫"></a>三、工作踏步，前路茫茫</h2><p>感觉像眨眼之间，来到这里工作已经一年半了。</p>
-<p><img src="http://cdn.aword.net/images/SuiShouPaiLai9_700x528.jpg" alt="SuiShouPaiLai"></p>
+<p><img src="/images/SuiShouPaiLai9_700x528.jpg" alt="SuiShouPaiLai"></p>
 <p>回头想想，当时从西北准备离开时的种种景象开始渐渐淡了。整整四年，人生中最珍贵的青春年华，除了记忆，所剩寥寥无几。还记得年轻一往无前的勇敢和执拗，还记得新人满腔热血的勤奋和坚持，还记得同伴清淡如水的纯真和羁绊……</p>
 <p>情况变化了许多。每天定时上下班，在一圈小的多的范围里工作，少了之前同事间的纷繁复杂，也少了流水成型的工作框架。生活突然一下子由工作变成了生活+工作。也许是看的淡了看的透了，也许是变的懒了变的老了，或者是把大块的时间费在了无谓的娱乐和消遣，亦或是将大把的心思留给了家庭和亲人，在工作上，走走停停，进展甚微。看着四年的汗水白白蒸发，没有在水面哪怕抚出丝缕的涟漪，一直知道自己凡事看的开，可心里终究抹不掉那点点的芥蒂。欣赏新新王的那句话，“自己选的路，哪怕跪着也要走完。”他在践行着自己信念，而且发展的很好，替他欣慰。而我，“活着，永远不是一个人的事。”到达了现在的这里。</p>
 <p>知道无法一直这样，知道过了这一阵就会有变化。边走边看。新的这一年，还是有不少工作再拖沓不得。</p>
@@ -2362,7 +2362,7 @@ _   底线
 <h2 id="四、懒散自学，收获甚微"><a href="#四、懒散自学，收获甚微" class="headerlink" title="四、懒散自学，收获甚微"></a>四、懒散自学，收获甚微</h2><p>大概从高中、大学的阶段开始，就对电脑、网络比较感兴趣，而且我这人喜鼓捣，好折腾，把这兴趣一直延续到了现在。</p>
 <p>最开始打游戏，红警、CS、WAR3。之后自己买了电脑开始各种装系统，win7 win8 win8.1，ubuntu fedora deepin，Windows Linux 双系统。各种淘软件，ALTRun AutoHotkey LiberKey lingoes PotPlayer totalcmd Vim XYplorer…… 有的使用率不高，有的一直在用，反正都折腾过好一阵。再到参加工作以后，想着找个动力让自己继续学些东西，记录下些内容，弄了个博客 **<a href="http://aword.net/">一语</a>**。什么域名、主机、服务器、WordPress 又是各种捣鼓。试了免费主机，买过虚拟主机，还弄过自己搭环境的 VPS。一顿折腾下来，虽不堪大用，但兴趣所在，还是颇有长进。前一阵 WordPress 被挂了马，也不知道是哪个不开眼又吃饱了撑的家伙干的，然后在 typecho 和 hexo 之间纠结了好久，两者都尝试了一下，最后选定了 typecho。果然是越久越懒得折腾。</p>
 <p>再往后，工作回到了这里。别说，新的工作环境里，这软件还真别扭。正好前段时间看了些 PHP，看了些 HTML CSS JS，于是乎，为什么我不索性改一个自己顺手的。没有扎实的基础，想到哪做到哪，不会的时候各种查资料，效率非常低。好歹弄出了一个东西，而且还赶上一次单位小范围内的比赛，还挣了点奖金。^_^ 终于算是有了现实的收获。</p>
-<p><img src="http://cdn.aword.net/images/Sublime_600x400.jpg" alt="Sublime"></p>
+<p><img src="/images/Sublime_600x400.jpg" alt="Sublime"></p>
 <p>虽然断断续续，但是也没停。静不下心把一个东西往透里学，一会看看这个，一会又看看那个。喜欢 python 的简洁与优美。不过同样是浮在水面，浅尝辄止。本想着用 django 把之前做的这个东西扩充，加个前端框架改成好看的样式，添上一些需要扩充的实用功能。兴冲冲的克服各种困难，做到半路，各种样式各种逻辑都想的差不多，也做完了一些，结果卡在了读远程数据库这个坎上……能读，但效率不能忍，连一次要十几秒……数据库服务器那边又没权限去查看是不是有问题，本地这边研究了好一段时间，最终没能解决……</p>
 <p>无奈别寻他途。呵呵，别更不会啊，PHP 吧。试了一下，速度可以接受。找个框架吧，选定了 laravel。无奈自己基础太差，看文档看的云里雾里。略去各种摸爬滚打，不表代码能有多烂，反正最后是弄了个东西出来，实用性有所加强，自我感觉比以前的强多了。只可惜 没有用户……一是没有功能性需求，旧的能用就行；二是习惯了以前版本的繁琐，对于我这新版作出的一些优化反而不适应；三是性能太差，在局域网一个路由器下打开首页都要好几秒，人家还没看到功能就已经把这个放弃了；四是没有营销，当然，我也没有这个打算。前两天开始打算着再加一项关于统计的功能，本来每周的数据统计就挺烦，现在又来一个新的，而且要两份都做，所以把这些繁琐又没什么意义的统计全都交给电脑吧。</p>
 <p>这几天开始着手做这个统计功能，一是做起来比较费劲，进度很慢，二是越往后做越觉得性价比越低，这功能受数据格式约束太大，后期修改和拓展会很难。但是既然已经开始，还是要把它继续做完。是给自己的交代。</p>
@@ -2383,7 +2383,7 @@ _   底线
   <entry>
     <title>仲夏凌晨</title>
     <url>//zhong-xia-ling-chen/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/SutroBaths_ZH-CN10530101768_1920x1080.jpg" alt="Daughter"></p>
+    <content><![CDATA[<p><img src="/images/SutroBaths_ZH-CN10530101768_1920x1080.jpg" alt="Daughter"></p>
 <p>仲夏的凌晨，没感觉到它的温度和正午有什么分别。</p>
 <p>有一个人流着汗，同时也流着鼻涕，坐在电脑前，无所适从……</p>
 <p>窗外路灯是橘红色的。车仿佛少了好多。因为这烤人的天气而没有出来吗？还是厌腻了那橘色的灯光？</p>
@@ -2424,7 +2424,7 @@ _   底线
   <entry>
     <title>今年的端午</title>
     <url>//jin-nian-de-duan-wu/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Zongzi_600x338.jpg" alt="粽子"></p>
+    <content><![CDATA[<p><img src="/images/Zongzi_600x338.jpg" alt="粽子"></p>
 <span id="more"></span>
 
 <h2 id="雨夜"><a href="#雨夜" class="headerlink" title="雨夜"></a>雨夜</h2><p>从作业区办公楼后门出来，黑漆漆的，听声音天还下着雨。下台阶一脚踩在了水里，赶忙三两步跳到了自行车棚，没想到这雨下的还不小。迅速的穿好雨披，打开电动车，回家。</p>
@@ -2450,12 +2450,12 @@ _   底线
   <entry>
     <title>漂洋过海来看你</title>
     <url>//piao-yang-guo-hai-lai-kan-ni/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/WoNiu1_600x337.jpg" alt="蜗牛"></p>
+    <content><![CDATA[<p><img src="/images/WoNiu1_600x337.jpg" alt="蜗牛"></p>
 <span id="more"></span>
 
-<p><img src="http://cdn.aword.net/images/WoNiu2_600x337.jpg" alt="蜗牛"></p>
-<p><img src="http://cdn.aword.net/images/WoNiu3_600x337.jpg" alt="蜗牛"></p>
-<p><img src="http://cdn.aword.net/images/WoNiu4_600x337.jpg" alt="蜗牛"></p>
+<p><img src="/images/WoNiu2_600x337.jpg" alt="蜗牛"></p>
+<p><img src="/images/WoNiu3_600x337.jpg" alt="蜗牛"></p>
+<p><img src="/images/WoNiu4_600x337.jpg" alt="蜗牛"></p>
 ]]></content>
       <categories>
         <category>相册</category>
@@ -2467,13 +2467,13 @@ _   底线
   <entry>
     <title>Islands</title>
     <url>//Islands/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Islands4_600x337.jpg" alt="Islands"></p>
+    <content><![CDATA[<p><img src="/images/Islands4_600x337.jpg" alt="Islands"></p>
 <p>船身荡起的水波与乘风而来的浪头，紧紧相拥，是他乡故知，是阔别重逢。</p>
 <p>千万点水花激荡而起，又迎风直上，翻过一座座海浪，纵身跃起，看天涯，望海角。</p>
 <p>终于，应声而没。</p>
 <span id="more"></span>
 
-<p><img src="http://cdn.aword.net/images/Islands1_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands2_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands3_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands5_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands6_1024x266.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands7_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands8_350x510.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands9_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands10_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands11_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands12_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands13_600x337.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands14_1024x172.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands15_1024x181.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands16_350x623.jpg" alt="Islands"><br><img src="http://cdn.aword.net/images/Islands17_600x337.jpg" alt="Islands"></p>
+<p><img src="/images/Islands1_600x337.jpg" alt="Islands"><br><img src="/images/Islands2_600x337.jpg" alt="Islands"><br><img src="/images/Islands3_600x337.jpg" alt="Islands"><br><img src="/images/Islands5_600x337.jpg" alt="Islands"><br><img src="/images/Islands6_1024x266.jpg" alt="Islands"><br><img src="/images/Islands7_600x337.jpg" alt="Islands"><br><img src="/images/Islands8_350x510.jpg" alt="Islands"><br><img src="/images/Islands9_600x337.jpg" alt="Islands"><br><img src="/images/Islands10_600x337.jpg" alt="Islands"><br><img src="/images/Islands11_600x337.jpg" alt="Islands"><br><img src="/images/Islands12_600x337.jpg" alt="Islands"><br><img src="/images/Islands13_600x337.jpg" alt="Islands"><br><img src="/images/Islands14_1024x172.jpg" alt="Islands"><br><img src="/images/Islands15_1024x181.jpg" alt="Islands"><br><img src="/images/Islands16_350x623.jpg" alt="Islands"><br><img src="/images/Islands17_600x337.jpg" alt="Islands"></p>
 ]]></content>
       <categories>
         <category>相册</category>
@@ -2486,7 +2486,7 @@ _   底线
   <entry>
     <title>Laravel重置密码重构</title>
     <url>//laravel-reset-password/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/KyrgyzstanCat_ZH-CN10422392512_1920x1080.jpg" alt="KyrgyzstanCat"></p>
+    <content><![CDATA[<p><img src="/images/KyrgyzstanCat_ZH-CN10422392512_1920x1080.jpg" alt="KyrgyzstanCat"></p>
 <blockquote>
 <p>需要使用laravel搭建一个后台内容管理系统，但是laravel默认的登陆注册不能满足目前的需求。<br>重置密码的话因为是用在后台，并且不需要发送邮件进行重置，所以默认的重置密码肯定是不行的。</p>
 </blockquote>
@@ -2533,7 +2533,7 @@ _   底线
   <entry>
     <title>近来可好</title>
     <url>//jin-lai-ke-hao/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/ShanwangpingKarst_ZH-CN5360258756_1920x1080.jpg"></p>
+    <content><![CDATA[<p><img src="/images/ShanwangpingKarst_ZH-CN5360258756_1920x1080.jpg"></p>
 <p>迷雾茫茫，何其寻探。随心随性，一路玩赏；迎难而上，披荆斩棘。责为趣，苦寻乐，魂魄不分，形神如一。</p>
 <span id="more"></span>
 
@@ -2572,7 +2572,7 @@ _   底线
   <entry>
     <title>Python日期和时间</title>
     <url>//python-date-and-time/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/Uummannaq_ZH-CN11265049839_1920x1080.jpg" alt="乌玛纳克，格陵兰岛"></p>
+    <content><![CDATA[<p><img src="/images/Uummannaq_ZH-CN11265049839_1920x1080.jpg" alt="乌玛纳克，格陵兰岛"></p>
 <p>datetime是Python处理日期和时间的标准库。</p>
 <span id="more"></span>
 
@@ -2678,7 +2678,7 @@ _   底线
   <entry>
     <title>国内形势大好，国外水深火热</title>
     <url>//guo-nei-xing-shi-da-hao-guo-wai-shui-shen-huo-re/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/SitanaPonticeriana_ZH-CN9845735476_1920x1080.jpg"></p>
+    <content><![CDATA[<p><img src="/images/SitanaPonticeriana_ZH-CN9845735476_1920x1080.jpg"></p>
 <p><del>前几天</del>九月底，阿里云给我发了一封邮件，主题：<code>违规URL屏蔽访问处理通知</code>，通知我博客上一篇文章涉及【违法不良信息】，<code>违反了相关服务协议和《互联网信息服务管理办法》第十五条规定</code>，已作出屏蔽访问处理。</p>
 <p>喜迎十九大。</p>
 <span id="more"></span>
@@ -2705,7 +2705,7 @@ _   底线
   <entry>
     <title>Hexo+Next修改记录</title>
     <url>//hexo+next-modify-record/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/MountainDayNepal_ROW11115933291_1920x1080.jpg" alt="MountainDayNepal"></p>
+    <content><![CDATA[<p><img src="/images/MountainDayNepal_ROW11115933291_1920x1080.jpg" alt="MountainDayNepal"></p>
 <p>博客由 Typecho 换成了 Hexo，记录一下改动内容，以备下次重装……</p>
 <span id="more"></span>
 
@@ -2733,7 +2733,7 @@ _   底线
   <entry>
     <title>辞旧迎新季</title>
     <url>//ci-jiu-ying-xin-ji/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/NordketteNYE_EN-US12870487032_1920x1080.jpg" alt="暗夜烟火"></p>
+    <content><![CDATA[<p><img src="/images/NordketteNYE_EN-US12870487032_1920x1080.jpg" alt="暗夜烟火"></p>
 <p>又走完了一年。</p>
 <p>每天上下班往返路上，只听引擎呼吸，世间寂静，有时酣眠四海，有时神游五洲，想了很多，也忘了很多。</p>
 <p>一天，突然意识到自己为何如此珍视过往的记忆，只因我正一点点将它们忘记。</p>
@@ -2752,7 +2752,7 @@ _   底线
 <h2 id="读书"><a href="#读书" class="headerlink" title="读书"></a>读书</h2><p>《看见》才读了一半。</p>
 <h2 id="政治"><a href="#政治" class="headerlink" title="政治"></a>政治</h2><p>在这里只剩下莫谈国是。</p>
 <p>千万要记得，彼岸别有一番风景。</p>
-<p><img src="http://cdn.aword.net/images/WoolBaySeadragon_EN-AU12559454946_1920x1080.jpg" alt="WoolBaySeadragon"></p>
+<p><img src="/images/WoolBaySeadragon_EN-AU12559454946_1920x1080.jpg" alt="WoolBaySeadragon"></p>
 <h2 id="终了"><a href="#终了" class="headerlink" title="终了"></a>终了</h2><p>这世界像一座巨大无比的时钟，无数的齿轮相互咬合，圆转不息。人们被卡在一个一个齿缝里，慢不得，快不得，停不下，逃不脱。</p>
 ]]></content>
       <categories>
@@ -2765,7 +2765,7 @@ _   底线
   <entry>
     <title>不番羽土啬同步Chrome书签</title>
     <url>//sync-chrome-bookmarks-in-gfw/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/MozambiqueSandbar_EN-AU11463522567_1920x1080.jpg" alt="陆海有界"></p>
+    <content><![CDATA[<p><img src="/images/MozambiqueSandbar_EN-AU11463522567_1920x1080.jpg" alt="陆海有界"></p>
 <p>自己目前在用的墙内同步 Chrome 书签的方案，略显啰嗦，但用了一段时间，还算稳定，贴出来，希望能帮到有缘人。</p>
 <span id="more"></span>
 
@@ -2792,7 +2792,7 @@ _   底线
   <entry>
     <title>观《厉害了，我的国》</title>
     <url>//guan-li-hai-le-wo-de-guo/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/JohnstonCanyon_EN-AU13753864901_1920x1080.jpg" alt="JohnstonCanyon"></p>
+    <content><![CDATA[<p><img src="/images/JohnstonCanyon_EN-AU13753864901_1920x1080.jpg" alt="JohnstonCanyon"></p>
 <p>今天单位组织，集体观看《厉害了，我的国》，要求着工服。</p>
 <p>影院墙上的宣传牌，道：“欢迎各企事业单位包场观看《厉害了，我的国》，联系电话#######”。</p>
 <span id="more"></span>
@@ -2813,7 +2813,7 @@ _   底线
   <entry>
     <title>追寻</title>
     <url>//zhui-xun/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/TinyLadybird_ZH-CN14023054484_1920x1080.jpg" alt="追寻"></p>
+    <content><![CDATA[<p><img src="/images/TinyLadybird_ZH-CN14023054484_1920x1080.jpg" alt="追寻"></p>
 <p>为何入党，想想最开始的时候其实没有一个十分明确的目的。</p>
 <span id="more"></span>
 
@@ -2832,7 +2832,7 @@ _   底线
   <entry>
     <title>我的二零一八</title>
     <url>//my-2018/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/LadyBugFrost_ZH-CN0796268333_1920x1080.jpg" alt="一只冬眠的瓢虫"></p>
+    <content><![CDATA[<p><img src="/images/LadyBugFrost_ZH-CN0796268333_1920x1080.jpg" alt="一只冬眠的瓢虫"></p>
 <p>每到岁末年初，总是希望整理出一篇长长的年终总结。回望这二零一八，貌似清淡如水，波澜不惊。</p>
 <span id="more"></span>
 
@@ -2852,7 +2852,7 @@ _   底线
   <entry>
     <title>卸载360天擎</title>
     <url>//uninstall-360-tian-qing/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/ChannelIslandFox_ZH-CN5568101953_1920x1080.jpg" alt="ChannelIslandFox"></p>
+    <content><![CDATA[<p><img src="/images/ChannelIslandFox_ZH-CN5568101953_1920x1080.jpg" alt="ChannelIslandFox"></p>
 <p>许多企业（可能主要是国企）在内部电脑上强制安装360天擎。</p>
 <p>企业固然是想保证内部机器和网络的安全，但是360这货……大家懂的。</p>
 <p>想退出？请输入密码。</p>
@@ -2863,7 +2863,7 @@ _   底线
 <p><strong>1.在360的安装路径下删除所有文件名中包含 ent 的文件和文件夹。</strong></p>
 <p>可以直接使用360自带的文件粉碎机，也可以找其它工具软件，或者进 pe 删。</p>
 <p>默认路径安装的话，这些文件在C:\Program Files\360\360Safe，或C:\Program Files (x86)\360\360Safe里面。</p>
-<p><img src="http://cdn.aword.net/images/360Ent_882x446_2019-10-13.png" alt="删除带ent的文件和文件夹"></p>
+<p><img src="/images/360Ent_882x446_2019-10-13.png" alt="删除带ent的文件和文件夹"></p>
 <p>见上图，共6个文件和1个文件夹。</p>
 <p><strong>2.到系统的控制面板正常卸载即可。</strong></p>
 <hr>
@@ -2886,7 +2886,7 @@ _   底线
   <entry>
     <title>PHP-笔记</title>
     <url>//note-of-php/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/BassRock_ZH-CN4418828352_1920x1080.jpg" alt="苏格兰福斯湾的巴斯岩"></p>
+    <content><![CDATA[<p><img src="/images/BassRock_ZH-CN4418828352_1920x1080.jpg" alt="苏格兰福斯湾的巴斯岩"></p>
 <p>在这里记录一些关于 PHP 的笔记。</p>
 <span id="more"></span>
 
@@ -2956,7 +2956,7 @@ _   底线
   <entry>
     <title>关闭朋友圈广告</title>
     <url>//stop-wechat-ad/</url>
-    <content><![CDATA[<p><img src="http://cdn.aword.net/images/BubbleNebula_ZH-CN2787112807_1920x1080.jpg" alt="Bubble Nebula"></p>
+    <content><![CDATA[<p><img src="/images/BubbleNebula_ZH-CN2787112807_1920x1080.jpg" alt="Bubble Nebula"></p>
 <p>朋友圈里不只朋友的广告，还有腾讯的广告。朋友的可以设置为不看，腾讯的可以设置为不看吗？</p>
 <p>可以。</p>
 <span id="more"></span>
@@ -2967,7 +2967,7 @@ _   底线
 <li>找到 <strong>广告</strong> 部分，点击 <strong>关于广告</strong><br>地址 <a href="https://privacy.qq.com/advertisement.htm">https://privacy.qq.com/advertisement.htm</a></li>
 <li>找新页面第二部分，点击 “您可以 <strong>管理</strong> 腾讯为您展示的广告”<br>地址 <a href="https://privacy.qq.com/ads/optout.html">https://privacy.qq.com/ads/optout.html</a></li>
 <li>新页面右上角 <strong>微信登陆</strong><br>扫码登陆（实测：本机截图然后扫相册里的图片不行，需要用摄像头扫的才行）</li>
-<li>登陆之后有 <strong>个性化服务设置</strong><br>把里面四个选项都关掉<br><img src="http://cdn.aword.net/images/privacy.qq.com_ads_optout.png" alt="privacy.qq.com"></li>
+<li>登陆之后有 <strong>个性化服务设置</strong><br>把里面四个选项都关掉<br><img src="/images/privacy.qq.com_ads_optout.png" alt="privacy.qq.com"></li>
 </ol>
 <p><strong>实测</strong> 有效。<br>也可以用QQ登陆，把QQ的部分广告关掉。</p>
 <p>还有一句提示<br>   <code>请注意，关闭上述服务意味着我们的广告系统不会再利用该类信息为您展示广告，但不代表您将减少看到的广告或不再看到广告。在关闭该项服务期间，您仍可能收到普遍投放的广告。</code></p>
@@ -3225,55 +3225,55 @@ _   底线
     <content><![CDATA[<p>四月末到昌平，回学校走了一遭，也拍了些照片。</p>
 <div align="center">
 
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E5%B0%8F%E9%9B%A8_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="早晨下着小雨"></p>
+<p><img src="/images/2024/04/23/%E5%B0%8F%E9%9B%A8_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="早晨下着小雨"></p>
 <p>早晨下着小雨</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E5%BE%B7%E8%83%9C%E9%97%A8%E5%85%AC%E4%BA%A4%E7%AB%99_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="德胜门公交站需要绕到后面上车"></p>
+<p><img src="/images/2024/04/23/%E5%BE%B7%E8%83%9C%E9%97%A8%E5%85%AC%E4%BA%A4%E7%AB%99_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="德胜门公交站需要绕到后面上车"></p>
 <p>德胜门公交站需要绕到后面上车</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E6%96%B0%E7%89%8C%E5%AD%90_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="北门口立的新牌子"></p>
+<p><img src="/images/2024/04/23/%E6%96%B0%E7%89%8C%E5%AD%90_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="北门口立的新牌子"></p>
 <p>北门口立的新牌子</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E5%9B%BE%E4%B9%A6%E9%A6%86%E5%89%8D%E9%9D%A2%E8%BF%99%E7%89%87%E8%8D%89%E5%9D%AA%E5%88%9A%E4%BF%AE%E5%89%AA%E8%BF%87_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="图书馆前面这片草坪刚修剪过"></p>
+<p><img src="/images/2024/04/23/%E5%9B%BE%E4%B9%A6%E9%A6%86%E5%89%8D%E9%9D%A2%E8%BF%99%E7%89%87%E8%8D%89%E5%9D%AA%E5%88%9A%E4%BF%AE%E5%89%AA%E8%BF%87_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="图书馆前面这片草坪刚修剪过"></p>
 <p>图书馆前面这片草坪刚修剪过</p>
 <span id="more"></span>
 
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E5%9B%BE%E4%B9%A6%E9%A6%86_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="图书馆"></p>
+<p><img src="/images/2024/04/23/%E5%9B%BE%E4%B9%A6%E9%A6%86_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="图书馆"></p>
 <p>图书馆</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E4%BA%8C%E6%A5%BC%E5%8D%8A_1080x1440.jpg?imageMogr2/thumbnail/800x800" alt="二楼半"></p>
+<p><img src="/images/2024/04/23/%E4%BA%8C%E6%A5%BC%E5%8D%8A_1080x1440.jpg?imageMogr2/thumbnail/800x800" alt="二楼半"></p>
 <p>二楼半</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E6%95%99%E5%B7%A5%E9%A4%90%E5%8E%85_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="教工餐厅"></p>
+<p><img src="/images/2024/04/23/%E6%95%99%E5%B7%A5%E9%A4%90%E5%8E%85_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="教工餐厅"></p>
 <p>教工餐厅</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E5%AE%9E%E9%AA%8C%E4%B8%AD%E5%BF%83_1080x1440.jpg?imageMogr2/thumbnail/800x800" alt="实验中心"></p>
+<p><img src="/images/2024/04/23/%E5%AE%9E%E9%AA%8C%E4%B8%AD%E5%BF%83_1080x1440.jpg?imageMogr2/thumbnail/800x800" alt="实验中心"></p>
 <p>实验中心</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E6%95%99%E5%B7%A5%E6%B4%BB%E5%8A%A8%E4%B8%AD%E5%BF%83_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="教工活动中心"></p>
+<p><img src="/images/2024/04/23/%E6%95%99%E5%B7%A5%E6%B4%BB%E5%8A%A8%E4%B8%AD%E5%BF%83_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="教工活动中心"></p>
 <p>教工活动中心</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E6%B4%8B%E8%91%B1%E5%A4%B4%E5%8F%98%E9%B2%9C%E8%89%B3%E4%BA%86_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="洋葱头变鲜艳了"></p>
+<p><img src="/images/2024/04/23/%E6%B4%8B%E8%91%B1%E5%A4%B4%E5%8F%98%E9%B2%9C%E8%89%B3%E4%BA%86_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="洋葱头变鲜艳了"></p>
 <p>洋葱头变鲜艳了</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E6%B4%8B%E8%91%B1%E5%A4%B4_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="洋葱头"></p>
+<p><img src="/images/2024/04/23/%E6%B4%8B%E8%91%B1%E5%A4%B4_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="洋葱头"></p>
 <p>洋葱头</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E5%96%B7%E6%B3%89%E8%BF%98%E6%B2%A1%E5%BC%80_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="喷泉还没开"></p>
+<p><img src="/images/2024/04/23/%E5%96%B7%E6%B3%89%E8%BF%98%E6%B2%A1%E5%BC%80_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="喷泉还没开"></p>
 <p>喷泉还没开</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E8%BF%99%E4%B8%AA%E5%8F%AB%E5%95%A5_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="这个叫啥"></p>
+<p><img src="/images/2024/04/23/%E8%BF%99%E4%B8%AA%E5%8F%AB%E5%95%A5_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="这个叫啥"></p>
 <p>这个叫啥</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E5%B0%8F%E6%93%8D%E5%9C%BA%E6%B2%A1%E4%BA%86_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="小操场没了"></p>
+<p><img src="/images/2024/04/23/%E5%B0%8F%E6%93%8D%E5%9C%BA%E6%B2%A1%E4%BA%86_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="小操场没了"></p>
 <p>小操场没了</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E4%BA%A2%E5%B1%B1%E5%B0%8F%E8%B7%AF_1080x1440.jpg?imageMogr2/thumbnail/800x800" alt="亢山小路"></p>
+<p><img src="/images/2024/04/23/%E4%BA%A2%E5%B1%B1%E5%B0%8F%E8%B7%AF_1080x1440.jpg?imageMogr2/thumbnail/800x800" alt="亢山小路"></p>
 <p>亢山小路</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E4%BA%A2%E5%B1%B1%E5%B1%B1%E9%A1%B6_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="亢山山顶"></p>
+<p><img src="/images/2024/04/23/%E4%BA%A2%E5%B1%B1%E5%B1%B1%E9%A1%B6_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="亢山山顶"></p>
 <p>亢山山顶</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E5%9C%B0%E8%B4%A8%E6%A5%BC_1080x1440.jpg?imageMogr2/thumbnail/800x800" alt="地质楼"></p>
+<p><img src="/images/2024/04/23/%E5%9C%B0%E8%B4%A8%E6%A5%BC_1080x1440.jpg?imageMogr2/thumbnail/800x800" alt="地质楼"></p>
 <p>地质楼</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E4%B8%89%E6%95%99_3774x1440.jpg?imageMogr2/thumbnail/1400x800" alt="三教"></p>
+<p><img src="/images/2024/04/23/%E4%B8%89%E6%95%99_3774x1440.jpg?imageMogr2/thumbnail/1400x800" alt="三教"></p>
 <p>三教</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E6%B6%A6%E6%9D%B0%E5%85%AC%E5%AF%93%E9%97%A8%E5%8F%A3_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="润杰公寓门口"></p>
+<p><img src="/images/2024/04/23/%E6%B6%A6%E6%9D%B0%E5%85%AC%E5%AF%93%E9%97%A8%E5%8F%A3_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="润杰公寓门口"></p>
 <p>润杰公寓门口</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E5%8E%9F%E6%9D%A5%E8%BF%99%E4%B8%8B%E9%9D%A2%E6%9C%89%E4%B8%AA%E6%89%93%E5%8D%B0%E5%BA%97_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="原来这下面有个打印店"></p>
+<p><img src="/images/2024/04/23/%E5%8E%9F%E6%9D%A5%E8%BF%99%E4%B8%8B%E9%9D%A2%E6%9C%89%E4%B8%AA%E6%89%93%E5%8D%B0%E5%BA%97_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="原来这下面有个打印店"></p>
 <p>原来这下面有个打印店</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E6%9C%BA%E6%88%BF%E5%92%8C%E8%87%AA%E4%B9%A0%E5%AE%A4_1920x1442.jpg?imageMogr2/thumbnail/800x800" alt="机房和自习室"></p>
+<p><img src="/images/2024/04/23/%E6%9C%BA%E6%88%BF%E5%92%8C%E8%87%AA%E4%B9%A0%E5%AE%A4_1920x1442.jpg?imageMogr2/thumbnail/800x800" alt="机房和自习室"></p>
 <p>机房和自习室</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E8%BF%98%E8%AE%B0%E5%BE%97%E4%BD%8F%E5%9C%A8%E5%93%AA%E4%B8%AA%E6%88%BF%E9%97%B4%E5%90%97_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="还记得住在哪个房间吗"></p>
+<p><img src="/images/2024/04/23/%E8%BF%98%E8%AE%B0%E5%BE%97%E4%BD%8F%E5%9C%A8%E5%93%AA%E4%B8%AA%E6%88%BF%E9%97%B4%E5%90%97_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="还记得住在哪个房间吗"></p>
 <p>还记得住在哪个房间吗</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E6%AF%8F%E5%A4%A9%E8%B5%B0%E7%9A%84%E8%83%A1%E5%90%8C_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="每天走的胡同"></p>
+<p><img src="/images/2024/04/23/%E6%AF%8F%E5%A4%A9%E8%B5%B0%E7%9A%84%E8%83%A1%E5%90%8C_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="每天走的胡同"></p>
 <p>每天走的胡同</p>
-<p><img src="http://cdn.aword.net/images/2024/04/23/%E8%BF%99%E7%9A%84%E7%9B%96%E9%A5%AD%E6%B2%A1%E4%BA%86_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="这的盖饭没了"></p>
+<p><img src="/images/2024/04/23/%E8%BF%99%E7%9A%84%E7%9B%96%E9%A5%AD%E6%B2%A1%E4%BA%86_1920x1440.jpg?imageMogr2/thumbnail/800x800" alt="这的盖饭没了"></p>
 <p>这的盖饭没了</p>
 </div>
 ]]></content>
