@@ -3284,4 +3284,27 @@ _   底线
         <tag>随笔</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Win11 关闭任务栏缩略图</title>
+    <url>//chang-ping/</url>
+    <content><![CDATA[<p>系统版本 Windows 11 25H2</p>
+<ol>
+<li><p>下载 ViveTool，地址 <a href="https://github.com/thebookisclosed/ViVe/releases">https://github.com/thebookisclosed/ViVe/releases</a></p>
+</li>
+<li><p>命令行运行 <code>.\vivetool /disable /id:29532725</code></p>
+</li>
+<li><p>修改注册表 <code>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband</code>，新建 DWORD (32位) 值，命名为<br>NumThumbnails，数值设置为 0</p>
+</li>
+<li><p>重启系统</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>软件</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>Windows</tag>
+      </tags>
+  </entry>
 </search>

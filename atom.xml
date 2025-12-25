@@ -6,7 +6,7 @@
   <link href="http://aword.net/atom.xml" rel="self"/>
   
   <link href="http://aword.net/"/>
-  <updated>2025-01-11T10:02:22.728Z</updated>
+  <updated>2025-12-25T11:08:42.921Z</updated>
   <id>http://aword.net/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Win11 关闭任务栏缩略图</title>
+    <link href="http://aword.net/chang-ping/"/>
+    <id>http://aword.net/chang-ping/</id>
+    <published>2025-12-25T11:01:00.000Z</published>
+    <updated>2025-12-25T11:08:42.921Z</updated>
+    
+    <content type="html"><![CDATA[<p>系统版本 Windows 11 25H2</p><ol><li><p>下载 ViveTool，地址 <a href="https://github.com/thebookisclosed/ViVe/releases">https://github.com/thebookisclosed/ViVe/releases</a></p></li><li><p>命令行运行 <code>.\vivetool /disable /id:29532725</code></p></li><li><p>修改注册表 <code>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband</code>，新建 DWORD (32位) 值，命名为<br>NumThumbnails，数值设置为 0</p></li><li><p>重启系统</p></li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;系统版本 Windows 11 25H2&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;下载 ViveTool，地址 &lt;a href=&quot;https://github.com/thebookisclosed/ViVe/releases&quot;&gt;https://github.com/thebook</summary>
+      
+    
+    
+    
+    <category term="软件" scheme="http://aword.net/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
+    
+    <category term="笔记" scheme="http://aword.net/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="Windows" scheme="http://aword.net/tags/Windows/"/>
+    
+  </entry>
   
   <entry>
     <title>昌平</title>
@@ -517,30 +545,6 @@
     
     
     <category term="纪念" scheme="http://aword.net/tags/%E7%BA%AA%E5%BF%B5/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo+Next修改记录</title>
-    <link href="http://aword.net/hexo+next-modify-record/"/>
-    <id>http://aword.net/hexo+next-modify-record/</id>
-    <published>2017-12-16T07:15:19.000Z</published>
-    <updated>2025-01-11T10:02:22.727Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/images/MountainDayNepal_ROW11115933291_1920x1080.jpg" alt="MountainDayNepal"></p><p>博客由 Typecho 换成了 Hexo，记录一下改动内容，以备下次重装……</p><span id="more"></span><p>程序版本：<br><strong>Hexo 3.4.3</strong><br><strong>NexT.Gemini 5.1.3</strong></p><h2 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h2><p><strong>hexo-deployer-git</strong><br><strong>hexo-generator-feed</strong><br><strong>hexo-generator-searchdb</strong><br><strong>hexo-generator-sitemap</strong> （将 <code>sitemap.xml</code> 拷贝到根目录 改名为 <code>sitemap_template.xml</code>）</p><h2 id="修正-sidebar-在-IE-不显示-margin-left-为负"><a href="#修正-sidebar-在-IE-不显示-margin-left-为负" class="headerlink" title="修正 sidebar 在 IE 不显示(margin-left 为负)"></a>修正 sidebar 在 IE 不显示(margin-left 为负)</h2><p>&#x2F;themes&#x2F;next&#x2F;source&#x2F;css&#x2F;_schemes&#x2F;Pisces&#x2F;_sidebar.styl : line 4</p><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// margin-left: -50%;</span></span><br><span class="line"><span class="attribute">margin-left</span>: inherit;</span><br></pre></td></tr></table></figure><h2 id="去除侧边栏的错位"><a href="#去除侧边栏的错位" class="headerlink" title="去除侧边栏的错位"></a>去除侧边栏的错位</h2><p>&#x2F;themes&#x2F;next&#x2F;source&#x2F;js&#x2F;src&#x2F;utils.js : line 327</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// $(&#x27;.site-overview, .post-toc&#x27;).css(&#x27;width&#x27;, &#x27;calc(100% + &#x27; + scrollbarWidth + &#x27;px)&#x27;);</span></span><br><span class="line">$(<span class="string">&#x27;.site-overview, .post-toc&#x27;</span>).<span class="title function_">css</span>(<span class="string">&#x27;width&#x27;</span>, <span class="string">&#x27;100%&#x27;</span>);</span><br></pre></td></tr></table></figure><h2 id="css-修改"><a href="#css-修改" class="headerlink" title="css 修改"></a>css 修改</h2><p>&#x2F;themes&#x2F;next&#x2F;source&#x2F;css&#x2F;_custom&#x2F;custom.styl : line 3</p><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 去除侧边栏导致错位的 margin</span></span><br><span class="line"><span class="selector-class">.site-overview</span> &#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">0</span>;</span><br><span class="line">  <span class="attribute">text-align</span>: center;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 把 footer 的内容连成一行</span></span><br><span class="line"><span class="selector-class">.footer-custom</span> &#123;</span><br><span class="line">  <span class="attribute">display</span>: inline-block;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 修正 IE 显示效果（因 IE 不支持 initial）</span></span><br><span class="line"><span class="selector-class">.main</span>, <span class="selector-class">.content-wrap</span>, <span class="selector-class">.posts-expand</span> &#123;</span><br><span class="line">  <span class="attribute">padding</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 修正 IE 显示效果（因 IE 不支持 initial）</span></span><br><span class="line"><span class="selector-class">.content-wrap</span> &#123;</span><br><span class="line">  <span class="attribute">background</span>: inherit;</span><br><span class="line">  <span class="attribute">box-shadow</span>: inherit;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 修正 IE 显示效果（因 IE 不支持 initial）</span></span><br><span class="line"><span class="selector-id">#comments</span> &#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">12px</span> <span class="number">0</span> <span class="number">0</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 去除文章中的图片边框</span></span><br><span class="line"><span class="selector-class">.posts-expand</span> <span class="selector-class">.post-body</span> <span class="selector-tag">img</span> &#123;</span><br><span class="line">  <span class="attribute">border</span>: <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 缩小 margin-bottom</span></span><br><span class="line"><span class="selector-class">.posts-expand</span> <span class="selector-class">.post-meta</span> &#123;</span><br><span class="line">  <span class="attribute">margin</span>: <span class="number">3px</span> <span class="number">0</span> <span class="number">30px</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="删除【某站正在使用畅言】"><a href="#删除【某站正在使用畅言】" class="headerlink" title="删除【某站正在使用畅言】"></a>删除【某站正在使用畅言】</h2><p>&#x2F;themes&#x2F;next&#x2F;layout&#x2F;_layout.swig : line 81</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">  <span class="keyword">var</span> zzz=<span class="built_in">setInterval</span>(clear_section_service_w,<span class="number">200</span>);</span></span><br><span class="line"><span class="language-javascript">  <span class="keyword">function</span> <span class="title function_">clear_section_service_w</span>(<span class="params"></span>)&#123;</span></span><br><span class="line"><span class="language-javascript">    <span class="keyword">if</span>($(<span class="string">&#x27;.section-service-w&#x27;</span>).<span class="property">length</span>&gt;<span class="number">0</span>)&#123;</span></span><br><span class="line"><span class="language-javascript">      $(<span class="string">&#x27;.section-service-w&#x27;</span>).<span class="title function_">html</span>(<span class="string">&#x27;&#x27;</span>);</span></span><br><span class="line"><span class="language-javascript">      <span class="built_in">clearInterval</span>(zzz);</span></span><br><span class="line"><span class="language-javascript">    &#125;</span></span><br><span class="line"><span class="language-javascript">  &#125;</span></span><br><span class="line"><span class="language-javascript">  <span class="built_in">setTimeout</span>(<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="built_in">clearInterval</span>(zzz);&#125;,<span class="number">3000</span>);</span></span><br><span class="line"><span class="language-javascript"></span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/images/MountainDayNepal_ROW11115933291_1920x1080.jpg&quot; alt=&quot;MountainDayNepal&quot;&gt;&lt;/p&gt;
-&lt;p&gt;博客由 Typecho 换成了 Hexo，记录一下改动内容，以备下次重装……&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="软件" scheme="http://aword.net/categories/%E8%BD%AF%E4%BB%B6/"/>
-    
-    
-    <category term="Hexo" scheme="http://aword.net/tags/Hexo/"/>
-    
-    <category term="NexT" scheme="http://aword.net/tags/NexT/"/>
     
   </entry>
   
