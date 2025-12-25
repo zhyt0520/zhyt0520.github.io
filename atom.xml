@@ -6,7 +6,7 @@
   <link href="http://aword.net/atom.xml" rel="self"/>
   
   <link href="http://aword.net/"/>
-  <updated>2025-12-25T11:26:01.525Z</updated>
+  <updated>2025-12-25T11:27:25.446Z</updated>
   <id>http://aword.net/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Win11 关闭任务栏缩略图</title>
-    <link href="http://aword.net/chang-ping/"/>
-    <id>http://aword.net/chang-ping/</id>
+    <link href="http://aword.net/win-11-guan-bi-ren-wu-lan-suo-lue-tu/"/>
+    <id>http://aword.net/win-11-guan-bi-ren-wu-lan-suo-lue-tu/</id>
     <published>2025-12-25T11:01:00.000Z</published>
-    <updated>2025-12-25T11:26:01.525Z</updated>
+    <updated>2025-12-25T11:27:25.446Z</updated>
     
     <content type="html"><![CDATA[<p>系统版本 Windows 11 25H2</p><ol><li><p>下载 ViveTool，地址 <a href="https://github.com/thebookisclosed/ViVe/releases">https://github.com/thebookisclosed/ViVe/releases</a></p></li><li><p>使用下载的工具，命令行运行<br><code>.\vivetool /disable /id:29532725</code></p></li><li><p>修改注册表<br><code>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband</code><br>新建 DWORD (32位) 值，命名为 <code>NumThumbnails</code>，数值设置为 0</p></li><li><p>重启系统</p></li></ol>]]></content>
     
