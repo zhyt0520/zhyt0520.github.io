@@ -3291,9 +3291,9 @@ _   底线
 <ol>
 <li><p>下载 ViveTool，地址 <a href="https://github.com/thebookisclosed/ViVe/releases">https://github.com/thebookisclosed/ViVe/releases</a></p>
 </li>
-<li><p>命令行运行 <code>.\vivetool /disable /id:29532725</code></p>
+<li><p>使用下载的工具，命令行运行<br><code>.\vivetool /disable /id:29532725</code></p>
 </li>
-<li><p>修改注册表 <code>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband</code>，新建 DWORD (32位) 值，命名为<br>NumThumbnails，数值设置为 0</p>
+<li><p>修改注册表<br><code>HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Taskband</code><br>新建 DWORD (32位) 值，命名为 <code>NumThumbnails</code>，数值设置为 0</p>
 </li>
 <li><p>重启系统</p>
 </li>
